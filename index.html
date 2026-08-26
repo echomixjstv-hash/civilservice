@@ -1,0 +1,2606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width,initial-scale=1.0"
+>
+
+<title>Civil Service Reviewer</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    -webkit-tap-highlight-color:transparent;
+}
+
+html,
+body{
+    width:100%;
+    min-height:100%;
+    font-family:Arial,sans-serif;
+    background:#f3f6fa;
+    color:#222;
+}
+
+body{
+    padding:20px;
+}
+
+.hidden{
+    display:none!important;
+}
+
+.screen{
+    width:100%;
+    max-width:950px;
+    margin:auto;
+}
+
+.card{
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 8px 30px rgba(0,0,0,.10);
+}
+
+
+/* =========================
+   LOGIN
+========================= */
+
+.login-screen{
+    min-height:calc(100vh - 40px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+    width:100%;
+    max-width:450px;
+    text-align:center;
+}
+
+.logo{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.login-card h1{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    line-height:1.6;
+}
+
+.code-input{
+    width:100%;
+    height:58px;
+    margin-top:25px;
+    border:2px solid #ddd;
+    border-radius:12px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    outline:none;
+}
+
+.code-input:focus{
+    border-color:#1769e0;
+}
+
+.btn{
+    border:0;
+    border-radius:12px;
+    min-height:52px;
+    padding:12px 20px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.btn:disabled{
+    opacity:.5;
+    cursor:not-allowed;
+}
+
+.primary{
+    background:#1769e0;
+    color:white;
+}
+
+.secondary{
+    background:#e9edf2;
+    color:#222;
+}
+
+.full{
+    width:100%;
+    margin-top:15px;
+}
+
+.message{
+    min-height:25px;
+    margin-top:12px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.expiry-info{
+    color:#888;
+    font-size:12px;
+    margin-top:15px;
+}
+
+
+/* =========================
+   HOME
+========================= */
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.header-title{
+    font-size:27px;
+    font-weight:bold;
+}
+
+.account{
+    color:#777;
+    font-size:13px;
+    margin-top:5px;
+}
+
+.home-title{
+    font-size:32px;
+    margin-bottom:8px;
+}
+
+.reviewer-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:16px;
+    margin-top:25px;
+}
+
+.reviewer-button{
+    min-height:130px;
+    padding:22px;
+    text-align:left;
+    border:2px solid #e0e4e9;
+    background:#fff;
+    border-radius:16px;
+    cursor:pointer;
+    transition:.15s;
+}
+
+.reviewer-button:hover{
+    border-color:#1769e0;
+    transform:translateY(-2px);
+}
+
+.reviewer-button strong{
+    display:block;
+    font-size:19px;
+    margin-bottom:8px;
+}
+
+.reviewer-button span{
+    color:#777;
+    font-size:14px;
+    line-height:1.5;
+}
+
+
+/* =========================
+   INTRODUCTION
+========================= */
+
+.intro-title{
+    font-size:32px;
+    margin-bottom:5px;
+}
+
+.intro-label{
+    color:#777;
+    margin-bottom:25px;
+}
+
+.introduction{
+    line-height:1.8;
+    font-size:17px;
+}
+
+.introduction p{
+    margin-bottom:16px;
+}
+
+.intro-actions{
+    display:flex;
+    gap:12px;
+    margin-top:25px;
+}
+
+.intro-actions .btn{
+    flex:1;
+}
+
+
+/* =========================
+   REVIEWER
+========================= */
+
+.subject-title{
+    font-size:28px;
+}
+
+.progress-info{
+    display:flex;
+    justify-content:space-between;
+    margin-top:12px;
+    color:#666;
+    font-size:14px;
+}
+
+.progress-bar{
+    width:100%;
+    height:8px;
+    background:#e4e7eb;
+    border-radius:10px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+.progress{
+    height:100%;
+    width:0%;
+    background:#1769e0;
+    transition:.2s;
+}
+
+.question-number{
+    margin-top:25px;
+    color:#777;
+}
+
+.question{
+    font-size:23px;
+    font-weight:bold;
+    line-height:1.5;
+    margin:10px 0 25px;
+}
+
+.choices{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.choice{
+    width:100%;
+    padding:17px;
+    border:2px solid #dfe3e8;
+    background:#fff;
+    border-radius:12px;
+    text-align:left;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.choice:hover{
+    border-color:#1769e0;
+}
+
+.choice.correct{
+    border-color:#18a558;
+    background:#eafaf1;
+}
+
+.choice.wrong{
+    border-color:#dc3545;
+    background:#fff0f1;
+}
+
+.choice:disabled{
+    cursor:default;
+}
+
+.feedback{
+    margin-top:18px;
+    padding:16px;
+    border-radius:12px;
+    line-height:1.6;
+}
+
+.feedback.correct{
+    background:#eafaf1;
+}
+
+.feedback.wrong{
+    background:#fff0f1;
+}
+
+.review-actions{
+    display:flex;
+    gap:12px;
+    margin-top:25px;
+}
+
+.review-actions .btn{
+    flex:1;
+}
+
+.loading{
+    text-align:center;
+    padding:50px 10px;
+    color:#777;
+}
+
+.error-box{
+    margin-top:20px;
+    padding:18px;
+    border-radius:12px;
+    background:#fff0f1;
+    color:#b42318;
+    line-height:1.6;
+    font-size:14px;
+}
+
+
+/* =========================
+   RESULT
+========================= */
+
+.result{
+    text-align:center;
+}
+
+.result h1{
+    font-size:34px;
+}
+
+.final-score{
+    font-size:58px;
+    font-weight:bold;
+    margin:25px 0 10px;
+}
+
+.final-percent{
+    color:#666;
+    font-size:18px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:700px){
+
+    body{
+        padding:10px;
+    }
+
+    .card{
+        padding:22px 18px;
+    }
+
+    .reviewer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .header{
+        align-items:flex-start;
+    }
+
+    .header-title{
+        font-size:21px;
+    }
+
+    .home-title{
+        font-size:27px;
+    }
+
+    .intro-title{
+        font-size:27px;
+    }
+
+    .question{
+        font-size:19px;
+    }
+
+    .choice{
+        font-size:16px;
+    }
+
+    .intro-actions,
+    .review-actions{
+        flex-direction:column;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!-- =====================================================
+     LOGIN
+===================================================== -->
+
+<div
+    id="loginScreen"
+    class="login-screen hidden"
+>
+
+<div class="card login-card">
+
+<div class="logo">📚</div>
+
+<h1>
+Civil Service Reviewer
+</h1>
+
+<p class="subtitle">
+Prepare for the Civil Service Examination
+</p>
+
+<input
+    id="codeInput"
+    class="code-input"
+    type="text"
+    maxlength="8"
+    autocomplete="off"
+    spellcheck="false"
+    placeholder="XXXXXXXX"
+>
+
+<button
+    id="loginButton"
+    class="btn primary full"
+>
+LOGIN
+</button>
+
+<div
+    id="loginMessage"
+    class="message"
+></div>
+
+<div class="expiry-info">
+Access code is valid for one year after claiming.
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     HOME
+===================================================== -->
+
+<div
+    id="homeScreen"
+    class="screen hidden"
+>
+
+<div class="card">
+
+<div class="header">
+
+<div>
+
+<div class="header-title">
+Civil Service Reviewer
+</div>
+
+<div
+    id="accountInfo"
+    class="account"
+></div>
+
+</div>
+
+<button
+    id="logoutButton"
+    class="btn secondary"
+>
+LOG OUT
+</button>
+
+</div>
+
+
+<h1 class="home-title">
+Choose a Reviewer
+</h1>
+
+<p class="subtitle">
+Select a subject to view its introduction and begin reviewing.
+</p>
+
+
+<div class="reviewer-grid">
+
+
+<button
+    class="reviewer-button"
+    data-name="General Information"
+    data-file="general-information.json"
+>
+
+<strong>
+📘 General Information
+</strong>
+
+<span>
+Government, Constitution, Philippine history,
+laws, public service and civic knowledge.
+</span>
+
+</button>
+
+
+<button
+    class="reviewer-button"
+    data-name="Verbal Ability"
+    data-file="verbal-ability.json"
+>
+
+<strong>
+📖 Verbal Ability
+</strong>
+
+<span>
+Vocabulary, grammar, sentence construction,
+word relationships and comprehension.
+</span>
+
+</button>
+
+
+<button
+    class="reviewer-button"
+    data-name="Numerical Ability"
+    data-file="numerical-ability.json"
+>
+
+<strong>
+🔢 Numerical Ability
+</strong>
+
+<span>
+Arithmetic, fractions, percentages, ratios,
+averages and numerical problem solving.
+</span>
+
+</button>
+
+
+<button
+    class="reviewer-button"
+    data-name="Analytical Ability"
+    data-file="analytical-ability.json"
+>
+
+<strong>
+🧠 Analytical Ability
+</strong>
+
+<span>
+Logic, patterns, relationships, deductions
+and analytical reasoning.
+</span>
+
+</button>
+
+
+<button
+    class="reviewer-button"
+    data-name="Clerical Ability"
+    data-file="clerical-ability.json"
+>
+
+<strong>
+📋 Clerical Ability
+</strong>
+
+<span>
+Alphabetizing, filing, spelling, checking
+and accuracy exercises.
+</span>
+
+</button>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     INTRODUCTION
+===================================================== -->
+
+<div
+    id="introScreen"
+    class="screen hidden"
+>
+
+<div class="card">
+
+<h1
+    id="introTitle"
+    class="intro-title"
+></h1>
+
+<div class="intro-label">
+Introduction
+</div>
+
+<div
+    id="introContent"
+    class="introduction"
+></div>
+
+<div class="intro-actions">
+
+<button
+    id="backHomeButton"
+    class="btn secondary"
+>
+BACK
+</button>
+
+<button
+    id="startReviewerButton"
+    class="btn primary"
+>
+START REVIEWER
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     REVIEWER
+===================================================== -->
+
+<div
+    id="reviewerScreen"
+    class="screen hidden"
+>
+
+<div class="card">
+
+<h2
+    id="subjectTitle"
+    class="subject-title"
+></h2>
+
+<div class="progress-info">
+
+<span id="questionCounter">
+Question 0 of 0
+</span>
+
+<span id="scoreDisplay">
+Score: 0
+</span>
+
+</div>
+
+<div class="progress-bar">
+
+<div
+    id="progress"
+    class="progress"
+></div>
+
+</div>
+
+
+<div
+    id="loading"
+    class="loading"
+>
+Loading questions...
+</div>
+
+
+<div
+    id="questionArea"
+    class="hidden"
+>
+
+<div
+    id="questionNumber"
+    class="question-number"
+></div>
+
+<div
+    id="question"
+    class="question"
+></div>
+
+<div
+    id="choices"
+    class="choices"
+></div>
+
+<div
+    id="feedback"
+    class="feedback hidden"
+></div>
+
+<div class="review-actions">
+
+<button
+    id="previousButton"
+    class="btn secondary"
+>
+PREVIOUS
+</button>
+
+<button
+    id="nextButton"
+    class="btn primary"
+>
+NEXT
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     RESULT
+===================================================== -->
+
+<div
+    id="resultScreen"
+    class="screen hidden"
+>
+
+<div class="card result">
+
+<h1>
+Reviewer Complete!
+</h1>
+
+<div
+    id="finalScore"
+    class="final-score"
+>
+0 / 0
+</div>
+
+<div
+    id="finalPercent"
+    class="final-percent"
+>
+0%
+</div>
+
+<div class="review-actions">
+
+<button
+    id="resultHomeButton"
+    class="btn secondary"
+>
+HOME
+</button>
+
+<button
+    id="reviewAgainButton"
+    class="btn primary"
+>
+REVIEW AGAIN
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     FIREBASE
+===================================================== -->
+
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
+
+
+<script>
+
+/* =====================================================
+   FIREBASE CONFIG
+===================================================== */
+
+const firebaseConfig = {
+
+    apiKey:
+    "AIzaSyAKzNpD9BeiT-eym0e1l_U3p_dggPrbEk",
+
+    authDomain:
+    "jess-santi.firebaseapp.com",
+
+    databaseURL:
+    "https://jess-santi-default-rtdb.firebaseio.com/",
+
+    projectId:
+    "jess-santi",
+
+    storageBucket:
+    "jess-santi.firebasestorage.app",
+
+    messagingSenderId:
+    "457562056307",
+
+    appId:
+    "1:457562056307:web:1be6c76bc8bdb5bd0aac06",
+
+    measurementId:
+    "G-SKL83F1C8B"
+
+};
+
+
+firebase.initializeApp(
+    firebaseConfig
+);
+
+
+const db =
+firebase.database();
+
+
+/* =====================================================
+   SETTINGS
+===================================================== */
+
+const ONE_YEAR =
+365 *
+24 *
+60 *
+60 *
+1000;
+
+
+const SESSION_KEY =
+"civilServiceReviewerSession";
+
+
+const DEVICE_KEY =
+"civilServiceReviewerDevice";
+
+
+/* =====================================================
+   DEVICE ID
+===================================================== */
+
+function getDeviceID(){
+
+    let id =
+    localStorage.getItem(
+        DEVICE_KEY
+    );
+
+
+    if(!id){
+
+        if(
+            window.crypto &&
+            crypto.randomUUID
+        ){
+
+            id =
+            crypto.randomUUID();
+
+        }else{
+
+            id =
+            Date.now()
+            .toString(36) +
+            Math.random()
+            .toString(36)
+            .substring(2);
+
+        }
+
+
+        localStorage.setItem(
+            DEVICE_KEY,
+            id
+        );
+
+    }
+
+
+    return id;
+
+}
+
+
+const deviceID =
+getDeviceID();
+
+
+/* =====================================================
+   ACCESS CODES
+===================================================== */
+
+const accessCodes = [
+
+"K7M4X9P2",
+"Q8T6N3WA",
+"5RZ9K2LM",
+"H4P7X8QC",
+"N6V2B9RT",
+"A8K3M7XZ",
+"T5Q9W2LP",
+"C7N4R8YK",
+"M9X2H6VA",
+"P4L8T3QW",
+"Z6K9B2NX",
+"R3V7M5QA",
+"W8P2C6TY",
+"F5N9X3KR",
+"B7Q4L8ZM",
+"Y2H6T9PC",
+"D8M3V7XA",
+"J5R9K2WN",
+"S4X8P6LQ",
+"G9T3B7MV",
+"U6C2N8RK",
+"E4W9M5XZ",
+"L7P3Q8TA",
+"X5K2V9NB",
+"I8R4H6YC",
+"O3M7T5QZ",
+"V9N2L6KP",
+"2F8X4RQM",
+"6Y3B9WTA",
+"9C5K7MVP",
+"4Q8N2XRL",
+"7T6P3ZKA",
+"8M4V9CQN",
+"3R7H5WXL",
+"5P9B2KTY",
+"K2X6N8VR",
+"Q4M7T9LC",
+"N3W8P5ZA",
+"H9R2V6YK",
+"C5L4X8QM",
+"M7B3T9NP",
+"P8Q2K5XV",
+"Z4R6N7WC",
+"W3H9M2LA",
+"F8K5V4QX",
+"B2T7P9NR",
+"Y6C3L8ZM",
+"D4X9R5WK",
+"J7N2M6QA",
+"S8V5H3LP",
+"G2Q9K4XT",
+"U7M5C8RN",
+"E3P6W9ZK",
+"L8X4T2VB",
+"X7R3N5QM",
+"I4K8P6YC",
+"O9M2V7LA",
+"V5N3Q8KR",
+"2H6T9XWP",
+"6B4R7MZQ",
+"9K2C8VNL",
+"4P7X5TMA",
+"7Q3N9RKC",
+"8W6M2BXP",
+"3L5V8QZT",
+"5R4K9NWC",
+"K8T2P6XM",
+"Q7B5L3VR",
+"N9X4M8TA",
+"H2C6W7QK",
+"C8P3R5ZN",
+"M4V9K2XL",
+"P7N6T3QW",
+"Z9H4B8MR",
+"W5K7X2PC",
+"F3Q8N6TY",
+"B9M5R4VK",
+"Y7L2C8XN",
+"D6P4T9QZ",
+"J8X3K5WA",
+"S2N7M9RC",
+"G5V8P3KL",
+"U9Q4X6NB",
+"E7R2W5ZM",
+"L3K8C9TP",
+"X4M6N2QV",
+"I9P5T7RK",
+"O6B3V8XA",
+"V2H9Q4ML",
+"2K7W5NCR",
+"6P8X3TQM",
+"9R4M7KZB",
+"4N6V2WXP",
+"7C9Q5LTA",
+"8B3K6RVM",
+"3X7P4NZQ",
+"5M2T8KWC",
+"K9L4V6RP",
+"Q2X7N5MB",
+"N8R3C9TK"
+
+];
+
+
+/* =====================================================
+   SESSION
+===================================================== */
+
+let session =
+JSON.parse(
+    localStorage.getItem(
+        SESSION_KEY
+    ) || "null"
+);
+
+
+/* =====================================================
+   REVIEWER VARIABLES
+===================================================== */
+
+let selectedName = "";
+
+let selectedFile = "";
+
+let questions = [];
+
+let currentQuestion = 0;
+
+let score = 0;
+
+let userAnswers = {};
+
+
+/* =====================================================
+   ELEMENTS
+===================================================== */
+
+const loginScreen =
+document.getElementById(
+    "loginScreen"
+);
+
+const homeScreen =
+document.getElementById(
+    "homeScreen"
+);
+
+const introScreen =
+document.getElementById(
+    "introScreen"
+);
+
+const reviewerScreen =
+document.getElementById(
+    "reviewerScreen"
+);
+
+const resultScreen =
+document.getElementById(
+    "resultScreen"
+);
+
+
+/* =====================================================
+   SCREEN
+===================================================== */
+
+function showScreen(screen){
+
+    [
+        loginScreen,
+        homeScreen,
+        introScreen,
+        reviewerScreen,
+        resultScreen
+    ]
+    .forEach(
+        item =>
+        item.classList.add(
+            "hidden"
+        )
+    );
+
+
+    screen.classList.remove(
+        "hidden"
+    );
+
+}
+
+
+/* =====================================================
+   LOGIN MESSAGE
+===================================================== */
+
+function setLoginMessage(
+    text,
+    success=false
+){
+
+    const message =
+    document.getElementById(
+        "loginMessage"
+    );
+
+
+    message.textContent =
+    text;
+
+
+    message.style.color =
+    success
+    ? "#16803c"
+    : "#d93025";
+
+}
+
+
+/* =====================================================
+   LOGIN
+===================================================== */
+
+async function login(){
+
+    const input =
+    document.getElementById(
+        "codeInput"
+    );
+
+
+    const code =
+    input.value
+    .trim()
+    .toUpperCase();
+
+
+    if(
+        !/^[A-Z0-9]{8}$/.test(code)
+    ){
+
+        setLoginMessage(
+            "Enter a valid 8-character access code."
+        );
+
+        return;
+
+    }
+
+
+    if(
+        !accessCodes.includes(code)
+    ){
+
+        setLoginMessage(
+            "Invalid access code."
+        );
+
+        return;
+
+    }
+
+
+    const button =
+    document.getElementById(
+        "loginButton"
+    );
+
+
+    button.disabled =
+    true;
+
+    button.textContent =
+    "CONNECTING...";
+
+
+    try{
+
+        const codeRef =
+        db.ref(
+            "civilServiceCodes/" +
+            code
+        );
+
+
+        const result =
+        await codeRef.transaction(
+            currentData => {
+
+                const now =
+                Date.now();
+
+
+                if(
+                    currentData === null
+                ){
+
+                    return {
+
+                        code:code,
+
+                        claimed:true,
+
+                        deviceID:
+                        deviceID,
+
+                        claimedAt:
+                        now,
+
+                        expiresAt:
+                        now +
+                        ONE_YEAR
+
+                    };
+
+                }
+
+
+                if(
+                    currentData.expiresAt &&
+                    now >=
+                    currentData.expiresAt
+                ){
+
+                    return {
+
+                        code:code,
+
+                        claimed:true,
+
+                        deviceID:
+                        deviceID,
+
+                        claimedAt:
+                        now,
+
+                        expiresAt:
+                        now +
+                        ONE_YEAR
+
+                    };
+
+                }
+
+
+                if(
+                    currentData.deviceID ===
+                    deviceID
+                ){
+
+                    return;
+
+                }
+
+
+                return;
+
+            }
+        );
+
+
+        const snapshot =
+        await codeRef.once(
+            "value"
+        );
+
+
+        const data =
+        snapshot.val();
+
+
+        if(!data){
+
+            throw new Error(
+                "No Firebase data."
+            );
+
+        }
+
+
+        if(
+            data.deviceID !==
+            deviceID
+        ){
+
+            setLoginMessage(
+                "This access code is already claimed by another user."
+            );
+
+            return;
+
+        }
+
+
+        if(
+            data.expiresAt &&
+            Date.now() >=
+            data.expiresAt
+        ){
+
+            setLoginMessage(
+                "This access code has expired."
+            );
+
+            return;
+
+        }
+
+
+        session = {
+
+            code:code,
+
+            deviceID:
+            deviceID,
+
+            claimedAt:
+            data.claimedAt,
+
+            expiresAt:
+            data.expiresAt
+
+        };
+
+
+        localStorage.setItem(
+            SESSION_KEY,
+            JSON.stringify(
+                session
+            )
+        );
+
+
+        setLoginMessage(
+            "Login successful.",
+            true
+        );
+
+
+        showHome();
+
+
+    }catch(error){
+
+        console.error(
+            error
+        );
+
+
+        setLoginMessage(
+            "Unable to connect to Firebase."
+        );
+
+    }finally{
+
+        button.disabled =
+        false;
+
+        button.textContent =
+        "LOGIN";
+
+    }
+
+}
+
+
+/* =====================================================
+   VALIDATE SESSION
+===================================================== */
+
+async function validateSession(){
+
+    if(!session){
+
+        showScreen(
+            loginScreen
+        );
+
+        return;
+
+    }
+
+
+    try{
+
+        const codeRef =
+        db.ref(
+            "civilServiceCodes/" +
+            session.code
+        );
+
+
+        const snapshot =
+        await codeRef.once(
+            "value"
+        );
+
+
+        const data =
+        snapshot.val();
+
+
+        if(!data){
+
+            localStorage.removeItem(
+                SESSION_KEY
+            );
+
+            session=null;
+
+            showScreen(
+                loginScreen
+            );
+
+            return;
+
+        }
+
+
+        if(
+            data.deviceID !==
+            deviceID
+        ){
+
+            localStorage.removeItem(
+                SESSION_KEY
+            );
+
+            session=null;
+
+            showScreen(
+                loginScreen
+            );
+
+            setLoginMessage(
+                "This code belongs to another device."
+            );
+
+            return;
+
+        }
+
+
+        if(
+            data.expiresAt &&
+            Date.now() >=
+            data.expiresAt
+        ){
+
+            localStorage.removeItem(
+                SESSION_KEY
+            );
+
+            session=null;
+
+            showScreen(
+                loginScreen
+            );
+
+            setLoginMessage(
+                "This access code has expired."
+            );
+
+            return;
+
+        }
+
+
+        session.expiresAt =
+        data.expiresAt;
+
+        localStorage.setItem(
+            SESSION_KEY,
+            JSON.stringify(session)
+        );
+
+
+        showHome();
+
+
+    }catch(error){
+
+        console.error(
+            error
+        );
+
+        showHome();
+
+    }
+
+}
+
+
+/* =====================================================
+   HOME
+===================================================== */
+
+function showHome(){
+
+    showScreen(
+        homeScreen
+    );
+
+
+    if(session){
+
+        document
+        .getElementById(
+            "accountInfo"
+        )
+        .textContent =
+        "Access Code: " +
+        session.code;
+
+    }
+
+}
+
+
+/* =====================================================
+   INTRODUCTIONS
+===================================================== */
+
+const introductions = {
+
+"General Information":`
+
+<p>
+Welcome to the
+<strong>General Information Reviewer</strong>.
+</p>
+
+<p>
+This section is designed to help you review
+important topics commonly encountered in the
+Civil Service Examination.
+</p>
+
+<p>
+Topics include the Philippine Constitution,
+government, Philippine history, national symbols,
+laws, public service, and civic responsibilities.
+</p>
+
+<p>
+Read each question carefully and select the
+<strong>best answer</strong>.
+</p>
+
+<p>
+<strong>
+Take your time, understand the concepts,
+and use the reviewer as preparation for your
+Civil Service Examination.
+</strong>
+</p>
+
+`,
+
+"Verbal Ability":`
+
+<p>
+Welcome to the
+<strong>Verbal Ability Reviewer</strong>.
+</p>
+
+<p>
+This section focuses on English vocabulary,
+grammar, sentence construction, word relationships,
+and reading comprehension.
+</p>
+
+<p>
+Read each sentence carefully and identify the
+word or statement that best completes the question.
+</p>
+
+<p>
+<strong>
+Good comprehension and a strong vocabulary
+are important skills for the Civil Service Examination.
+</strong>
+</p>
+
+`,
+
+"Numerical Ability":`
+
+<p>
+Welcome to the
+<strong>Numerical Ability Reviewer</strong>.
+</p>
+
+<p>
+This section covers basic mathematical operations,
+fractions, decimals, percentages, ratios,
+averages, sequences, and problem solving.
+</p>
+
+<p>
+Analyze the given numbers carefully before
+choosing your answer.
+</p>
+
+<p>
+<strong>
+Accuracy and speed are both important when
+answering numerical ability questions.
+</strong>
+</p>
+
+`,
+
+"Analytical Ability":`
+
+<p>
+Welcome to the
+<strong>Analytical Ability Reviewer</strong>.
+</p>
+
+<p>
+This section focuses on logical reasoning,
+patterns, relationships, deductions,
+comparisons, and problem solving.
+</p>
+
+<p>
+Carefully analyze the information given in each
+question and eliminate choices that cannot be correct.
+</p>
+
+<p>
+<strong>
+Think logically and identify the relationship
+between the given information.
+</strong>
+</p>
+
+`,
+
+"Clerical Ability":`
+
+<p>
+Welcome to the
+<strong>Clerical Ability Reviewer</strong>.
+</p>
+
+<p>
+This section focuses on clerical skills such as
+alphabetizing, filing, spelling, comparing information,
+and identifying errors.
+</p>
+
+<p>
+Pay close attention to letters, numbers,
+spelling, and the order of information.
+</p>
+
+<p>
+<strong>
+Accuracy and attention to detail are essential
+in clerical ability exercises.
+</strong>
+</p>
+
+`
+
+};
+
+
+/* =====================================================
+   REVIEWER SELECTION
+===================================================== */
+
+document
+.querySelectorAll(
+    ".reviewer-button"
+)
+.forEach(
+    button => {
+
+        button.onclick =
+        () => {
+
+            selectedName =
+            button.dataset.name;
+
+            selectedFile =
+            button.dataset.file;
+
+
+            document
+            .getElementById(
+                "introTitle"
+            )
+            .textContent =
+            selectedName;
+
+
+            document
+            .getElementById(
+                "introContent"
+            )
+            .innerHTML =
+            introductions[
+                selectedName
+            ];
+
+
+            showScreen(
+                introScreen
+            );
+
+        };
+
+    }
+);
+
+
+/* =====================================================
+   START REVIEWER
+===================================================== */
+
+async function startReviewer(){
+
+    showScreen(
+        reviewerScreen
+    );
+
+
+    document
+    .getElementById(
+        "subjectTitle"
+    )
+    .textContent =
+    selectedName;
+
+
+    const loading =
+    document.getElementById(
+        "loading"
+    );
+
+
+    loading.className =
+    "loading";
+
+
+    loading.innerHTML =
+    "Loading questions...";
+
+
+    document
+    .getElementById(
+        "questionArea"
+    )
+    .classList.add(
+        "hidden"
+    );
+
+
+    currentQuestion=0;
+
+    score=0;
+
+    userAnswers={};
+
+    questions=[];
+
+
+    /*
+     * IMPORTANT:
+     *
+     * JSON FILES MUST BE INSIDE
+     *
+     * question-bank/
+     *
+     */
+
+
+    const filePath =
+    "./question-bank/" +
+    selectedFile;
+
+
+    try{
+
+        console.log(
+            "Loading:",
+            filePath
+        );
+
+
+        const response =
+        await fetch(
+            filePath,
+            {
+                cache:"no-store"
+            }
+        );
+
+
+        if(!response.ok){
+
+            throw new Error(
+                "HTTP " +
+                response.status +
+                " - " +
+                response.statusText
+            );
+
+        }
+
+
+        const data =
+        await response.json();
+
+
+        /*
+         * Supports BOTH:
+         *
+         * [
+         *   {...}
+         * ]
+         *
+         * AND
+         *
+         * {
+         *   "questions":[...]
+         * }
+         */
+
+
+        if(
+            Array.isArray(data)
+        ){
+
+            questions =
+            data;
+
+        }else if(
+            data &&
+            Array.isArray(
+                data.questions
+            )
+        ){
+
+            questions =
+            data.questions;
+
+        }else{
+
+            throw new Error(
+                "Invalid JSON format."
+            );
+
+        }
+
+
+        if(
+            questions.length === 0
+        ){
+
+            throw new Error(
+                "The question bank is empty."
+            );
+
+        }
+
+
+        /*
+         * Validate questions
+         */
+
+        questions.forEach(
+            (q,index) => {
+
+                if(
+                    !q.question
+                ){
+
+                    throw new Error(
+                        "Question " +
+                        (index+1) +
+                        " has no question text."
+                    );
+
+                }
+
+
+                if(
+                    !q.choices
+                ){
+
+                    throw new Error(
+                        "Question " +
+                        (index+1) +
+                        " has no choices."
+                    );
+
+                }
+
+
+                if(
+                    !q.answer
+                ){
+
+                    throw new Error(
+                        "Question " +
+                        (index+1) +
+                        " has no correct answer."
+                    );
+
+                }
+
+            }
+        );
+
+
+        loading.classList.add(
+            "hidden"
+        );
+
+
+        document
+        .getElementById(
+            "questionArea"
+        )
+        .classList.remove(
+            "hidden"
+        );
+
+
+        renderQuestion();
+
+
+    }catch(error){
+
+        console.error(
+            "Question bank error:",
+            error
+        );
+
+
+        loading.className =
+        "loading";
+
+
+        loading.innerHTML = `
+
+        <div class="error-box">
+
+        <strong>
+        Unable to load the question bank.
+        </strong>
+
+        <br><br>
+
+        File:
+        <strong>
+        ${filePath}
+        </strong>
+
+        <br><br>
+
+        Error:
+        ${error.message}
+
+        <br><br>
+
+        Make sure your files are arranged like this:
+
+        <br><br>
+
+        <code>
+        index.html<br>
+        question-bank/<br>
+        &nbsp;&nbsp;general-information.json<br>
+        &nbsp;&nbsp;verbal-ability.json<br>
+        &nbsp;&nbsp;numerical-ability.json<br>
+        &nbsp;&nbsp;analytical-ability.json<br>
+        &nbsp;&nbsp;clerical-ability.json
+        </code>
+
+        <br><br>
+
+        Also run the project using
+        <strong>Live Server</strong>
+        instead of opening index.html directly.
+
+        </div>
+
+        `;
+
+    }
+
+}
+
+
+/* =====================================================
+   RENDER QUESTION
+===================================================== */
+
+function renderQuestion(){
+
+    const q =
+    questions[
+        currentQuestion
+    ];
+
+
+    document
+    .getElementById(
+        "questionNumber"
+    )
+    .textContent =
+    "Question " +
+    (currentQuestion+1);
+
+
+    document
+    .getElementById(
+        "questionCounter"
+    )
+    .textContent =
+    "Question " +
+    (currentQuestion+1) +
+    " of " +
+    questions.length;
+
+
+    document
+    .getElementById(
+        "scoreDisplay"
+    )
+    .textContent =
+    "Score: " +
+    score;
+
+
+    document
+    .getElementById(
+        "progress"
+    )
+    .style.width =
+    (
+        (
+            currentQuestion+1
+        ) /
+        questions.length *
+        100
+    ) +
+    "%";
+
+
+    document
+    .getElementById(
+        "question"
+    )
+    .textContent =
+    q.question;
+
+
+    const choices =
+    document.getElementById(
+        "choices"
+    );
+
+
+    choices.innerHTML="";
+
+
+    [
+        "A",
+        "B",
+        "C",
+        "D"
+    ]
+    .forEach(
+        letter => {
+
+            if(
+                !q.choices ||
+                q.choices[letter] ===
+                undefined
+            ){
+
+                return;
+
+            }
+
+
+            const button =
+            document.createElement(
+                "button"
+            );
+
+
+            button.className =
+            "choice";
+
+
+            button.dataset.letter =
+            letter;
+
+
+            button.textContent =
+            letter +
+            ". " +
+            q.choices[letter];
+
+
+            button.onclick =
+            () =>
+            selectAnswer(
+                letter
+            );
+
+
+            choices.appendChild(
+                button
+            );
+
+        }
+    );
+
+
+    const feedback =
+    document.getElementById(
+        "feedback"
+    );
+
+
+    feedback.className =
+    "feedback hidden";
+
+
+    feedback.innerHTML="";
+
+
+    if(
+        userAnswers[
+            currentQuestion
+        ]
+    ){
+
+        showAnswer(
+            userAnswers[
+                currentQuestion
+            ]
+        );
+
+    }
+
+
+    document
+    .getElementById(
+        "previousButton"
+    )
+    .disabled =
+    currentQuestion === 0;
+
+
+    document
+    .getElementById(
+        "nextButton"
+    )
+    .textContent =
+    currentQuestion ===
+    questions.length-1
+    ? "FINISH"
+    : "NEXT";
+
+}
+
+
+/* =====================================================
+   SELECT ANSWER
+===================================================== */
+
+function selectAnswer(letter){
+
+    if(
+        userAnswers[
+            currentQuestion
+        ]
+    ){
+
+        return;
+
+    }
+
+
+    userAnswers[
+        currentQuestion
+    ] =
+    letter;
+
+
+    if(
+        letter ===
+        questions[
+            currentQuestion
+        ].answer
+    ){
+
+        score++;
+
+    }
+
+
+    renderQuestion();
+
+}
+
+
+/* =====================================================
+   SHOW ANSWER
+===================================================== */
+
+function showAnswer(letter){
+
+    const q =
+    questions[
+        currentQuestion
+    ];
+
+
+    document
+    .querySelectorAll(
+        "#choices .choice"
+    )
+    .forEach(
+        button => {
+
+            const choiceLetter =
+            button.dataset.letter;
+
+
+            button.disabled=true;
+
+
+            if(
+                choiceLetter ===
+                q.answer
+            ){
+
+                button.classList.add(
+                    "correct"
+                );
+
+            }
+
+
+            if(
+                choiceLetter ===
+                letter &&
+                letter !==
+                q.answer
+            ){
+
+                button.classList.add(
+                    "wrong"
+                );
+
+            }
+
+        }
+    );
+
+
+    const feedback =
+    document.getElementById(
+        "feedback"
+    );
+
+
+    feedback.className =
+    "feedback";
+
+
+    if(
+        letter ===
+        q.answer
+    ){
+
+        feedback.classList.add(
+            "correct"
+        );
+
+
+        feedback.innerHTML =
+        "<strong>Correct!</strong><br>" +
+        (
+            q.explanation ||
+            "Your answer is correct."
+        );
+
+    }else{
+
+        feedback.classList.add(
+            "wrong"
+        );
+
+
+        feedback.innerHTML =
+        "<strong>Incorrect.</strong><br>" +
+        "Correct answer: " +
+        q.answer +
+        "<br>" +
+        (
+            q.explanation ||
+            ""
+        );
+
+    }
+
+}
+
+
+/* =====================================================
+   NEXT
+===================================================== */
+
+document
+.getElementById(
+    "nextButton"
+)
+.onclick =
+() => {
+
+    if(
+        !userAnswers[
+            currentQuestion
+        ]
+    ){
+
+        alert(
+            "Please select an answer first."
+        );
+
+        return;
+
+    }
+
+
+    if(
+        currentQuestion ===
+        questions.length-1
+    ){
+
+        showResult();
+
+        return;
+
+    }
+
+
+    currentQuestion++;
+
+    renderQuestion();
+
+};
+
+
+/* =====================================================
+   PREVIOUS
+===================================================== */
+
+document
+.getElementById(
+    "previousButton"
+)
+.onclick =
+() => {
+
+    if(
+        currentQuestion > 0
+    ){
+
+        currentQuestion--;
+
+        renderQuestion();
+
+    }
+
+};
+
+
+/* =====================================================
+   RESULT
+===================================================== */
+
+function showResult(){
+
+    showScreen(
+        resultScreen
+    );
+
+
+    const percentage =
+    Math.round(
+        (
+            score /
+            questions.length
+        ) *
+        100
+    );
+
+
+    document
+    .getElementById(
+        "finalScore"
+    )
+    .textContent =
+    score +
+    " / " +
+    questions.length;
+
+
+    document
+    .getElementById(
+        "finalPercent"
+    )
+    .textContent =
+    percentage +
+    "%";
+
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+document
+.getElementById(
+    "loginButton"
+)
+.onclick =
+login;
+
+
+document
+.getElementById(
+    "codeInput"
+)
+.addEventListener(
+    "keydown",
+    event => {
+
+        if(
+            event.key ===
+            "Enter"
+        ){
+
+            login();
+
+        }
+
+    }
+);
+
+
+document
+.getElementById(
+    "backHomeButton"
+)
+.onclick =
+showHome;
+
+
+document
+.getElementById(
+    "startReviewerButton"
+)
+.onclick =
+startReviewer;
+
+
+document
+.getElementById(
+    "resultHomeButton"
+)
+.onclick =
+showHome;
+
+
+document
+.getElementById(
+    "reviewAgainButton"
+)
+.onclick =
+startReviewer;
+
+
+/* =====================================================
+   LOGOUT
+===================================================== */
+
+document
+.getElementById(
+    "logoutButton"
+)
+.onclick =
+() => {
+
+    if(
+        confirm(
+            "Log out from this device?"
+        )
+    ){
+
+        localStorage.removeItem(
+            SESSION_KEY
+        );
+
+        session=null;
+
+        showScreen(
+            loginScreen
+        );
+
+    }
+
+};
+
+
+/* =====================================================
+   START
+===================================================== */
+
+validateSession();
+
+</script>
+
+</body>
+</html>

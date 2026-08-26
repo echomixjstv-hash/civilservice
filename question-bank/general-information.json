@@ -1,0 +1,1531 @@
+[
+  {
+    "question": "What is the supreme law of the Philippines?",
+    "choices": {
+      "A": "The Civil Code",
+      "B": "The Constitution",
+      "C": "The Revised Penal Code",
+      "D": "The Administrative Code"
+    },
+    "answer": "B",
+    "explanation": "The Constitution is the supreme law of the Philippines."
+  },
+  {
+    "question": "What is the form of government of the Philippines?",
+    "choices": {
+      "A": "Absolute monarchy",
+      "B": "Parliamentary monarchy",
+      "C": "Democratic and republican",
+      "D": "Military government"
+    },
+    "answer": "C",
+    "explanation": "The Philippines is a democratic and republican State."
+  },
+  {
+    "question": "Where is the seat of the national government of the Philippines?",
+    "choices": {
+      "A": "Cebu City",
+      "B": "Davao City",
+      "C": "Quezon City",
+      "D": "Manila"
+    },
+    "answer": "D",
+    "explanation": "Manila is the capital and seat of the national government."
+  },
+  {
+    "question": "How many branches does the Philippine national government have?",
+    "choices": {
+      "A": "Two",
+      "B": "Three",
+      "C": "Four",
+      "D": "Five"
+    },
+    "answer": "B",
+    "explanation": "The three branches are Executive, Legislative, and Judicial."
+  },
+  {
+    "question": "Which branch of government makes laws?",
+    "choices": {
+      "A": "Executive",
+      "B": "Judicial",
+      "C": "Legislative",
+      "D": "Local"
+    },
+    "answer": "C",
+    "explanation": "The Legislative branch is responsible for making laws."
+  },
+  {
+    "question": "Which branch of government interprets laws?",
+    "choices": {
+      "A": "Executive",
+      "B": "Judicial",
+      "C": "Legislative",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "The Judicial branch interprets laws and settles legal disputes."
+  },
+  {
+    "question": "Who heads the Executive branch of the Philippine government?",
+    "choices": {
+      "A": "The Senate President",
+      "B": "The Chief Justice",
+      "C": "The President",
+      "D": "The Speaker of the House"
+    },
+    "answer": "C",
+    "explanation": "Executive power is vested in the President of the Philippines."
+  },
+  {
+    "question": "What is the highest court in the Philippines?",
+    "choices": {
+      "A": "Court of Appeals",
+      "B": "Regional Trial Court",
+      "C": "Sandiganbayan",
+      "D": "Supreme Court"
+    },
+    "answer": "D",
+    "explanation": "The Supreme Court is the highest court in the Philippine judicial system."
+  },
+  {
+    "question": "How many senators are there in the Philippine Senate?",
+    "choices": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "36"
+    },
+    "answer": "C",
+    "explanation": "The Philippine Senate is composed of 24 senators."
+  },
+  {
+    "question": "How long is the term of office of a Philippine senator?",
+    "choices": {
+      "A": "3 years",
+      "B": "4 years",
+      "C": "5 years",
+      "D": "6 years"
+    },
+    "answer": "D",
+    "explanation": "A senator serves a six-year term."
+  },
+  {
+    "question": "How long is the term of office of the President of the Philippines?",
+    "choices": {
+      "A": "3 years",
+      "B": "4 years",
+      "C": "6 years",
+      "D": "8 years"
+    },
+    "answer": "C",
+    "explanation": "The President is elected for a six-year term."
+  },
+  {
+    "question": "Can the President of the Philippines be reelected?",
+    "choices": {
+      "A": "Yes, indefinitely",
+      "B": "Yes, for one consecutive term",
+      "C": "No, the President is not eligible for any reelection",
+      "D": "Yes, for two consecutive terms"
+    },
+    "answer": "C",
+    "explanation": "The President is not eligible for reelection under the 1987 Constitution."
+  },
+  {
+    "question": "What is the minimum age requirement for a Philippine President?",
+    "choices": {
+      "A": "30 years old",
+      "B": "35 years old",
+      "C": "40 years old",
+      "D": "45 years old"
+    },
+    "answer": "B",
+    "explanation": "A presidential candidate must be at least 40 years old on election day."
+  },
+  {
+    "question": "What is the minimum age requirement for a Philippine senator?",
+    "choices": {
+      "A": "21",
+      "B": "25",
+      "C": "30",
+      "D": "35"
+    },
+    "answer": "C",
+    "explanation": "A senator must be at least 35 years old on election day."
+  },
+  {
+    "question": "What is the minimum age requirement for a member of the House of Representatives?",
+    "choices": {
+      "A": "18",
+      "B": "21",
+      "C": "25",
+      "D": "30"
+    },
+    "answer": "C",
+    "explanation": "A member of the House must be at least 25 years old on election day."
+  },
+  {
+    "question": "What are the two chambers of Congress?",
+    "choices": {
+      "A": "Senate and Cabinet",
+      "B": "Senate and House of Representatives",
+      "C": "House of Representatives and Supreme Court",
+      "D": "Senate and Court of Appeals"
+    },
+    "answer": "B",
+    "explanation": "Congress is bicameral, consisting of the Senate and House of Representatives."
+  },
+  {
+    "question": "Who presides over the Senate?",
+    "choices": {
+      "A": "Speaker of the House",
+      "B": "Chief Justice",
+      "C": "Senate President",
+      "D": "President"
+    },
+    "answer": "C",
+    "explanation": "The Senate President presides over the Senate."
+  },
+  {
+    "question": "Who presides over the House of Representatives?",
+    "choices": {
+      "A": "Senate President",
+      "B": "Speaker of the House",
+      "C": "Chief Justice",
+      "D": "Vice President"
+    },
+    "answer": "B",
+    "explanation": "The Speaker presides over the House of Representatives."
+  },
+  {
+    "question": "What is the official currency of the Philippines?",
+    "choices": {
+      "A": "Peso",
+      "B": "Dollar",
+      "C": "Rupiah",
+      "D": "Ringgit"
+    },
+    "answer": "A",
+    "explanation": "The Philippine peso is the official currency of the Philippines."
+  },
+  {
+    "question": "What is the national flower of the Philippines?",
+    "choices": {
+      "A": "Rose",
+      "B": "Sampaguita",
+      "C": "Gumamela",
+      "D": "Orchid"
+    },
+    "answer": "B",
+    "explanation": "Sampaguita is the national flower of the Philippines."
+  },
+  {
+    "question": "What is the national tree of the Philippines?",
+    "choices": {
+      "A": "Narra",
+      "B": "Molave",
+      "C": "Mahogany",
+      "D": "Mango"
+    },
+    "answer": "A",
+    "explanation": "Narra is recognized as the national tree of the Philippines."
+  },
+  {
+    "question": "What is the national bird of the Philippines?",
+    "choices": {
+      "A": "Maya",
+      "B": "Philippine Eagle",
+      "C": "Kingfisher",
+      "D": "Hornbill"
+    },
+    "answer": "B",
+    "explanation": "The Philippine Eagle is the national bird."
+  },
+  {
+    "question": "What is the national animal of the Philippines?",
+    "choices": {
+      "A": "Carabao",
+      "B": "Tamaraw",
+      "C": "Philippine Eagle",
+      "D": "Horse"
+    },
+    "answer": "A",
+    "explanation": "The carabao is commonly recognized as the national animal of the Philippines."
+  },
+  {
+    "question": "What is the national fruit of the Philippines?",
+    "choices": {
+      "A": "Banana",
+      "B": "Mango",
+      "C": "Pineapple",
+      "D": "Coconut"
+    },
+    "answer": "B",
+    "explanation": "Mango is widely recognized as the national fruit of the Philippines."
+  },
+  {
+    "question": "Who wrote the novel 'Noli Me Tangere'?",
+    "choices": {
+      "A": "Andres Bonifacio",
+      "B": "Emilio Aguinaldo",
+      "C": "Jose Rizal",
+      "D": "Apolinario Mabini"
+    },
+    "answer": "C",
+    "explanation": "Jose Rizal wrote Noli Me Tangere."
+  },
+  {
+    "question": "Who wrote 'El Filibusterismo'?",
+    "choices": {
+      "A": "Jose Rizal",
+      "B": "Marcelo H. del Pilar",
+      "C": "Graciano Lopez Jaena",
+      "D": "Andres Bonifacio"
+    },
+    "answer": "A",
+    "explanation": "El Filibusterismo was written by Jose Rizal."
+  },
+  {
+    "question": "When is Philippine Independence Day celebrated?",
+    "choices": {
+      "A": "June 12",
+      "B": "June 19",
+      "C": "August 21",
+      "D": "December 30"
+    },
+    "answer": "A",
+    "explanation": "Philippine Independence Day is celebrated every June 12."
+  },
+  {
+    "question": "When is National Heroes Day generally observed?",
+    "choices": {
+      "A": "First Monday of January",
+      "B": "Last Monday of August",
+      "C": "Second Monday of October",
+      "D": "December 30"
+    },
+    "answer": "B",
+    "explanation": "National Heroes Day is observed on the last Monday of August."
+  },
+  {
+    "question": "When is Rizal Day celebrated?",
+    "choices": {
+      "A": "June 12",
+      "B": "August 21",
+      "C": "November 30",
+      "D": "December 30"
+    },
+    "answer": "D",
+    "explanation": "Rizal Day is observed every December 30."
+  },
+  {
+    "question": "Who founded the Katipunan?",
+    "choices": {
+      "A": "Jose Rizal",
+      "B": "Andres Bonifacio",
+      "C": "Emilio Aguinaldo",
+      "D": "Antonio Luna"
+    },
+    "answer": "B",
+    "explanation": "Andres Bonifacio was one of the founders and the Supremo of the Katipunan."
+  },
+  {
+    "question": "What does KKK stand for in Philippine history?",
+    "choices": {
+      "A": "Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan",
+      "B": "Kilusang Kabataan ng Katipunan",
+      "C": "Kapisanan ng mga Kawal ng Kalayaan",
+      "D": "Kapatiran ng Katutubong Kawal"
+    },
+    "answer": "A",
+    "explanation": "KKK refers to the Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan."
+  },
+  {
+    "question": "Who is known as the Father of the Philippine Revolution?",
+    "choices": {
+      "A": "Andres Bonifacio",
+      "B": "Emilio Aguinaldo",
+      "C": "Jose Rizal",
+      "D": "Antonio Luna"
+    },
+    "answer": "A",
+    "explanation": "Andres Bonifacio is commonly known as the Father of the Philippine Revolution."
+  },
+  {
+    "question": "Who was the first President of the Philippine Republic?",
+    "choices": {
+      "A": "Manuel Quezon",
+      "B": "Emilio Aguinaldo",
+      "C": "Sergio Osmena",
+      "D": "Manuel Roxas"
+    },
+    "answer": "B",
+    "explanation": "Emilio Aguinaldo was the first President of the Philippines."
+  },
+  {
+    "question": "Where was Philippine independence proclaimed on June 12, 1898?",
+    "choices": {
+      "A": "Malolos, Bulacan",
+      "B": "Kawit, Cavite",
+      "C": "Tondo, Manila",
+      "D": "Cebu City"
+    },
+    "answer": "B",
+    "explanation": "Independence was proclaimed in Kawit, Cavite."
+  },
+  {
+    "question": "Who was the first President of the Commonwealth of the Philippines?",
+    "choices": {
+      "A": "Manuel L. Quezon",
+      "B": "Emilio Aguinaldo",
+      "C": "Manuel Roxas",
+      "D": "Sergio Osmena"
+    },
+    "answer": "A",
+    "explanation": "Manuel L. Quezon became the first President of the Commonwealth."
+  },
+  {
+    "question": "Who is known as the national hero of the Philippines?",
+    "choices": {
+      "A": "Andres Bonifacio",
+      "B": "Emilio Aguinaldo",
+      "C": "Jose Rizal",
+      "D": "Apolinario Mabini"
+    },
+    "answer": "C",
+    "explanation": "Jose Rizal is widely regarded as the national hero of the Philippines."
+  },
+  {
+    "question": "What is the title of the Philippine national anthem?",
+    "choices": {
+      "A": "Bayan Ko",
+      "B": "Lupang Hinirang",
+      "C": "Ako ay Pilipino",
+      "D": "Pilipinas Kong Mahal"
+    },
+    "answer": "B",
+    "explanation": "The Philippine national anthem is Lupang Hinirang."
+  },
+  {
+    "question": "Who composed the music of Lupang Hinirang?",
+    "choices": {
+      "A": "Jose Palma",
+      "B": "Julian Felipe",
+      "C": "Nicanor Abelardo",
+      "D": "Ryan Cayabyab"
+    },
+    "answer": "B",
+    "explanation": "Julian Felipe composed the music of Lupang Hinirang."
+  },
+  {
+    "question": "Who wrote the lyrics of the Philippine national anthem?",
+    "choices": {
+      "A": "Jose Palma",
+      "B": "Jose Rizal",
+      "C": "Andres Bonifacio",
+      "D": "Julian Felipe"
+    },
+    "answer": "A",
+    "explanation": "Jose Palma wrote the poem that became the lyrics of the national anthem."
+  },
+  {
+    "question": "What is the official language used in government and education together with English?",
+    "choices": {
+      "A": "Cebuano",
+      "B": "Filipino",
+      "C": "Ilocano",
+      "D": "Spanish"
+    },
+    "answer": "B",
+    "explanation": "Filipino and English are the official languages of the Philippines."
+  },
+  {
+    "question": "What is the supreme law that currently governs the Philippines?",
+    "choices": {
+      "A": "1935 Constitution",
+      "B": "1973 Constitution",
+      "C": "1987 Constitution",
+      "D": "Malolos Constitution"
+    },
+    "answer": "C",
+    "explanation": "The 1987 Constitution is the current Constitution of the Philippines."
+  },
+  {
+    "question": "What does the Bill of Rights primarily protect?",
+    "choices": {
+      "A": "Government revenue",
+      "B": "Individual rights and liberties",
+      "C": "Political parties",
+      "D": "Government agencies"
+    },
+    "answer": "B",
+    "explanation": "The Bill of Rights protects fundamental rights and liberties of individuals."
+  },
+  {
+    "question": "Which right protects a person from unreasonable searches and seizures?",
+    "choices": {
+      "A": "Right to travel",
+      "B": "Right to privacy",
+      "C": "Right to suffrage",
+      "D": "Right to information"
+    },
+    "answer": "B",
+    "explanation": "The Constitution protects people against unreasonable searches and seizures as part of the protection of privacy and security."
+  },
+  {
+    "question": "What is the right to vote called?",
+    "choices": {
+      "A": "Suffrage",
+      "B": "Petition",
+      "C": "Referendum",
+      "D": "Plebiscite"
+    },
+    "answer": "A",
+    "explanation": "Suffrage refers to the right to vote."
+  },
+  {
+    "question": "At what age may a Filipino citizen generally register and vote?",
+    "choices": {
+      "A": "16",
+      "B": "17",
+      "C": "18",
+      "D": "21"
+    },
+    "answer": "C",
+    "explanation": "Filipino citizens who are at least 18 years old may exercise the right of suffrage, subject to legal qualifications."
+  },
+  {
+    "question": "Which government agency administers elections in the Philippines?",
+    "choices": {
+      "A": "COA",
+      "B": "COMELEC",
+      "C": "CSC",
+      "D": "COA"
+    },
+    "answer": "B",
+    "explanation": "The Commission on Elections, or COMELEC, administers elections."
+  },
+  {
+    "question": "What does CSC stand for?",
+    "choices": {
+      "A": "Civil Service Commission",
+      "B": "Central Security Council",
+      "C": "Commission on State Corporations",
+      "D": "Civil Standards Council"
+    },
+    "answer": "A",
+    "explanation": "CSC stands for Civil Service Commission."
+  },
+  {
+    "question": "What is the main role of the Civil Service Commission?",
+    "choices": {
+      "A": "Conduct criminal trials",
+      "B": "Administer the civil service system",
+      "C": "Collect national taxes",
+      "D": "Manage elections"
+    },
+    "answer": "B",
+    "explanation": "The CSC administers the Philippine civil service system."
+  },
+  {
+    "question": "What does COA stand for?",
+    "choices": {
+      "A": "Commission on Audit",
+      "B": "Council on Administration",
+      "C": "Commission on Appointments",
+      "D": "Committee on Accounts"
+    },
+    "answer": "A",
+    "explanation": "COA stands for Commission on Audit."
+  },
+  {
+    "question": "What is the primary function of the Commission on Audit?",
+    "choices": {
+      "A": "Conduct elections",
+      "B": "Audit government funds and expenditures",
+      "C": "Appoint judges",
+      "D": "Issue passports"
+    },
+    "answer": "B",
+    "explanation": "COA examines and audits government revenues, expenditures, and uses of public funds."
+  },
+  {
+    "question": "What does Ombudsman primarily investigate?",
+    "choices": {
+      "A": "Weather disturbances",
+      "B": "Complaints against public officials and employees",
+      "C": "Private business advertisements",
+      "D": "School examinations"
+    },
+    "answer": "B",
+    "explanation": "The Office of the Ombudsman investigates complaints involving public officials and employees."
+  },
+  {
+    "question": "What is the highest law-making body of the Philippines?",
+    "choices": {
+      "A": "Supreme Court",
+      "B": "Congress",
+      "C": "Cabinet",
+      "D": "Civil Service Commission"
+    },
+    "answer": "B",
+    "explanation": "Congress exercises legislative power."
+  },
+  {
+    "question": "What is the power of the courts to determine whether laws are constitutional called?",
+    "choices": {
+      "A": "Police power",
+      "B": "Judicial review",
+      "C": "Taxation",
+      "D": "Eminent domain"
+    },
+    "answer": "B",
+    "explanation": "Judicial review is the power of courts to determine the constitutionality of laws and government acts."
+  },
+  {
+    "question": "Which branch has the power to declare a state of martial law under constitutional conditions?",
+    "choices": {
+      "A": "President",
+      "B": "Supreme Court",
+      "C": "Senate President",
+      "D": "House Speaker"
+    },
+    "answer": "A",
+    "explanation": "The President may declare martial law under the conditions and limitations provided by the Constitution."
+  },
+  {
+    "question": "Which government office is responsible for collecting national internal revenue taxes?",
+    "choices": {
+      "A": "Bureau of Customs",
+      "B": "Bureau of Internal Revenue",
+      "C": "Commission on Audit",
+      "D": "Department of Finance"
+    },
+    "answer": "B",
+    "explanation": "The Bureau of Internal Revenue collects national internal revenue taxes."
+  },
+  {
+    "question": "Which agency collects customs duties and regulates goods entering the Philippines?",
+    "choices": {
+      "A": "Bureau of Customs",
+      "B": "Bureau of Internal Revenue",
+      "C": "Bangko Sentral ng Pilipinas",
+      "D": "Department of Trade and Industry"
+    },
+    "answer": "A",
+    "explanation": "The Bureau of Customs handles customs duties and regulates imports and exports."
+  },
+  {
+    "question": "What is the central monetary authority of the Philippines?",
+    "choices": {
+      "A": "Department of Finance",
+      "B": "Bangko Sentral ng Pilipinas",
+      "C": "Bureau of Treasury",
+      "D": "Philippine Stock Exchange"
+    },
+    "answer": "B",
+    "explanation": "The Bangko Sentral ng Pilipinas is the country's central monetary authority."
+  },
+  {
+    "question": "What does BSP stand for?",
+    "choices": {
+      "A": "Banking Service of the Philippines",
+      "B": "Bangko Sentral ng Pilipinas",
+      "C": "Bureau of Savings and Payments",
+      "D": "Bank Supervisory Philippine"
+    },
+    "answer": "B",
+    "explanation": "BSP stands for Bangko Sentral ng Pilipinas."
+  },
+  {
+    "question": "Which department is primarily responsible for public education?",
+    "choices": {
+      "A": "DOH",
+      "B": "DepEd",
+      "C": "DOJ",
+      "D": "DOST"
+    },
+    "answer": "B",
+    "explanation": "The Department of Education is responsible for basic education."
+  },
+  {
+    "question": "What does DOH stand for?",
+    "choices": {
+      "A": "Department of Housing",
+      "B": "Department of Health",
+      "C": "Department of Humanities",
+      "D": "Department of Hospitality"
+    },
+    "answer": "B",
+    "explanation": "DOH stands for Department of Health."
+  },
+  {
+    "question": "Which department is responsible for national defense?",
+    "choices": {
+      "A": "Department of National Defense",
+      "B": "Department of the Interior and Local Government",
+      "C": "Department of Justice",
+      "D": "Department of Foreign Affairs"
+    },
+    "answer": "A",
+    "explanation": "The Department of National Defense is responsible for national defense matters."
+  },
+  {
+    "question": "What does DILG stand for?",
+    "choices": {
+      "A": "Department of Interior and Local Government",
+      "B": "Department of Infrastructure and Local Governance",
+      "C": "Department of Internal Law and Governance",
+      "D": "Department of Industry and Local Growth"
+    },
+    "answer": "A",
+    "explanation": "DILG stands for Department of the Interior and Local Government."
+  },
+  {
+    "question": "Which department handles foreign relations?",
+    "choices": {
+      "A": "Department of Justice",
+      "B": "Department of Foreign Affairs",
+      "C": "Department of National Defense",
+      "D": "Department of Labor and Employment"
+    },
+    "answer": "B",
+    "explanation": "The Department of Foreign Affairs manages the country's foreign relations."
+  },
+  {
+    "question": "What does DOLE stand for?",
+    "choices": {
+      "A": "Department of Labor and Employment",
+      "B": "Department of Local Employment",
+      "C": "Department of Labor and Education",
+      "D": "Department of Livelihood and Enterprise"
+    },
+    "answer": "A",
+    "explanation": "DOLE stands for Department of Labor and Employment."
+  },
+  {
+    "question": "Which government agency is primarily responsible for science and technology development?",
+    "choices": {
+      "A": "DOST",
+      "B": "DOT",
+      "C": "DA",
+      "D": "DICT"
+    },
+    "answer": "A",
+    "explanation": "The Department of Science and Technology promotes science and technology development."
+  },
+  {
+    "question": "What does DICT stand for?",
+    "choices": {
+      "A": "Department of Information and Communication Technology",
+      "B": "Department of Information and Communications Technology",
+      "C": "Department of Internet and Computer Technology",
+      "D": "Department of Innovation and Communications Training"
+    },
+    "answer": "B",
+    "explanation": "DICT stands for Department of Information and Communications Technology."
+  },
+  {
+    "question": "Which department is primarily responsible for agriculture?",
+    "choices": {
+      "A": "DA",
+      "B": "DENR",
+      "C": "DOST",
+      "D": "DTI"
+    },
+    "answer": "A",
+    "explanation": "The Department of Agriculture handles matters concerning agriculture."
+  },
+  {
+    "question": "Which department is responsible for protecting the country's environment and natural resources?",
+    "choices": {
+      "A": "DA",
+      "B": "DENR",
+      "C": "DPWH",
+      "D": "DOT"
+    },
+    "answer": "B",
+    "explanation": "The Department of Environment and Natural Resources is responsible for environmental and natural resource management."
+  },
+  {
+    "question": "What does DPWH stand for?",
+    "choices": {
+      "A": "Department of Public Works and Highways",
+      "B": "Department of Philippine Works and Housing",
+      "C": "Department of Public Welfare and Housing",
+      "D": "Department of Planning, Works and Highways"
+    },
+    "answer": "A",
+    "explanation": "DPWH stands for Department of Public Works and Highways."
+  },
+  {
+    "question": "What is the basic political unit of the Philippines?",
+    "choices": {
+      "A": "Province",
+      "B": "Barangay",
+      "C": "Region",
+      "D": "Municipality"
+    },
+    "answer": "B",
+    "explanation": "The barangay is the basic political unit of the Philippines."
+  },
+  {
+    "question": "Who is the chief executive of a province?",
+    "choices": {
+      "A": "Mayor",
+      "B": "Governor",
+      "C": "Barangay Captain",
+      "D": "Vice Mayor"
+    },
+    "answer": "B",
+    "explanation": "The governor is the chief executive of a province."
+  },
+  {
+    "question": "Who is the chief executive of a city?",
+    "choices": {
+      "A": "Governor",
+      "B": "Mayor",
+      "C": "Barangay Captain",
+      "D": "Councilor"
+    },
+    "answer": "B",
+    "explanation": "The mayor is the chief executive of a city."
+  },
+  {
+    "question": "Who is the chief executive of a municipality?",
+    "choices": {
+      "A": "Mayor",
+      "B": "Governor",
+      "C": "Vice Governor",
+      "D": "Barangay Captain"
+    },
+    "answer": "A",
+    "explanation": "The municipal mayor is the chief executive of a municipality."
+  },
+  {
+    "question": "Who is the chief executive of a barangay?",
+    "choices": {
+      "A": "Barangay Secretary",
+      "B": "Barangay Treasurer",
+      "C": "Punong Barangay",
+      "D": "Municipal Mayor"
+    },
+    "answer": "C",
+    "explanation": "The Punong Barangay is the chief executive of the barangay."
+  },
+  {
+    "question": "What is the capital city of the Philippines?",
+    "choices": {
+      "A": "Quezon City",
+      "B": "Manila",
+      "C": "Cebu City",
+      "D": "Pasay City"
+    },
+    "answer": "B",
+    "explanation": "Manila is the capital city of the Philippines."
+  },
+  {
+    "question": "Which is the largest island in the Philippines by land area?",
+    "choices": {
+      "A": "Mindanao",
+      "B": "Palawan",
+      "C": "Luzon",
+      "D": "Samar"
+    },
+    "answer": "C",
+    "explanation": "Luzon is the largest island in the Philippines by land area."
+  },
+  {
+    "question": "Which is the second-largest island in the Philippines?",
+    "choices": {
+      "A": "Mindanao",
+      "B": "Panay",
+      "C": "Negros",
+      "D": "Samar"
+    },
+    "answer": "A",
+    "explanation": "Mindanao is the second-largest island in the Philippines."
+  },
+  {
+    "question": "What is the highest mountain in the Philippines?",
+    "choices": {
+      "A": "Mount Pulag",
+      "B": "Mount Mayon",
+      "C": "Mount Apo",
+      "D": "Mount Pinatubo"
+    },
+    "answer": "C",
+    "explanation": "Mount Apo is the highest mountain in the Philippines."
+  },
+  {
+    "question": "Which volcano is famous for its nearly perfect cone shape?",
+    "choices": {
+      "A": "Mount Pinatubo",
+      "B": "Mayon Volcano",
+      "C": "Taal Volcano",
+      "D": "Mount Apo"
+    },
+    "answer": "B",
+    "explanation": "Mayon Volcano is famous for its symmetrical cone shape."
+  },
+  {
+    "question": "Which body of water separates Luzon from Visayas?",
+    "choices": {
+      "A": "Sibuyan Sea",
+      "B": "Sulu Sea",
+      "C": "Bohol Sea",
+      "D": "Celebes Sea"
+    },
+    "answer": "A",
+    "explanation": "The Sibuyan Sea lies between Luzon and parts of the Visayas."
+  },
+  {
+    "question": "What is the longest river in the Philippines?",
+    "choices": {
+      "A": "Pasig River",
+      "B": "Cagayan River",
+      "C": "Agusan River",
+      "D": "Pampanga River"
+    },
+    "answer": "B",
+    "explanation": "The Cagayan River is the longest river in the Philippines."
+  },
+  {
+    "question": "Which famous lake is located within Taal Volcano?",
+    "choices": {
+      "A": "Laguna de Bay",
+      "B": "Lake Lanao",
+      "C": "Taal Lake",
+      "D": "Lake Mainit"
+    },
+    "answer": "C",
+    "explanation": "Taal Lake surrounds the volcanic island where Taal Volcano is located."
+  },
+  {
+    "question": "What is the largest lake in the Philippines?",
+    "choices": {
+      "A": "Taal Lake",
+      "B": "Laguna de Bay",
+      "C": "Lake Lanao",
+      "D": "Lake Mainit"
+    },
+    "answer": "B",
+    "explanation": "Laguna de Bay is the largest lake in the Philippines."
+  },
+  {
+    "question": "Which sea is located west of the Philippines?",
+    "choices": {
+      "A": "Philippine Sea",
+      "B": "West Philippine Sea",
+      "C": "Celebes Sea",
+      "D": "Bohol Sea"
+    },
+    "answer": "B",
+    "explanation": "The West Philippine Sea is the maritime area on the western side of the Philippine archipelago."
+  },
+  {
+    "question": "What is the Philippines' national territory composed of?",
+    "choices": {
+      "A": "Only its land areas",
+      "B": "Its terrestrial, fluvial, and aerial domains and territorial waters",
+      "C": "Only its islands and rivers",
+      "D": "Only its territorial waters"
+    },
+    "answer": "B",
+    "explanation": "The Constitution defines Philippine territory to include its archipelago and other territories over which it has sovereignty or jurisdiction."
+  },
+  {
+    "question": "What does ASEAN stand for?",
+    "choices": {
+      "A": "Association of Southeast Asian Nations",
+      "B": "Asian Economic and Security Alliance Network",
+      "C": "Association of Eastern Asian Nations",
+      "D": "Alliance of Southeast Asian Economies"
+    },
+    "answer": "A",
+    "explanation": "ASEAN stands for Association of Southeast Asian Nations."
+  },
+  {
+    "question": "Where was ASEAN established?",
+    "choices": {
+      "A": "Manila",
+      "B": "Jakarta",
+      "C": "Bangkok",
+      "D": "Singapore"
+    },
+    "answer": "C",
+    "explanation": "ASEAN was established in Bangkok in 1967."
+  },
+  {
+    "question": "How many founding members did ASEAN originally have?",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "10"
+    },
+    "answer": "B",
+    "explanation": "ASEAN was founded by five countries: Indonesia, Malaysia, Philippines, Singapore, and Thailand."
+  },
+  {
+    "question": "What does UN stand for?",
+    "choices": {
+      "A": "United Nations",
+      "B": "Universal Nations",
+      "C": "United Network",
+      "D": "Union of Nations"
+    },
+    "answer": "A",
+    "explanation": "UN stands for United Nations."
+  },
+  {
+    "question": "Where is the headquarters of the United Nations?",
+    "choices": {
+      "A": "Geneva",
+      "B": "Paris",
+      "C": "New York City",
+      "D": "London"
+    },
+    "answer": "C",
+    "explanation": "The main headquarters of the United Nations is in New York City."
+  },
+  {
+    "question": "What does WHO stand for?",
+    "choices": {
+      "A": "World Health Organization",
+      "B": "World Human Organization",
+      "C": "World Housing Organization",
+      "D": "World Health Office"
+    },
+    "answer": "A",
+    "explanation": "WHO stands for World Health Organization."
+  },
+  {
+    "question": "What does UNESCO stand for?",
+    "choices": {
+      "A": "United Nations Educational, Scientific and Cultural Organization",
+      "B": "United Nations Economic and Social Cultural Organization",
+      "C": "Universal Education and Science Council Organization",
+      "D": "United Nations Environmental Science and Culture Office"
+    },
+    "answer": "A",
+    "explanation": "UNESCO stands for United Nations Educational, Scientific and Cultural Organization."
+  },
+  {
+    "question": "What does UNICEF stand for?",
+    "choices": {
+      "A": "United Nations International Children's Emergency Fund",
+      "B": "United Nations International Child Education Foundation",
+      "C": "Universal Nations Children's Education Fund",
+      "D": "United Nations Council for International Families"
+    },
+    "answer": "A",
+    "explanation": "UNICEF originated as the United Nations International Children's Emergency Fund."
+  },
+  {
+    "question": "Which organization promotes international monetary cooperation and financial stability?",
+    "choices": {
+      "A": "IMF",
+      "B": "WHO",
+      "C": "UNESCO",
+      "D": "ILO"
+    },
+    "answer": "A",
+    "explanation": "The International Monetary Fund promotes monetary cooperation and financial stability."
+  },
+  {
+    "question": "What does ILO stand for?",
+    "choices": {
+      "A": "International Labor Organization",
+      "B": "International Labour Organization",
+      "C": "International Law Organization",
+      "D": "International Logistics Office"
+    },
+    "answer": "B",
+    "explanation": "ILO stands for International Labour Organization."
+  },
+  {
+    "question": "What is the main purpose of public service?",
+    "choices": {
+      "A": "Personal enrichment",
+      "B": "Serving the public interest",
+      "C": "Promoting private businesses",
+      "D": "Avoiding accountability"
+    },
+    "answer": "B",
+    "explanation": "Public service exists to serve the people and promote the public interest."
+  },
+  {
+    "question": "Which principle requires public officials to act with responsibility, integrity, loyalty, and efficiency?",
+    "choices": {
+      "A": "Public office is a public trust",
+      "B": "Absolute authority",
+      "C": "Political privilege",
+      "D": "Private interest"
+    },
+    "answer": "A",
+    "explanation": "The Constitution declares that public office is a public trust."
+  },
+  {
+    "question": "What does RA stand for in Philippine laws?",
+    "choices": {
+      "A": "Republic Act",
+      "B": "Regional Authority",
+      "C": "Republic Authority",
+      "D": "Regulatory Act"
+    },
+    "answer": "A",
+    "explanation": "RA means Republic Act."
+  },
+  {
+    "question": "What law is known as the Code of Conduct and Ethical Standards for Public Officials and Employees?",
+    "choices": {
+      "A": "RA 6713",
+      "B": "RA 3019",
+      "C": "RA 9184",
+      "D": "RA 7160"
+    },
+    "answer": "A",
+    "explanation": "Republic Act No. 6713 is the Code of Conduct and Ethical Standards for Public Officials and Employees."
+  },
+  {
+    "question": "What is RA 7160 commonly known as?",
+    "choices": {
+      "A": "Administrative Code",
+      "B": "Local Government Code of 1991",
+      "C": "Civil Service Law",
+      "D": "Anti-Graft Law"
+    },
+    "answer": "B",
+    "explanation": "RA 7160 is the Local Government Code of 1991."
+  },
+  {
+    "question": "What is RA 3019 commonly known as?",
+    "choices": {
+      "A": "Anti-Graft and Corrupt Practices Act",
+      "B": "Local Government Code",
+      "C": "Civil Service Act",
+      "D": "Data Privacy Act"
+    },
+    "answer": "A",
+    "explanation": "RA 3019 is the Anti-Graft and Corrupt Practices Act."
+  },
+  {
+    "question": "What is RA 9184 commonly known as?",
+    "choices": {
+      "A": "Government Procurement Reform Act",
+      "B": "Administrative Code",
+      "C": "Local Government Code",
+      "D": "Freedom of Information Act"
+    },
+    "answer": "A",
+    "explanation": "RA 9184 is the Government Procurement Reform Act."
+  },
+  {
+    "question": "What is the main purpose of RA 6713?",
+    "choices": {
+      "A": "To regulate elections",
+      "B": "To promote ethical conduct among public officials and employees",
+      "C": "To establish local governments",
+      "D": "To regulate private corporations"
+    },
+    "answer": "B",
+    "explanation": "RA 6713 establishes standards of conduct and ethical behavior for public officials and employees."
+  },
+  {
+    "question": "Which value is emphasized in the Code of Conduct for public officials?",
+    "choices": {
+      "A": "Commitment to public interest",
+      "B": "Personal gain",
+      "C": "Favoritism",
+      "D": "Secrecy in all transactions"
+    },
+    "answer": "A",
+    "explanation": "Commitment to public interest is one of the norms of conduct under RA 6713."
+  },
+  {
+    "question": "What does SALN stand for?",
+    "choices": {
+      "A": "Statement of Assets, Liabilities and Net Worth",
+      "B": "Summary of Annual Legal Notices",
+      "C": "Statement of Administrative Laws and Norms",
+      "D": "System of Assets and Legal Numbers"
+    },
+    "answer": "A",
+    "explanation": "SALN stands for Statement of Assets, Liabilities and Net Worth."
+  },
+  {
+    "question": "Why is SALN important for public officials and employees?",
+    "choices": {
+      "A": "It promotes transparency and accountability",
+      "B": "It eliminates taxes",
+      "C": "It guarantees promotion",
+      "D": "It replaces an employment record"
+    },
+    "answer": "A",
+    "explanation": "SALN requirements help promote transparency and accountability in public service."
+  },
+  {
+    "question": "Which is an example of conflict of interest?",
+    "choices": {
+      "A": "Using public resources for authorized government work",
+      "B": "Participating in a government decision involving one's private financial interest",
+      "C": "Following office procedures",
+      "D": "Serving the public fairly"
+    },
+    "answer": "B",
+    "explanation": "A conflict of interest may arise when private interests interfere with official duties."
+  },
+  {
+    "question": "Which is considered a basic principle of democracy?",
+    "choices": {
+      "A": "Rule by one person without limits",
+      "B": "Participation of citizens in government",
+      "C": "Government without laws",
+      "D": "Suppression of public opinion"
+    },
+    "answer": "B",
+    "explanation": "Citizen participation is a fundamental principle of democratic government."
+  },
+  {
+    "question": "What is the principle that no person is above the law called?",
+    "choices": {
+      "A": "Rule of law",
+      "B": "Rule of privilege",
+      "C": "Rule of force",
+      "D": "Rule of wealth"
+    },
+    "answer": "A",
+    "explanation": "The rule of law means that everyone is subject to the law."
+  },
+  {
+    "question": "What is equality before the law?",
+    "choices": {
+      "A": "Only officials are protected by law",
+      "B": "People in similar circumstances should receive equal treatment under the law",
+      "C": "Laws apply only to citizens",
+      "D": "Courts may ignore laws"
+    },
+    "answer": "B",
+    "explanation": "Equality before the law means people are entitled to equal protection and treatment under the law."
+  },
+  {
+    "question": "What is freedom of speech?",
+    "choices": {
+      "A": "The right to express opinions subject to lawful limitations",
+      "B": "The right to say anything without any legal consequence",
+      "C": "The right to silence other people",
+      "D": "The right to avoid all laws"
+    },
+    "answer": "A",
+    "explanation": "Freedom of speech is constitutionally protected but is subject to lawful limitations."
+  },
+  {
+    "question": "Which branch of government has the power of the purse?",
+    "choices": {
+      "A": "Judiciary",
+      "B": "Legislature",
+      "C": "Executive alone",
+      "D": "Local government"
+    },
+    "answer": "B",
+    "explanation": "Congress exercises legislative control over appropriations and public spending through the budget process."
+  },
+  {
+    "question": "What is impeachment?",
+    "choices": {
+      "A": "A process for removing certain high-ranking public officials for constitutional offenses",
+      "B": "A regular election",
+      "C": "A criminal investigation of every citizen",
+      "D": "A process for appointing government employees"
+    },
+    "answer": "A",
+    "explanation": "Impeachment is a constitutional process applicable to specified high-ranking officials."
+  },
+  {
+    "question": "Which official is the presiding officer of the Senate and may vote only to break a tie?",
+    "choices": {
+      "A": "President",
+      "B": "Vice President",
+      "C": "Chief Justice",
+      "D": "Speaker"
+    },
+    "answer": "B",
+    "explanation": "The Vice President serves as President of the Senate and votes only to break a tie."
+  },
+  {
+    "question": "What is the official residence of the Philippine President?",
+    "choices": {
+      "A": "Malacañang Palace",
+      "B": "Coconut Palace",
+      "C": "Aguinaldo Shrine",
+      "D": "Mabini Shrine"
+    },
+    "answer": "A",
+    "explanation": "Malacañang Palace is the official residence and principal workplace of the President."
+  },
+  {
+    "question": "Which document contains the fundamental principles and structure of the Philippine government?",
+    "choices": {
+      "A": "Constitution",
+      "B": "Memorandum",
+      "C": "Executive order",
+      "D": "Department circular"
+    },
+    "answer": "A",
+    "explanation": "The Constitution establishes the fundamental principles and governmental structure of the country."
+  },
+  {
+    "question": "What is separation of powers?",
+    "choices": {
+      "A": "Division of government powers among branches",
+      "B": "Removal of all government powers",
+      "C": "Concentration of power in one branch",
+      "D": "Transfer of all powers to local governments"
+    },
+    "answer": "A",
+    "explanation": "Separation of powers divides governmental authority among the Executive, Legislative, and Judicial branches."
+  },
+  {
+    "question": "What is the purpose of checks and balances?",
+    "choices": {
+      "A": "To allow one branch to control everything",
+      "B": "To prevent abuse of governmental power",
+      "C": "To eliminate the judiciary",
+      "D": "To abolish elections"
+    },
+    "answer": "B",
+    "explanation": "Checks and balances help prevent abuse of power by allowing branches to limit one another."
+  },
+  {
+    "question": "What does democracy literally emphasize?",
+    "choices": {
+      "A": "Rule by the people",
+      "B": "Rule by the military",
+      "C": "Rule by wealthy families",
+      "D": "Rule by judges"
+    },
+    "answer": "A",
+    "explanation": "Democracy is a system in which political power ultimately comes from the people."
+  },
+  {
+    "question": "What is patriotism?",
+    "choices": {
+      "A": "Love and devotion to one's country",
+      "B": "Opposition to one's country",
+      "C": "Avoidance of civic duties",
+      "D": "Preference for private interests"
+    },
+    "answer": "A",
+    "explanation": "Patriotism refers to love, loyalty, and devotion to one's country."
+  },
+  {
+    "question": "What is nationalism?",
+    "choices": {
+      "A": "A sense of loyalty and identification with one's nation",
+      "B": "Rejection of national identity",
+      "C": "Avoidance of public service",
+      "D": "Government ownership of all businesses"
+    },
+    "answer": "A",
+    "explanation": "Nationalism involves identification with and loyalty to one's nation."
+  },
+  {
+    "question": "Which of the following best demonstrates good citizenship?",
+    "choices": {
+      "A": "Ignoring laws",
+      "B": "Respecting laws and contributing to the community",
+      "C": "Spreading false information",
+      "D": "Destroying public property"
+    },
+    "answer": "B",
+    "explanation": "Good citizenship includes respecting laws, helping the community, and exercising civic responsibilities."
+  },
+  {
+    "question": "Why should public property be protected?",
+    "choices": {
+      "A": "Because it belongs to the public and is funded through public resources",
+      "B": "Because only officials may use it",
+      "C": "Because it has no value",
+      "D": "Because it belongs to private individuals"
+    },
+    "answer": "A",
+    "explanation": "Public property is maintained through public resources and should therefore be protected and used responsibly."
+  },
+  {
+    "question": "Which action best promotes environmental responsibility?",
+    "choices": {
+      "A": "Illegal dumping",
+      "B": "Proper waste disposal and conservation",
+      "C": "Burning plastic anywhere",
+      "D": "Destroying forests"
+    },
+    "answer": "B",
+    "explanation": "Proper waste management and conservation help protect the environment."
+  },
+  {
+    "question": "What is disaster preparedness?",
+    "choices": {
+      "A": "Taking steps before disasters to reduce risks and prepare for emergencies",
+      "B": "Ignoring warnings",
+      "C": "Waiting until a disaster happens before planning",
+      "D": "Avoiding emergency drills"
+    },
+    "answer": "A",
+    "explanation": "Disaster preparedness involves planning, training, and preparing resources before emergencies occur."
+  },
+  {
+    "question": "Which Philippine agency is primarily responsible for weather forecasts and tropical cyclone warnings?",
+    "choices": {
+      "A": "PAGASA",
+      "B": "PHIVOLCS",
+      "C": "NDRRMC",
+      "D": "DENR"
+    },
+    "answer": "A",
+    "explanation": "PAGASA provides weather forecasts, tropical cyclone information, and related atmospheric services."
+  },
+  {
+    "question": "Which agency monitors volcanoes and earthquakes in the Philippines?",
+    "choices": {
+      "A": "PAGASA",
+      "B": "PHIVOLCS",
+      "C": "PSA",
+      "D": "DPWH"
+    },
+    "answer": "B",
+    "explanation": "PHIVOLCS monitors volcanic activity, earthquakes, and related hazards."
+  },
+  {
+    "question": "What does PHIVOLCS stand for?",
+    "choices": {
+      "A": "Philippine Institute of Volcanology and Seismology",
+      "B": "Philippine Institute for Volcanic and Climate Studies",
+      "C": "Philippine Hazard Investigation and Volcanic Observation Center",
+      "D": "Philippine Institute of Volcanic and Oceanic Studies"
+    },
+    "answer": "A",
+    "explanation": "PHIVOLCS stands for Philippine Institute of Volcanology and Seismology."
+  },
+  {
+    "question": "What does PAGASA stand for?",
+    "choices": {
+      "A": "Philippine Atmospheric, Geophysical and Astronomical Services Administration",
+      "B": "Philippine Agency for Geophysical and Atmospheric Science Administration",
+      "C": "Philippine Atmospheric and Geological Analysis Services Agency",
+      "D": "Philippine Astronomical and Geographical Services Administration"
+    },
+    "answer": "A",
+    "explanation": "PAGASA stands for Philippine Atmospheric, Geophysical and Astronomical Services Administration."
+  },
+  {
+    "question": "Which action is most appropriate when an official discovers a potential conflict of interest?",
+    "choices": {
+      "A": "Hide it",
+      "B": "Disclose it and follow applicable rules",
+      "C": "Use it for personal gain",
+      "D": "Ask a friend to conceal it"
+    },
+    "answer": "B",
+    "explanation": "Disclosure and compliance with applicable rules help protect public trust and prevent conflicts of interest."
+  },
+  {
+    "question": "What is transparency in government?",
+    "choices": {
+      "A": "Keeping all government information secret",
+      "B": "Making government actions and information appropriately open and understandable",
+      "C": "Allowing officials to avoid records",
+      "D": "Preventing citizens from asking questions"
+    },
+    "answer": "B",
+    "explanation": "Transparency promotes openness and allows the public to understand government actions and decisions."
+  },
+  {
+    "question": "What is accountability?",
+    "choices": {
+      "A": "Being answerable for one's actions and decisions",
+      "B": "Avoiding responsibility",
+      "C": "Delegating every responsibility",
+      "D": "Keeping mistakes secret"
+    },
+    "answer": "A",
+    "explanation": "Accountability means being responsible and answerable for one's actions and decisions."
+  },
+  {
+    "question": "Which is an example of corruption?",
+    "choices": {
+      "A": "Using public office for personal gain",
+      "B": "Following procurement rules",
+      "C": "Serving citizens fairly",
+      "D": "Reporting misconduct"
+    },
+    "answer": "A",
+    "explanation": "Using public office or authority for personal benefit is an example of corrupt conduct."
+  },
+  {
+    "question": "What is bribery?",
+    "choices": {
+      "A": "Offering or receiving something of value to influence an official act",
+      "B": "Giving a legal salary",
+      "C": "Paying a legitimate government fee",
+      "D": "Donating to a charity without conditions"
+    },
+    "answer": "A",
+    "explanation": "Bribery involves giving, offering, requesting, or receiving something of value to improperly influence an action."
+  },
+  {
+    "question": "Which quality is most important for a civil servant?",
+    "choices": {
+      "A": "Integrity",
+      "B": "Favoritism",
+      "C": "Self-interest",
+      "D": "Dishonesty"
+    },
+    "answer": "A",
+    "explanation": "Integrity is essential to trustworthy and ethical public service."
+  },
+  {
+    "question": "What does professionalism mean in public service?",
+    "choices": {
+      "A": "Performing duties competently, responsibly, and ethically",
+      "B": "Ignoring citizens",
+      "C": "Using government resources for personal purposes",
+      "D": "Refusing to follow procedures"
+    },
+    "answer": "A",
+    "explanation": "Professionalism involves competence, responsibility, proper conduct, and ethical behavior."
+  },
+  {
+    "question": "Which behavior demonstrates courtesy in public service?",
+    "choices": {
+      "A": "Treating clients with respect and patience",
+      "B": "Ignoring inquiries",
+      "C": "Shouting at clients",
+      "D": "Giving preferential treatment to friends"
+    },
+    "answer": "A",
+    "explanation": "Courtesy means treating people respectfully, patiently, and professionally."
+  },
+  {
+    "question": "What should a public employee do when unsure about a government procedure?",
+    "choices": {
+      "A": "Invent a procedure",
+      "B": "Verify the applicable rule or consult the proper authority",
+      "C": "Ignore the request",
+      "D": "Ask a random person online"
+    },
+    "answer": "B",
+    "explanation": "Government employees should verify rules and consult authorized sources when uncertain."
+  },
+  {
+    "question": "What is the best reason for keeping accurate government records?",
+    "choices": {
+      "A": "To support accountability, transparency, and efficient service",
+      "B": "To make work harder",
+      "C": "To hide transactions",
+      "D": "To avoid audits"
+    },
+    "answer": "A",
+    "explanation": "Accurate records support accountability, transparency, continuity, and efficient government operations."
+  }
+]
