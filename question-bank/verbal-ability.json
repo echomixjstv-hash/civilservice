@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Choose the word that is closest in meaning to 'ABUNDANT'.",
+    "choices": {
+      "A": "Scarce",
+      "B": "Plentiful",
+      "C": "Limited",
+      "D": "Insufficient"
+    },
+    "answer": "B",
+    "explanation": "Abundant means existing in large quantities or plentiful."
+  },
+  {
+    "question": "Choose the word that is opposite in meaning to 'ANCIENT'.",
+    "choices": {
+      "A": "Old",
+      "B": "Historic",
+      "C": "Modern",
+      "D": "Traditional"
+    },
+    "answer": "C",
+    "explanation": "Ancient refers to something very old, while modern refers to something of the present or recent time."
+  },
+  {
+    "question": "Which sentence is grammatically correct?",
+    "choices": {
+      "A": "She don't like coffee.",
+      "B": "She doesn't likes coffee.",
+      "C": "She doesn't like coffee.",
+      "D": "She not like coffee."
+    },
+    "answer": "C",
+    "explanation": "The correct construction is 'She doesn't like coffee.'"
+  },
+  {
+    "question": "Choose the correctly spelled word.",
+    "choices": {
+      "A": "Accomodate",
+      "B": "Acommodate",
+      "C": "Accommodate",
+      "D": "Acomodate"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'accommodate,' with two c's and two m's."
+  },
+  {
+    "question": "What is the meaning of the idiom 'break the ice'?",
+    "choices": {
+      "A": "To destroy something frozen",
+      "B": "To begin a friendly conversation",
+      "C": "To end a relationship",
+      "D": "To avoid talking"
+    },
+    "answer": "B",
+    "explanation": "To break the ice means to initiate a conversation or make people feel more comfortable."
+  },
+  {
+    "question": "Choose the word that best completes the sentence: The employee was praised _____ his excellent performance.",
+    "choices": {
+      "A": "for",
+      "B": "at",
+      "C": "by",
+      "D": "on"
+    },
+    "answer": "A",
+    "explanation": "The correct preposition is 'for': praised for his excellent performance."
+  },
+  {
+    "question": "Which word is a synonym of 'DILIGENT'?",
+    "choices": {
+      "A": "Lazy",
+      "B": "Careless",
+      "C": "Hardworking",
+      "D": "Negligent"
+    },
+    "answer": "C",
+    "explanation": "Diligent means hardworking and careful in one's duties."
+  },
+  {
+    "question": "Which word is an antonym of 'GENEROUS'?",
+    "choices": {
+      "A": "Kind",
+      "B": "Selfish",
+      "C": "Helpful",
+      "D": "Charitable"
+    },
+    "answer": "B",
+    "explanation": "Generous means willing to give, while selfish means primarily concerned with oneself."
+  },
+  {
+    "question": "Which sentence uses the correct subject-verb agreement?",
+    "choices": {
+      "A": "The group of students are ready.",
+      "B": "The group of students is ready.",
+      "C": "The group of students were ready.",
+      "D": "The group of students have ready."
+    },
+    "answer": "B",
+    "explanation": "The subject is 'group,' which is singular, so the correct verb is 'is.'"
+  },
+  {
+    "question": "Choose the word that best completes the sentence: Neither the manager nor the employees _____ available.",
+    "choices": {
+      "A": "was",
+      "B": "is",
+      "C": "were",
+      "D": "has"
+    },
+    "answer": "C",
+    "explanation": "With 'neither...nor,' the verb agrees with the nearer subject, 'employees,' which is plural."
+  },
+  {
+    "question": "What does the word 'PRECISE' mean?",
+    "choices": {
+      "A": "Exact",
+      "B": "Unclear",
+      "C": "Approximate",
+      "D": "Confusing"
+    },
+    "answer": "A",
+    "explanation": "Precise means exact, accurate, or clearly defined."
+  },
+  {
+    "question": "Which sentence is written correctly?",
+    "choices": {
+      "A": "Their going to the office.",
+      "B": "They're going to the office.",
+      "C": "There going to the office.",
+      "D": "Theyre going to the office."
+    },
+    "answer": "B",
+    "explanation": "'They're' is the contraction of 'they are.'"
+  },
+  {
+    "question": "Choose the correct word: The principal _____ the students for their achievement.",
+    "choices": {
+      "A": "congratulated",
+      "B": "congratulate",
+      "C": "congratulating",
+      "D": "congratulates"
+    },
+    "answer": "A",
+    "explanation": "The sentence is in the past tense, so 'congratulated' is correct."
+  },
+  {
+    "question": "Which word is closest in meaning to 'BRIEF'?",
+    "choices": {
+      "A": "Lengthy",
+      "B": "Short",
+      "C": "Complicated",
+      "D": "Detailed"
+    },
+    "answer": "B",
+    "explanation": "Brief means short in duration or length."
+  },
+  {
+    "question": "Which word is opposite in meaning to 'EXPAND'?",
+    "choices": {
+      "A": "Increase",
+      "B": "Develop",
+      "C": "Contract",
+      "D": "Enlarge"
+    },
+    "answer": "C",
+    "explanation": "Expand means to increase in size, while contract means to become smaller."
+  }
+]

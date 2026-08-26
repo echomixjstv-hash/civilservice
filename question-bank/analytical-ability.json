@@ -1,0 +1,167 @@
+[
+  {
+    "question": "What number comes next in the sequence: 3, 6, 12, 24, ___?",
+    "choices": {
+      "A": "36",
+      "B": "42",
+      "C": "48",
+      "D": "54"
+    },
+    "answer": "C",
+    "explanation": "Each number is multiplied by 2. Therefore, 24 × 2 = 48."
+  },
+  {
+    "question": "What letter comes next: A, C, E, G, ___?",
+    "choices": {
+      "A": "H",
+      "B": "I",
+      "C": "J",
+      "D": "K"
+    },
+    "answer": "B",
+    "explanation": "The sequence skips one letter each time: A, C, E, G, I."
+  },
+  {
+    "question": "If all teachers are professionals and Maria is a teacher, which statement must be true?",
+    "choices": {
+      "A": "Maria is a student.",
+      "B": "Maria is a professional.",
+      "C": "All professionals are teachers.",
+      "D": "Maria is a doctor."
+    },
+    "answer": "B",
+    "explanation": "Since all teachers are professionals and Maria is a teacher, Maria must be a professional."
+  },
+  {
+    "question": "Which word does NOT belong with the others?",
+    "choices": {
+      "A": "Apple",
+      "B": "Mango",
+      "C": "Carrot",
+      "D": "Banana"
+    },
+    "answer": "C",
+    "explanation": "Apple, mango, and banana are fruits. Carrot is a vegetable."
+  },
+  {
+    "question": "If BOOK is coded as CPPL, how is PEN coded using the same pattern?",
+    "choices": {
+      "A": "QFO",
+      "B": "QEN",
+      "C": "PFN",
+      "D": "RFO"
+    },
+    "answer": "A",
+    "explanation": "Each letter is moved one position forward: P→Q, E→F, N→O."
+  },
+  {
+    "question": "John is taller than Mark. Mark is taller than Paul. Who is the shortest?",
+    "choices": {
+      "A": "John",
+      "B": "Mark",
+      "C": "Paul",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "explanation": "John > Mark > Paul, so Paul is the shortest."
+  },
+  {
+    "question": "Which number does not belong in the sequence: 2, 4, 8, 16, 31, 64?",
+    "choices": {
+      "A": "8",
+      "B": "16",
+      "C": "31",
+      "D": "64"
+    },
+    "answer": "C",
+    "explanation": "The pattern is multiplication by 2. After 16 should come 32, not 31."
+  },
+  {
+    "question": "If today is Monday, what day will it be 10 days from today?",
+    "choices": {
+      "A": "Wednesday",
+      "B": "Thursday",
+      "C": "Friday",
+      "D": "Saturday"
+    },
+    "answer": "B",
+    "explanation": "Seven days after Monday is Monday. Three more days gives Thursday."
+  },
+  {
+    "question": "A is older than B. C is younger than B. Which person is the oldest?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "The order is A > B > C in age, so A is the oldest."
+  },
+  {
+    "question": "Find the missing number: 5, 10, 15, 20, ___, 30.",
+    "choices": {
+      "A": "21",
+      "B": "23",
+      "C": "25",
+      "D": "28"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 5 each time."
+  },
+  {
+    "question": "If CAT is coded as 3120 using the position of each letter in the alphabet, what is DOG?",
+    "choices": {
+      "A": "4157",
+      "B": "4156",
+      "C": "4617",
+      "D": "4716"
+    },
+    "answer": "A",
+    "explanation": "D=4, O=15, G=7, so DOG is coded as 4157."
+  },
+  {
+    "question": "Which figure logically comes next in a pattern that alternates between a circle and a square?",
+    "choices": {
+      "A": "Circle",
+      "B": "Square",
+      "C": "Triangle",
+      "D": "Rectangle"
+    },
+    "answer": "B",
+    "explanation": "If the pattern alternates circle, square, circle, square, the next figure is a square."
+  },
+  {
+    "question": "All roses are flowers. Some flowers are red. Which statement is definitely true?",
+    "choices": {
+      "A": "All roses are red.",
+      "B": "Some roses are red.",
+      "C": "All roses are flowers.",
+      "D": "No flowers are roses."
+    },
+    "answer": "C",
+    "explanation": "The first statement directly establishes that all roses are flowers."
+  },
+  {
+    "question": "If 4 workers can complete a task in 6 days at the same rate, how many worker-days are required?",
+    "choices": {
+      "A": "10",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "C",
+    "explanation": "4 workers × 6 days = 24 worker-days."
+  },
+  {
+    "question": "Which pair has the same relationship as BOOK : READ?",
+    "choices": {
+      "A": "Food : Eat",
+      "B": "Chair : Sleep",
+      "C": "Pen : Walk",
+      "D": "Shoes : Write"
+    },
+    "answer": "A",
+    "explanation": "A book is read, just as food is eaten."
+  }
+]

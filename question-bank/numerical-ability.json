@@ -1,0 +1,167 @@
+[
+  {
+    "question": "What is 25% of 240?",
+    "choices": {
+      "A": "40",
+      "B": "50",
+      "C": "60",
+      "D": "80"
+    },
+    "answer": "C",
+    "explanation": "25% of 240 is 0.25 × 240 = 60."
+  },
+  {
+    "question": "What is 3/4 + 1/8?",
+    "choices": {
+      "A": "5/8",
+      "B": "7/8",
+      "C": "3/8",
+      "D": "1"
+    },
+    "answer": "B",
+    "explanation": "3/4 = 6/8. Therefore, 6/8 + 1/8 = 7/8."
+  },
+  {
+    "question": "If 5 notebooks cost ₱150, how much does one notebook cost?",
+    "choices": {
+      "A": "₱20",
+      "B": "₱25",
+      "C": "₱30",
+      "D": "₱35"
+    },
+    "answer": "C",
+    "explanation": "₱150 ÷ 5 = ₱30."
+  },
+  {
+    "question": "What is the average of 10, 20, 30, 40, and 50?",
+    "choices": {
+      "A": "25",
+      "B": "30",
+      "C": "35",
+      "D": "40"
+    },
+    "answer": "B",
+    "explanation": "The sum is 150. 150 ÷ 5 = 30."
+  },
+  {
+    "question": "A shirt costs ₱800. If it is discounted by 15%, what is the sale price?",
+    "choices": {
+      "A": "₱650",
+      "B": "₱680",
+      "C": "₱700",
+      "D": "₱720"
+    },
+    "answer": "B",
+    "explanation": "15% of ₱800 is ₱120. ₱800 − ₱120 = ₱680."
+  },
+  {
+    "question": "What is 18 × 7?",
+    "choices": {
+      "A": "116",
+      "B": "126",
+      "C": "136",
+      "D": "146"
+    },
+    "answer": "B",
+    "explanation": "18 × 7 = 126."
+  },
+  {
+    "question": "What is 144 ÷ 12?",
+    "choices": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "14"
+    },
+    "answer": "C",
+    "explanation": "144 ÷ 12 = 12."
+  },
+  {
+    "question": "If a worker earns ₱600 per day, how much will the worker earn in 5 days?",
+    "choices": {
+      "A": "₱2,500",
+      "B": "₱2,800",
+      "C": "₱3,000",
+      "D": "₱3,500"
+    },
+    "answer": "C",
+    "explanation": "₱600 × 5 = ₱3,000."
+  },
+  {
+    "question": "What number comes next: 2, 4, 8, 16, ___?",
+    "choices": {
+      "A": "20",
+      "B": "24",
+      "C": "30",
+      "D": "32"
+    },
+    "answer": "D",
+    "explanation": "Each number is multiplied by 2. 16 × 2 = 32."
+  },
+  {
+    "question": "What is 0.75 expressed as a fraction in simplest form?",
+    "choices": {
+      "A": "1/2",
+      "B": "2/3",
+      "C": "3/4",
+      "D": "4/5"
+    },
+    "answer": "C",
+    "explanation": "0.75 = 75/100 = 3/4."
+  },
+  {
+    "question": "A class has 40 students. If 60% are female, how many are female?",
+    "choices": {
+      "A": "20",
+      "B": "22",
+      "C": "24",
+      "D": "26"
+    },
+    "answer": "C",
+    "explanation": "60% of 40 = 0.60 × 40 = 24."
+  },
+  {
+    "question": "What is the ratio of 12 to 18 in simplest form?",
+    "choices": {
+      "A": "2:3",
+      "B": "3:2",
+      "C": "4:5",
+      "D": "6:9"
+    },
+    "answer": "A",
+    "explanation": "12:18 can be divided by 6, giving 2:3."
+  },
+  {
+    "question": "If a car travels 240 kilometers in 4 hours, what is its average speed?",
+    "choices": {
+      "A": "40 km/h",
+      "B": "50 km/h",
+      "C": "60 km/h",
+      "D": "80 km/h"
+    },
+    "answer": "C",
+    "explanation": "Speed = distance ÷ time = 240 ÷ 4 = 60 km/h."
+  },
+  {
+    "question": "What is 15²?",
+    "choices": {
+      "A": "125",
+      "B": "200",
+      "C": "225",
+      "D": "250"
+    },
+    "answer": "C",
+    "explanation": "15 × 15 = 225."
+  },
+  {
+    "question": "A number increased by 20 is 75. What is the number?",
+    "choices": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "60"
+    },
+    "answer": "C",
+    "explanation": "75 − 20 = 55."
+  }
+]

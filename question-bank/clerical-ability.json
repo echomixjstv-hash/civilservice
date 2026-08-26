@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Which name should come first in alphabetical order?",
+    "choices": {
+      "A": "Anderson",
+      "B": "Brown",
+      "C": "Cruz",
+      "D": "Dela Cruz"
+    },
+    "answer": "A",
+    "explanation": "Anderson comes first alphabetically."
+  },
+  {
+    "question": "Which word is spelled correctly?",
+    "choices": {
+      "A": "Recieve",
+      "B": "Receive",
+      "C": "Receeve",
+      "D": "Receve"
+    },
+    "answer": "B",
+    "explanation": "The correct spelling is 'Receive'."
+  },
+  {
+    "question": "Which number should come next? 1001, 1002, 1003, ____",
+    "choices": {
+      "A": "1004",
+      "B": "1005",
+      "C": "1010",
+      "D": "1100"
+    },
+    "answer": "A",
+    "explanation": "The sequence increases by 1."
+  },
+  {
+    "question": "Which file name comes first alphabetically?",
+    "choices": {
+      "A": "Budget Report",
+      "B": "Annual Report",
+      "C": "Meeting Notes",
+      "D": "Project Plan"
+    },
+    "answer": "B",
+    "explanation": "Annual Report begins with A."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "AB12345 / AB12354",
+      "B": "ZX90876 / ZX90876",
+      "C": "LM45678 / LM45687",
+      "D": "PQ11223 / PQ11322"
+    },
+    "answer": "B",
+    "explanation": "Both entries are identical."
+  },
+  {
+    "question": "Which word is alphabetically last?",
+    "choices": {
+      "A": "Apple",
+      "B": "Banana",
+      "C": "Orange",
+      "D": "Mango"
+    },
+    "answer": "C",
+    "explanation": "Orange comes after the other words alphabetically."
+  },
+  {
+    "question": "Which number is different from the others?",
+    "choices": {
+      "A": "456789",
+      "B": "456789",
+      "C": "456798",
+      "D": "456789"
+    },
+    "answer": "C",
+    "explanation": "The last two digits are reversed."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Government",
+      "B": "Goverment",
+      "C": "Govarnment",
+      "D": "Governmant"
+    },
+    "answer": "A",
+    "explanation": "Government is the correct spelling."
+  },
+  {
+    "question": "Which should be filed first?",
+    "choices": {
+      "A": "Garcia, Ana",
+      "B": "Garcia, Ben",
+      "C": "Garcia, Carlo",
+      "D": "Garcia, David"
+    },
+    "answer": "A",
+    "explanation": "Ana comes before Ben, Carlo, and David."
+  },
+  {
+    "question": "Which date is the earliest?",
+    "choices": {
+      "A": "March 12, 2024",
+      "B": "January 15, 2024",
+      "C": "February 1, 2024",
+      "D": "April 10, 2024"
+    },
+    "answer": "B",
+    "explanation": "January comes before February, March, and April."
+  },
+  {
+    "question": "Which code matches exactly?",
+    "choices": {
+      "A": "KL8X2M7",
+      "B": "KL8X2N7",
+      "C": "KL8X2M7",
+      "D": "KL8X7M2"
+    },
+    "answer": "A",
+    "explanation": "Option A is the original code shown."
+  },
+  {
+    "question": "Which word comes second alphabetically?",
+    "choices": {
+      "A": "Ball",
+      "B": "Apple",
+      "C": "Dog",
+      "D": "Cat"
+    },
+    "answer": "A",
+    "explanation": "Alphabetical order: Apple, Ball, Cat, Dog."
+  },
+  {
+    "question": "Which number follows the sequence? 10, 20, 30, 40, ____",
+    "choices": {
+      "A": "45",
+      "B": "50",
+      "C": "55",
+      "D": "60"
+    },
+    "answer": "B",
+    "explanation": "The pattern increases by 10."
+  },
+  {
+    "question": "Which item contains an error?",
+    "choices": {
+      "A": "Office",
+      "B": "Department",
+      "C": "Managment",
+      "D": "Personnel"
+    },
+    "answer": "C",
+    "explanation": "Management is the correct spelling."
+  },
+  {
+    "question": "Which document number is highest?",
+    "choices": {
+      "A": "2024-0015",
+      "B": "2024-0030",
+      "C": "2024-0028",
+      "D": "2024-0019"
+    },
+    "answer": "B",
+    "explanation": "0030 is the highest number."
+  }
+]
