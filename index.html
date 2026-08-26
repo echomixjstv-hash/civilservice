@@ -31,22 +31,12 @@ body{
 }
 
 body{
-    padding:12px;
-}
-
-button,
-input{
-    font-family:Arial,sans-serif;
+    padding:20px;
 }
 
 .hidden{
     display:none!important;
 }
-
-
-/* =========================
-   SCREEN
-========================= */
 
 .screen{
     width:100%;
@@ -55,27 +45,20 @@ input{
     margin:auto;
 }
 
-
-/* =========================
-   CARD
-========================= */
-
 .card{
-    width:100%;
-    height:100%;
     background:#fff;
-    border-radius:18px;
-    padding:25px;
+    border-radius:20px;
+    padding:30px;
     box-shadow:0 8px 30px rgba(0,0,0,.10);
 }
 
 
-/* =========================
+/* =====================================================
    LOGIN
-========================= */
+===================================================== */
 
 .login-screen{
-    height:100%;
+    height:calc(100vh - 40px);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -84,13 +67,12 @@ input{
 .login-card{
     width:100%;
     max-width:450px;
-    height:auto;
     text-align:center;
 }
 
 .logo{
-    font-size:48px;
-    margin-bottom:8px;
+    font-size:42px;
+    margin-bottom:10px;
 }
 
 .login-card h1{
@@ -100,13 +82,13 @@ input{
 
 .subtitle{
     color:#666;
-    line-height:1.5;
+    line-height:1.6;
 }
 
 .code-input{
     width:100%;
     height:58px;
-    margin-top:22px;
+    margin-top:25px;
     border:2px solid #ddd;
     border-radius:12px;
     text-align:center;
@@ -124,8 +106,8 @@ input{
 .btn{
     border:0;
     border-radius:12px;
-    min-height:50px;
-    padding:10px 20px;
+    min-height:52px;
+    padding:12px 20px;
     font-size:16px;
     font-weight:bold;
     cursor:pointer;
@@ -146,9 +128,9 @@ input{
     color:#222;
 }
 
-.danger{
+.exit-btn{
     background:#dc3545;
-    color:white;
+    color:#fff;
 }
 
 .full{
@@ -166,15 +148,21 @@ input{
 .expiry-info{
     color:#888;
     font-size:12px;
-    margin-top:12px;
+    margin-top:15px;
 }
 
 
-/* =========================
+/* =====================================================
    HOME
-========================= */
+===================================================== */
 
-.home-screen-card{
+#homeScreen{
+    height:100%;
+    overflow:hidden;
+}
+
+.home-card{
+    height:100%;
     overflow:hidden;
 }
 
@@ -183,7 +171,7 @@ input{
     align-items:center;
     justify-content:space-between;
     gap:15px;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .header-title{
@@ -194,28 +182,28 @@ input{
 .account{
     color:#777;
     font-size:13px;
-    margin-top:4px;
+    margin-top:5px;
 }
 
 .home-title{
     font-size:32px;
-    margin-bottom:6px;
+    margin-bottom:8px;
 }
 
 .reviewer-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:14px;
-    margin-top:20px;
+    gap:16px;
+    margin-top:25px;
 }
 
 .reviewer-button{
-    min-height:125px;
-    padding:20px;
+    min-height:130px;
+    padding:22px;
     text-align:left;
     border:2px solid #e0e4e9;
     background:#fff;
-    border-radius:15px;
+    border-radius:16px;
     cursor:pointer;
     transition:.15s;
 }
@@ -227,20 +215,20 @@ input{
 
 .reviewer-button strong{
     display:block;
-    font-size:20px;
+    font-size:19px;
     margin-bottom:8px;
 }
 
 .reviewer-button span{
     color:#777;
-    font-size:15px;
-    line-height:1.45;
+    font-size:14px;
+    line-height:1.5;
 }
 
 
-/* =========================
+/* =====================================================
    INTRODUCTION
-========================= */
+===================================================== */
 
 .intro-title{
     font-size:32px;
@@ -249,22 +237,22 @@ input{
 
 .intro-label{
     color:#777;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .introduction{
-    line-height:1.65;
+    line-height:1.8;
     font-size:17px;
 }
 
 .introduction p{
-    margin-bottom:14px;
+    margin-bottom:16px;
 }
 
 .intro-actions{
     display:flex;
     gap:12px;
-    margin-top:20px;
+    margin-top:25px;
 }
 
 .intro-actions .btn{
@@ -272,11 +260,16 @@ input{
 }
 
 
-/* =========================
+/* =====================================================
    REVIEWER
-========================= */
+===================================================== */
+
+#reviewerScreen{
+    height:100%;
+}
 
 .reviewer-card{
+    height:100%;
     display:flex;
     flex-direction:column;
     overflow:hidden;
@@ -288,14 +281,13 @@ input{
 
 .subject-title{
     font-size:30px;
-    text-align:center;
 }
 
 .progress-info{
     display:flex;
     justify-content:space-between;
-    margin-top:8px;
-    color:#555;
+    margin-top:10px;
+    color:#666;
     font-size:16px;
     font-weight:bold;
 }
@@ -306,7 +298,7 @@ input{
     background:#e4e7eb;
     border-radius:10px;
     overflow:hidden;
-    margin-top:8px;
+    margin-top:10px;
 }
 
 .progress{
@@ -316,162 +308,179 @@ input{
     transition:.2s;
 }
 
+.loading{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#777;
+}
 
-/* =========================
-   QUESTION AREA
-========================= */
-
-.question-area{
+#questionArea{
     flex:1;
     min-height:0;
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    overflow:hidden;
+    align-items:center;
+    text-align:center;
 }
 
 .question-number{
+    width:100%;
+    margin-top:15px;
     color:#777;
-    text-align:center;
     font-size:18px;
     font-weight:bold;
-    margin-bottom:5px;
+    flex-shrink:0;
 }
 
 .question{
+    width:100%;
+    max-width:1000px;
     font-size:32px;
     font-weight:bold;
     line-height:1.35;
-    text-align:center;
-    margin:5px auto 20px;
-    max-width:1000px;
-    width:100%;
+    margin:8px auto 18px;
+    flex-shrink:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:85px;
 }
-
-
-/* =========================
-   CHOICES
-========================= */
 
 .choices{
     width:100%;
-    max-width:1000px;
-    margin:0 auto;
+    max-width:900px;
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:14px;
+    flex-shrink:0;
 }
 
 .choice{
     width:100%;
     min-height:70px;
-    padding:14px 18px;
+    padding:15px 20px;
     border:3px solid #dfe3e8;
     background:#fff;
     border-radius:14px;
     text-align:center;
-    font-size:24px;
+    font-size:23px;
     font-weight:bold;
-    line-height:1.25;
     cursor:pointer;
     transition:.15s;
 }
 
 .choice:hover{
     border-color:#1769e0;
-    background:#f7faff;
-}
-
-.choice.correct{
-    border-color:#18a558;
-    background:#18a558;
-    color:#fff;
-    animation:correctBlink .55s ease-in-out 3;
-}
-
-.choice.wrong{
-    border-color:#dc3545;
-    background:#dc3545;
-    color:#fff;
-    animation:wrongBlink .25s ease-in-out 2;
 }
 
 .choice:disabled{
     cursor:default;
 }
 
-@keyframes correctBlink{
 
-    0%{
-        opacity:1;
-        transform:scale(1);
+/* =====================================================
+   CORRECT / WRONG
+===================================================== */
+
+.choice.correct{
+    border-color:#18a558;
+    background:#18a558;
+    color:#fff;
+    animation:greenBlink .45s ease-in-out 2;
+}
+
+.choice.wrong{
+    border-color:#dc3545;
+    background:#dc3545;
+    color:#fff;
+    animation:redBlink .45s ease-in-out 2;
+}
+
+@keyframes greenBlink{
+
+    0%,100%{
+        background:#18a558;
     }
 
     50%{
-        opacity:.45;
-        transform:scale(1.015);
-    }
-
-    100%{
-        opacity:1;
-        transform:scale(1);
+        background:#8ff0b8;
+        color:#111;
     }
 
 }
 
-@keyframes wrongBlink{
+@keyframes redBlink{
 
-    0%{
-        opacity:1;
+    0%,100%{
+        background:#dc3545;
     }
 
     50%{
-        opacity:.5;
-    }
-
-    100%{
-        opacity:1;
+        background:#ff9ca4;
+        color:#111;
     }
 
 }
 
 
-/* =========================
-   FEEDBACK
-========================= */
+/* =====================================================
+   FIXED FEEDBACK AREA
+===================================================== */
+
+/*
+   IMPORTANT:
+   Hindi na nito itinutulak pataas o pababa
+   ang choices kapag lumabas ang sagot.
+*/
+
+.feedback-container{
+    width:100%;
+    max-width:900px;
+    height:82px;
+    flex-shrink:0;
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
 .feedback{
-    flex-shrink:0;
-    margin:12px auto 0;
     width:100%;
-    max-width:1000px;
-    padding:10px 15px;
+    min-height:68px;
+    padding:12px 18px;
     border-radius:12px;
-    line-height:1.4;
-    font-size:16px;
-    text-align:center;
+    line-height:1.35;
+    font-size:17px;
+    font-weight:bold;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 .feedback.correct{
     background:#eafaf1;
-    color:#146c3a;
+    color:#137a3b;
 }
 
 .feedback.wrong{
     background:#fff0f1;
-    color:#a51d2a;
+    color:#b42318;
 }
 
 
-/* =========================
+/* =====================================================
    REVIEW ACTIONS
-========================= */
+===================================================== */
 
 .review-actions{
-    flex-shrink:0;
+    width:100%;
     display:flex;
     gap:12px;
-    margin-top:15px;
+    margin-top:12px;
+    flex-shrink:0;
 }
 
 .review-actions .btn{
@@ -479,49 +488,20 @@ input{
 }
 
 
-/* =========================
-   EXIT BUTTON
-========================= */
+/* =====================================================
+   RESULT
+===================================================== */
 
-.exit-button{
-    min-width:100px;
-}
-
-
-/* =========================
-   LOADING
-========================= */
-
-.loading{
-    flex:1;
+#resultScreen{
+    height:100%;
     display:flex;
     align-items:center;
     justify-content:center;
-    text-align:center;
-    padding:20px;
-    color:#777;
 }
-
-.error-box{
-    padding:18px;
-    border-radius:12px;
-    background:#fff0f1;
-    color:#b42318;
-    line-height:1.6;
-    font-size:14px;
-}
-
-
-/* =========================
-   RESULT
-========================= */
 
 .result{
+    width:100%;
     text-align:center;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
 }
 
 .result h1{
@@ -531,7 +511,7 @@ input{
 .final-score{
     font-size:64px;
     font-weight:bold;
-    margin:20px 0 8px;
+    margin:25px 0 10px;
 }
 
 .final-percent{
@@ -540,134 +520,30 @@ input{
 }
 
 
-/* =========================
-   LAPTOP / DESKTOP FIT
-========================= */
-
-@media(min-width:701px){
-
-    .reviewer-card{
-        height:100%;
-    }
-
-    .reviewer-top{
-        margin-bottom:5px;
-    }
-
-    .question{
-        font-size:32px;
-    }
-
-    .choice{
-        font-size:24px;
-        min-height:68px;
-    }
-
-}
-
-
-/* =========================
-   SMALL LAPTOP
-========================= */
-
-@media(
-    min-width:701px
-) and (
-    max-height:700px
-){
-
-    body{
-        padding:6px;
-    }
-
-    .card{
-        padding:15px 20px;
-        border-radius:12px;
-    }
-
-    .subject-title{
-        font-size:25px;
-    }
-
-    .progress-info{
-        font-size:13px;
-    }
-
-    .progress-bar{
-        height:6px;
-    }
-
-    .question-number{
-        font-size:14px;
-    }
-
-    .question{
-        font-size:25px;
-        margin-bottom:12px;
-    }
-
-    .choices{
-        gap:9px;
-    }
-
-    .choice{
-        min-height:55px;
-        padding:9px 14px;
-        font-size:19px;
-    }
-
-    .feedback{
-        margin-top:8px;
-        padding:7px 12px;
-        font-size:13px;
-    }
-
-    .review-actions{
-        margin-top:8px;
-    }
-
-    .review-actions .btn{
-        min-height:42px;
-        padding:7px 15px;
-    }
-
-}
-
-
-/* =========================
-   TABLET
-========================= */
+/* =====================================================
+   RESPONSIVE
+===================================================== */
 
 @media(max-width:700px){
-
-    html,
-    body{
-        overflow:auto;
-        min-height:100%;
-    }
 
     body{
         padding:8px;
     }
 
-    .screen{
-        height:auto;
-        min-height:calc(100vh - 16px);
-    }
-
     .card{
-        min-height:calc(100vh - 16px);
-        height:auto;
-        padding:18px 15px;
-        border-radius:14px;
+        padding:18px 14px;
+        border-radius:15px;
     }
 
     .reviewer-grid{
         grid-template-columns:1fr;
+        gap:10px;
+        overflow:auto;
     }
 
-    .header{
-        align-items:flex-start;
+    .reviewer-button{
+        min-height:100px;
+        padding:17px;
     }
 
     .header-title{
@@ -675,59 +551,146 @@ input{
     }
 
     .home-title{
-        font-size:27px;
+        font-size:26px;
     }
 
-    .intro-title{
-        font-size:27px;
+    .subject-title{
+        font-size:24px;
     }
 
     .question{
-        font-size:27px;
+        font-size:25px;
+        min-height:80px;
+        margin-bottom:12px;
     }
 
     .choices{
         grid-template-columns:1fr;
+        gap:9px;
     }
 
     .choice{
-        min-height:65px;
-        font-size:21px;
+        min-height:60px;
+        font-size:20px;
+        padding:12px;
     }
 
-    .intro-actions,
+    .feedback-container{
+        height:75px;
+    }
+
+    .feedback{
+        min-height:60px;
+        font-size:15px;
+    }
+
     .review-actions{
-        flex-direction:column;
+        gap:8px;
     }
 
 }
 
 
-/* =========================
-   VERY SMALL MOBILE
-========================= */
+/* =====================================================
+   SMALL LAPTOP / SHORT SCREEN
+===================================================== */
 
-@media(max-width:420px){
+@media(max-height:750px) and (min-width:701px){
+
+    body{
+        padding:10px;
+    }
 
     .card{
-        padding:15px 12px;
+        padding:18px 25px;
     }
 
     .subject-title{
-        font-size:23px;
+        font-size:25px;
+    }
+
+    .question{
+        font-size:27px;
+        min-height:65px;
+        margin:5px auto 10px;
+    }
+
+    .choice{
+        min-height:57px;
+        font-size:20px;
+        padding:10px 15px;
+    }
+
+    .feedback-container{
+        height:65px;
+        margin-top:6px;
+    }
+
+    .feedback{
+        min-height:55px;
+        padding:8px 15px;
+        font-size:15px;
+    }
+
+    .review-actions{
+        margin-top:7px;
+    }
+
+}
+
+
+/* =====================================================
+   VERY SHORT SCREEN
+===================================================== */
+
+@media(max-height:620px) and (min-width:701px){
+
+    body{
+        padding:5px;
+    }
+
+    .card{
+        padding:12px 20px;
+    }
+
+    .question-number{
+        margin-top:7px;
+        font-size:15px;
     }
 
     .question{
         font-size:23px;
+        min-height:50px;
+        margin:3px auto 7px;
     }
 
     .choice{
-        font-size:19px;
-        min-height:60px;
+        min-height:45px;
+        font-size:17px;
+        padding:7px 12px;
     }
 
-    .final-score{
-        font-size:52px;
+    .choices{
+        gap:7px;
+    }
+
+    .feedback-container{
+        height:55px;
+        margin-top:4px;
+    }
+
+    .feedback{
+        min-height:45px;
+        font-size:13px;
+    }
+
+    .review-actions{
+        margin-top:4px;
+    }
+
+    .review-actions .btn{
+        min-height:43px;
+        padding:8px 15px;
     }
 
 }
@@ -800,7 +763,7 @@ Access code is valid for one year after claiming.
     class="screen hidden"
 >
 
-<div class="card">
+<div class="card home-card">
 
 <div class="header">
 
@@ -835,7 +798,6 @@ Select a subject to view its introduction and begin reviewing.
 </p>
 
 <div class="reviewer-grid">
-
 
 <button
     class="reviewer-button"
@@ -926,7 +888,6 @@ and accuracy exercises.
 
 </button>
 
-
 </div>
 
 </div>
@@ -993,33 +954,12 @@ START REVIEWER
 
 <div class="card reviewer-card">
 
-
 <div class="reviewer-top">
-
-<div
-    style="
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:10px;
-    "
->
 
 <h2
     id="subjectTitle"
     class="subject-title"
->
-</h2>
-
-<button
-    id="exitReviewerButton"
-    class="btn danger exit-button"
->
-EXIT
-</button>
-
-</div>
-
+></h2>
 
 <div class="progress-info">
 
@@ -1032,7 +972,6 @@ Score: 0
 </span>
 
 </div>
-
 
 <div class="progress-bar">
 
@@ -1056,7 +995,7 @@ Loading questions...
 
 <div
     id="questionArea"
-    class="question-area hidden"
+    class="hidden"
 >
 
 <div
@@ -1074,6 +1013,15 @@ Loading questions...
     class="choices"
 ></div>
 
+
+<!--
+    RESERVED SPACE:
+    Laging may puwang para sa feedback.
+    Kaya hindi gumagalaw ang choices.
+-->
+
+<div class="feedback-container">
+
 <div
     id="feedback"
     class="feedback hidden"
@@ -1083,6 +1031,13 @@ Loading questions...
 
 
 <div class="review-actions">
+
+<button
+    id="exitReviewerButton"
+    class="btn exit-btn"
+>
+✕ EXIT
+</button>
 
 <button
     id="previousButton"
@@ -1100,6 +1055,7 @@ NEXT
 
 </div>
 
+</div>
 
 </div>
 
@@ -1159,30 +1115,6 @@ REVIEW AGAIN
 
 
 <!-- =====================================================
-     SOUND EFFECTS
-     
-     ILAGAY ANG:
-     
-     index.html
-     c.mp3
-     x.mp3
-     
-===================================================== -->
-
-<audio
-    id="correctSound"
-    src="c.mp3"
-    preload="auto"
-></audio>
-
-<audio
-    id="wrongSound"
-    src="x.mp3"
-    preload="auto"
-></audio>
-
-
-<!-- =====================================================
      FIREBASE
 ===================================================== -->
 
@@ -1192,10 +1124,6 @@ REVIEW AGAIN
 
 
 <script>
-
-/* =====================================================
-   FIREBASE CONFIG
-===================================================== */
 
 const firebaseConfig = {
 
@@ -1435,6 +1363,38 @@ let userAnswers = {};
 
 
 /* =====================================================
+   AUDIO
+===================================================== */
+
+const wrongSound =
+new Audio("x.mp3");
+
+const correctSound =
+new Audio("c.mp3");
+
+wrongSound.preload = "auto";
+correctSound.preload = "auto";
+
+function playSound(sound){
+
+    try{
+
+        sound.currentTime = 0;
+        sound.play();
+
+    }catch(error){
+
+        console.log(
+            "Audio error:",
+            error
+        );
+
+    }
+
+}
+
+
+/* =====================================================
    ELEMENTS
 ===================================================== */
 
@@ -1461,16 +1421,6 @@ document.getElementById(
 const resultScreen =
 document.getElementById(
     "resultScreen"
-);
-
-const correctSound =
-document.getElementById(
-    "correctSound"
-);
-
-const wrongSound =
-document.getElementById(
-    "wrongSound"
 );
 
 
@@ -2136,11 +2086,6 @@ async function startReviewer(){
 
     try{
 
-        console.log(
-            "Loading:",
-            filePath
-        );
-
         const response =
         await fetch(
             filePath,
@@ -2167,8 +2112,7 @@ async function startReviewer(){
             Array.isArray(data)
         ){
 
-            questions =
-            data;
+            questions=data;
 
         }else if(
             data &&
@@ -2189,7 +2133,7 @@ async function startReviewer(){
         }
 
         if(
-            questions.length === 0
+            questions.length===0
         ){
 
             throw new Error(
@@ -2199,7 +2143,7 @@ async function startReviewer(){
         }
 
         questions.forEach(
-            (q,index) => {
+            (q,index)=>{
 
                 if(!q.question){
 
@@ -2250,10 +2194,7 @@ async function startReviewer(){
 
     }catch(error){
 
-        console.error(
-            "Question bank error:",
-            error
-        );
+        console.error(error);
 
         loading.className =
         "loading";
@@ -2286,8 +2227,6 @@ async function startReviewer(){
 
         <code>
         index.html<br>
-        c.mp3<br>
-        x.mp3<br>
         question-bank/<br>
         &nbsp;&nbsp;general-information.json<br>
         &nbsp;&nbsp;verbal-ability.json<br>
@@ -2368,12 +2307,14 @@ function renderQuestion(){
     .textContent =
     q.question;
 
+
     const choices =
     document.getElementById(
         "choices"
     );
 
     choices.innerHTML="";
+
 
     [
         "A",
@@ -2382,7 +2323,7 @@ function renderQuestion(){
         "D"
     ]
     .forEach(
-        letter => {
+        letter=>{
 
             if(
                 !q.choices ||
@@ -2423,6 +2364,7 @@ function renderQuestion(){
         }
     );
 
+
     const feedback =
     document.getElementById(
         "feedback"
@@ -2433,6 +2375,7 @@ function renderQuestion(){
 
     feedback.innerHTML="";
 
+
     if(
         userAnswers[
             currentQuestion
@@ -2442,17 +2385,20 @@ function renderQuestion(){
         showAnswer(
             userAnswers[
                 currentQuestion
-            ]
+            ],
+            false
         );
 
     }
+
 
     document
     .getElementById(
         "previousButton"
     )
     .disabled =
-    currentQuestion === 0;
+    currentQuestion===0;
+
 
     document
     .getElementById(
@@ -2483,76 +2429,38 @@ function selectAnswer(letter){
 
     }
 
+
     userAnswers[
         currentQuestion
     ] =
     letter;
 
-    const q =
+
+    const correct =
+    letter ===
     questions[
         currentQuestion
-    ];
+    ].answer;
 
-    if(
-        letter ===
-        q.answer
-    ){
+
+    if(correct){
 
         score++;
 
-        playCorrectSound();
+        playSound(
+            correctSound
+        );
 
     }else{
 
-        playWrongSound();
+        playSound(
+            wrongSound
+        );
 
     }
+
 
     renderQuestion();
-
-}
-
-
-/* =====================================================
-   SOUND
-===================================================== */
-
-function playCorrectSound(){
-
-    try{
-
-        correctSound.currentTime = 0;
-
-        correctSound.play();
-
-    }catch(error){
-
-        console.log(
-            "Correct sound error:",
-            error
-        );
-
-    }
-
-}
-
-
-function playWrongSound(){
-
-    try{
-
-        wrongSound.currentTime = 0;
-
-        wrongSound.play();
-
-    }catch(error){
-
-        console.log(
-            "Wrong sound error:",
-            error
-        );
-
-    }
 
 }
 
@@ -2561,24 +2469,29 @@ function playWrongSound(){
    SHOW ANSWER
 ===================================================== */
 
-function showAnswer(letter){
+function showAnswer(
+    letter,
+    playAudio=true
+){
 
     const q =
     questions[
         currentQuestion
     ];
 
+
     document
     .querySelectorAll(
         "#choices .choice"
     )
     .forEach(
-        button => {
+        button=>{
 
             const choiceLetter =
             button.dataset.letter;
 
             button.disabled=true;
+
 
             if(
                 choiceLetter ===
@@ -2590,6 +2503,7 @@ function showAnswer(letter){
                 );
 
             }
+
 
             if(
                 choiceLetter ===
@@ -2607,27 +2521,28 @@ function showAnswer(letter){
         }
     );
 
+
     const feedback =
     document.getElementById(
         "feedback"
     );
 
+
     feedback.className =
     "feedback";
 
-    feedback.classList.add(
-        letter === q.answer
-        ? "correct"
-        : "wrong"
-    );
 
     if(
         letter ===
         q.answer
     ){
 
+        feedback.classList.add(
+            "correct"
+        );
+
         feedback.innerHTML =
-        "<strong>Correct!</strong><br>" +
+        "<strong>✓ CORRECT!</strong> " +
         (
             q.explanation ||
             "Your answer is correct."
@@ -2635,14 +2550,18 @@ function showAnswer(letter){
 
     }else{
 
+        feedback.classList.add(
+            "wrong"
+        );
+
         feedback.innerHTML =
-        "<strong>Incorrect.</strong><br>" +
+        "<strong>✕ INCORRECT!</strong> " +
         "Correct answer: " +
         q.answer +
-        "<br>" +
         (
-            q.explanation ||
-            ""
+            q.explanation
+            ? " — " + q.explanation
+            : ""
         );
 
     }
@@ -2659,7 +2578,7 @@ document
     "nextButton"
 )
 .onclick =
-() => {
+()=>{
 
     if(
         !userAnswers[
@@ -2675,6 +2594,7 @@ document
 
     }
 
+
     if(
         currentQuestion ===
         questions.length-1
@@ -2685,6 +2605,7 @@ document
         return;
 
     }
+
 
     currentQuestion++;
 
@@ -2702,10 +2623,10 @@ document
     "previousButton"
 )
 .onclick =
-() => {
+()=>{
 
     if(
-        currentQuestion > 0
+        currentQuestion>0
     ){
 
         currentQuestion--;
@@ -2726,21 +2647,13 @@ document
     "exitReviewerButton"
 )
 .onclick =
-() => {
+()=>{
 
     if(
         confirm(
             "Exit this reviewer and return to the subjects?"
         )
     ){
-
-        questions = [];
-
-        currentQuestion = 0;
-
-        score = 0;
-
-        userAnswers = {};
 
         showHome();
 
@@ -2806,11 +2719,10 @@ document
 )
 .addEventListener(
     "keydown",
-    event => {
+    event=>{
 
         if(
-            event.key ===
-            "Enter"
+            event.key==="Enter"
         ){
 
             login();
@@ -2862,7 +2774,7 @@ document
     "logoutButton"
 )
 .onclick =
-() => {
+()=>{
 
     if(
         confirm(
