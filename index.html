@@ -46,42 +46,10 @@ body{
 }
 
 .card{
-    position:relative;
-    width:100%;
-    height:100%;
     background:#fff;
     border-radius:20px;
     padding:30px;
     box-shadow:0 8px 30px rgba(0,0,0,.10);
-}
-
-
-/* =========================
-   EXIT BUTTON
-========================= */
-
-.exit-button{
-    position:absolute;
-    top:18px;
-    right:18px;
-    width:52px;
-    height:52px;
-    border-radius:50%;
-    border:0;
-    background:#dc3545;
-    color:#fff;
-    font-size:34px;
-    font-weight:bold;
-    line-height:52px;
-    text-align:center;
-    cursor:pointer;
-    z-index:50;
-    transition:.15s;
-}
-
-.exit-button:hover{
-    background:#b02a37;
-    transform:scale(1.05);
 }
 
 
@@ -99,40 +67,35 @@ body{
 .login-card{
     width:100%;
     max-width:500px;
-    height:auto;
-    min-height:500px;
     text-align:center;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
 }
 
 .logo{
-    font-size:60px;
-    margin-bottom:15px;
+    font-size:55px;
+    margin-bottom:10px;
 }
 
 .login-card h1{
     font-size:38px;
-    margin-bottom:12px;
+    margin-bottom:10px;
 }
 
 .subtitle{
     color:#666;
     line-height:1.6;
-    font-size:18px;
+    font-size:17px;
 }
 
 .code-input{
     width:100%;
-    height:68px;
-    margin-top:30px;
+    height:65px;
+    margin-top:20px;
     border:2px solid #ddd;
     border-radius:12px;
     text-align:center;
-    font-size:28px;
+    font-size:25px;
     font-weight:bold;
-    letter-spacing:5px;
+    letter-spacing:4px;
     text-transform:uppercase;
     outline:none;
 }
@@ -141,12 +104,17 @@ body{
     border-color:#1769e0;
 }
 
+.password-input{
+    text-transform:none;
+    letter-spacing:2px;
+}
+
 .btn{
     border:0;
     border-radius:12px;
     min-height:58px;
-    padding:12px 22px;
-    font-size:20px;
+    padding:12px 20px;
+    font-size:18px;
     font-weight:bold;
     cursor:pointer;
 }
@@ -168,20 +136,20 @@ body{
 
 .full{
     width:100%;
-    margin-top:18px;
+    margin-top:15px;
 }
 
 .message{
     min-height:28px;
-    margin-top:14px;
-    font-size:17px;
+    margin-top:12px;
+    font-size:16px;
     font-weight:bold;
 }
 
 .expiry-info{
     color:#888;
-    font-size:14px;
-    margin-top:18px;
+    font-size:13px;
+    margin-top:15px;
 }
 
 
@@ -189,17 +157,12 @@ body{
    HOME
 ========================= */
 
-#homeScreen{
-    overflow:auto;
-}
-
 .header{
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap:15px;
-    margin-bottom:35px;
-    padding-right:70px;
+    margin-bottom:25px;
 }
 
 .header-title{
@@ -209,25 +172,25 @@ body{
 
 .account{
     color:#777;
-    font-size:16px;
-    margin-top:7px;
+    font-size:15px;
+    margin-top:5px;
 }
 
 .home-title{
-    font-size:42px;
-    margin-bottom:10px;
+    font-size:40px;
+    margin-bottom:8px;
 }
 
 .reviewer-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:20px;
-    margin-top:30px;
+    gap:18px;
+    margin-top:25px;
 }
 
 .reviewer-button{
-    min-height:155px;
-    padding:28px;
+    min-height:145px;
+    padding:25px;
     text-align:left;
     border:2px solid #e0e4e9;
     background:#fff;
@@ -243,13 +206,13 @@ body{
 
 .reviewer-button strong{
     display:block;
-    font-size:27px;
-    margin-bottom:12px;
+    font-size:24px;
+    margin-bottom:10px;
 }
 
 .reviewer-button span{
     color:#777;
-    font-size:18px;
+    font-size:17px;
     line-height:1.5;
 }
 
@@ -258,51 +221,45 @@ body{
    INTRODUCTION
 ========================= */
 
-#introScreen{
+.intro-screen{
     display:flex;
-    justify-content:center;
     align-items:center;
+    justify-content:center;
 }
 
-#introScreen .card{
-    height:auto;
-    min-height:80%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:60px 70px;
+.intro-card{
+    width:100%;
 }
 
 .intro-title{
-    font-size:48px;
-    margin-bottom:8px;
+    font-size:42px;
+    margin-bottom:5px;
+    text-align:center;
 }
 
 .intro-label{
     color:#777;
-    font-size:22px;
-    margin-bottom:30px;
+    margin-bottom:25px;
+    text-align:center;
+    font-size:19px;
 }
 
 .introduction{
-    width:100%;
-    max-width:1000px;
     line-height:1.8;
-    font-size:24px;
+    font-size:20px;
+    text-align:center;
+    max-width:1000px;
+    margin:auto;
 }
 
 .introduction p{
-    margin-bottom:20px;
+    margin-bottom:18px;
 }
 
 .intro-actions{
-    width:100%;
-    max-width:900px;
     display:flex;
-    gap:16px;
-    margin-top:30px;
+    gap:12px;
+    margin-top:25px;
 }
 
 .intro-actions .btn{
@@ -314,42 +271,62 @@ body{
    REVIEWER
 ========================= */
 
-#reviewerScreen{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.reviewer-screen{
+    height:100%;
 }
 
-#reviewerScreen .card{
+.reviewer-card{
     height:100%;
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    position:relative;
     overflow:hidden;
-    padding:35px 50px;
+}
+
+.exit-button{
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    border:0;
+    background:#e9edf2;
+    color:#222;
+    font-size:30px;
+    font-weight:bold;
+    line-height:52px;
+    text-align:center;
+    cursor:pointer;
+    z-index:20;
+}
+
+.exit-button:hover{
+    background:#dc3545;
+    color:white;
 }
 
 .subject-title{
-    text-align:center;
     font-size:38px;
-    padding:0 70px;
+    text-align:center;
+    padding-right:65px;
 }
 
 .progress-info{
     display:flex;
     justify-content:space-between;
-    margin-top:18px;
+    margin-top:12px;
     color:#666;
-    font-size:20px;
+    font-size:18px;
 }
 
 .progress-bar{
     width:100%;
-    height:12px;
+    height:10px;
     background:#e4e7eb;
     border-radius:10px;
     overflow:hidden;
-    margin-top:12px;
+    margin-top:10px;
 }
 
 .progress{
@@ -360,17 +337,17 @@ body{
 }
 
 .question-number{
-    margin-top:25px;
+    margin-top:18px;
     color:#777;
+    font-size:20px;
     text-align:center;
-    font-size:21px;
 }
 
 .question{
-    font-size:42px;
+    font-size:clamp(34px,4vw,58px);
     font-weight:bold;
-    line-height:1.3;
-    margin:15px auto 30px;
+    line-height:1.25;
+    margin:8px auto 25px;
     text-align:center;
     max-width:1100px;
 }
@@ -378,24 +355,25 @@ body{
 .choices{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:16px;
+    gap:15px;
     width:100%;
     max-width:1100px;
-    margin:auto;
+    margin:0 auto;
 }
 
 .choice{
     width:100%;
     min-height:82px;
-    padding:18px 25px;
+    padding:16px 22px;
     border:3px solid #dfe3e8;
     background:#fff;
-    border-radius:15px;
+    border-radius:14px;
     text-align:center;
-    font-size:26px;
+    font-size:clamp(24px,2.3vw,34px);
     font-weight:bold;
+    line-height:1.25;
     cursor:pointer;
-    transition:background .2s,border-color .2s,box-shadow .2s;
+    transition:none;
 }
 
 .choice:hover{
@@ -404,35 +382,39 @@ body{
 
 .choice.correct{
     border-color:#18a558;
-    background:#bdf5d3;
-    animation:correctBlink .55s ease-in-out 3;
+    background:#18a558;
+    color:white;
+    animation:correctBlink .55s ease-in-out 2;
 }
 
 .choice.wrong{
     border-color:#dc3545;
-    background:#ffc7cc;
-    animation:wrongBlink .55s ease-in-out 3;
+    background:#dc3545;
+    color:white;
+    animation:wrongFlash .35s ease-in-out 2;
 }
 
 @keyframes correctBlink{
     0%,100%{
-        background:#bdf5d3;
+        background:#18a558;
         border-color:#18a558;
     }
     50%{
-        background:#58d98b;
-        border-color:#087f3c;
+        background:#a7e9c5;
+        border-color:#18a558;
+        color:#145c34;
     }
 }
 
-@keyframes wrongBlink{
+@keyframes wrongFlash{
     0%,100%{
-        background:#ffc7cc;
+        background:#dc3545;
         border-color:#dc3545;
     }
     50%{
-        background:#ff6874;
-        border-color:#a50f1b;
+        background:#ffb3ba;
+        border-color:#dc3545;
+        color:#7a1018;
     }
 }
 
@@ -441,15 +423,14 @@ body{
 }
 
 .feedback{
+    margin:14px auto 0;
+    padding:12px 18px;
+    border-radius:12px;
+    line-height:1.4;
+    font-size:18px;
     width:100%;
     max-width:1100px;
-    min-height:70px;
-    margin:15px auto 0;
-    padding:14px 20px;
-    border-radius:12px;
-    line-height:1.5;
-    font-size:19px;
-    text-align:center;
+    min-height:54px;
 }
 
 .feedback.correct{
@@ -462,10 +443,9 @@ body{
 
 .review-actions{
     display:flex;
-    gap:15px;
-    width:100%;
-    max-width:1100px;
-    margin:20px auto 0;
+    gap:12px;
+    margin-top:auto;
+    padding-top:15px;
 }
 
 .review-actions .btn{
@@ -476,7 +456,7 @@ body{
     text-align:center;
     padding:50px 10px;
     color:#777;
-    font-size:22px;
+    font-size:20px;
 }
 
 .error-box{
@@ -486,7 +466,7 @@ body{
     background:#fff0f1;
     color:#b42318;
     line-height:1.6;
-    font-size:17px;
+    font-size:16px;
 }
 
 
@@ -494,23 +474,15 @@ body{
    RESULT
 ========================= */
 
-#resultScreen{
+.result-screen{
     display:flex;
     align-items:center;
     justify-content:center;
-}
-
-#resultScreen .card{
-    height:auto;
-    min-height:500px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
 }
 
 .result{
     text-align:center;
+    width:100%;
 }
 
 .result h1{
@@ -518,79 +490,67 @@ body{
 }
 
 .final-score{
-    font-size:78px;
+    font-size:75px;
     font-weight:bold;
-    margin:30px 0 10px;
+    margin:25px 0 10px;
 }
 
 .final-percent{
     color:#666;
-    font-size:28px;
+    font-size:25px;
 }
 
 
 /* =========================
-   RESPONSIVE
+   LAPTOP FIT
 ========================= */
 
-@media(max-width:900px){
+@media(min-width:701px){
 
-    body{
-        padding:10px;
+    .reviewer-card{
+        padding:25px 35px 20px;
     }
 
-    .card{
-        padding:25px 20px;
+    .reviewer-card .question{
+        margin-top:4px;
+        margin-bottom:15px;
     }
 
-    .question{
-        font-size:32px;
+    .reviewer-card .choices{
+        gap:12px;
     }
 
-    .choice{
-        font-size:22px;
-        min-height:72px;
-    }
-
-    .introduction{
-        font-size:20px;
-    }
-
-    .intro-title{
-        font-size:38px;
+    .reviewer-card .choice{
+        min-height:75px;
     }
 
 }
+
+
+/* =========================
+   MOBILE
+========================= */
 
 @media(max-width:700px){
 
     html,
     body{
         overflow:auto;
+        min-height:100%;
+        height:auto;
     }
 
     body{
-        padding:8px;
+        padding:10px;
     }
 
     .screen{
         height:auto;
-        min-height:calc(100vh - 16px);
+        min-height:calc(100vh - 20px);
     }
 
     .card{
-        min-height:calc(100vh - 16px);
-        padding:22px 16px;
-        border-radius:16px;
-    }
-
-    .exit-button{
-        top:12px;
-        right:12px;
-        width:44px;
-        height:44px;
-        line-height:44px;
-        font-size:28px;
+        padding:22px 18px;
     }
 
     .reviewer-grid{
@@ -599,44 +559,35 @@ body{
 
     .header{
         align-items:flex-start;
-        padding-right:55px;
     }
 
     .header-title{
-        font-size:25px;
+        font-size:24px;
     }
 
     .home-title{
         font-size:32px;
     }
 
-    .reviewer-button strong{
-        font-size:22px;
-    }
-
-    .reviewer-button span{
-        font-size:16px;
-    }
-
-    #introScreen{
-        min-height:calc(100vh - 16px);
-    }
-
-    #introScreen .card{
-        min-height:calc(100vh - 16px);
-        padding:60px 20px 25px;
-    }
-
     .intro-title{
-        font-size:34px;
-    }
-
-    .intro-label{
-        font-size:18px;
+        font-size:32px;
     }
 
     .introduction{
         font-size:18px;
+    }
+
+    .question{
+        font-size:32px;
+    }
+
+    .choices{
+        grid-template-columns:1fr;
+    }
+
+    .choice{
+        font-size:25px;
+        min-height:70px;
     }
 
     .intro-actions,
@@ -644,76 +595,60 @@ body{
         flex-direction:column;
     }
 
-    #reviewerScreen{
-        min-height:calc(100vh - 16px);
-    }
-
-    #reviewerScreen .card{
-        min-height:calc(100vh - 16px);
-        padding:55px 15px 20px;
-    }
-
-    .subject-title{
-        font-size:29px;
-    }
-
-    .progress-info{
-        font-size:16px;
-    }
-
-    .question{
-        font-size:28px;
-        margin-bottom:22px;
-    }
-
-    .choices{
-        grid-template-columns:1fr;
-        gap:10px;
-    }
-
-    .choice{
-        font-size:20px;
-        min-height:65px;
-        padding:15px;
-    }
-
-    .feedback{
-        font-size:16px;
-    }
-
-    .result h1{
-        font-size:36px;
-    }
-
-    .final-score{
-        font-size:60px;
+    .reviewer-card{
+        min-height:calc(100vh - 20px);
     }
 
 }
 
 
 /* =========================
-   FULLSCREEN DESKTOP
+   VERY SMALL HEIGHT LAPTOP
 ========================= */
 
-@media(min-width:901px){
+@media(min-width:701px) and (max-height:750px){
 
     body{
-        padding:0;
-    }
-
-    .screen{
-        max-width:none;
-        height:100vh;
+        padding:10px;
     }
 
     .card{
-        border-radius:0;
-        box-shadow:none;
+        padding:18px 25px;
     }
 
-    .login-screen{
-        min-height:100vh;
+    .subject-title{
+        font-size:30px;
+    }
+
+    .question-number{
+        margin-top:8px;
+        font-size:16px;
+    }
+
+    .question{
+        font-size:40px;
+        margin-bottom:12px;
+    }
+
+    .choice{
+        min-height:58px;
+        font-size:24px;
+        padding:10px 15px;
+    }
+
+    .feedback{
+        min-height:42px;
+        padding:8px 14px;
+        font-size:15px;
+        margin-top:8px;
+    }
+
+    .review-actions{
+        padding-top:8px;
+    }
+
+    .review-actions .btn{
+        min-height:48px;
     }
 
 }
@@ -751,9 +686,25 @@ Prepare for the Civil Service Examination
     class="code-input"
     type="text"
     maxlength="8"
-    autocomplete="off"
+    autocomplete="username"
     spellcheck="false"
-    placeholder="XXXXXXXX"
+    placeholder="ACCESS CODE"
+>
+
+<input
+    id="passwordInput"
+    class="code-input password-input hidden"
+    type="password"
+    autocomplete="current-password"
+    placeholder="PASSWORD"
+>
+
+<input
+    id="confirmPasswordInput"
+    class="code-input password-input hidden"
+    type="password"
+    autocomplete="new-password"
+    placeholder="CONFIRM PASSWORD"
 >
 
 <button
@@ -812,7 +763,6 @@ LOG OUT
 
 </div>
 
-
 <h1 class="home-title">
 Choose a Reviewer
 </h1>
@@ -821,9 +771,7 @@ Choose a Reviewer
 Select a subject to view its introduction and begin reviewing.
 </p>
 
-
 <div class="reviewer-grid">
-
 
 <button
     class="reviewer-button"
@@ -914,7 +862,6 @@ and accuracy exercises.
 
 </button>
 
-
 </div>
 
 </div>
@@ -928,18 +875,10 @@ and accuracy exercises.
 
 <div
     id="introScreen"
-    class="screen hidden"
+    class="screen intro-screen hidden"
 >
 
-<div class="card">
-
-<button
-    id="introExitButton"
-    class="exit-button"
-    aria-label="Exit"
->
-×
-</button>
+<div class="card intro-card">
 
 <h1
     id="introTitle"
@@ -984,15 +923,15 @@ START REVIEWER
 
 <div
     id="reviewerScreen"
-    class="screen hidden"
+    class="screen reviewer-screen hidden"
 >
 
-<div class="card">
+<div class="card reviewer-card">
 
 <button
-    id="reviewerExitButton"
+    id="exitReviewerButton"
     class="exit-button"
-    aria-label="Exit"
+    title="Exit"
 >
 ×
 </button>
@@ -1023,14 +962,12 @@ Score: 0
 
 </div>
 
-
 <div
     id="loading"
     class="loading"
 >
 Loading questions...
 </div>
-
 
 <div
     id="questionArea"
@@ -1088,18 +1025,10 @@ NEXT
 
 <div
     id="resultScreen"
-    class="screen hidden"
+    class="screen result-screen hidden"
 >
 
 <div class="card result">
-
-<button
-    id="resultExitButton"
-    class="exit-button"
-    aria-label="Exit"
->
-×
-</button>
 
 <h1>
 Reviewer Complete!
@@ -1143,26 +1072,19 @@ REVIEW AGAIN
 
 
 <!-- =====================================================
-     SOUND EFFECTS
-=====================================================
-
-Place these files beside index.html:
-
-x.mp3 = wrong answer
-c.mp3 = correct answer
-
+     AUDIO
 ===================================================== -->
 
 <audio
     id="wrongSound"
-    src="x.mp3"
     preload="auto"
+    src="x.mp3"
 ></audio>
 
 <audio
     id="correctSound"
-    src="c.mp3"
     preload="auto"
+    src="c.mp3"
 ></audio>
 
 
@@ -1176,6 +1098,10 @@ c.mp3 = correct answer
 
 
 <script>
+
+/* =====================================================
+   FIREBASE CONFIG
+===================================================== */
 
 const firebaseConfig = {
 
@@ -1205,10 +1131,17 @@ const firebaseConfig = {
 
 };
 
-firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(
+    firebaseConfig
+);
 
-const db = firebase.database();
+const db =
+firebase.database();
 
+
+/* =====================================================
+   SETTINGS
+===================================================== */
 
 const ONE_YEAR =
 365 *
@@ -1220,53 +1153,10 @@ const ONE_YEAR =
 const SESSION_KEY =
 "civilServiceReviewerSession";
 
-const DEVICE_KEY =
-"civilServiceReviewerDevice";
 
-
-function getDeviceID(){
-
-    let id =
-    localStorage.getItem(
-        DEVICE_KEY
-    );
-
-    if(!id){
-
-        if(
-            window.crypto &&
-            crypto.randomUUID
-        ){
-
-            id =
-            crypto.randomUUID();
-
-        }else{
-
-            id =
-            Date.now()
-            .toString(36) +
-            Math.random()
-            .toString(36)
-            .substring(2);
-
-        }
-
-        localStorage.setItem(
-            DEVICE_KEY,
-            id
-        );
-
-    }
-
-    return id;
-
-}
-
-
-const deviceID =
-getDeviceID();
-
+/* =====================================================
+   ACCESS CODES
+===================================================== */
 
 const accessCodes = [
 
@@ -1374,12 +1264,21 @@ const accessCodes = [
 ];
 
 
+/* =====================================================
+   SESSION
+===================================================== */
+
 let session =
 JSON.parse(
     localStorage.getItem(
         SESSION_KEY
     ) || "null"
 );
+
+
+/* =====================================================
+   REVIEWER VARIABLES
+===================================================== */
 
 let selectedName = "";
 
@@ -1393,6 +1292,10 @@ let score = 0;
 
 let userAnswers = {};
 
+
+/* =====================================================
+   ELEMENTS
+===================================================== */
 
 const loginScreen =
 document.getElementById(
@@ -1419,6 +1322,20 @@ document.getElementById(
     "resultScreen"
 );
 
+const wrongSound =
+document.getElementById(
+    "wrongSound"
+);
+
+const correctSound =
+document.getElementById(
+    "correctSound"
+);
+
+
+/* =====================================================
+   SCREEN
+===================================================== */
 
 function showScreen(screen){
 
@@ -1428,7 +1345,8 @@ function showScreen(screen){
         introScreen,
         reviewerScreen,
         resultScreen
-    ].forEach(
+    ]
+    .forEach(
         item =>
         item.classList.add(
             "hidden"
@@ -1441,6 +1359,10 @@ function showScreen(screen){
 
 }
 
+
+/* =====================================================
+   LOGIN MESSAGE
+===================================================== */
 
 function setLoginMessage(
     text,
@@ -1463,15 +1385,161 @@ function setLoginMessage(
 }
 
 
+/* =====================================================
+   PASSWORD HASH
+===================================================== */
+
+async function hashPassword(password){
+
+    const encoder =
+    new TextEncoder();
+
+    const data =
+    encoder.encode(password);
+
+    const hashBuffer =
+    await crypto.subtle.digest(
+        "SHA-256",
+        data
+    );
+
+    const hashArray =
+    Array.from(
+        new Uint8Array(
+            hashBuffer
+        )
+    );
+
+    return hashArray
+        .map(
+            b =>
+            b.toString(16)
+            .padStart(2,"0")
+        )
+        .join("");
+
+}
+
+
+/* =====================================================
+   PASSWORD MODE
+===================================================== */
+
+let creatingPassword =
+false;
+
+
+function showCreatePassword(){
+
+    creatingPassword =
+    true;
+
+    document
+    .getElementById(
+        "passwordInput"
+    )
+    .classList.remove(
+        "hidden"
+    );
+
+    document
+    .getElementById(
+        "confirmPasswordInput"
+    )
+    .classList.remove(
+        "hidden"
+    );
+
+    document
+    .getElementById(
+        "passwordInput"
+    )
+    .placeholder =
+    "CREATE PASSWORD";
+
+    document
+    .getElementById(
+        "confirmPasswordInput"
+    )
+    .placeholder =
+    "CONFIRM PASSWORD";
+
+    document
+    .getElementById(
+        "loginButton"
+    )
+    .textContent =
+    "CREATE PASSWORD";
+
+}
+
+
+function showNormalLogin(){
+
+    creatingPassword =
+    false;
+
+    document
+    .getElementById(
+        "passwordInput"
+    )
+    .classList.remove(
+        "hidden"
+    );
+
+    document
+    .getElementById(
+        "confirmPasswordInput"
+    )
+    .classList.add(
+        "hidden"
+    );
+
+    document
+    .getElementById(
+        "passwordInput"
+    )
+    .placeholder =
+    "PASSWORD";
+
+    document
+    .getElementById(
+        "loginButton"
+    )
+    .textContent =
+    "LOGIN";
+
+}
+
+
+/* =====================================================
+   LOGIN
+===================================================== */
+
 async function login(){
 
-    const input =
+    const codeInput =
     document.getElementById(
         "codeInput"
     );
 
+    const passwordInput =
+    document.getElementById(
+        "passwordInput"
+    );
+
+    const confirmInput =
+    document.getElementById(
+        "confirmPasswordInput"
+    );
+
+    const button =
+    document.getElementById(
+        "loginButton"
+    );
+
     const code =
-    input.value
+    codeInput.value
     .trim()
     .toUpperCase();
 
@@ -1487,25 +1555,8 @@ async function login(){
 
     }
 
-    if(
-        !accessCodes.includes(code)
-    ){
-
-        setLoginMessage(
-            "Invalid access code."
-        );
-
-        return;
-
-    }
-
-    const button =
-    document.getElementById(
-        "loginButton"
-    );
-
-    button.disabled = true;
-    button.textContent = "CONNECTING...";
+    button.disabled =
+    true;
 
     try{
 
@@ -1515,86 +1566,48 @@ async function login(){
             code
         );
 
-        const result =
-        await codeRef.transaction(
-            currentData => {
-
-                const now =
-                Date.now();
-
-                if(
-                    currentData === null
-                ){
-
-                    return {
-                        code:code,
-                        claimed:true,
-                        deviceID:deviceID,
-                        claimedAt:now,
-                        expiresAt:
-                        now + ONE_YEAR
-                    };
-
-                }
-
-                if(
-                    currentData.expiresAt &&
-                    now >= currentData.expiresAt
-                ){
-
-                    return {
-                        code:code,
-                        claimed:true,
-                        deviceID:deviceID,
-                        claimedAt:now,
-                        expiresAt:
-                        now + ONE_YEAR
-                    };
-
-                }
-
-                if(
-                    currentData.deviceID ===
-                    deviceID
-                ){
-
-                    return;
-
-                }
-
-                return;
-
-            }
-        );
-
         const snapshot =
         await codeRef.once(
             "value"
         );
 
-        const data =
+        let data =
         snapshot.val();
+
 
         if(!data){
 
-            throw new Error(
-                "No Firebase data."
-            );
+            if(
+                !accessCodes.includes(
+                    code
+                )
+            ){
 
-        }
+                setLoginMessage(
+                    "Invalid access code."
+                );
 
-        if(
-            data.deviceID !==
-            deviceID
-        ){
+                return;
+
+            }
+
+
+            /*
+             * Create the Firebase record
+             * when the user creates the password.
+             */
+
+            showCreatePassword();
 
             setLoginMessage(
-                "This access code is already claimed by another user."
+                "This access code is ready. Create your password.",
+                true
             );
 
             return;
 
         }
+
 
         if(
             data.expiresAt &&
@@ -1610,28 +1623,216 @@ async function login(){
 
         }
 
+
+        if(!data.passwordHash){
+
+            showCreatePassword();
+
+            setLoginMessage(
+                "Create your password to continue.",
+                true
+            );
+
+            return;
+
+        }
+
+
+        if(creatingPassword){
+
+            const password =
+            passwordInput.value;
+
+            const confirmPassword =
+            confirmInput.value;
+
+
+            if(
+                password.length < 6
+            ){
+
+                setLoginMessage(
+                    "Password must contain at least 6 characters."
+                );
+
+                return;
+
+            }
+
+
+            if(
+                password !==
+                confirmPassword
+            ){
+
+                setLoginMessage(
+                    "Passwords do not match."
+                );
+
+                return;
+
+            }
+
+
+            const passwordHash =
+            await hashPassword(
+                password
+            );
+
+            const now =
+            Date.now();
+
+
+            await codeRef.update({
+
+                passwordHash:
+                passwordHash,
+
+                passwordCreatedAt:
+                now,
+
+                claimed:
+                true,
+
+                claimedAt:
+                data.claimedAt ||
+                now,
+
+                expiresAt:
+                data.expiresAt ||
+                (
+                    now +
+                    ONE_YEAR
+                )
+
+            });
+
+
+            data =
+            (
+                await codeRef.once(
+                    "value"
+                )
+            ).val();
+
+
+            session = {
+
+                code:
+                code,
+
+                claimedAt:
+                data.claimedAt,
+
+                expiresAt:
+                data.expiresAt
+
+            };
+
+
+            localStorage.setItem(
+                SESSION_KEY,
+                JSON.stringify(
+                    session
+                )
+            );
+
+
+            passwordInput.value =
+            "";
+
+            confirmInput.value =
+            "";
+
+
+            setLoginMessage(
+                "Password created successfully.",
+                true
+            );
+
+
+            showHome();
+
+            return;
+
+        }
+
+
+        const password =
+        passwordInput.value;
+
+
+        if(!password){
+
+            setLoginMessage(
+                "Enter your password."
+            );
+
+            return;
+
+        }
+
+
+        const passwordHash =
+        await hashPassword(
+            password
+        );
+
+
+        if(
+            passwordHash !==
+            data.passwordHash
+        ){
+
+            setLoginMessage(
+                "Incorrect password."
+            );
+
+            return;
+
+        }
+
+
         session = {
-            code:code,
-            deviceID:deviceID,
-            claimedAt:data.claimedAt,
-            expiresAt:data.expiresAt
+
+            code:
+            code,
+
+            claimedAt:
+            data.claimedAt,
+
+            expiresAt:
+            data.expiresAt
+
         };
+
 
         localStorage.setItem(
             SESSION_KEY,
-            JSON.stringify(session)
+            JSON.stringify(
+                session
+            )
         );
+
+
+        passwordInput.value =
+        "";
+
 
         setLoginMessage(
             "Login successful.",
             true
         );
 
+
         showHome();
+
 
     }catch(error){
 
-        console.error(error);
+        console.error(
+            error
+        );
 
         setLoginMessage(
             "Unable to connect to Firebase."
@@ -1639,13 +1840,24 @@ async function login(){
 
     }finally{
 
-        button.disabled = false;
-        button.textContent = "LOGIN";
+        button.disabled =
+        false;
+
+        if(!creatingPassword){
+
+            button.textContent =
+            "LOGIN";
+
+        }
 
     }
 
 }
 
+
+/* =====================================================
+   VALIDATE SESSION
+===================================================== */
 
 async function validateSession(){
 
@@ -1659,6 +1871,7 @@ async function validateSession(){
 
     }
 
+
     try{
 
         const codeRef =
@@ -1667,13 +1880,16 @@ async function validateSession(){
             session.code
         );
 
+
         const snapshot =
         await codeRef.once(
             "value"
         );
 
+
         const data =
         snapshot.val();
+
 
         if(!data){
 
@@ -1691,28 +1907,6 @@ async function validateSession(){
 
         }
 
-        if(
-            data.deviceID !==
-            deviceID
-        ){
-
-            localStorage.removeItem(
-                SESSION_KEY
-            );
-
-            session=null;
-
-            showScreen(
-                loginScreen
-            );
-
-            setLoginMessage(
-                "This code belongs to another device."
-            );
-
-            return;
-
-        }
 
         if(
             data.expiresAt &&
@@ -1738,19 +1932,48 @@ async function validateSession(){
 
         }
 
+
+        if(!data.passwordHash){
+
+            localStorage.removeItem(
+                SESSION_KEY
+            );
+
+            session=null;
+
+            showScreen(
+                loginScreen
+            );
+
+            setLoginMessage(
+                "Please create your password."
+            );
+
+            return;
+
+        }
+
+
         session.expiresAt =
         data.expiresAt;
 
+
         localStorage.setItem(
             SESSION_KEY,
-            JSON.stringify(session)
+            JSON.stringify(
+                session
+            )
         );
+
 
         showHome();
 
+
     }catch(error){
 
-        console.error(error);
+        console.error(
+            error
+        );
 
         showHome();
 
@@ -1759,11 +1982,16 @@ async function validateSession(){
 }
 
 
+/* =====================================================
+   HOME
+===================================================== */
+
 function showHome(){
 
     showScreen(
         homeScreen
     );
+
 
     if(session){
 
@@ -1772,13 +2000,17 @@ function showHome(){
             "accountInfo"
         )
         .textContent =
-        "Access Code: " +
+        "Username: " +
         session.code;
 
     }
 
 }
 
+
+/* =====================================================
+   INTRODUCTIONS
+===================================================== */
 
 const introductions = {
 
@@ -1927,6 +2159,10 @@ in clerical ability exercises.
 };
 
 
+/* =====================================================
+   REVIEWER SELECTION
+===================================================== */
+
 document
 .querySelectorAll(
     ".reviewer-button"
@@ -1943,12 +2179,14 @@ document
             selectedFile =
             button.dataset.file;
 
+
             document
             .getElementById(
                 "introTitle"
             )
             .textContent =
             selectedName;
+
 
             document
             .getElementById(
@@ -1958,6 +2196,7 @@ document
             introductions[
                 selectedName
             ];
+
 
             showScreen(
                 introScreen
@@ -1969,11 +2208,16 @@ document
 );
 
 
+/* =====================================================
+   START REVIEWER
+===================================================== */
+
 async function startReviewer(){
 
     showScreen(
         reviewerScreen
     );
+
 
     document
     .getElementById(
@@ -1982,16 +2226,19 @@ async function startReviewer(){
     .textContent =
     selectedName;
 
+
     const loading =
     document.getElementById(
         "loading"
     );
+
 
     loading.className =
     "loading";
 
     loading.innerHTML =
     "Loading questions...";
+
 
     document
     .getElementById(
@@ -2001,21 +2248,19 @@ async function startReviewer(){
         "hidden"
     );
 
+
     currentQuestion=0;
     score=0;
     userAnswers={};
     questions=[];
 
+
     const filePath =
     "./question-bank/" +
     selectedFile;
 
-    try{
 
-        console.log(
-            "Loading:",
-            filePath
-        );
+    try{
 
         const response =
         await fetch(
@@ -2024,6 +2269,7 @@ async function startReviewer(){
                 cache:"no-store"
             }
         );
+
 
         if(!response.ok){
 
@@ -2036,14 +2282,17 @@ async function startReviewer(){
 
         }
 
+
         const data =
         await response.json();
+
 
         if(
             Array.isArray(data)
         ){
 
-            questions=data;
+            questions =
+            data;
 
         }else if(
             data &&
@@ -2063,6 +2312,7 @@ async function startReviewer(){
 
         }
 
+
         if(
             questions.length === 0
         ){
@@ -2072,6 +2322,7 @@ async function startReviewer(){
             );
 
         }
+
 
         questions.forEach(
             (q,index) => {
@@ -2109,9 +2360,11 @@ async function startReviewer(){
             }
         );
 
+
         loading.classList.add(
             "hidden"
         );
+
 
         document
         .getElementById(
@@ -2121,7 +2374,9 @@ async function startReviewer(){
             "hidden"
         );
 
+
         renderQuestion();
+
 
     }catch(error){
 
@@ -2130,8 +2385,10 @@ async function startReviewer(){
             error
         );
 
+
         loading.className =
         "loading";
+
 
         loading.innerHTML = `
 
@@ -2184,12 +2441,17 @@ async function startReviewer(){
 }
 
 
+/* =====================================================
+   RENDER QUESTION
+===================================================== */
+
 function renderQuestion(){
 
     const q =
     questions[
         currentQuestion
     ];
+
 
     document
     .getElementById(
@@ -2198,6 +2460,7 @@ function renderQuestion(){
     .textContent =
     "Question " +
     (currentQuestion+1);
+
 
     document
     .getElementById(
@@ -2209,6 +2472,7 @@ function renderQuestion(){
     " of " +
     questions.length;
 
+
     document
     .getElementById(
         "scoreDisplay"
@@ -2216,6 +2480,7 @@ function renderQuestion(){
     .textContent =
     "Score: " +
     score;
+
 
     document
     .getElementById(
@@ -2231,6 +2496,7 @@ function renderQuestion(){
     ) +
     "%";
 
+
     document
     .getElementById(
         "question"
@@ -2238,12 +2504,16 @@ function renderQuestion(){
     .textContent =
     q.question;
 
+
     const choices =
     document.getElementById(
         "choices"
     );
 
-    choices.innerHTML="";
+
+    choices.innerHTML =
+    "";
+
 
     [
         "A",
@@ -2264,25 +2534,33 @@ function renderQuestion(){
 
             }
 
+
             const button =
             document.createElement(
                 "button"
             );
 
+
             button.className =
             "choice";
 
+
             button.dataset.letter =
             letter;
+
 
             button.textContent =
             letter +
             ". " +
             q.choices[letter];
 
+
             button.onclick =
             () =>
-            selectAnswer(letter);
+            selectAnswer(
+                letter
+            );
+
 
             choices.appendChild(
                 button
@@ -2291,15 +2569,19 @@ function renderQuestion(){
         }
     );
 
+
     const feedback =
     document.getElementById(
         "feedback"
     );
 
+
     feedback.className =
     "feedback hidden";
 
-    feedback.innerHTML="";
+    feedback.innerHTML =
+    "";
+
 
     if(
         userAnswers[
@@ -2316,12 +2598,14 @@ function renderQuestion(){
 
     }
 
+
     document
     .getElementById(
         "previousButton"
     )
     .disabled =
     currentQuestion === 0;
+
 
     document
     .getElementById(
@@ -2336,6 +2620,10 @@ function renderQuestion(){
 }
 
 
+/* =====================================================
+   SELECT ANSWER
+===================================================== */
+
 function selectAnswer(letter){
 
     if(
@@ -2348,72 +2636,88 @@ function selectAnswer(letter){
 
     }
 
+
     userAnswers[
         currentQuestion
     ] =
     letter;
 
-    const isCorrect =
-    letter ===
+
+    const q =
     questions[
         currentQuestion
-    ].answer;
+    ];
+
+
+    const isCorrect =
+    letter ===
+    q.answer;
+
 
     if(isCorrect){
 
         score++;
 
-        const sound =
-        document.getElementById(
-            "correctSound"
-        );
+        correctSound.currentTime =
+        0;
 
-        sound.currentTime=0;
-
-        sound.play().catch(
+        correctSound.play()
+        .catch(
             error =>
             console.log(
-                "Correct sound:",
+                "Correct sound error:",
                 error
             )
         );
 
     }else{
 
-        const sound =
-        document.getElementById(
-            "wrongSound"
-        );
+        wrongSound.currentTime =
+        0;
 
-        sound.currentTime=0;
-
-        sound.play().catch(
+        wrongSound.play()
+        .catch(
             error =>
             console.log(
-                "Wrong sound:",
+                "Wrong sound error:",
                 error
             )
         );
 
     }
 
+
     showAnswer(
         letter,
         true
     );
 
+
+    document
+    .getElementById(
+        "scoreDisplay"
+    )
+    .textContent =
+    "Score: " +
+    score;
+
 }
 
 
+/* =====================================================
+   SHOW ANSWER
+===================================================== */
+
 function showAnswer(
     letter,
-    animate=false
+    animate=true
 ){
 
     const q =
     questions[
         currentQuestion
     ];
+
 
     document
     .querySelectorAll(
@@ -2425,7 +2729,10 @@ function showAnswer(
             const choiceLetter =
             button.dataset.letter;
 
-            button.disabled=true;
+
+            button.disabled =
+            true;
+
 
             if(
                 choiceLetter ===
@@ -2436,7 +2743,15 @@ function showAnswer(
                     "correct"
                 );
 
+                if(!animate){
+
+                    button.style.animation =
+                    "none";
+
+                }
+
             }
+
 
             if(
                 choiceLetter ===
@@ -2449,18 +2764,28 @@ function showAnswer(
                     "wrong"
                 );
 
+                if(!animate){
+
+                    button.style.animation =
+                    "none";
+
+                }
+
             }
 
         }
     );
+
 
     const feedback =
     document.getElementById(
         "feedback"
     );
 
+
     feedback.className =
     "feedback";
+
 
     if(
         letter ===
@@ -2471,8 +2796,9 @@ function showAnswer(
             "correct"
         );
 
+
         feedback.innerHTML =
-        "<strong>Correct!</strong><br>" +
+        "<strong>Correct!</strong> " +
         (
             q.explanation ||
             "Your answer is correct."
@@ -2484,20 +2810,26 @@ function showAnswer(
             "wrong"
         );
 
+
         feedback.innerHTML =
-        "<strong>Incorrect.</strong><br>" +
+        "<strong>Incorrect.</strong> " +
         "Correct answer: " +
         q.answer +
-        "<br>" +
         (
-            q.explanation ||
-            ""
+            q.explanation
+            ? " — " +
+            q.explanation
+            : ""
         );
 
     }
 
 }
 
+
+/* =====================================================
+   NEXT
+===================================================== */
 
 document
 .getElementById(
@@ -2520,6 +2852,7 @@ document
 
     }
 
+
     if(
         currentQuestion ===
         questions.length-1
@@ -2531,12 +2864,17 @@ document
 
     }
 
+
     currentQuestion++;
 
     renderQuestion();
 
 };
 
+
+/* =====================================================
+   PREVIOUS
+===================================================== */
 
 document
 .getElementById(
@@ -2558,11 +2896,40 @@ document
 };
 
 
+/* =====================================================
+   EXIT REVIEWER
+===================================================== */
+
+document
+.getElementById(
+    "exitReviewerButton"
+)
+.onclick =
+() => {
+
+    if(
+        confirm(
+            "Exit this reviewer and return to the subjects?"
+        )
+    ){
+
+        showHome();
+
+    }
+
+};
+
+
+/* =====================================================
+   RESULT
+===================================================== */
+
 function showResult(){
 
     showScreen(
         resultScreen
     );
+
 
     const percentage =
     Math.round(
@@ -2573,6 +2940,7 @@ function showResult(){
         100
     );
 
+
     document
     .getElementById(
         "finalScore"
@@ -2581,6 +2949,7 @@ function showResult(){
     score +
     " / " +
     questions.length;
+
 
     document
     .getElementById(
@@ -2593,6 +2962,10 @@ function showResult(){
 }
 
 
+/* =====================================================
+   BUTTONS
+===================================================== */
+
 document
 .getElementById(
     "loginButton"
@@ -2604,6 +2977,48 @@ login;
 document
 .getElementById(
     "codeInput"
+)
+.addEventListener(
+    "keydown",
+    event => {
+
+        if(
+            event.key ===
+            "Enter"
+        ){
+
+            login();
+
+        }
+
+    }
+);
+
+
+document
+.getElementById(
+    "passwordInput"
+)
+.addEventListener(
+    "keydown",
+    event => {
+
+        if(
+            event.key ===
+            "Enter"
+        ){
+
+            login();
+
+        }
+
+    }
+);
+
+
+document
+.getElementById(
+    "confirmPasswordInput"
 )
 .addEventListener(
     "keydown",
@@ -2654,49 +3069,9 @@ document
 startReviewer;
 
 
-/* =========================
-   EXIT BUTTONS
-========================= */
-
-document
-.getElementById(
-    "introExitButton"
-)
-.onclick =
-showHome;
-
-
-document
-.getElementById(
-    "reviewerExitButton"
-)
-.onclick =
-() => {
-
-    if(
-        confirm(
-            "Exit this reviewer and return to Subjects?"
-        )
-    ){
-
-        showHome();
-
-    }
-
-};
-
-
-document
-.getElementById(
-    "resultExitButton"
-)
-.onclick =
-showHome;
-
-
-/* =========================
+/* =====================================================
    LOGOUT
-========================= */
+===================================================== */
 
 document
 .getElementById(
@@ -2717,6 +3092,22 @@ document
 
         session=null;
 
+        document
+        .getElementById(
+            "passwordInput"
+        )
+        .value =
+        "";
+
+        document
+        .getElementById(
+            "confirmPasswordInput"
+        )
+        .value =
+        "";
+
+        showNormalLogin();
+
         showScreen(
             loginScreen
         );
@@ -2726,22 +3117,24 @@ document
 };
 
 
-/* =========================
-   AUTO FULLSCREEN
-   LAPTOP / DESKTOP
-========================= */
+/* =====================================================
+   AUTO FULLSCREEN ON LAPTOP CLICK
+===================================================== */
 
-let fullscreenAttempted = false;
-
-function requestAutoFullscreen(){
+function tryFullscreen(){
 
     if(
-        window.innerWidth > 900 &&
-        !document.fullscreenElement &&
-        !fullscreenAttempted
+        window.innerWidth <= 700
     ){
 
-        fullscreenAttempted = true;
+        return;
+
+    }
+
+
+    if(
+        !document.fullscreenElement
+    ){
 
         document.documentElement
         .requestFullscreen()
@@ -2753,18 +3146,19 @@ function requestAutoFullscreen(){
 
 }
 
+
 document.addEventListener(
     "click",
-    requestAutoFullscreen,
+    tryFullscreen,
     {
-        once:false
+        once:true
     }
 );
 
 
-/* =========================
+/* =====================================================
    START
-========================= */
+===================================================== */
 
 validateSession();
 
