@@ -24,7 +24,6 @@ html,
 body{
     width:100%;
     height:100%;
-    min-height:100%;
     font-family:Arial,sans-serif;
     background:#f3f6fa;
     color:#222;
@@ -41,7 +40,7 @@ body{
 
 .screen{
     width:100%;
-    max-width:950px;
+    max-width:1000px;
     margin:auto;
 }
 
@@ -71,7 +70,7 @@ body{
 }
 
 .logo{
-    font-size:42px;
+    font-size:50px;
     margin-bottom:10px;
 }
 
@@ -275,12 +274,13 @@ body{
     justify-content:space-between;
     margin-top:10px;
     color:#666;
-    font-size:14px;
+    font-size:16px;
+    font-weight:bold;
 }
 
 .progress-bar{
     width:100%;
-    height:8px;
+    height:9px;
     background:#e4e7eb;
     border-radius:10px;
     overflow:hidden;
@@ -297,13 +297,34 @@ body{
 .question-number{
     margin-top:20px;
     color:#777;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center;
 }
+
+
+/* =========================
+   LARGE CENTER QUESTION
+========================= */
 
 .question{
     font-size:42px;
     font-weight:bold;
     line-height:1.35;
     margin:15px 0 30px;
+    text-align:center;
+}
+
+
+/* =========================
+   LARGE CENTER CHOICES
+========================= */
+
+.choices{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    align-items:center;
 }
 
 .choice{
@@ -312,7 +333,7 @@ body{
     border:3px solid #dfe3e8;
     background:#fff;
     border-radius:16px;
-    text-align:left;
+    text-align:center;
     font-size:30px;
     font-weight:bold;
     line-height:1.4;
@@ -341,6 +362,11 @@ body{
     cursor:default;
 }
 
+
+/* =========================
+   GREEN BLINK
+========================= */
+
 @keyframes correctBlink{
 
     0%{
@@ -348,7 +374,7 @@ body{
     }
 
     50%{
-        opacity:.25;
+        opacity:.2;
     }
 
     100%{
@@ -357,12 +383,14 @@ body{
 
 }
 
+
 .feedback{
-    margin-top:14px;
-    padding:13px;
+    margin-top:16px;
+    padding:15px;
     border-radius:12px;
     line-height:1.5;
-    font-size:14px;
+    font-size:16px;
+    text-align:center;
 }
 
 .feedback.correct{
@@ -376,7 +404,7 @@ body{
 .review-actions{
     display:flex;
     gap:10px;
-    margin-top:18px;
+    margin-top:20px;
 }
 
 .review-actions .btn{
@@ -413,23 +441,41 @@ body{
 }
 
 .result h1{
-    font-size:34px;
+    font-size:38px;
 }
 
 .final-score{
-    font-size:58px;
+    font-size:65px;
     font-weight:bold;
     margin:20px 0 8px;
 }
 
 .final-percent{
     color:#666;
-    font-size:18px;
+    font-size:22px;
 }
 
 
 /* =========================
-   RESPONSIVE
+   TABLET
+========================= */
+
+@media(max-width:900px){
+
+    .question{
+        font-size:36px;
+    }
+
+    .choice{
+        font-size:26px;
+        padding:20px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
 ========================= */
 
 @media(max-width:700px){
@@ -476,23 +522,32 @@ body{
         font-size:23px;
     }
 
-     .question{
-        font-size:30px;
-        line-height:1.35;
-    }
-
-    .choice{
-        padding:18px 20px;
-        font-size:24px;
-        line-height:1.35;
-    }
     .question-number{
+        font-size:16px;
         margin-top:15px;
     }
 
+    .question{
+        font-size:30px;
+        line-height:1.35;
+        text-align:center;
+        margin:12px 0 20px;
+    }
+
+    .choices{
+        gap:10px;
+    }
+
+    .choice{
+        padding:16px 18px;
+        font-size:24px;
+        line-height:1.35;
+        text-align:center;
+    }
+
     .feedback{
-        margin-top:10px;
-        padding:11px;
+        font-size:15px;
+        padding:12px;
     }
 
     .intro-actions,
@@ -505,6 +560,11 @@ body{
     }
 
 }
+
+
+/* =========================
+   SMALL HEIGHT SCREEN
+========================= */
 
 @media(max-height:650px){
 
@@ -522,12 +582,12 @@ body{
     }
 
     .question-number{
-        margin-top:10px;
+        margin-top:8px;
     }
 
     .question{
-        font-size:18px;
-        margin:6px 0 12px;
+        font-size:30px;
+        margin:7px 0 12px;
     }
 
     .choices{
@@ -535,8 +595,8 @@ body{
     }
 
     .choice{
-        padding:9px 12px;
-        font-size:14px;
+        padding:10px 14px;
+        font-size:22px;
     }
 
     .review-actions{
@@ -547,16 +607,20 @@ body{
 
 
 /* =========================
-   EXIT CONFIRMATION
+   VERY SMALL MOBILE
 ========================= */
 
-.exit-confirm{
-    text-align:center;
-}
+@media(max-width:400px){
 
-.exit-confirm p{
-    margin:15px 0;
-    color:#666;
+    .question{
+        font-size:26px;
+    }
+
+    .choice{
+        font-size:20px;
+        padding:11px 12px;
+    }
+
 }
 
 </style>
@@ -839,6 +903,7 @@ START REVIEWER
 
 <div class="card">
 
+
 <div class="header">
 
 <div>
@@ -857,6 +922,7 @@ Question 0 of 0
 
 </div>
 
+
 <button
     id="exitReviewerButton"
     class="btn danger exit-button"
@@ -873,11 +939,14 @@ EXIT
 Progress
 </span>
 
-<span id="scoreDisplay">
+<span
+    id="scoreDisplay"
+>
 Score: 0
 </span>
 
 </div>
+
 
 <div class="progress-bar">
 
@@ -902,25 +971,30 @@ Loading questions...
     class="hidden"
 >
 
+
 <div
     id="questionNumber"
     class="question-number"
 ></div>
+
 
 <div
     id="question"
     class="question"
 ></div>
 
+
 <div
     id="choices"
     class="choices"
 ></div>
 
+
 <div
     id="feedback"
     class="feedback hidden"
 ></div>
+
 
 <div class="review-actions">
 
@@ -939,6 +1013,7 @@ NEXT
 </button>
 
 </div>
+
 
 </div>
 
@@ -975,6 +1050,7 @@ Reviewer Complete!
 >
 0%
 </div>
+
 
 <div class="review-actions">
 
@@ -2006,12 +2082,6 @@ async function startReviewer(){
 
     try{
 
-        console.log(
-            "Loading:",
-            filePath
-        );
-
-
         const response =
         await fetch(
             filePath,
@@ -2379,7 +2449,7 @@ function renderQuestion(){
 
 
 /* =====================================================
-   PLAY SOUND
+   SOUND
 ===================================================== */
 
 function playSound(
@@ -2407,10 +2477,12 @@ function playSound(
     sound.play()
     .catch(
         error => {
+
             console.log(
                 "Audio playback:",
                 error
             );
+
         }
     );
 
@@ -2643,7 +2715,7 @@ document
 
 
 /* =====================================================
-   EXIT REVIEWER
+   EXIT
 ===================================================== */
 
 function exitToSubjects(){
