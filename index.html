@@ -87,7 +87,8 @@ body{
     font-size:17px;
 }
 
-.code-input{
+.code-input,
+.password-input{
     width:100%;
     height:62px;
     margin-top:18px;
@@ -98,10 +99,10 @@ body{
     font-weight:bold;
     letter-spacing:3px;
     outline:none;
-    text-transform:uppercase;
 }
 
-.code-input:focus{
+.code-input:focus,
+.password-input:focus{
     border-color:#1769e0;
 }
 
@@ -142,18 +143,32 @@ body{
     font-weight:bold;
 }
 
-.registered-name{
-    min-height:25px;
-    margin-top:12px;
+.login-switch{
+    margin-top:20px;
+    font-size:16px;
+}
+
+.login-switch button{
+    border:0;
+    background:none;
     color:#1769e0;
-    font-size:18px;
     font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
 }
 
 .expiry-info{
     color:#888;
     font-size:13px;
     margin-top:15px;
+}
+
+.registered-name{
+    min-height:26px;
+    margin-top:12px;
+    font-size:17px;
+    font-weight:bold;
+    color:#1769e0;
 }
 
 
@@ -572,6 +587,33 @@ body{
 
 
 /* =====================================================
+   FULLSCREEN BUTTON
+===================================================== */
+
+.exit-fullscreen-button{
+    position:fixed;
+    top:15px;
+    left:15px;
+    width:50px;
+    height:50px;
+    border:0;
+    border-radius:50%;
+    background:#e9edf2;
+    color:#222;
+    font-size:26px;
+    font-weight:bold;
+    cursor:pointer;
+    z-index:99999;
+    box-shadow:0 4px 15px rgba(0,0,0,.20);
+}
+
+.exit-fullscreen-button:hover{
+    background:#dc3545;
+    color:#fff;
+}
+
+
+/* =====================================================
    LAPTOP
 ===================================================== */
 
@@ -807,33 +849,15 @@ body{
 
 
 /* =====================================================
-   EXIT FULLSCREEN
+   PRINT
 ===================================================== */
 
-.exit-fullscreen-button{
-    position:fixed;
-    top:15px;
-    left:15px;
-    width:50px;
-    height:50px;
-    border:0;
-    border-radius:50%;
-    background:#e9edf2;
-    color:#222;
-    font-size:26px;
-    font-weight:bold;
-    cursor:pointer;
-    z-index:99999;
-    box-shadow:0 4px 15px rgba(0,0,0,.20);
-}
+@media print{
 
-.exit-fullscreen-button:hover{
-    background:#dc3545;
-    color:#fff;
-}
+    body{
+        overflow:visible;
+    }
 
-.exit-fullscreen-button.hidden{
-    display:none!important;
 }
 
 </style>
@@ -872,8 +896,11 @@ Civil Service Reviewer
 </h1>
 
 <p class="subtitle">
-Enter the access code provided to you.
+<span id="loginSubtitle">
+Create your account using your access code.
+</span>
 </p>
+
 
 <input
     id="codeInput"
@@ -885,25 +912,65 @@ Enter the access code provided to you.
     placeholder="ACCESS CODE"
 >
 
-<button
-    id="loginButton"
-    class="btn primary full"
->
-LOG IN
-</button>
-
-<div
-    id="loginMessage"
-    class="message"
-></div>
 
 <div
     id="registeredName"
     class="registered-name"
 ></div>
 
+
+<div id="passwordArea">
+
+<input
+    id="passwordInput"
+    class="password-input"
+    type="password"
+    maxlength="50"
+    autocomplete="new-password"
+    placeholder="CREATE PASSWORD"
+>
+
+<input
+    id="confirmPasswordInput"
+    class="password-input"
+    type="password"
+    maxlength="50"
+    autocomplete="new-password"
+    placeholder="CONFIRM PASSWORD"
+>
+
+</div>
+
+
+<button
+    id="loginButton"
+    class="btn primary full"
+>
+CREATE ACCOUNT
+</button>
+
+
+<div
+    id="loginMessage"
+    class="message"
+></div>
+
+
+<div class="login-switch">
+
+<span id="switchText">
+Already have an account?
+</span>
+
+<button id="switchLoginButton">
+LOG IN
+</button>
+
+</div>
+
+
 <div class="expiry-info">
-Your access is valid according to your registered access code.
+Access is valid for one year after claiming.
 </div>
 
 </div>
@@ -946,13 +1013,16 @@ LOG OUT
 
 </div>
 
+
 <h1 class="home-title">
 Choose a Reviewer
 </h1>
 
+
 <p class="subtitle">
 Select a subject to view its introduction and begin reviewing.
 </p>
+
 
 <div class="reviewer-grid">
 
@@ -1139,10 +1209,12 @@ START REVIEWER
 ×
 </button>
 
+
 <h2
     id="subjectTitle"
     class="subject-title"
 ></h2>
+
 
 <div class="progress-info">
 
@@ -1156,6 +1228,7 @@ Score: 0
 
 </div>
 
+
 <div class="progress-bar">
 
 <div
@@ -1165,12 +1238,14 @@ Score: 0
 
 </div>
 
+
 <div
     id="loading"
     class="loading"
 >
 Loading questions...
 </div>
+
 
 <div
     id="questionArea"
@@ -1182,25 +1257,30 @@ Loading questions...
     class="difficulty-indicator"
 ></div>
 
+
 <div
     id="questionNumber"
     class="question-number"
 ></div>
+
 
 <div
     id="question"
     class="question"
 ></div>
 
+
 <div
     id="choices"
     class="choices"
 ></div>
 
+
 <div
     id="feedback"
     class="feedback hidden"
 ></div>
+
 
 <div class="review-actions">
 
@@ -1242,6 +1322,7 @@ NEXT
 Reviewer Complete!
 </h1>
 
+
 <div
     id="finalScore"
     class="final-score"
@@ -1249,12 +1330,14 @@ Reviewer Complete!
 0 / 0
 </div>
 
+
 <div
     id="finalPercent"
     class="final-percent"
 >
 0%
 </div>
+
 
 <div class="review-actions">
 
@@ -1304,6 +1387,7 @@ REVIEW AGAIN
 
 <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
 
+
 <script>
 
 /* =====================================================
@@ -1343,6 +1427,7 @@ firebase.initializeApp(
     firebaseConfig
 );
 
+
 const db =
 firebase.database();
 
@@ -1351,8 +1436,71 @@ firebase.database();
    SETTINGS
 ===================================================== */
 
+const ONE_YEAR =
+365 *
+24 *
+60 *
+60 *
+1000;
+
+
 const SESSION_KEY =
 "civilServiceReviewerSession";
+
+
+const DEVICE_KEY =
+"civilServiceReviewerDevice";
+
+
+/* =====================================================
+   DEVICE ID
+===================================================== */
+
+function getDeviceID(){
+
+    let id =
+    localStorage.getItem(
+        DEVICE_KEY
+    );
+
+
+    if(!id){
+
+        if(
+            window.crypto &&
+            crypto.randomUUID
+        ){
+
+            id =
+            crypto.randomUUID();
+
+        }else{
+
+            id =
+            Date.now()
+            .toString(36) +
+            Math.random()
+            .toString(36)
+            .substring(2);
+
+        }
+
+
+        localStorage.setItem(
+            DEVICE_KEY,
+            id
+        );
+
+    }
+
+
+    return id;
+
+}
+
+
+const deviceID =
+getDeviceID();
 
 
 /* =====================================================
@@ -1365,6 +1513,13 @@ JSON.parse(
         SESSION_KEY
     ) || "null"
 );
+
+
+/* =====================================================
+   LOGIN MODE
+===================================================== */
+
+let createMode = true;
 
 
 /* =====================================================
@@ -1415,7 +1570,7 @@ document.getElementById(
 
 
 /* =====================================================
-   SCREEN
+   SHOW SCREEN
 ===================================================== */
 
 function showScreen(screen){
@@ -1434,9 +1589,190 @@ function showScreen(screen){
         )
     );
 
+
     screen.classList.remove(
         "hidden"
     );
+
+}
+
+
+/* =====================================================
+   LOGIN MODE
+===================================================== */
+
+function setLoginMode(mode){
+
+    createMode =
+    mode === "create";
+
+
+    const password =
+    document.getElementById(
+        "passwordInput"
+    );
+
+
+    const confirm =
+    document.getElementById(
+        "confirmPasswordInput"
+    );
+
+
+    const button =
+    document.getElementById(
+        "loginButton"
+    );
+
+
+    const subtitle =
+    document.getElementById(
+        "loginSubtitle"
+    );
+
+
+    const switchText =
+    document.getElementById(
+        "switchText"
+    );
+
+
+    const switchButton =
+    document.getElementById(
+        "switchLoginButton"
+    );
+
+
+    const message =
+    document.getElementById(
+        "loginMessage"
+    );
+
+
+    const registeredName =
+    document.getElementById(
+        "registeredName"
+    );
+
+
+    message.textContent = "";
+
+    registeredName.textContent = "";
+
+
+    if(createMode){
+
+        subtitle.textContent =
+        "Create your account using your access code.";
+
+
+        password.placeholder =
+        "CREATE PASSWORD";
+
+
+        confirm.classList.remove(
+            "hidden"
+        );
+
+
+        button.textContent =
+        "CREATE ACCOUNT";
+
+
+        switchText.textContent =
+        "Already have an account?";
+
+
+        switchButton.textContent =
+        "LOG IN";
+
+
+        password.autocomplete =
+        "new-password";
+
+
+        confirm.autocomplete =
+        "new-password";
+
+
+    }else{
+
+        subtitle.textContent =
+        "Log in using your access code and password.";
+
+
+        password.placeholder =
+        "PASSWORD";
+
+
+        confirm.classList.add(
+            "hidden"
+        );
+
+
+        button.textContent =
+        "LOG IN";
+
+
+        switchText.textContent =
+        "New user?";
+
+
+        switchButton.textContent =
+        "CREATE ACCOUNT";
+
+
+        password.autocomplete =
+        "current-password";
+
+    }
+
+
+    password.value = "";
+
+    confirm.value = "";
+
+}
+
+
+/* =====================================================
+   PASSWORD HASH
+===================================================== */
+
+async function hashPassword(password){
+
+    const encoder =
+    new TextEncoder();
+
+
+    const data =
+    encoder.encode(
+        password
+    );
+
+
+    const hashBuffer =
+    await crypto.subtle.digest(
+        "SHA-256",
+        data
+    );
+
+
+    const hashArray =
+    Array.from(
+        new Uint8Array(
+            hashBuffer
+        )
+    );
+
+
+    return hashArray
+    .map(
+        b =>
+        b.toString(16)
+        .padStart(2,"0")
+    )
+    .join("");
 
 }
 
@@ -1455,8 +1791,10 @@ function setLoginMessage(
         "loginMessage"
     );
 
+
     message.textContent =
     text;
+
 
     message.style.color =
     success
@@ -1467,7 +1805,68 @@ function setLoginMessage(
 
 
 /* =====================================================
-   LOGIN
+   FIND ACCESS CODE
+===================================================== */
+
+async function getAccessCodeData(code){
+
+    const codeRef =
+    db.ref(
+        "civilServiceCodes/" +
+        code
+    );
+
+
+    const snapshot =
+    await codeRef.once(
+        "value"
+    );
+
+
+    return {
+        ref:codeRef,
+        data:snapshot.val()
+    };
+
+}
+
+
+/* =====================================================
+   DISPLAY REGISTERED NAME
+===================================================== */
+
+function displayRegisteredName(data){
+
+    const element =
+    document.getElementById(
+        "registeredName"
+    );
+
+
+    const name =
+    data?.name ||
+    data?.registeredName ||
+    data?.clientName ||
+    "";
+
+
+    if(name){
+
+        element.textContent =
+        "Registered to: " +
+        name;
+
+    }else{
+
+        element.textContent = "";
+
+    }
+
+}
+
+
+/* =====================================================
+   AUTH
 ===================================================== */
 
 async function login(){
@@ -1477,22 +1876,28 @@ async function login(){
         "codeInput"
     );
 
-    const button =
+
+    const passwordInput =
     document.getElementById(
-        "loginButton"
+        "passwordInput"
     );
 
-    const registeredName =
+
+    const confirmInput =
     document.getElementById(
-        "registeredName"
+        "confirmPasswordInput"
     );
+
 
     const code =
     codeInput.value
     .trim()
     .toUpperCase();
 
-    registeredName.textContent = "";
+
+    const password =
+    passwordInput.value;
+
 
     if(
         !/^[A-Z0-9]{8}$/.test(
@@ -1509,45 +1914,74 @@ async function login(){
     }
 
 
+    if(
+        password.length < 6
+    ){
+
+        setLoginMessage(
+            "Password must be at least 6 characters."
+        );
+
+        return;
+
+    }
+
+
+    if(
+        createMode &&
+        password !==
+        confirmInput.value
+    ){
+
+        setLoginMessage(
+            "Passwords do not match."
+        );
+
+        return;
+
+    }
+
+
+    const button =
+    document.getElementById(
+        "loginButton"
+    );
+
+
     button.disabled = true;
 
+
     button.textContent =
-    "CHECKING...";
+    createMode
+    ? "CREATING..."
+    : "LOGGING IN...";
 
 
     try{
 
-        /*
-        ============================================
-        GET CODE FROM GENERATOR
-        ============================================
-        */
-
-        const codeRef =
-        db.ref(
-            "civilServiceCodes/" +
+        const result =
+        await getAccessCodeData(
             code
         );
 
-        const snapshot =
-        await codeRef.once(
-            "value"
-        );
+
+        const codeRef =
+        result.ref;
+
 
         const data =
-        snapshot.val();
+        result.data;
 
 
         /*
-        ============================================
-        CODE DOES NOT EXIST
-        ============================================
-        */
+         * ACCESS CODE IS CREATED
+         * BY THE ACCESS CODE GENERATOR.
+         */
 
         if(!data){
 
             setLoginMessage(
-                "Invalid access code."
+                "Access code not found. Please check your access code."
             );
 
             return;
@@ -1555,30 +1989,21 @@ async function login(){
         }
 
 
-        /*
-        ============================================
-        CHECK IF CODE IS ACTIVE
-        ============================================
-        */
+        displayRegisteredName(
+            data
+        );
 
-        if(
-            data.active === false
-        ){
 
-            setLoginMessage(
-                "This access code is inactive."
-            );
-
-            return;
-
-        }
+        const registeredName =
+        data.name ||
+        data.registeredName ||
+        data.clientName ||
+        "";
 
 
         /*
-        ============================================
-        CHECK EXPIRATION
-        ============================================
-        */
+         * CHECK EXPIRATION
+         */
 
         if(
             data.expiresAt &&
@@ -1596,22 +2021,158 @@ async function login(){
 
 
         /*
-        ============================================
-        GET REGISTERED NAME
-        ============================================
-        */
+         * CREATE ACCOUNT
+         */
 
-        const name =
-        data.name ||
-        data.registeredName ||
-        data.clientName ||
-        "";
+        if(createMode){
+
+            if(
+                data.passwordHash
+            ){
+
+                setLoginMessage(
+                    "This access code already has an account. Please use LOG IN."
+                );
+
+                return;
+
+            }
 
 
-        if(!name){
+            /*
+             * DEVICE CHECK
+             */
+
+            if(
+                data.deviceID &&
+                data.deviceID !==
+                deviceID
+            ){
+
+                setLoginMessage(
+                    "This access code is already being used on another device."
+                );
+
+                return;
+
+            }
+
+
+            const now =
+            Date.now();
+
+
+            /*
+             * GENERATOR CAN PROVIDE
+             * AN EXPIRATION DATE.
+             *
+             * IF NONE EXISTS,
+             * ONE YEAR IS CREATED.
+             */
+
+            const expiresAt =
+            data.expiresAt ||
+            (
+                now +
+                ONE_YEAR
+            );
+
+
+            const passwordHash =
+            await hashPassword(
+                password
+            );
+
+
+            const accountData = {
+
+                ...data,
+
+                code:
+                code,
+
+                name:
+                registeredName,
+
+                claimed:
+                true,
+
+                deviceID:
+                deviceID,
+
+                claimedAt:
+                data.claimedAt ||
+                now,
+
+                expiresAt:
+                expiresAt,
+
+                passwordHash:
+                passwordHash,
+
+                passwordCreatedAt:
+                now
+
+            };
+
+
+            await codeRef.set(
+                accountData
+            );
+
+
+            session = {
+
+                code:
+                code,
+
+                name:
+                registeredName,
+
+                deviceID:
+                deviceID,
+
+                claimedAt:
+                accountData.claimedAt,
+
+                expiresAt:
+                accountData.expiresAt
+
+            };
+
+
+            localStorage.setItem(
+                SESSION_KEY,
+                JSON.stringify(
+                    session
+                )
+            );
+
 
             setLoginMessage(
-                "This access code has no registered name."
+                "Account created successfully.",
+                true
+            );
+
+
+            showHome();
+
+
+            return;
+
+        }
+
+
+        /*
+         * NORMAL LOGIN
+         */
+
+        if(
+            !data.passwordHash
+        ){
+
+            setLoginMessage(
+                "This access code has not been registered yet. Please use CREATE ACCOUNT."
             );
 
             return;
@@ -1620,20 +2181,68 @@ async function login(){
 
 
         /*
-        ============================================
-        SAVE SESSION
-        ============================================
-        */
+         * DEVICE LOCK
+         */
+
+        if(
+            data.deviceID &&
+            data.deviceID !==
+            deviceID
+        ){
+
+            setLoginMessage(
+                "This account belongs to another device."
+            );
+
+            return;
+
+        }
+
+
+        /*
+         * PASSWORD
+         */
+
+        const passwordHash =
+        await hashPassword(
+            password
+        );
+
+
+        if(
+            passwordHash !==
+            data.passwordHash
+        ){
+
+            setLoginMessage(
+                "Incorrect password."
+            );
+
+            return;
+
+        }
+
+
+        /*
+         * SESSION
+         */
 
         session = {
 
-            code: code,
+            code:
+            code,
 
-            name: name,
+            name:
+            registeredName,
+
+            deviceID:
+            data.deviceID,
+
+            claimedAt:
+            data.claimedAt,
 
             expiresAt:
-            data.expiresAt ||
-            null
+            data.expiresAt
 
         };
 
@@ -1646,28 +2255,11 @@ async function login(){
         );
 
 
-        /*
-        ============================================
-        SHOW REGISTERED NAME
-        ============================================
-        */
-
-        registeredName.textContent =
-        "Registered to: " +
-        name;
-
-
         setLoginMessage(
             "Login successful.",
             true
         );
 
-
-        /*
-        ============================================
-        OPEN HOME
-        ============================================
-        */
 
         showHome();
 
@@ -1679,16 +2271,21 @@ async function login(){
             error
         );
 
+
         setLoginMessage(
             "Unable to connect to Firebase."
         );
+
 
     }finally{
 
         button.disabled = false;
 
+
         button.textContent =
-        "LOG IN";
+        createMode
+        ? "CREATE ACCOUNT"
+        : "LOG IN";
 
     }
 
@@ -1707,6 +2304,12 @@ async function validateSession(){
             loginScreen
         );
 
+
+        setLoginMode(
+            "create"
+        );
+
+
         return;
 
     }
@@ -1720,20 +2323,16 @@ async function validateSession(){
             session.code
         );
 
+
         const snapshot =
         await codeRef.once(
             "value"
         );
 
+
         const data =
         snapshot.val();
 
-
-        /*
-        ============================================
-        CODE WAS REMOVED
-        ============================================
-        */
 
         if(!data){
 
@@ -1741,11 +2340,19 @@ async function validateSession(){
                 SESSION_KEY
             );
 
+
             session = null;
+
 
             showScreen(
                 loginScreen
             );
+
+
+            setLoginMode(
+                "create"
+            );
+
 
             return;
 
@@ -1753,28 +2360,31 @@ async function validateSession(){
 
 
         /*
-        ============================================
-        CHECK ACTIVE STATUS
-        ============================================
-        */
+         * DEVICE CHECK
+         */
 
         if(
-            data.active === false
+            data.deviceID !==
+            deviceID
         ){
 
             localStorage.removeItem(
                 SESSION_KEY
             );
 
+
             session = null;
+
 
             showScreen(
                 loginScreen
             );
 
+
             setLoginMessage(
-                "This access code is inactive."
+                "This account belongs to another device."
             );
+
 
             return;
 
@@ -1782,10 +2392,8 @@ async function validateSession(){
 
 
         /*
-        ============================================
-        CHECK EXPIRATION
-        ============================================
-        */
+         * EXPIRATION
+         */
 
         if(
             data.expiresAt &&
@@ -1797,15 +2405,19 @@ async function validateSession(){
                 SESSION_KEY
             );
 
+
             session = null;
+
 
             showScreen(
                 loginScreen
             );
 
+
             setLoginMessage(
                 "This access code has expired."
             );
+
 
             return;
 
@@ -1813,10 +2425,35 @@ async function validateSession(){
 
 
         /*
-        ============================================
-        UPDATE NAME
-        ============================================
-        */
+         * PASSWORD CHECK
+         */
+
+        if(
+            !data.passwordHash
+        ){
+
+            localStorage.removeItem(
+                SESSION_KEY
+            );
+
+
+            session = null;
+
+
+            showScreen(
+                loginScreen
+            );
+
+
+            setLoginMode(
+                "create"
+            );
+
+
+            return;
+
+        }
+
 
         session.name =
         data.name ||
@@ -1825,9 +2462,9 @@ async function validateSession(){
         session.name ||
         "";
 
+
         session.expiresAt =
-        data.expiresAt ||
-        null;
+        data.expiresAt;
 
 
         localStorage.setItem(
@@ -1844,14 +2481,14 @@ async function validateSession(){
     }catch(error){
 
         console.error(
-            "Session validation error:",
             error
         );
 
+
         /*
-        Keep existing session if
-        Firebase temporarily fails.
-        */
+         * Keep local session if
+         * Firebase is temporarily unavailable.
+         */
 
         showHome();
 
@@ -1873,22 +2510,23 @@ function showHome(){
 
     if(session){
 
-        document
-        .getElementById(
+        const accountInfo =
+        document.getElementById(
             "accountInfo"
-        )
-        .innerHTML =
-
-        "Registered to: <strong>" +
-        escapeHTML(
-            session.name || ""
-        ) +
-        "</strong><br>" +
-
-        "Access Code: " +
-        escapeHTML(
-            session.code || ""
         );
+
+
+        const name =
+        session.name ||
+        "Client";
+
+
+        accountInfo.innerHTML =
+        "Registered to: <strong>" +
+        escapeHTML(name) +
+        "</strong><br>" +
+        "Access Code: " +
+        escapeHTML(session.code);
 
     }
 
@@ -1896,7 +2534,7 @@ function showHome(){
 
 
 /* =====================================================
-   HTML ESCAPE
+   ESCAPE HTML
 ===================================================== */
 
 function escapeHTML(value){
@@ -1931,6 +2569,7 @@ function escapeHTML(value){
 ===================================================== */
 
 const introductions = {
+
 
 "General Information":`
 
@@ -2131,8 +2770,10 @@ document
             selectedName =
             button.dataset.name;
 
+
             selectedFile =
             button.dataset.file;
+
 
             document
             .getElementById(
@@ -2140,6 +2781,7 @@ document
             )
             .textContent =
             selectedName;
+
 
             document
             .getElementById(
@@ -2149,6 +2791,7 @@ document
             introductions[
                 selectedName
             ];
+
 
             showScreen(
                 introScreen
@@ -2169,6 +2812,7 @@ function shuffleArray(array){
     const result =
     [...array];
 
+
     for(
         let i =
         result.length - 1;
@@ -2182,6 +2826,7 @@ function shuffleArray(array){
             (i + 1)
         );
 
+
         [
             result[i],
             result[j]
@@ -2192,6 +2837,7 @@ function shuffleArray(array){
         ];
 
     }
+
 
     return result;
 
@@ -2226,6 +2872,7 @@ async function startReviewer(){
     loading.className =
     "loading";
 
+
     loading.innerHTML =
     "Loading questions...";
 
@@ -2258,12 +2905,17 @@ async function startReviewer(){
             const files = [
 
                 "general-information.json",
+
                 "verbal-ability.json",
+
                 "numerical-ability.json",
+
                 "analytical-ability.json",
+
                 "clerical-ability.json"
 
             ];
+
 
             const loadedQuestions = [];
 
@@ -2277,7 +2929,8 @@ async function startReviewer(){
                     "./question-bank/" +
                     file,
                     {
-                        cache:"no-store"
+                        cache:
+                        "no-store"
                     }
                 );
 
@@ -2375,7 +3028,8 @@ async function startReviewer(){
             await fetch(
                 filePath,
                 {
-                    cache:"no-store"
+                    cache:
+                    "no-store"
                 }
             );
 
@@ -2400,7 +3054,8 @@ async function startReviewer(){
                 Array.isArray(data)
             ){
 
-                questions = data;
+                questions =
+                data;
 
             }else if(
                 data &&
@@ -2447,6 +3102,7 @@ async function startReviewer(){
 
                 }
 
+
                 if(!q.choices){
 
                     throw new Error(
@@ -2456,6 +3112,7 @@ async function startReviewer(){
                     );
 
                 }
+
 
                 if(!q.answer){
 
@@ -2685,6 +3342,7 @@ function renderQuestion(){
         "choices"
     );
 
+
     choices.innerHTML = "";
 
 
@@ -2752,6 +3410,7 @@ function renderQuestion(){
     feedback.className =
     "feedback hidden";
 
+
     feedback.innerHTML = "";
 
 
@@ -2802,8 +3461,10 @@ function playSound(audio){
 
         audio.currentTime = 0;
 
+
         const promise =
         audio.play();
+
 
         if(
             promise &&
@@ -2822,7 +3483,9 @@ function playSound(audio){
 
     }catch(error){
 
-        console.log(error);
+        console.log(
+            error
+        );
 
     }
 
@@ -2976,6 +3639,7 @@ function showAnswer(
             "Your answer is correct."
         );
 
+
     }else{
 
         feedback.classList.add(
@@ -3019,6 +3683,7 @@ document
             "Please select an answer first."
         );
 
+
         return;
 
     }
@@ -3031,12 +3696,14 @@ document
 
         showResult();
 
+
         return;
 
     }
 
 
     currentQuestion++;
+
 
     renderQuestion();
 
@@ -3059,6 +3726,7 @@ document
     ){
 
         currentQuestion--;
+
 
         renderQuestion();
 
@@ -3122,12 +3790,42 @@ login;
 
 
 /* =====================================================
-   ENTER LOGIN
+   ACCESS CODE ENTER
 ===================================================== */
 
 document
 .getElementById(
     "codeInput"
+)
+.addEventListener(
+    "keydown",
+    event => {
+
+        if(
+            event.key ===
+            "Enter"
+        ){
+
+            /*
+             * If creating/logging in,
+             * Enter submits the form.
+             */
+
+            login();
+
+        }
+
+    }
+);
+
+
+/* =====================================================
+   PASSWORD ENTER
+===================================================== */
+
+document
+.getElementById(
+    "passwordInput"
 )
 .addEventListener(
     "keydown",
@@ -3144,6 +3842,152 @@ document
 
     }
 );
+
+
+/* =====================================================
+   CONFIRM PASSWORD ENTER
+===================================================== */
+
+document
+.getElementById(
+    "confirmPasswordInput"
+)
+.addEventListener(
+    "keydown",
+    event => {
+
+        if(
+            event.key ===
+            "Enter"
+        ){
+
+            login();
+
+        }
+
+    }
+);
+
+
+/* =====================================================
+   CHECK ACCESS CODE WHEN TYPING
+===================================================== */
+
+let codeLookupTimer = null;
+
+
+document
+.getElementById(
+    "codeInput"
+)
+.addEventListener(
+    "input",
+    () => {
+
+        const input =
+        document.getElementById(
+            "codeInput"
+        );
+
+
+        input.value =
+        input.value
+        .toUpperCase()
+        .replace(
+            /[^A-Z0-9]/g,
+            ""
+        );
+
+
+        const nameElement =
+        document.getElementById(
+            "registeredName"
+        );
+
+
+        nameElement.textContent =
+        "";
+
+
+        clearTimeout(
+            codeLookupTimer
+        );
+
+
+        const code =
+        input.value.trim();
+
+
+        if(
+            code.length !== 8
+        ){
+
+            return;
+
+        }
+
+
+        codeLookupTimer =
+        setTimeout(
+            async () => {
+
+                try{
+
+                    const result =
+                    await getAccessCodeData(
+                        code
+                    );
+
+
+                    if(
+                        result.data
+                    ){
+
+                        displayRegisteredName(
+                            result.data
+                        );
+
+                    }else{
+
+                        nameElement.textContent =
+                        "Access code not found.";
+
+                    }
+
+                }catch(error){
+
+                    console.error(
+                        error
+                    );
+
+                }
+
+            },
+            300
+        );
+
+    }
+);
+
+
+/* =====================================================
+   SWITCH LOGIN / CREATE
+===================================================== */
+
+document
+.getElementById(
+    "switchLoginButton"
+)
+.onclick =
+() => {
+
+    setLoginMode(
+        createMode
+        ? "login"
+        : "create"
+    );
+
+};
 
 
 /* =====================================================
@@ -3239,6 +4083,7 @@ document
             SESSION_KEY
         );
 
+
         session = null;
 
 
@@ -3251,23 +4096,28 @@ document
 
         document
         .getElementById(
+            "passwordInput"
+        )
+        .value = "";
+
+
+        document
+        .getElementById(
+            "confirmPasswordInput"
+        )
+        .value = "";
+
+
+        document
+        .getElementById(
             "registeredName"
         )
         .textContent = "";
 
 
-        document
-        .getElementById(
-            "loginMessage"
-        )
-        .textContent = "";
-
-
-        document
-        .getElementById(
-            "accountInfo"
-        )
-        .textContent = "";
+        setLoginMode(
+            "login"
+        );
 
 
         showScreen(
@@ -3280,7 +4130,7 @@ document
 
 
 /* =====================================================
-   EXIT FULLSCREEN BUTTON
+   EXIT FULLSCREEN
 ===================================================== */
 
 const exitFullscreenButton =
@@ -3313,6 +4163,10 @@ async () => {
 
 };
 
+
+/* =====================================================
+   FULLSCREEN CHANGE
+===================================================== */
 
 document.addEventListener(
     "fullscreenchange",
