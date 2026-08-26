@@ -13,10 +13,6 @@
 
 <style>
 
-/* =====================================================
-   GLOBAL
-===================================================== */
-
 *{
     box-sizing:border-box;
     margin:0;
@@ -28,14 +24,13 @@ html,
 body{
     width:100%;
     height:100%;
-    overflow:hidden;
     font-family:Arial,sans-serif;
     background:#f3f6fa;
     color:#222;
 }
 
 body{
-    padding:15px;
+    padding:20px;
 }
 
 .hidden{
@@ -44,32 +39,25 @@ body{
 
 .screen{
     width:100%;
-    max-width:1200px;
+    max-width:1100px;
     height:100%;
     margin:auto;
 }
 
-
-/* =====================================================
-   CARD
-===================================================== */
-
 .card{
-    width:100%;
-    height:100%;
     background:#fff;
     border-radius:20px;
-    padding:25px;
+    padding:30px;
     box-shadow:0 8px 30px rgba(0,0,0,.10);
 }
 
 
-/* =====================================================
+/* =========================
    LOGIN
-===================================================== */
+========================= */
 
 .login-screen{
-    height:calc(100vh - 30px);
+    min-height:calc(100vh - 40px);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -78,34 +66,32 @@ body{
 .login-card{
     width:100%;
     max-width:450px;
-    height:auto;
     text-align:center;
 }
 
 .logo{
-    font-size:48px;
+    font-size:42px;
     margin-bottom:10px;
 }
 
 .login-card h1{
-    font-size:34px;
+    font-size:32px;
     margin-bottom:10px;
 }
 
 .subtitle{
     color:#666;
     line-height:1.6;
-    font-size:16px;
 }
 
 .code-input{
     width:100%;
-    height:60px;
+    height:58px;
     margin-top:25px;
     border:2px solid #ddd;
     border-radius:12px;
     text-align:center;
-    font-size:25px;
+    font-size:24px;
     font-weight:bold;
     letter-spacing:4px;
     text-transform:uppercase;
@@ -121,7 +107,7 @@ body{
     border-radius:12px;
     min-height:52px;
     padding:12px 20px;
-    font-size:17px;
+    font-size:16px;
     font-weight:bold;
     cursor:pointer;
 }
@@ -133,7 +119,7 @@ body{
 
 .primary{
     background:#1769e0;
-    color:#fff;
+    color:white;
 }
 
 .secondary{
@@ -160,31 +146,31 @@ body{
 }
 
 
-/* =====================================================
+/* =========================
    HOME
-===================================================== */
+========================= */
 
 .header{
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap:15px;
-    margin-bottom:25px;
+    margin-bottom:30px;
 }
 
 .header-title{
-    font-size:28px;
+    font-size:27px;
     font-weight:bold;
 }
 
 .account{
     color:#777;
-    font-size:14px;
+    font-size:13px;
     margin-top:5px;
 }
 
 .home-title{
-    font-size:36px;
+    font-size:32px;
     margin-bottom:8px;
 }
 
@@ -196,7 +182,7 @@ body{
 }
 
 .reviewer-button{
-    min-height:140px;
+    min-height:130px;
     padding:22px;
     text-align:left;
     border:2px solid #e0e4e9;
@@ -213,39 +199,38 @@ body{
 
 .reviewer-button strong{
     display:block;
-    font-size:22px;
-    margin-bottom:10px;
+    font-size:19px;
+    margin-bottom:8px;
 }
 
 .reviewer-button span{
     color:#777;
-    font-size:15px;
+    font-size:14px;
     line-height:1.5;
 }
 
 
-/* =====================================================
+/* =========================
    INTRODUCTION
-===================================================== */
+========================= */
 
 .intro-title{
-    font-size:38px;
+    font-size:32px;
     margin-bottom:5px;
 }
 
 .intro-label{
     color:#777;
-    margin-bottom:20px;
-    font-size:16px;
+    margin-bottom:25px;
 }
 
 .introduction{
     line-height:1.8;
-    font-size:18px;
+    font-size:17px;
 }
 
 .introduction p{
-    margin-bottom:14px;
+    margin-bottom:16px;
 }
 
 .intro-actions{
@@ -259,42 +244,42 @@ body{
 }
 
 
-/* =====================================================
-   REVIEWER MAIN
-===================================================== */
+/* =========================
+   REVIEWER
+========================= */
 
-.reviewer-card{
-    display:flex;
-    flex-direction:column;
-    height:100%;
-    overflow:hidden;
+#reviewerScreen{
+    max-width:1250px;
 }
 
-.reviewer-top{
-    flex-shrink:0;
+#reviewerScreen .card{
+    min-height:calc(100vh - 40px);
+    height:calc(100vh - 40px);
+    display:flex;
+    flex-direction:column;
 }
 
 .subject-title{
-    font-size:32px;
+    font-size:30px;
     text-align:center;
 }
 
 .progress-info{
     display:flex;
     justify-content:space-between;
-    margin-top:10px;
+    margin-top:12px;
     color:#666;
-    font-size:16px;
+    font-size:18px;
     font-weight:bold;
 }
 
 .progress-bar{
     width:100%;
-    height:9px;
+    height:10px;
     background:#e4e7eb;
     border-radius:10px;
     overflow:hidden;
-    margin-top:9px;
+    margin-top:10px;
 }
 
 .progress{
@@ -304,256 +289,130 @@ body{
     transition:.2s;
 }
 
-
-/* =====================================================
-   LOADING
-===================================================== */
-
-.loading{
-    flex:1;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:30px;
-    color:#777;
-    font-size:20px;
-}
-
-
-/* =====================================================
-   QUESTION AREA
-===================================================== */
-
-#questionArea{
-    width:100%;
-    flex:1;
-    min-height:0;
-
-    display:flex;
-    flex-direction:column;
-
-    overflow:hidden;
-}
-
 .question-number{
-    flex-shrink:0;
-
-    margin-top:12px;
-
+    margin-top:22px;
     color:#777;
     text-align:center;
-
-    font-size:18px;
+    font-size:20px;
     font-weight:bold;
 }
 
-
-/* =====================================================
-   LARGE QUESTION
-===================================================== */
-
 .question{
-    width:100%;
-    max-width:1150px;
-
-    min-height:115px;
-
-    margin:8px auto 15px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
+    font-size:42px;
+    font-weight:bold;
+    line-height:1.35;
+    margin:10px auto 22px;
     text-align:center;
-
-    font-size:44px;
-    font-weight:900;
-
-    line-height:1.18;
-
-    flex-shrink:0;
+    max-width:1100px;
 }
 
-
-/* =====================================================
-   CHOICES
-===================================================== */
-
 .choices{
-    width:100%;
-    max-width:1000px;
-
-    margin:0 auto;
-
     display:flex;
     flex-direction:column;
-
-    gap:10px;
-
-    flex-shrink:0;
+    gap:12px;
+    max-width:1000px;
+    width:100%;
+    margin:0 auto;
 }
 
 .choice{
     width:100%;
-
-    min-height:70px;
-
-    padding:12px 22px;
-
+    min-height:68px;
+    padding:14px 22px;
     border:3px solid #dfe3e8;
-
     background:#fff;
-
     border-radius:14px;
-
     text-align:center;
-
-    font-size:29px;
-    font-weight:900;
-
+    font-size:28px;
+    font-weight:bold;
     cursor:pointer;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    transition:none;
+    transition:.15s;
 }
 
 .choice:hover{
     border-color:#1769e0;
+    transform:scale(1.01);
 }
-
-.choice:disabled{
-    cursor:default;
-}
-
-
-/* =====================================================
-   CORRECT / WRONG
-===================================================== */
 
 .choice.correct{
     border-color:#18a558;
     background:#18a558;
     color:#fff;
-
-    animation:correctBlink .35s ease-in-out 3;
+    animation:correctBlink .45s ease-in-out 2;
 }
 
 .choice.wrong{
     border-color:#dc3545;
     background:#dc3545;
     color:#fff;
+    animation:wrongBlink .45s ease-in-out 2;
 }
-
-
-/* =====================================================
-   GREEN BLINK
-===================================================== */
 
 @keyframes correctBlink{
 
-    0%{
+    0%,
+    100%{
         background:#18a558;
-        color:#fff;
     }
 
     50%{
-        background:#fff;
-        color:#18a558;
-    }
-
-    100%{
-        background:#18a558;
-        color:#fff;
+        background:#75d6a0;
     }
 
 }
 
+@keyframes wrongBlink{
 
-/* =====================================================
-   FEEDBACK
-===================================================== */
+    0%,
+    100%{
+        background:#dc3545;
+    }
 
-/*
-   IMPORTANT:
-   Hindi ginagamit ang display:none dito.
-   May permanenteng space ang feedback para
-   hindi gumalaw ang choices.
-*/
+    50%{
+        background:#ff858f;
+    }
+
+}
+
+.choice:disabled{
+    cursor:default;
+}
 
 .feedback{
-    width:100%;
-    max-width:1000px;
-
-    min-height:58px;
-    height:58px;
-
-    margin:8px auto 0;
-
-    padding:8px 18px;
-
+    margin:14px auto 0;
+    padding:12px 18px;
     border-radius:12px;
-
-    line-height:1.25;
-
+    line-height:1.5;
     font-size:18px;
-    font-weight:bold;
-
+    max-width:1000px;
+    width:100%;
     text-align:center;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    visibility:hidden;
-
-    flex-shrink:0;
-
-    overflow:hidden;
 }
 
 .feedback.correct{
     background:#eafaf1;
-    color:#16803c;
-    visibility:visible;
 }
 
 .feedback.wrong{
     background:#fff0f1;
-    color:#b42318;
-    visibility:visible;
 }
-
-
-/* =====================================================
-   REVIEW ACTIONS
-===================================================== */
 
 .review-actions{
     display:flex;
     gap:12px;
-
-    margin-top:10px;
-
-    flex-shrink:0;
+    margin-top:auto;
+    padding-top:15px;
 }
 
 .review-actions .btn{
     flex:1;
 }
 
-#exitReviewerButton{
-    background:#e9edf2;
-    color:#222;
+.loading{
+    text-align:center;
+    padding:50px 10px;
+    color:#777;
 }
-
-
-/* =====================================================
-   ERROR
-===================================================== */
 
 .error-box{
     margin-top:20px;
@@ -566,103 +425,56 @@ body{
 }
 
 
-/* =====================================================
+/* =========================
+   EXIT BUTTON
+========================= */
+
+.exit-button{
+    background:#dc3545;
+    color:#fff;
+}
+
+.exit-button:hover{
+    background:#b02a37;
+}
+
+
+/* =========================
    RESULT
-===================================================== */
+========================= */
 
 .result{
     text-align:center;
-
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
 }
 
 .result h1{
-    font-size:42px;
+    font-size:34px;
 }
 
 .final-score{
-    font-size:68px;
+    font-size:58px;
     font-weight:bold;
     margin:25px 0 10px;
 }
 
 .final-percent{
     color:#666;
-    font-size:25px;
+    font-size:18px;
 }
 
 
-/* =====================================================
-   DESKTOP FIT
-===================================================== */
-
-@media(min-width:701px){
-
-    .reviewer-card{
-        padding:22px 28px;
-    }
-
-}
-
-
-/* =====================================================
-   TABLET
-===================================================== */
-
-@media(max-width:900px){
-
-    .question{
-        font-size:38px;
-        min-height:105px;
-    }
-
-    .choice{
-        font-size:25px;
-        min-height:65px;
-    }
-
-    .feedback{
-        font-size:17px;
-    }
-
-}
-
-
-/* =====================================================
-   MOBILE
-===================================================== */
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media(max-width:700px){
 
-    html,
     body{
-        overflow:auto;
-        min-height:100%;
-        height:auto;
-    }
-
-    body{
-        padding:8px;
-    }
-
-    .screen{
-        height:auto;
-        min-height:calc(100vh - 16px);
+        padding:10px;
     }
 
     .card{
-        min-height:calc(100vh - 16px);
-        height:auto;
-        padding:18px 14px;
-    }
-
-    .reviewer-card{
-        height:calc(100vh - 16px);
-        min-height:0;
-        overflow:hidden;
+        padding:22px 18px;
     }
 
     .reviewer-grid{
@@ -674,85 +486,92 @@ body{
     }
 
     .header-title{
-        font-size:22px;
+        font-size:21px;
     }
 
     .home-title{
-        font-size:30px;
+        font-size:27px;
     }
 
     .intro-title{
-        font-size:30px;
+        font-size:27px;
     }
 
-    .introduction{
-        font-size:16px;
+    #reviewerScreen .card{
+        height:auto;
+        min-height:calc(100vh - 20px);
     }
 
     .subject-title{
-        font-size:26px;
+        font-size:25px;
     }
 
-    .question-number{
-        font-size:16px;
+    .progress-info{
+        font-size:15px;
     }
 
     .question{
         font-size:30px;
-        min-height:105px;
-        margin:6px auto 12px;
     }
 
     .choice{
         min-height:60px;
-        padding:10px 12px;
-        font-size:21px;
+        font-size:22px;
+        padding:12px;
     }
 
     .feedback{
-        min-height:58px;
-        height:58px;
-        font-size:15px;
+        font-size:16px;
     }
 
+    .intro-actions,
     .review-actions{
-        gap:8px;
-    }
-
-    .review-actions .btn{
-        font-size:14px;
-        padding:10px;
-    }
-
-    .progress-info{
-        font-size:13px;
+        flex-direction:column;
     }
 
 }
 
 
-/* =====================================================
-   SMALL MOBILE
-===================================================== */
+/* =========================
+   LAPTOP FIT TO SCREEN
+========================= */
 
-@media(max-width:430px){
+@media(min-width:701px){
+
+    body{
+        padding:10px;
+        overflow:hidden;
+    }
+
+    #reviewerScreen{
+        height:100vh;
+    }
+
+    #reviewerScreen .card{
+        height:calc(100vh - 20px);
+        min-height:0;
+        padding:20px 30px;
+    }
 
     .question{
-        font-size:27px;
-        min-height:95px;
+        font-size:42px;
+        margin-top:8px;
+        margin-bottom:16px;
     }
 
     .choice{
-        font-size:19px;
-        min-height:55px;
+        min-height:60px;
+        font-size:27px;
+        padding:10px 20px;
+    }
+
+    .choices{
+        gap:9px;
     }
 
     .feedback{
-        font-size:14px;
-    }
-
-    .btn{
-        font-size:14px;
+        margin-top:10px;
+        padding:9px 15px;
     }
 
 }
@@ -775,9 +594,7 @@ body{
 
 <div class="card login-card">
 
-<div class="logo">
-📚
-</div>
+<div class="logo">📚</div>
 
 <h1>
 Civil Service Reviewer
@@ -1020,10 +837,7 @@ START REVIEWER
     class="screen hidden"
 >
 
-<div class="card reviewer-card">
-
-
-<div class="reviewer-top">
+<div class="card">
 
 <h2
     id="subjectTitle"
@@ -1048,8 +862,6 @@ Score: 0
     id="progress"
     class="progress"
 ></div>
-
-</div>
 
 </div>
 
@@ -1082,33 +894,25 @@ Loading questions...
     class="choices"
 ></div>
 
-
-<!--
-    FIXED FEEDBACK AREA
-    Hindi nagbabago ang height.
--->
-
 <div
     id="feedback"
-    class="feedback"
->
-</div>
-
+    class="feedback hidden"
+></div>
 
 <div class="review-actions">
+
+<button
+    id="exitButton"
+    class="btn exit-button"
+>
+EXIT
+</button>
 
 <button
     id="previousButton"
     class="btn secondary"
 >
 PREVIOUS
-</button>
-
-<button
-    id="exitReviewerButton"
-    class="btn secondary"
->
-EXIT
 </button>
 
 <button
@@ -1180,29 +984,20 @@ REVIEW AGAIN
 
 
 <!-- =====================================================
-     AUDIO
+     SOUND EFFECTS
 ===================================================== -->
 
 <audio
-    id="correctSound"
+    id="wrongSound"
+    src="x.mp3"
     preload="auto"
->
-<source
-    src="c.mp3"
-    type="audio/mpeg"
->
-</audio>
-
+></audio>
 
 <audio
-    id="wrongSound"
+    id="correctSound"
+    src="c.mp3"
     preload="auto"
->
-<source
-    src="x.mp3"
-    type="audio/mpeg"
->
-</audio>
+></audio>
 
 
 <!-- =====================================================
@@ -1248,11 +1043,9 @@ const firebaseConfig = {
 
 };
 
-
 firebase.initializeApp(
     firebaseConfig
 );
-
 
 const db =
 firebase.database();
@@ -1269,10 +1062,8 @@ const ONE_YEAR =
 60 *
 1000;
 
-
 const SESSION_KEY =
 "civilServiceReviewerSession";
-
 
 const DEVICE_KEY =
 "civilServiceReviewerDevice";
@@ -1288,7 +1079,6 @@ function getDeviceID(){
     localStorage.getItem(
         DEVICE_KEY
     );
-
 
     if(!id){
 
@@ -1311,7 +1101,6 @@ function getDeviceID(){
 
         }
 
-
         localStorage.setItem(
             DEVICE_KEY,
             id
@@ -1319,11 +1108,9 @@ function getDeviceID(){
 
     }
 
-
     return id;
 
 }
-
 
 const deviceID =
 getDeviceID();
@@ -1497,14 +1284,14 @@ document.getElementById(
     "resultScreen"
 );
 
-const correctSound =
-document.getElementById(
-    "correctSound"
-);
-
 const wrongSound =
 document.getElementById(
     "wrongSound"
+);
+
+const correctSound =
+document.getElementById(
+    "correctSound"
 );
 
 
@@ -1528,7 +1315,6 @@ function showScreen(screen){
         )
     );
 
-
     screen.classList.remove(
         "hidden"
     );
@@ -1550,10 +1336,8 @@ function setLoginMessage(
         "loginMessage"
     );
 
-
     message.textContent =
     text;
-
 
     message.style.color =
     success
@@ -1574,12 +1358,10 @@ async function login(){
         "codeInput"
     );
 
-
     const code =
     input.value
     .trim()
     .toUpperCase();
-
 
     if(
         !/^[A-Z0-9]{8}$/.test(code)
@@ -1593,7 +1375,6 @@ async function login(){
 
     }
 
-
     if(
         !accessCodes.includes(code)
     ){
@@ -1606,19 +1387,16 @@ async function login(){
 
     }
 
-
     const button =
     document.getElementById(
         "loginButton"
     );
-
 
     button.disabled =
     true;
 
     button.textContent =
     "CONNECTING...";
-
 
     try{
 
@@ -1628,14 +1406,12 @@ async function login(){
             code
         );
 
-
         const result =
         await codeRef.transaction(
             currentData => {
 
                 const now =
                 Date.now();
-
 
                 if(
                     currentData === null
@@ -1660,7 +1436,6 @@ async function login(){
                     };
 
                 }
-
 
                 if(
                     currentData.expiresAt &&
@@ -1688,7 +1463,6 @@ async function login(){
 
                 }
 
-
                 if(
                     currentData.deviceID ===
                     deviceID
@@ -1698,22 +1472,18 @@ async function login(){
 
                 }
 
-
                 return;
 
             }
         );
-
 
         const snapshot =
         await codeRef.once(
             "value"
         );
 
-
         const data =
         snapshot.val();
-
 
         if(!data){
 
@@ -1722,7 +1492,6 @@ async function login(){
             );
 
         }
-
 
         if(
             data.deviceID !==
@@ -1737,7 +1506,6 @@ async function login(){
 
         }
 
-
         if(
             data.expiresAt &&
             Date.now() >=
@@ -1751,7 +1519,6 @@ async function login(){
             return;
 
         }
-
 
         session = {
 
@@ -1768,7 +1535,6 @@ async function login(){
 
         };
 
-
         localStorage.setItem(
             SESSION_KEY,
             JSON.stringify(
@@ -1776,22 +1542,18 @@ async function login(){
             )
         );
 
-
         setLoginMessage(
             "Login successful.",
             true
         );
 
-
         showHome();
-
 
     }catch(error){
 
         console.error(
             error
         );
-
 
         setLoginMessage(
             "Unable to connect to Firebase."
@@ -1826,7 +1588,6 @@ async function validateSession(){
 
     }
 
-
     try{
 
         const codeRef =
@@ -1835,16 +1596,13 @@ async function validateSession(){
             session.code
         );
 
-
         const snapshot =
         await codeRef.once(
             "value"
         );
 
-
         const data =
         snapshot.val();
-
 
         if(!data){
 
@@ -1861,7 +1619,6 @@ async function validateSession(){
             return;
 
         }
-
 
         if(
             data.deviceID !==
@@ -1885,7 +1642,6 @@ async function validateSession(){
             return;
 
         }
-
 
         if(
             data.expiresAt &&
@@ -1911,19 +1667,15 @@ async function validateSession(){
 
         }
 
-
         session.expiresAt =
         data.expiresAt;
-
 
         localStorage.setItem(
             SESSION_KEY,
             JSON.stringify(session)
         );
 
-
         showHome();
-
 
     }catch(error){
 
@@ -1947,7 +1699,6 @@ function showHome(){
     showScreen(
         homeScreen
     );
-
 
     if(session){
 
@@ -2135,14 +1886,12 @@ document
             selectedFile =
             button.dataset.file;
 
-
             document
             .getElementById(
                 "introTitle"
             )
             .textContent =
             selectedName;
-
 
             document
             .getElementById(
@@ -2152,7 +1901,6 @@ document
             introductions[
                 selectedName
             ];
-
 
             showScreen(
                 introScreen
@@ -2174,7 +1922,6 @@ async function startReviewer(){
         reviewerScreen
     );
 
-
     document
     .getElementById(
         "subjectTitle"
@@ -2182,20 +1929,16 @@ async function startReviewer(){
     .textContent =
     selectedName;
 
-
     const loading =
     document.getElementById(
         "loading"
     );
 
-
     loading.className =
     "loading";
 
-
     loading.innerHTML =
     "Loading questions...";
-
 
     document
     .getElementById(
@@ -2205,7 +1948,6 @@ async function startReviewer(){
         "hidden"
     );
 
-
     currentQuestion=0;
 
     score=0;
@@ -2214,19 +1956,11 @@ async function startReviewer(){
 
     questions=[];
 
-
     const filePath =
     "./question-bank/" +
     selectedFile;
 
-
     try{
-
-        console.log(
-            "Loading:",
-            filePath
-        );
-
 
         const response =
         await fetch(
@@ -2235,7 +1969,6 @@ async function startReviewer(){
                 cache:"no-store"
             }
         );
-
 
         if(!response.ok){
 
@@ -2248,10 +1981,8 @@ async function startReviewer(){
 
         }
 
-
         const data =
         await response.json();
-
 
         if(
             Array.isArray(data)
@@ -2278,7 +2009,6 @@ async function startReviewer(){
 
         }
 
-
         if(
             questions.length === 0
         ){
@@ -2288,7 +2018,6 @@ async function startReviewer(){
             );
 
         }
-
 
         questions.forEach(
             (q,index) => {
@@ -2305,7 +2034,6 @@ async function startReviewer(){
 
                 }
 
-
                 if(
                     !q.choices
                 ){
@@ -2317,7 +2045,6 @@ async function startReviewer(){
                     );
 
                 }
-
 
                 if(
                     !q.answer
@@ -2334,11 +2061,9 @@ async function startReviewer(){
             }
         );
 
-
         loading.classList.add(
             "hidden"
         );
-
 
         document
         .getElementById(
@@ -2348,9 +2073,7 @@ async function startReviewer(){
             "hidden"
         );
 
-
         renderQuestion();
-
 
     }catch(error){
 
@@ -2359,10 +2082,8 @@ async function startReviewer(){
             error
         );
 
-
         loading.className =
         "loading";
-
 
         loading.innerHTML = `
 
@@ -2426,7 +2147,6 @@ function renderQuestion(){
         currentQuestion
     ];
 
-
     document
     .getElementById(
         "questionNumber"
@@ -2434,7 +2154,6 @@ function renderQuestion(){
     .textContent =
     "Question " +
     (currentQuestion+1);
-
 
     document
     .getElementById(
@@ -2446,7 +2165,6 @@ function renderQuestion(){
     " of " +
     questions.length;
 
-
     document
     .getElementById(
         "scoreDisplay"
@@ -2454,7 +2172,6 @@ function renderQuestion(){
     .textContent =
     "Score: " +
     score;
-
 
     document
     .getElementById(
@@ -2470,7 +2187,6 @@ function renderQuestion(){
     ) +
     "%";
 
-
     document
     .getElementById(
         "question"
@@ -2478,15 +2194,12 @@ function renderQuestion(){
     .textContent =
     q.question;
 
-
     const choices =
     document.getElementById(
         "choices"
     );
 
-
     choices.innerHTML="";
-
 
     [
         "A",
@@ -2507,33 +2220,27 @@ function renderQuestion(){
 
             }
 
-
             const button =
             document.createElement(
                 "button"
             );
 
-
             button.className =
             "choice";
 
-
             button.dataset.letter =
             letter;
-
 
             button.textContent =
             letter +
             ". " +
             q.choices[letter];
 
-
             button.onclick =
             () =>
             selectAnswer(
                 letter
             );
-
 
             choices.appendChild(
                 button
@@ -2542,25 +2249,15 @@ function renderQuestion(){
         }
     );
 
-
     const feedback =
     document.getElementById(
         "feedback"
     );
 
-
-    /*
-       HINDI TINATANGGAL SA LAYOUT.
-       Visibility lang ang binabago.
-    */
-
     feedback.className =
-    "feedback";
+    "feedback hidden";
 
-
-    feedback.innerHTML =
-    "";
-
+    feedback.innerHTML="";
 
     if(
         userAnswers[
@@ -2571,11 +2268,11 @@ function renderQuestion(){
         showAnswer(
             userAnswers[
                 currentQuestion
-            ]
+            ],
+            false
         );
 
     }
-
 
     document
     .getElementById(
@@ -2583,7 +2280,6 @@ function renderQuestion(){
     )
     .disabled =
     currentQuestion === 0;
-
 
     document
     .getElementById(
@@ -2594,60 +2290,6 @@ function renderQuestion(){
     questions.length-1
     ? "FINISH"
     : "NEXT";
-
-}
-
-
-/* =====================================================
-   PLAY SOUND
-===================================================== */
-
-function playCorrectSound(){
-
-    try{
-
-        correctSound.pause();
-
-        correctSound.currentTime=0;
-
-        correctSound.play().catch(
-            error =>
-            console.log(
-                "Correct sound blocked:",
-                error
-            )
-        );
-
-    }catch(error){
-
-        console.error(error);
-
-    }
-
-}
-
-
-function playWrongSound(){
-
-    try{
-
-        wrongSound.pause();
-
-        wrongSound.currentTime=0;
-
-        wrongSound.play().catch(
-            error =>
-            console.log(
-                "Wrong sound blocked:",
-                error
-            )
-        );
-
-    }catch(error){
-
-        console.error(error);
-
-    }
 
 }
 
@@ -2668,32 +2310,48 @@ function selectAnswer(letter){
 
     }
 
-
     userAnswers[
         currentQuestion
     ] =
     letter;
 
-
-    const correct =
-    letter ===
+    const q =
     questions[
         currentQuestion
-    ].answer;
+    ];
 
-
-    if(correct){
+    if(
+        letter ===
+        q.answer
+    ){
 
         score++;
 
-        playCorrectSound();
+        correctSound.currentTime = 0;
+
+        correctSound.play()
+        .catch(
+            error =>
+            console.log(
+                "Correct sound:",
+                error
+            )
+        );
 
     }else{
 
-        playWrongSound();
+        wrongSound.currentTime = 0;
+
+        wrongSound.play()
+        .catch(
+            error =>
+            console.log(
+                "Wrong sound:",
+                error
+            )
+        );
 
     }
-
 
     renderQuestion();
 
@@ -2704,13 +2362,15 @@ function selectAnswer(letter){
    SHOW ANSWER
 ===================================================== */
 
-function showAnswer(letter){
+function showAnswer(
+    letter,
+    playSound=false
+){
 
     const q =
     questions[
         currentQuestion
     ];
-
 
     document
     .querySelectorAll(
@@ -2722,10 +2382,7 @@ function showAnswer(letter){
             const choiceLetter =
             button.dataset.letter;
 
-
-            button.disabled =
-            true;
-
+            button.disabled=true;
 
             if(
                 choiceLetter ===
@@ -2737,7 +2394,6 @@ function showAnswer(letter){
                 );
 
             }
-
 
             if(
                 choiceLetter ===
@@ -2756,23 +2412,59 @@ function showAnswer(letter){
     );
 
 
+    if(playSound){
+
+        if(
+            letter ===
+            q.answer
+        ){
+
+            correctSound.currentTime=0;
+
+            correctSound.play()
+            .catch(
+                error =>
+                console.log(
+                    error
+                )
+            );
+
+        }else{
+
+            wrongSound.currentTime=0;
+
+            wrongSound.play()
+            .catch(
+                error =>
+                console.log(
+                    error
+                )
+            );
+
+        }
+
+    }
+
+
     const feedback =
     document.getElementById(
         "feedback"
     );
 
+    feedback.className =
+    "feedback";
 
     if(
         letter ===
         q.answer
     ){
 
-        feedback.className =
-        "feedback correct";
-
+        feedback.classList.add(
+            "correct"
+        );
 
         feedback.innerHTML =
-        "<strong>✓ CORRECT!</strong> " +
+        "<strong>Correct!</strong><br>" +
         (
             q.explanation ||
             "Your answer is correct."
@@ -2780,15 +2472,15 @@ function showAnswer(letter){
 
     }else{
 
-        feedback.className =
-        "feedback wrong";
-
+        feedback.classList.add(
+            "wrong"
+        );
 
         feedback.innerHTML =
-        "<strong>✗ INCORRECT!</strong> " +
+        "<strong>Incorrect.</strong><br>" +
         "Correct answer: " +
         q.answer +
-        " — " +
+        "<br>" +
         (
             q.explanation ||
             ""
@@ -2824,7 +2516,6 @@ document
 
     }
 
-
     if(
         currentQuestion ===
         questions.length-1
@@ -2835,7 +2526,6 @@ document
         return;
 
     }
-
 
     currentQuestion++;
 
@@ -2869,10 +2559,15 @@ document
 
 
 /* =====================================================
-   EXIT REVIEWER
+   EXIT TO SUBJECTS
 ===================================================== */
 
-function exitReviewer(){
+document
+.getElementById(
+    "exitButton"
+)
+.onclick =
+() => {
 
     if(
         confirm(
@@ -2889,15 +2584,7 @@ function exitReviewer(){
 
     }
 
-}
-
-
-document
-.getElementById(
-    "exitReviewerButton"
-)
-.onclick =
-exitReviewer;
+};
 
 
 /* =====================================================
@@ -2910,7 +2597,6 @@ function showResult(){
         resultScreen
     );
 
-
     const percentage =
     Math.round(
         (
@@ -2920,7 +2606,6 @@ function showResult(){
         100
     );
 
-
     document
     .getElementById(
         "finalScore"
@@ -2929,7 +2614,6 @@ function showResult(){
     score +
     " / " +
     questions.length;
-
 
     document
     .getElementById(
@@ -3037,6 +2721,46 @@ document
     }
 
 };
+
+
+/* =====================================================
+   AUTO FULL SCREEN
+   LAPTOP / DESKTOP ONLY
+===================================================== */
+
+document.addEventListener(
+    "click",
+    async function(){
+
+        const isLaptop =
+            window.innerWidth > 700 &&
+            window.innerHeight > 500;
+
+        if(!isLaptop){
+            return;
+        }
+
+        if(document.fullscreenElement){
+            return;
+        }
+
+        try{
+
+            await document
+            .documentElement
+            .requestFullscreen();
+
+        }catch(error){
+
+            console.log(
+                "Fullscreen request blocked:",
+                error
+            );
+
+        }
+
+    }
+);
 
 
 /* =====================================================
