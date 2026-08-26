@@ -24,7 +24,7 @@ html,
 body{
     width:100%;
     height:100%;
-    overflow:hidden;
+    min-height:100%;
     font-family:Arial,sans-serif;
     background:#f3f6fa;
     color:#222;
@@ -32,6 +32,7 @@ body{
 
 body{
     padding:20px;
+    overflow:hidden;
 }
 
 .hidden{
@@ -40,7 +41,7 @@ body{
 
 .screen{
     width:100%;
-    max-width:1200px;
+    max-width:1100px;
     height:100%;
     margin:auto;
 }
@@ -53,12 +54,12 @@ body{
 }
 
 
-/* =========================
+/* =====================================================
    LOGIN
-========================= */
+===================================================== */
 
 .login-screen{
-    min-height:calc(100vh - 40px);
+    height:calc(100vh - 40px);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -66,17 +67,17 @@ body{
 
 .login-card{
     width:100%;
-    max-width:500px;
+    max-width:520px;
     text-align:center;
 }
 
 .logo{
     font-size:55px;
-    margin-bottom:10px;
+    margin-bottom:8px;
 }
 
 .login-card h1{
-    font-size:38px;
+    font-size:36px;
     margin-bottom:10px;
 }
 
@@ -86,27 +87,23 @@ body{
     font-size:17px;
 }
 
-.code-input{
+.code-input,
+.password-input{
     width:100%;
-    height:65px;
-    margin-top:20px;
+    height:62px;
+    margin-top:18px;
     border:2px solid #ddd;
     border-radius:12px;
     text-align:center;
     font-size:25px;
     font-weight:bold;
-    letter-spacing:4px;
-    text-transform:uppercase;
+    letter-spacing:3px;
     outline:none;
 }
 
-.code-input:focus{
+.code-input:focus,
+.password-input:focus{
     border-color:#1769e0;
-}
-
-.password-input{
-    text-transform:none;
-    letter-spacing:2px;
 }
 
 .btn{
@@ -140,10 +137,24 @@ body{
 }
 
 .message{
-    min-height:28px;
-    margin-top:12px;
+    min-height:27px;
+    margin-top:14px;
     font-size:16px;
     font-weight:bold;
+}
+
+.login-switch{
+    margin-top:20px;
+    font-size:16px;
+}
+
+.login-switch button{
+    border:0;
+    background:none;
+    color:#1769e0;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
 }
 
 .expiry-info{
@@ -153,9 +164,14 @@ body{
 }
 
 
-/* =========================
+/* =====================================================
    HOME
-========================= */
+===================================================== */
+
+.home-screen{
+    height:100%;
+    overflow:auto;
+}
 
 .header{
     display:flex;
@@ -166,18 +182,18 @@ body{
 }
 
 .header-title{
-    font-size:32px;
+    font-size:30px;
     font-weight:bold;
 }
 
 .account{
     color:#777;
-    font-size:15px;
+    font-size:14px;
     margin-top:5px;
 }
 
 .home-title{
-    font-size:40px;
+    font-size:38px;
     margin-bottom:8px;
 }
 
@@ -192,7 +208,7 @@ body{
     min-height:145px;
     padding:25px;
     text-align:left;
-    border:2px solid #e0e4e9;
+    border:3px solid #e0e4e9;
     background:#fff;
     border-radius:16px;
     cursor:pointer;
@@ -206,7 +222,7 @@ body{
 
 .reviewer-button strong{
     display:block;
-    font-size:24px;
+    font-size:23px;
     margin-bottom:10px;
 }
 
@@ -217,39 +233,42 @@ body{
 }
 
 
-/* =========================
+/* =====================================================
    INTRODUCTION
-========================= */
+===================================================== */
 
 .intro-screen{
     display:flex;
     align-items:center;
     justify-content:center;
+    height:100%;
 }
 
-.intro-card{
+.intro-screen .card{
     width:100%;
+    max-height:95vh;
+    overflow:auto;
 }
 
 .intro-title{
+    text-align:center;
     font-size:42px;
     margin-bottom:5px;
-    text-align:center;
 }
 
 .intro-label{
+    text-align:center;
     color:#777;
     margin-bottom:25px;
-    text-align:center;
-    font-size:19px;
+    font-size:18px;
 }
 
 .introduction{
-    line-height:1.8;
-    font-size:20px;
-    text-align:center;
-    max-width:1000px;
+    max-width:900px;
     margin:auto;
+    line-height:1.8;
+    font-size:21px;
+    text-align:center;
 }
 
 .introduction p{
@@ -258,8 +277,8 @@ body{
 
 .intro-actions{
     display:flex;
-    gap:12px;
-    margin-top:25px;
+    gap:15px;
+    margin-top:30px;
 }
 
 .intro-actions .btn{
@@ -267,57 +286,40 @@ body{
 }
 
 
-/* =========================
+/* =====================================================
    REVIEWER
-========================= */
+===================================================== */
 
 .reviewer-screen{
     height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .reviewer-card{
-    height:100%;
+    width:100%;
+    height:calc(100vh - 40px);
+    max-height:100%;
+    position:relative;
     display:flex;
     flex-direction:column;
-    position:relative;
     overflow:hidden;
 }
 
-.exit-button{
-    position:absolute;
-    top:18px;
-    right:18px;
-    width:52px;
-    height:52px;
-    border-radius:50%;
-    border:0;
-    background:#e9edf2;
-    color:#222;
-    font-size:30px;
-    font-weight:bold;
-    line-height:52px;
-    text-align:center;
-    cursor:pointer;
-    z-index:20;
-}
-
-.exit-button:hover{
-    background:#dc3545;
-    color:white;
-}
-
 .subject-title{
-    font-size:38px;
     text-align:center;
-    padding-right:65px;
+    font-size:34px;
+    flex-shrink:0;
 }
 
 .progress-info{
     display:flex;
     justify-content:space-between;
-    margin-top:12px;
+    margin-top:10px;
     color:#666;
     font-size:18px;
+    flex-shrink:0;
 }
 
 .progress-bar{
@@ -327,6 +329,7 @@ body{
     border-radius:10px;
     overflow:hidden;
     margin-top:10px;
+    flex-shrink:0;
 }
 
 .progress{
@@ -336,44 +339,58 @@ body{
     transition:.2s;
 }
 
+.question-area{
+    flex:1;
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:15px 20px 10px;
+}
+
 .question-number{
-    margin-top:18px;
     color:#777;
     font-size:20px;
-    text-align:center;
+    margin-bottom:8px;
+    flex-shrink:0;
 }
 
 .question{
-    font-size:clamp(34px,4vw,58px);
+    width:100%;
+    font-size:42px;
     font-weight:bold;
     line-height:1.25;
-    margin:8px auto 25px;
+    margin:0 auto 22px;
     text-align:center;
-    max-width:1100px;
+    flex-shrink:0;
 }
 
 .choices{
+    width:100%;
+    max-width:1000px;
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:15px;
-    width:100%;
-    max-width:1100px;
-    margin:0 auto;
+    gap:14px;
+    flex-shrink:0;
 }
 
 .choice{
     width:100%;
-    min-height:82px;
-    padding:16px 22px;
+    min-height:78px;
+    padding:15px 20px;
     border:3px solid #dfe3e8;
     background:#fff;
     border-radius:14px;
     text-align:center;
-    font-size:clamp(24px,2.3vw,34px);
+    font-size:27px;
     font-weight:bold;
-    line-height:1.25;
     cursor:pointer;
-    transition:none;
+    transition:
+        background .15s,
+        border-color .15s,
+        transform .15s;
 }
 
 .choice:hover{
@@ -382,40 +399,46 @@ body{
 
 .choice.correct{
     border-color:#18a558;
-    background:#18a558;
-    color:white;
-    animation:correctBlink .55s ease-in-out 2;
+    background:#b9f5ce;
+    animation:correctBlink .45s ease-in-out 3;
 }
 
 .choice.wrong{
     border-color:#dc3545;
-    background:#dc3545;
-    color:white;
-    animation:wrongFlash .35s ease-in-out 2;
+    background:#ffb8bf;
+    animation:wrongBlink .25s ease-in-out 3;
 }
 
 @keyframes correctBlink{
-    0%,100%{
-        background:#18a558;
-        border-color:#18a558;
+
+    0%{
+        background:#b9f5ce;
     }
+
     50%{
-        background:#a7e9c5;
-        border-color:#18a558;
-        color:#145c34;
+        background:#39d878;
     }
+
+    100%{
+        background:#b9f5ce;
+    }
+
 }
 
-@keyframes wrongFlash{
-    0%,100%{
-        background:#dc3545;
-        border-color:#dc3545;
+@keyframes wrongBlink{
+
+    0%{
+        background:#ffb8bf;
     }
+
     50%{
-        background:#ffb3ba;
-        border-color:#dc3545;
-        color:#7a1018;
+        background:#ff4b5c;
     }
+
+    100%{
+        background:#ffb8bf;
+    }
+
 }
 
 .choice:disabled{
@@ -423,14 +446,15 @@ body{
 }
 
 .feedback{
-    margin:14px auto 0;
+    width:100%;
+    max-width:1000px;
+    min-height:65px;
+    margin-top:12px;
     padding:12px 18px;
     border-radius:12px;
     line-height:1.4;
-    font-size:18px;
-    width:100%;
-    max-width:1100px;
-    min-height:54px;
+    font-size:17px;
+    flex-shrink:0;
 }
 
 .feedback.correct{
@@ -444,12 +468,33 @@ body{
 .review-actions{
     display:flex;
     gap:12px;
-    margin-top:auto;
-    padding-top:15px;
+    margin-top:12px;
+    flex-shrink:0;
 }
 
 .review-actions .btn{
     flex:1;
+}
+
+.exit-button{
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:0;
+    background:#e9edf2;
+    color:#333;
+    font-size:28px;
+    font-weight:bold;
+    cursor:pointer;
+    z-index:20;
+}
+
+.exit-button:hover{
+    background:#dc3545;
+    color:#fff;
 }
 
 .loading{
@@ -470,23 +515,24 @@ body{
 }
 
 
-/* =========================
+/* =====================================================
    RESULT
-========================= */
+===================================================== */
 
 .result-screen{
+    height:100%;
     display:flex;
     align-items:center;
     justify-content:center;
 }
 
 .result{
-    text-align:center;
     width:100%;
+    text-align:center;
 }
 
 .result h1{
-    font-size:48px;
+    font-size:45px;
 }
 
 .final-score{
@@ -501,52 +547,48 @@ body{
 }
 
 
-/* =========================
-   LAPTOP FIT
-========================= */
+/* =====================================================
+   RESPONSIVE
+===================================================== */
 
-@media(min-width:701px){
+@media(max-width:900px){
+
+    body{
+        padding:10px;
+        overflow:auto;
+    }
+
+    .reviewer-screen{
+        height:auto;
+        min-height:calc(100vh - 20px);
+    }
 
     .reviewer-card{
-        padding:25px 35px 20px;
+        height:auto;
+        min-height:calc(100vh - 20px);
+        overflow:visible;
     }
 
-    .reviewer-card .question{
-        margin-top:4px;
-        margin-bottom:15px;
+    .question-area{
+        min-height:auto;
+        padding:20px 5px;
     }
 
-    .reviewer-card .choices{
-        gap:12px;
+    .question{
+        font-size:34px;
     }
 
-    .reviewer-card .choice{
-        min-height:75px;
+    .choice{
+        font-size:23px;
+        min-height:72px;
     }
 
 }
 
-
-/* =========================
-   MOBILE
-========================= */
-
 @media(max-width:700px){
 
-    html,
-    body{
-        overflow:auto;
-        min-height:100%;
-        height:auto;
-    }
-
-    body{
-        padding:10px;
-    }
-
-    .screen{
-        height:auto;
-        min-height:calc(100vh - 20px);
+    .login-card h1{
+        font-size:30px;
     }
 
     .card{
@@ -562,15 +604,23 @@ body{
     }
 
     .header-title{
-        font-size:24px;
+        font-size:23px;
     }
 
     .home-title{
-        font-size:32px;
+        font-size:30px;
+    }
+
+    .reviewer-button strong{
+        font-size:21px;
+    }
+
+    .reviewer-button span{
+        font-size:16px;
     }
 
     .intro-title{
-        font-size:32px;
+        font-size:31px;
     }
 
     .introduction{
@@ -578,7 +628,7 @@ body{
     }
 
     .question{
-        font-size:32px;
+        font-size:29px;
     }
 
     .choices{
@@ -586,8 +636,8 @@ body{
     }
 
     .choice{
-        font-size:25px;
-        min-height:70px;
+        font-size:21px;
+        min-height:65px;
     }
 
     .intro-actions,
@@ -595,60 +645,45 @@ body{
         flex-direction:column;
     }
 
-    .reviewer-card{
-        min-height:calc(100vh - 20px);
-    }
-
 }
 
 
-/* =========================
-   VERY SMALL HEIGHT LAPTOP
-========================= */
+/* =====================================================
+   SMALL LAPTOP HEIGHT
+===================================================== */
 
-@media(min-width:701px) and (max-height:750px){
-
-    body{
-        padding:10px;
-    }
+@media(min-width:901px) and (max-height:800px){
 
     .card{
-        padding:18px 25px;
+        padding:20px;
     }
 
     .subject-title{
-        font-size:30px;
-    }
-
-    .question-number{
-        margin-top:8px;
-        font-size:16px;
+        font-size:29px;
     }
 
     .question{
-        font-size:40px;
-        margin-bottom:12px;
+        font-size:34px;
+        margin-bottom:14px;
     }
 
     .choice{
-        min-height:58px;
-        font-size:24px;
+        min-height:62px;
+        font-size:23px;
         padding:10px 15px;
     }
 
-    .feedback{
-        min-height:42px;
-        padding:8px 14px;
-        font-size:15px;
-        margin-top:8px;
+    .question-number{
+        font-size:17px;
     }
 
     .review-actions{
-        padding-top:8px;
+        margin-top:8px;
     }
 
     .review-actions .btn{
         min-height:48px;
+        font-size:16px;
     }
 
 }
@@ -671,56 +706,88 @@ body{
 
 <div class="card login-card">
 
-<div class="logo">📚</div>
+<div class="logo">
+📚
+</div>
 
 <h1>
 Civil Service Reviewer
 </h1>
 
 <p class="subtitle">
-Prepare for the Civil Service Examination
+<span id="loginSubtitle">
+Create your account using your access code.
+</span>
 </p>
+
 
 <input
     id="codeInput"
     class="code-input"
     type="text"
     maxlength="8"
-    autocomplete="username"
+    autocomplete="off"
     spellcheck="false"
     placeholder="ACCESS CODE"
 >
 
+
+<div
+    id="passwordArea"
+>
+
 <input
     id="passwordInput"
-    class="code-input password-input hidden"
+    class="password-input"
     type="password"
-    autocomplete="current-password"
-    placeholder="PASSWORD"
+    maxlength="50"
+    autocomplete="new-password"
+    placeholder="CREATE PASSWORD"
 >
 
 <input
     id="confirmPasswordInput"
-    class="code-input password-input hidden"
+    class="password-input"
     type="password"
+    maxlength="50"
     autocomplete="new-password"
     placeholder="CONFIRM PASSWORD"
 >
+
+</div>
+
 
 <button
     id="loginButton"
     class="btn primary full"
 >
-LOGIN
+CREATE ACCOUNT
 </button>
+
 
 <div
     id="loginMessage"
     class="message"
 ></div>
 
+
+<div class="login-switch">
+
+<span id="switchText">
+Already have an account?
+</span>
+
+<button
+    id="switchLoginButton"
+>
+LOG IN
+</button>
+
+</div>
+
+
 <div class="expiry-info">
-Access code is valid for one year after claiming.
+Access is valid for one year after claiming.
 </div>
 
 </div>
@@ -734,7 +801,7 @@ Access code is valid for one year after claiming.
 
 <div
     id="homeScreen"
-    class="screen hidden"
+    class="screen hidden home-screen"
 >
 
 <div class="card">
@@ -763,6 +830,7 @@ LOG OUT
 
 </div>
 
+
 <h1 class="home-title">
 Choose a Reviewer
 </h1>
@@ -771,7 +839,9 @@ Choose a Reviewer
 Select a subject to view its introduction and begin reviewing.
 </p>
 
+
 <div class="reviewer-grid">
+
 
 <button
     class="reviewer-button"
@@ -862,6 +932,7 @@ and accuracy exercises.
 
 </button>
 
+
 </div>
 
 </div>
@@ -875,10 +946,10 @@ and accuracy exercises.
 
 <div
     id="introScreen"
-    class="screen intro-screen hidden"
+    class="screen hidden intro-screen"
 >
 
-<div class="card intro-card">
+<div class="card">
 
 <h1
     id="introTitle"
@@ -923,23 +994,26 @@ START REVIEWER
 
 <div
     id="reviewerScreen"
-    class="screen reviewer-screen hidden"
+    class="screen hidden reviewer-screen"
 >
 
 <div class="card reviewer-card">
 
+
 <button
     id="exitReviewerButton"
     class="exit-button"
-    title="Exit"
+    title="Exit Reviewer"
 >
 ×
 </button>
+
 
 <h2
     id="subjectTitle"
     class="subject-title"
 ></h2>
+
 
 <div class="progress-info">
 
@@ -953,6 +1027,7 @@ Score: 0
 
 </div>
 
+
 <div class="progress-bar">
 
 <div
@@ -962,6 +1037,7 @@ Score: 0
 
 </div>
 
+
 <div
     id="loading"
     class="loading"
@@ -969,9 +1045,10 @@ Score: 0
 Loading questions...
 </div>
 
+
 <div
     id="questionArea"
-    class="hidden"
+    class="question-area hidden"
 >
 
 <div
@@ -993,6 +1070,7 @@ Loading questions...
     id="feedback"
     class="feedback hidden"
 ></div>
+
 
 <div class="review-actions">
 
@@ -1025,7 +1103,7 @@ NEXT
 
 <div
     id="resultScreen"
-    class="screen result-screen hidden"
+    class="screen hidden result-screen"
 >
 
 <div class="card result">
@@ -1072,7 +1150,7 @@ REVIEW AGAIN
 
 
 <!-- =====================================================
-     AUDIO
+     SOUND EFFECTS
 ===================================================== -->
 
 <audio
@@ -1152,6 +1230,56 @@ const ONE_YEAR =
 
 const SESSION_KEY =
 "civilServiceReviewerSession";
+
+const DEVICE_KEY =
+"civilServiceReviewerDevice";
+
+
+/* =====================================================
+   DEVICE ID
+===================================================== */
+
+function getDeviceID(){
+
+    let id =
+    localStorage.getItem(
+        DEVICE_KEY
+    );
+
+    if(!id){
+
+        if(
+            window.crypto &&
+            crypto.randomUUID
+        ){
+
+            id =
+            crypto.randomUUID();
+
+        }else{
+
+            id =
+            Date.now()
+            .toString(36) +
+            Math.random()
+            .toString(36)
+            .substring(2);
+
+        }
+
+        localStorage.setItem(
+            DEVICE_KEY,
+            id
+        );
+
+    }
+
+    return id;
+
+}
+
+const deviceID =
+getDeviceID();
 
 
 /* =====================================================
@@ -1277,6 +1405,13 @@ JSON.parse(
 
 
 /* =====================================================
+   LOGIN MODE
+===================================================== */
+
+let createMode = true;
+
+
+/* =====================================================
    REVIEWER VARIABLES
 ===================================================== */
 
@@ -1322,16 +1457,6 @@ document.getElementById(
     "resultScreen"
 );
 
-const wrongSound =
-document.getElementById(
-    "wrongSound"
-);
-
-const correctSound =
-document.getElementById(
-    "correctSound"
-);
-
 
 /* =====================================================
    SCREEN
@@ -1356,6 +1481,158 @@ function showScreen(screen){
     screen.classList.remove(
         "hidden"
     );
+
+}
+
+
+/* =====================================================
+   LOGIN MODE
+===================================================== */
+
+function setLoginMode(mode){
+
+    createMode =
+    mode === "create";
+
+    const password =
+    document.getElementById(
+        "passwordInput"
+    );
+
+    const confirm =
+    document.getElementById(
+        "confirmPasswordInput"
+    );
+
+    const button =
+    document.getElementById(
+        "loginButton"
+    );
+
+    const subtitle =
+    document.getElementById(
+        "loginSubtitle"
+    );
+
+    const switchText =
+    document.getElementById(
+        "switchText"
+    );
+
+    const switchButton =
+    document.getElementById(
+        "switchLoginButton"
+    );
+
+    const message =
+    document.getElementById(
+        "loginMessage"
+    );
+
+    message.textContent="";
+
+    if(createMode){
+
+        subtitle.textContent =
+        "Create your account using your access code.";
+
+        password.placeholder =
+        "CREATE PASSWORD";
+
+        confirm.classList.remove(
+            "hidden"
+        );
+
+        button.textContent =
+        "CREATE ACCOUNT";
+
+        switchText.textContent =
+        "Already have an account?";
+
+        switchButton.textContent =
+        "LOG IN";
+
+        password.autocomplete =
+        "new-password";
+
+        confirm.autocomplete =
+        "new-password";
+
+    }else{
+
+        subtitle.textContent =
+        "Log in using your access code and password.";
+
+        password.placeholder =
+        "PASSWORD";
+
+        confirm.classList.add(
+            "hidden"
+        );
+
+        button.textContent =
+        "LOG IN";
+
+        switchText.textContent =
+        "New user?";
+
+        switchButton.textContent =
+        "CREATE ACCOUNT";
+
+        password.autocomplete =
+        "current-password";
+
+    }
+
+    document
+    .getElementById(
+        "passwordInput"
+    )
+    .value="";
+
+    document
+    .getElementById(
+        "confirmPasswordInput"
+    )
+    .value="";
+
+}
+
+
+/* =====================================================
+   PASSWORD HASH
+===================================================== */
+
+async function hashPassword(password){
+
+    const encoder =
+    new TextEncoder();
+
+    const data =
+    encoder.encode(
+        password
+    );
+
+    const hashBuffer =
+    await crypto.subtle.digest(
+        "SHA-256",
+        data
+    );
+
+    const hashArray =
+    Array.from(
+        new Uint8Array(
+            hashBuffer
+        )
+    );
+
+    return hashArray
+    .map(
+        b =>
+        b.toString(16)
+        .padStart(2,"0")
+    )
+    .join("");
 
 }
 
@@ -1386,134 +1663,7 @@ function setLoginMessage(
 
 
 /* =====================================================
-   PASSWORD HASH
-===================================================== */
-
-async function hashPassword(password){
-
-    const encoder =
-    new TextEncoder();
-
-    const data =
-    encoder.encode(password);
-
-    const hashBuffer =
-    await crypto.subtle.digest(
-        "SHA-256",
-        data
-    );
-
-    const hashArray =
-    Array.from(
-        new Uint8Array(
-            hashBuffer
-        )
-    );
-
-    return hashArray
-        .map(
-            b =>
-            b.toString(16)
-            .padStart(2,"0")
-        )
-        .join("");
-
-}
-
-
-/* =====================================================
-   PASSWORD MODE
-===================================================== */
-
-let creatingPassword =
-false;
-
-
-function showCreatePassword(){
-
-    creatingPassword =
-    true;
-
-    document
-    .getElementById(
-        "passwordInput"
-    )
-    .classList.remove(
-        "hidden"
-    );
-
-    document
-    .getElementById(
-        "confirmPasswordInput"
-    )
-    .classList.remove(
-        "hidden"
-    );
-
-    document
-    .getElementById(
-        "passwordInput"
-    )
-    .placeholder =
-    "CREATE PASSWORD";
-
-    document
-    .getElementById(
-        "confirmPasswordInput"
-    )
-    .placeholder =
-    "CONFIRM PASSWORD";
-
-    document
-    .getElementById(
-        "loginButton"
-    )
-    .textContent =
-    "CREATE PASSWORD";
-
-}
-
-
-function showNormalLogin(){
-
-    creatingPassword =
-    false;
-
-    document
-    .getElementById(
-        "passwordInput"
-    )
-    .classList.remove(
-        "hidden"
-    );
-
-    document
-    .getElementById(
-        "confirmPasswordInput"
-    )
-    .classList.add(
-        "hidden"
-    );
-
-    document
-    .getElementById(
-        "passwordInput"
-    )
-    .placeholder =
-    "PASSWORD";
-
-    document
-    .getElementById(
-        "loginButton"
-    )
-    .textContent =
-    "LOGIN";
-
-}
-
-
-/* =====================================================
-   LOGIN
+   AUTH
 ===================================================== */
 
 async function login(){
@@ -1533,18 +1683,18 @@ async function login(){
         "confirmPasswordInput"
     );
 
-    const button =
-    document.getElementById(
-        "loginButton"
-    );
-
     const code =
     codeInput.value
     .trim()
     .toUpperCase();
 
+    const password =
+    passwordInput.value;
+
     if(
-        !/^[A-Z0-9]{8}$/.test(code)
+        !/^[A-Z0-9]{8}$/.test(
+            code
+        )
     ){
 
         setLoginMessage(
@@ -1555,8 +1705,61 @@ async function login(){
 
     }
 
+    if(
+        !accessCodes.includes(
+            code
+        )
+    ){
+
+        setLoginMessage(
+            "Invalid access code."
+        );
+
+        return;
+
+    }
+
+    if(
+        password.length < 6
+    ){
+
+        setLoginMessage(
+            "Password must be at least 6 characters."
+        );
+
+        return;
+
+    }
+
+
+    if(
+        createMode &&
+        password !==
+        confirmInput.value
+    ){
+
+        setLoginMessage(
+            "Passwords do not match."
+        );
+
+        return;
+
+    }
+
+
+    const button =
+    document.getElementById(
+        "loginButton"
+    );
+
     button.disabled =
     true;
+
+    button.textContent =
+    createMode
+    ? "CREATING..."
+    : "LOGGING IN...";
+
 
     try{
 
@@ -1565,6 +1768,7 @@ async function login(){
             "civilServiceCodes/" +
             code
         );
+
 
         const snapshot =
         await codeRef.once(
@@ -1575,16 +1779,19 @@ async function login(){
         snapshot.val();
 
 
-        if(!data){
+        /* =================================================
+           CREATE ACCOUNT
+        ================================================= */
+
+        if(createMode){
 
             if(
-                !accessCodes.includes(
-                    code
-                )
+                data &&
+                data.passwordHash
             ){
 
                 setLoginMessage(
-                    "Invalid access code."
+                    "This access code already has an account. Please use LOG IN."
                 );
 
                 return;
@@ -1592,16 +1799,145 @@ async function login(){
             }
 
 
-            /*
-             * Create the Firebase record
-             * when the user creates the password.
-             */
+            const now =
+            Date.now();
 
-            showCreatePassword();
+
+            if(
+                data &&
+                data.expiresAt &&
+                now <
+                data.expiresAt
+            ){
+
+                if(
+                    data.deviceID !==
+                    deviceID
+                ){
+
+                    setLoginMessage(
+                        "This access code is already claimed by another device."
+                    );
+
+                    return;
+
+                }
+
+            }
+
+
+            const passwordHash =
+            await hashPassword(
+                password
+            );
+
+
+            const accountData = {
+
+                code:code,
+
+                claimed:true,
+
+                deviceID:deviceID,
+
+                claimedAt:
+                data?.claimedAt ||
+                now,
+
+                expiresAt:
+                data?.expiresAt ||
+                (
+                    now +
+                    ONE_YEAR
+                ),
+
+                passwordHash:
+                passwordHash,
+
+                passwordCreatedAt:
+                now
+
+            };
+
+
+            await codeRef.set(
+                accountData
+            );
+
+
+            session = {
+
+                code:code,
+
+                deviceID:deviceID,
+
+                claimedAt:
+                accountData.claimedAt,
+
+                expiresAt:
+                accountData.expiresAt
+
+            };
+
+
+            localStorage.setItem(
+                SESSION_KEY,
+                JSON.stringify(
+                    session
+                )
+            );
+
 
             setLoginMessage(
-                "This access code is ready. Create your password.",
+                "Account created successfully.",
                 true
+            );
+
+
+            showHome();
+
+
+            return;
+
+        }
+
+
+        /* =================================================
+           EXISTING ACCOUNT LOGIN
+        ================================================= */
+
+        if(!data){
+
+            setLoginMessage(
+                "Account not found. Please create an account first."
+            );
+
+            return;
+
+        }
+
+
+        if(
+            !data.passwordHash
+        ){
+
+            setLoginMessage(
+                "This access code has no password yet. Please use CREATE ACCOUNT."
+            );
+
+            return;
+
+        }
+
+
+        if(
+            data.deviceID &&
+            data.deviceID !==
+            deviceID
+        ){
+
+            setLoginMessage(
+                "This account belongs to another device."
             );
 
             return;
@@ -1617,155 +1953,6 @@ async function login(){
 
             setLoginMessage(
                 "This access code has expired."
-            );
-
-            return;
-
-        }
-
-
-        if(!data.passwordHash){
-
-            showCreatePassword();
-
-            setLoginMessage(
-                "Create your password to continue.",
-                true
-            );
-
-            return;
-
-        }
-
-
-        if(creatingPassword){
-
-            const password =
-            passwordInput.value;
-
-            const confirmPassword =
-            confirmInput.value;
-
-
-            if(
-                password.length < 6
-            ){
-
-                setLoginMessage(
-                    "Password must contain at least 6 characters."
-                );
-
-                return;
-
-            }
-
-
-            if(
-                password !==
-                confirmPassword
-            ){
-
-                setLoginMessage(
-                    "Passwords do not match."
-                );
-
-                return;
-
-            }
-
-
-            const passwordHash =
-            await hashPassword(
-                password
-            );
-
-            const now =
-            Date.now();
-
-
-            await codeRef.update({
-
-                passwordHash:
-                passwordHash,
-
-                passwordCreatedAt:
-                now,
-
-                claimed:
-                true,
-
-                claimedAt:
-                data.claimedAt ||
-                now,
-
-                expiresAt:
-                data.expiresAt ||
-                (
-                    now +
-                    ONE_YEAR
-                )
-
-            });
-
-
-            data =
-            (
-                await codeRef.once(
-                    "value"
-                )
-            ).val();
-
-
-            session = {
-
-                code:
-                code,
-
-                claimedAt:
-                data.claimedAt,
-
-                expiresAt:
-                data.expiresAt
-
-            };
-
-
-            localStorage.setItem(
-                SESSION_KEY,
-                JSON.stringify(
-                    session
-                )
-            );
-
-
-            passwordInput.value =
-            "";
-
-            confirmInput.value =
-            "";
-
-
-            setLoginMessage(
-                "Password created successfully.",
-                true
-            );
-
-
-            showHome();
-
-            return;
-
-        }
-
-
-        const password =
-        passwordInput.value;
-
-
-        if(!password){
-
-            setLoginMessage(
-                "Enter your password."
             );
 
             return;
@@ -1795,8 +1982,10 @@ async function login(){
 
         session = {
 
-            code:
-            code,
+            code:code,
+
+            deviceID:
+            data.deviceID,
 
             claimedAt:
             data.claimedAt,
@@ -1813,10 +2002,6 @@ async function login(){
                 session
             )
         );
-
-
-        passwordInput.value =
-        "";
 
 
         setLoginMessage(
@@ -1843,12 +2028,10 @@ async function login(){
         button.disabled =
         false;
 
-        if(!creatingPassword){
-
-            button.textContent =
-            "LOGIN";
-
-        }
+        button.textContent =
+        createMode
+        ? "CREATE ACCOUNT"
+        : "LOG IN";
 
     }
 
@@ -1865,6 +2048,10 @@ async function validateSession(){
 
         showScreen(
             loginScreen
+        );
+
+        setLoginMode(
+            "create"
         );
 
         return;
@@ -1886,7 +2073,6 @@ async function validateSession(){
             "value"
         );
 
-
         const data =
         snapshot.val();
 
@@ -1901,6 +2087,30 @@ async function validateSession(){
 
             showScreen(
                 loginScreen
+            );
+
+            return;
+
+        }
+
+
+        if(
+            data.deviceID !==
+            deviceID
+        ){
+
+            localStorage.removeItem(
+                SESSION_KEY
+            );
+
+            session=null;
+
+            showScreen(
+                loginScreen
+            );
+
+            setLoginMessage(
+                "This account belongs to another device."
             );
 
             return;
@@ -1933,7 +2143,9 @@ async function validateSession(){
         }
 
 
-        if(!data.passwordHash){
+        if(
+            !data.passwordHash
+        ){
 
             localStorage.removeItem(
                 SESSION_KEY
@@ -1945,8 +2157,8 @@ async function validateSession(){
                 loginScreen
             );
 
-            setLoginMessage(
-                "Please create your password."
+            setLoginMode(
+                "create"
             );
 
             return;
@@ -2000,7 +2212,7 @@ function showHome(){
             "accountInfo"
         )
         .textContent =
-        "Username: " +
+        "Access Code: " +
         session.code;
 
     }
@@ -2250,8 +2462,11 @@ async function startReviewer(){
 
 
     currentQuestion=0;
+
     score=0;
+
     userAnswers={};
+
     questions=[];
 
 
@@ -2426,12 +2641,6 @@ async function startReviewer(){
         &nbsp;&nbsp;clerical-ability.json
         </code>
 
-        <br><br>
-
-        Also run the project using
-        <strong>Live Server</strong>
-        instead of opening index.html directly.
-
         </div>
 
         `;
@@ -2511,8 +2720,7 @@ function renderQuestion(){
     );
 
 
-    choices.innerHTML =
-    "";
+    choices.innerHTML="";
 
 
     [
@@ -2579,8 +2787,8 @@ function renderQuestion(){
     feedback.className =
     "feedback hidden";
 
-    feedback.innerHTML =
-    "";
+
+    feedback.innerHTML="";
 
 
     if(
@@ -2621,6 +2829,33 @@ function renderQuestion(){
 
 
 /* =====================================================
+   SOUND
+===================================================== */
+
+function playSound(audio){
+
+    try{
+
+        audio.currentTime=0;
+
+        audio.play().catch(
+            error =>
+            console.log(
+                "Audio error:",
+                error
+            )
+        );
+
+    }catch(error){
+
+        console.log(error);
+
+    }
+
+}
+
+
+/* =====================================================
    SELECT ANSWER
 ===================================================== */
 
@@ -2649,57 +2884,41 @@ function selectAnswer(letter){
     ];
 
 
-    const isCorrect =
-    letter ===
-    q.answer;
-
-
-    if(isCorrect){
+    if(
+        letter ===
+        q.answer
+    ){
 
         score++;
 
-        correctSound.currentTime =
-        0;
 
-        correctSound.play()
-        .catch(
-            error =>
-            console.log(
-                "Correct sound error:",
-                error
+        playSound(
+            document.getElementById(
+                "correctSound"
             )
         );
 
     }else{
 
-        wrongSound.currentTime =
-        0;
-
-        wrongSound.play()
-        .catch(
-            error =>
-            console.log(
-                "Wrong sound error:",
-                error
+        playSound(
+            document.getElementById(
+                "wrongSound"
             )
         );
 
     }
 
 
+    renderQuestion();
+
+
+    /* Keep the selected answer visible
+       without moving the question/choices */
+
     showAnswer(
         letter,
         true
     );
-
-
-    document
-    .getElementById(
-        "scoreDisplay"
-    )
-    .textContent =
-    "Score: " +
-    score;
 
 }
 
@@ -2710,7 +2929,7 @@ function selectAnswer(letter){
 
 function showAnswer(
     letter,
-    animate=true
+    playEffect=false
 ){
 
     const q =
@@ -2730,8 +2949,7 @@ function showAnswer(
             button.dataset.letter;
 
 
-            button.disabled =
-            true;
+            button.disabled=true;
 
 
             if(
@@ -2742,13 +2960,6 @@ function showAnswer(
                 button.classList.add(
                     "correct"
                 );
-
-                if(!animate){
-
-                    button.style.animation =
-                    "none";
-
-                }
 
             }
 
@@ -2763,13 +2974,6 @@ function showAnswer(
                 button.classList.add(
                     "wrong"
                 );
-
-                if(!animate){
-
-                    button.style.animation =
-                    "none";
-
-                }
 
             }
 
@@ -2815,11 +3019,10 @@ function showAnswer(
         "<strong>Incorrect.</strong> " +
         "Correct answer: " +
         q.answer +
+        " — " +
         (
-            q.explanation
-            ? " — " +
-            q.explanation
-            : ""
+            q.explanation ||
+            ""
         );
 
     }
@@ -2890,30 +3093,6 @@ document
         currentQuestion--;
 
         renderQuestion();
-
-    }
-
-};
-
-
-/* =====================================================
-   EXIT REVIEWER
-===================================================== */
-
-document
-.getElementById(
-    "exitReviewerButton"
-)
-.onclick =
-() => {
-
-    if(
-        confirm(
-            "Exit this reviewer and return to the subjects?"
-        )
-    ){
-
-        showHome();
 
     }
 
@@ -3037,6 +3216,30 @@ document
 );
 
 
+/* =====================================================
+   SWITCH LOGIN / CREATE
+===================================================== */
+
+document
+.getElementById(
+    "switchLoginButton"
+)
+.onclick =
+() => {
+
+    setLoginMode(
+        createMode
+        ? "login"
+        : "create"
+    );
+
+};
+
+
+/* =====================================================
+   BACK HOME
+===================================================== */
+
 document
 .getElementById(
     "backHomeButton"
@@ -3044,6 +3247,10 @@ document
 .onclick =
 showHome;
 
+
+/* =====================================================
+   START
+===================================================== */
 
 document
 .getElementById(
@@ -3053,6 +3260,10 @@ document
 startReviewer;
 
 
+/* =====================================================
+   RESULT HOME
+===================================================== */
+
 document
 .getElementById(
     "resultHomeButton"
@@ -3061,12 +3272,40 @@ document
 showHome;
 
 
+/* =====================================================
+   REVIEW AGAIN
+===================================================== */
+
 document
 .getElementById(
     "reviewAgainButton"
 )
 .onclick =
 startReviewer;
+
+
+/* =====================================================
+   EXIT REVIEWER
+===================================================== */
+
+document
+.getElementById(
+    "exitReviewerButton"
+)
+.onclick =
+() => {
+
+    if(
+        confirm(
+            "Exit this reviewer and return to the subjects?"
+        )
+    ){
+
+        showHome();
+
+    }
+
+};
 
 
 /* =====================================================
@@ -3094,19 +3333,25 @@ document
 
         document
         .getElementById(
+            "codeInput"
+        )
+        .value="";
+
+        document
+        .getElementById(
             "passwordInput"
         )
-        .value =
-        "";
+        .value="";
 
         document
         .getElementById(
             "confirmPasswordInput"
         )
-        .value =
-        "";
+        .value="";
 
-        showNormalLogin();
+        setLoginMode(
+            "login"
+        );
 
         showScreen(
             loginScreen
@@ -3118,40 +3363,36 @@ document
 
 
 /* =====================================================
-   AUTO FULLSCREEN ON LAPTOP CLICK
+   AUTO FULL SCREEN ON LAPTOP
 ===================================================== */
-
-function tryFullscreen(){
-
-    if(
-        window.innerWidth <= 700
-    ){
-
-        return;
-
-    }
-
-
-    if(
-        !document.fullscreenElement
-    ){
-
-        document.documentElement
-        .requestFullscreen()
-        .catch(
-            () => {}
-        );
-
-    }
-
-}
-
 
 document.addEventListener(
     "click",
-    tryFullscreen,
+    async () => {
+
+        if(
+            window.innerWidth >= 901 &&
+            !document.fullscreenElement
+        ){
+
+            try{
+
+                await document.documentElement.requestFullscreen();
+
+            }catch(error){
+
+                console.log(
+                    "Fullscreen request blocked:",
+                    error
+                );
+
+            }
+
+        }
+
+    },
     {
-        once:true
+        once:false
     }
 );
 
