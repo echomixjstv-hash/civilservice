@@ -101,6 +101,10 @@ body{
     outline:none;
 }
 
+.password-input{
+    letter-spacing:1px;
+}
+
 .code-input:focus,
 .password-input:focus{
     border-color:#1769e0;
@@ -131,11 +135,6 @@ body{
     color:#222;
 }
 
-.danger{
-    background:#dc3545;
-    color:white;
-}
-
 .full{
     width:100%;
     margin-top:15px;
@@ -146,20 +145,6 @@ body{
     margin-top:14px;
     font-size:16px;
     font-weight:bold;
-}
-
-.login-switch{
-    margin-top:20px;
-    font-size:16px;
-}
-
-.login-switch button{
-    border:0;
-    background:none;
-    color:#1769e0;
-    font-weight:bold;
-    font-size:16px;
-    cursor:pointer;
 }
 
 .expiry-info{
@@ -176,6 +161,7 @@ body{
 .home-screen{
     height:100%;
     overflow:auto;
+    padding-bottom:80px;
 }
 
 .header{
@@ -195,6 +181,11 @@ body{
     color:#777;
     font-size:14px;
     margin-top:5px;
+    line-height:1.7;
+}
+
+.account strong{
+    color:#222;
 }
 
 .home-title{
@@ -252,7 +243,7 @@ body{
 
 
 /* =====================================================
-   SETTINGS BUTTON
+   SETTINGS
 ===================================================== */
 
 .settings-button{
@@ -263,51 +254,35 @@ body{
     height:58px;
     border:0;
     border-radius:50%;
-    background:#fff;
-    color:#333;
-    font-size:30px;
+    background:#1769e0;
+    color:#fff;
+    font-size:28px;
     cursor:pointer;
-    box-shadow:0 5px 20px rgba(0,0,0,.18);
-    z-index:5000;
-    transition:.15s;
+    z-index:10000;
+    box-shadow:0 6px 20px rgba(0,0,0,.22);
 }
 
 .settings-button:hover{
-    background:#1769e0;
-    color:#fff;
-    transform:rotate(20deg);
+    transform:scale(1.05);
 }
-
-
-/* =====================================================
-   SETTINGS MENU
-===================================================== */
 
 .settings-menu{
     position:fixed;
     left:18px;
-    bottom:88px;
-    width:250px;
+    bottom:86px;
+    width:240px;
     background:#fff;
     border-radius:16px;
-    padding:12px;
+    padding:10px;
     box-shadow:0 10px 35px rgba(0,0,0,.20);
-    z-index:5001;
+    z-index:9999;
 }
 
-.settings-title{
-    font-size:18px;
-    font-weight:bold;
-    padding:10px 12px 12px;
-    border-bottom:1px solid #eee;
-    margin-bottom:8px;
-}
-
-.settings-item{
+.settings-menu button{
     width:100%;
     border:0;
-    background:#fff;
-    padding:14px 12px;
+    background:none;
+    padding:15px;
     border-radius:10px;
     text-align:left;
     font-size:16px;
@@ -315,28 +290,28 @@ body{
     cursor:pointer;
 }
 
-.settings-item:hover{
-    background:#f1f5fa;
+.settings-menu button:hover{
+    background:#f0f3f7;
 }
 
-.settings-item.logout{
+.settings-menu .logout-setting{
     color:#d93025;
 }
 
 
 /* =====================================================
-   CHANGE PASSWORD MODAL
+   MODAL
 ===================================================== */
 
 .modal-overlay{
     position:fixed;
     inset:0;
-    background:rgba(0,0,0,.50);
+    background:rgba(0,0,0,.55);
     display:flex;
     align-items:center;
     justify-content:center;
     padding:20px;
-    z-index:10000;
+    z-index:20000;
 }
 
 .modal{
@@ -345,7 +320,7 @@ body{
     background:#fff;
     border-radius:20px;
     padding:28px;
-    box-shadow:0 15px 50px rgba(0,0,0,.30);
+    box-shadow:0 15px 50px rgba(0,0,0,.3);
 }
 
 .modal h2{
@@ -353,32 +328,32 @@ body{
     margin-bottom:8px;
 }
 
-.modal-subtitle{
-    color:#777;
+.modal p{
+    color:#666;
     line-height:1.5;
-    margin-bottom:15px;
+    margin-bottom:10px;
 }
 
-.modal-input{
+.modal input{
     width:100%;
     height:55px;
     border:2px solid #ddd;
-    border-radius:11px;
+    border-radius:10px;
     padding:0 15px;
-    font-size:17px;
+    font-size:18px;
     outline:none;
-    margin-top:12px;
+    margin-top:10px;
 }
 
-.modal-input:focus{
+.modal input:focus{
     border-color:#1769e0;
 }
 
 .modal-message{
-    min-height:24px;
+    min-height:25px;
     margin-top:12px;
-    font-size:15px;
     font-weight:bold;
+    font-size:15px;
 }
 
 .modal-actions{
@@ -724,6 +699,37 @@ body{
 
 
 /* =====================================================
+   FULLSCREEN
+===================================================== */
+
+.exit-fullscreen-button{
+    position:fixed;
+    top:15px;
+    left:15px;
+    width:50px;
+    height:50px;
+    border:0;
+    border-radius:50%;
+    background:#e9edf2;
+    color:#222;
+    font-size:26px;
+    font-weight:bold;
+    cursor:pointer;
+    z-index:99999;
+    box-shadow:0 4px 15px rgba(0,0,0,.20);
+}
+
+.exit-fullscreen-button:hover{
+    background:#dc3545;
+    color:#fff;
+}
+
+.exit-fullscreen-button.hidden{
+    display:none!important;
+}
+
+
+/* =====================================================
    LAPTOP
 ===================================================== */
 
@@ -937,14 +943,11 @@ body{
     .settings-button{
         left:12px;
         bottom:12px;
-        width:54px;
-        height:54px;
     }
 
     .settings-menu{
         left:12px;
-        bottom:76px;
-        width:230px;
+        bottom:80px;
     }
 
 }
@@ -970,46 +973,6 @@ body{
 
 }
 
-
-/* =====================================================
-   FULLSCREEN BUTTON
-===================================================== */
-
-.exit-fullscreen-button{
-    position:fixed;
-    top:15px;
-    left:15px;
-    width:50px;
-    height:50px;
-    border:0;
-    border-radius:50%;
-    background:#e9edf2;
-    color:#222;
-    font-size:26px;
-    font-weight:bold;
-    cursor:pointer;
-    z-index:99999;
-    box-shadow:0 4px 15px rgba(0,0,0,.20);
-}
-
-.exit-fullscreen-button:hover{
-    background:#dc3545;
-    color:#fff;
-}
-
-.exit-fullscreen-button.hidden{
-    display:none!important;
-}
-
-
-@media print{
-
-    body{
-        overflow:visible;
-    }
-
-}
-
 </style>
 
 </head>
@@ -1018,7 +981,7 @@ body{
 
 
 <!-- =====================================================
-     FULLSCREEN EXIT
+     EXIT FULLSCREEN
 ===================================================== -->
 
 <button
@@ -1028,120 +991,6 @@ body{
 >
     ⛶
 </button>
-
-
-<!-- =====================================================
-     SETTINGS BUTTON
-===================================================== -->
-
-<button
-    id="settingsButton"
-    class="settings-button hidden"
-    title="Settings"
->
-    ⚙
-</button>
-
-
-<!-- =====================================================
-     SETTINGS MENU
-===================================================== -->
-
-<div
-    id="settingsMenu"
-    class="settings-menu hidden"
->
-
-<div class="settings-title">
-    Settings
-</div>
-
-<button
-    id="changePasswordButton"
-    class="settings-item"
->
-    🔑 CHANGE PASSWORD
-</button>
-
-<button
-    id="settingsLogoutButton"
-    class="settings-item logout"
->
-    🚪 LOG OUT
-</button>
-
-</div>
-
-
-<!-- =====================================================
-     CHANGE PASSWORD MODAL
-===================================================== -->
-
-<div
-    id="changePasswordModal"
-    class="modal-overlay hidden"
->
-
-<div class="modal">
-
-<h2>
-Change Password
-</h2>
-
-<p class="modal-subtitle">
-Enter your current password, then create a new password.
-</p>
-
-<input
-    id="currentPasswordInput"
-    class="modal-input"
-    type="password"
-    autocomplete="current-password"
-    placeholder="CURRENT PASSWORD"
->
-
-<input
-    id="newPasswordInput"
-    class="modal-input"
-    type="password"
-    autocomplete="new-password"
-    placeholder="NEW PASSWORD"
->
-
-<input
-    id="confirmNewPasswordInput"
-    class="modal-input"
-    type="password"
-    autocomplete="new-password"
-    placeholder="CONFIRM NEW PASSWORD"
->
-
-<div
-    id="changePasswordMessage"
-    class="modal-message"
-></div>
-
-<div class="modal-actions">
-
-<button
-    id="cancelChangePasswordButton"
-    class="btn secondary"
->
-CANCEL
-</button>
-
-<button
-    id="savePasswordButton"
-    class="btn primary"
->
-SAVE PASSWORD
-</button>
-
-</div>
-
-</div>
-
-</div>
 
 
 <!-- =====================================================
@@ -1164,9 +1013,7 @@ Civil Service Reviewer
 </h1>
 
 <p class="subtitle">
-<span id="loginSubtitle">
-Create your account using your access code.
-</span>
+Log in using the access code and password provided to you.
 </p>
 
 <input
@@ -1186,17 +1033,8 @@ Create your account using your access code.
     class="password-input"
     type="password"
     maxlength="50"
-    autocomplete="new-password"
-    placeholder="CREATE PASSWORD"
->
-
-<input
-    id="confirmPasswordInput"
-    class="password-input"
-    type="password"
-    maxlength="50"
-    autocomplete="new-password"
-    placeholder="CONFIRM PASSWORD"
+    autocomplete="current-password"
+    placeholder="PASSWORD"
 >
 
 </div>
@@ -1205,7 +1043,7 @@ Create your account using your access code.
     id="loginButton"
     class="btn primary full"
 >
-CREATE ACCOUNT
+LOG IN
 </button>
 
 <div
@@ -1213,20 +1051,8 @@ CREATE ACCOUNT
     class="message"
 ></div>
 
-<div class="login-switch">
-
-<span id="switchText">
-Already have an account?
-</span>
-
-<button id="switchLoginButton">
-LOG IN
-</button>
-
-</div>
-
 <div class="expiry-info">
-Access is valid for one year after claiming.
+Use the access code generated by the administrator.
 </div>
 
 </div>
@@ -1380,6 +1206,110 @@ with Easy, Medium, Hard, and Super Hard levels.
 
 </button>
 
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     SETTINGS BUTTON
+===================================================== -->
+
+<button
+    id="settingsButton"
+    class="settings-button hidden"
+    title="Settings"
+>
+⚙
+</button>
+
+
+<!-- =====================================================
+     SETTINGS MENU
+===================================================== -->
+
+<div
+    id="settingsMenu"
+    class="settings-menu hidden"
+>
+
+<button id="changePasswordButton">
+🔑 Change Password
+</button>
+
+<button
+    id="settingsLogoutButton"
+    class="logout-setting"
+>
+🚪 Log Out
+</button>
+
+</div>
+
+
+<!-- =====================================================
+     CHANGE PASSWORD MODAL
+===================================================== -->
+
+<div
+    id="passwordModal"
+    class="modal-overlay hidden"
+>
+
+<div class="modal">
+
+<h2>
+🔑 Change Password
+</h2>
+
+<p>
+Create a new password for your account.
+</p>
+
+<input
+    id="oldPasswordInput"
+    type="password"
+    maxlength="50"
+    placeholder="CURRENT PASSWORD"
+>
+
+<input
+    id="newPasswordInput"
+    type="password"
+    maxlength="50"
+    placeholder="NEW PASSWORD"
+>
+
+<input
+    id="confirmNewPasswordInput"
+    type="password"
+    maxlength="50"
+    placeholder="CONFIRM NEW PASSWORD"
+>
+
+<div
+    id="passwordMessage"
+    class="modal-message"
+></div>
+
+<div class="modal-actions">
+
+<button
+    id="cancelPasswordButton"
+    class="btn secondary"
+>
+CANCEL
+</button>
+
+<button
+    id="savePasswordButton"
+    class="btn primary"
+>
+SAVE
+</button>
 
 </div>
 
@@ -1622,6 +1552,7 @@ REVIEW AGAIN
 
 <script>
 
+
 /* =====================================================
    FIREBASE CONFIG
 ===================================================== */
@@ -1654,6 +1585,7 @@ const firebaseConfig = {
 
 };
 
+
 firebase.initializeApp(
     firebaseConfig
 );
@@ -1666,18 +1598,18 @@ firebase.database();
    SETTINGS
 ===================================================== */
 
+const SESSION_KEY =
+"civilServiceReviewerSession";
+
+const DEVICE_KEY =
+"civilServiceReviewerDevice";
+
 const ONE_YEAR =
 365 *
 24 *
 60 *
 60 *
 1000;
-
-const SESSION_KEY =
-"civilServiceReviewerSession";
-
-const DEVICE_KEY =
-"civilServiceReviewerDevice";
 
 
 /* =====================================================
@@ -1723,6 +1655,7 @@ function getDeviceID(){
 
 }
 
+
 const deviceID =
 getDeviceID();
 
@@ -1737,13 +1670,6 @@ JSON.parse(
         SESSION_KEY
     ) || "null"
 );
-
-
-/* =====================================================
-   LOGIN MODE
-===================================================== */
-
-let createMode = true;
 
 
 /* =====================================================
@@ -1802,9 +1728,9 @@ document.getElementById(
     "settingsMenu"
 );
 
-const changePasswordModal =
+const passwordModal =
 document.getElementById(
-    "changePasswordModal"
+    "passwordModal"
 );
 
 
@@ -1832,20 +1758,8 @@ function showScreen(screen){
         "hidden"
     );
 
-    updateSettingsVisibility();
-
-}
-
-
-/* =====================================================
-   SETTINGS VISIBILITY
-===================================================== */
-
-function updateSettingsVisibility(){
-
     if(
-        session &&
-        !homeScreen.classList.contains("hidden")
+        screen === homeScreen
     ){
 
         settingsButton.classList.remove(
@@ -1868,107 +1782,26 @@ function updateSettingsVisibility(){
 
 
 /* =====================================================
-   LOGIN MODE
+   LOGIN MESSAGE
 ===================================================== */
 
-function setLoginMode(mode){
-
-    createMode =
-    mode === "create";
-
-    const password =
-    document.getElementById(
-        "passwordInput"
-    );
-
-    const confirm =
-    document.getElementById(
-        "confirmPasswordInput"
-    );
-
-    const button =
-    document.getElementById(
-        "loginButton"
-    );
-
-    const subtitle =
-    document.getElementById(
-        "loginSubtitle"
-    );
-
-    const switchText =
-    document.getElementById(
-        "switchText"
-    );
-
-    const switchButton =
-    document.getElementById(
-        "switchLoginButton"
-    );
+function setLoginMessage(
+    text,
+    success=false
+){
 
     const message =
     document.getElementById(
         "loginMessage"
     );
 
-    message.textContent = "";
+    message.textContent =
+    text;
 
-    if(createMode){
-
-        subtitle.textContent =
-        "Create your account using your access code.";
-
-        password.placeholder =
-        "CREATE PASSWORD";
-
-        confirm.classList.remove(
-            "hidden"
-        );
-
-        button.textContent =
-        "CREATE ACCOUNT";
-
-        switchText.textContent =
-        "Already have an account?";
-
-        switchButton.textContent =
-        "LOG IN";
-
-        password.autocomplete =
-        "new-password";
-
-        confirm.autocomplete =
-        "new-password";
-
-    }else{
-
-        subtitle.textContent =
-        "Log in using your access code and password.";
-
-        password.placeholder =
-        "PASSWORD";
-
-        confirm.classList.add(
-            "hidden"
-        );
-
-        button.textContent =
-        "LOG IN";
-
-        switchText.textContent =
-        "New user?";
-
-        switchButton.textContent =
-        "CREATE ACCOUNT";
-
-        password.autocomplete =
-        "current-password";
-
-    }
-
-    password.value = "";
-
-    confirm.value = "";
+    message.style.color =
+    success
+    ? "#16803c"
+    : "#d93025";
 
 }
 
@@ -2012,57 +1845,7 @@ async function hashPassword(password){
 
 
 /* =====================================================
-   LOGIN MESSAGE
-===================================================== */
-
-function setLoginMessage(
-    text,
-    success=false
-){
-
-    const message =
-    document.getElementById(
-        "loginMessage"
-    );
-
-    message.textContent =
-    text;
-
-    message.style.color =
-    success
-    ? "#16803c"
-    : "#d93025";
-
-}
-
-
-/* =====================================================
-   CHANGE PASSWORD MESSAGE
-===================================================== */
-
-function setChangePasswordMessage(
-    text,
-    success=false
-){
-
-    const message =
-    document.getElementById(
-        "changePasswordMessage"
-    );
-
-    message.textContent =
-    text;
-
-    message.style.color =
-    success
-    ? "#16803c"
-    : "#d93025";
-
-}
-
-
-/* =====================================================
-   AUTH
+   LOGIN
 ===================================================== */
 
 async function login(){
@@ -2077,14 +1860,10 @@ async function login(){
         "passwordInput"
     );
 
-    const confirmInput =
-    document.getElementById(
-        "confirmPasswordInput"
-    );
-
     const code =
     codeInput.value
-    .trim();
+    .trim()
+    .toUpperCase();
 
     const password =
     passwordInput.value;
@@ -2092,33 +1871,17 @@ async function login(){
     if(!code){
 
         setLoginMessage(
-            "Enter your access code."
+            "Please enter your access code."
         );
 
         return;
 
     }
 
-    if(
-        password.length < 6
-    ){
+    if(!password){
 
         setLoginMessage(
-            "Password must be at least 6 characters."
-        );
-
-        return;
-
-    }
-
-    if(
-        createMode &&
-        password !==
-        confirmInput.value
-    ){
-
-        setLoginMessage(
-            "Passwords do not match."
+            "Please enter your password."
         );
 
         return;
@@ -2130,24 +1893,19 @@ async function login(){
         "loginButton"
     );
 
-    button.disabled = true;
+    button.disabled=true;
 
     button.textContent =
-    createMode
-    ? "CREATING..."
-    : "LOGGING IN...";
+    "LOGGING IN...";
 
 
     try{
 
         /*
          * IMPORTANT:
-         * WALA NANG HARDCODED ACCESS CODE DITO.
-         *
-         * Ang access code ay hinahanap mismo
-         * sa Firebase:
-         *
-         * civilServiceCodes/<ACCESS_CODE>
+         * The access code must already exist
+         * in Firebase because it was generated
+         * by the Access Code Generator.
          */
 
         const codeRef =
@@ -2161,201 +1919,14 @@ async function login(){
             "value"
         );
 
-        let data =
+        const data =
         snapshot.val();
 
-
-        /* =================================================
-           CREATE ACCOUNT
-        ================================================= */
-
-        if(createMode){
-
-            if(!data){
-
-                setLoginMessage(
-                    "Access code not found. Please use a valid code from the Access Code Generator."
-                );
-
-                return;
-
-            }
-
-
-            /*
-             * Kapag may password na,
-             * ibig sabihin claimed na.
-             */
-
-            if(
-                data.passwordHash
-            ){
-
-                setLoginMessage(
-                    "This access code already has an account. Please use LOG IN."
-                );
-
-                return;
-
-            }
-
-
-            const now =
-            Date.now();
-
-
-            /*
-             * Kung may expiry na galing
-             * sa Access Code Generator,
-             * gamitin iyon.
-             */
-
-            let expiresAt =
-            data.expiresAt;
-
-
-            /*
-             * Kung walang expiresAt,
-             * one year mula sa pag-claim.
-             */
-
-            if(!expiresAt){
-
-                expiresAt =
-                now +
-                ONE_YEAR;
-
-            }
-
-
-            /*
-             * Check kung expired na
-             */
-
-            if(
-                Date.now() >=
-                expiresAt
-            ){
-
-                setLoginMessage(
-                    "This access code has expired."
-                );
-
-                return;
-
-            }
-
-
-            /*
-             * Kung may device na naka-claim
-             * at iba ang current device.
-             */
-
-            if(
-                data.deviceID &&
-                data.deviceID !==
-                deviceID
-            ){
-
-                setLoginMessage(
-                    "This access code is already claimed by another device."
-                );
-
-                return;
-
-            }
-
-
-            const passwordHash =
-            await hashPassword(
-                password
-            );
-
-
-            /*
-             * Preserve existing data
-             * from the Access Code Generator.
-             */
-
-            const accountData = {
-
-                ...data,
-
-                code:
-                code,
-
-                claimed:
-                true,
-
-                deviceID:
-                deviceID,
-
-                claimedAt:
-                data.claimedAt ||
-                now,
-
-                expiresAt:
-                expiresAt,
-
-                passwordHash:
-                passwordHash,
-
-                passwordCreatedAt:
-                now
-
-            };
-
-
-            await codeRef.set(
-                accountData
-            );
-
-
-            session = {
-
-                code:
-                code,
-
-                deviceID:
-                deviceID,
-
-                claimedAt:
-                accountData.claimedAt,
-
-                expiresAt:
-                accountData.expiresAt
-
-            };
-
-
-            localStorage.setItem(
-                SESSION_KEY,
-                JSON.stringify(
-                    session
-                )
-            );
-
-
-            setLoginMessage(
-                "Account created successfully.",
-                true
-            );
-
-            showHome();
-
-            return;
-
-        }
-
-
-        /* =================================================
-           LOG IN
-        ================================================= */
 
         if(!data){
 
             setLoginMessage(
-                "Access code not found."
+                "Invalid access code or the access code does not exist."
             );
 
             return;
@@ -2363,12 +1934,16 @@ async function login(){
         }
 
 
-        if(
-            !data.passwordHash
-        ){
+        /*
+         * The password is created/managed
+         * by the user after the generator
+         * creates the access code.
+         */
+
+        if(!data.passwordHash){
 
             setLoginMessage(
-                "This access code has not been registered yet. Please use CREATE ACCOUNT first."
+                "This access code has no password yet. Please contact the administrator."
             );
 
             return;
@@ -2376,25 +1951,14 @@ async function login(){
         }
 
 
-        if(
-            data.deviceID &&
-            data.deviceID !==
-            deviceID
-        ){
-
-            setLoginMessage(
-                "This account belongs to another device."
-            );
-
-            return;
-
-        }
-
+        /*
+         * EXPIRATION
+         */
 
         if(
             data.expiresAt &&
             Date.now() >=
-            data.expiresAt
+            Number(data.expiresAt)
         ){
 
             setLoginMessage(
@@ -2406,11 +1970,33 @@ async function login(){
         }
 
 
+        /*
+         * DEVICE LOCK
+         */
+
+        if(
+            data.deviceID &&
+            data.deviceID !==
+            deviceID
+        ){
+
+            setLoginMessage(
+                "This account is already registered to another device."
+            );
+
+            return;
+
+        }
+
+
+        /*
+         * PASSWORD CHECK
+         */
+
         const passwordHash =
         await hashPassword(
             password
         );
-
 
         if(
             passwordHash !==
@@ -2426,21 +2012,57 @@ async function login(){
         }
 
 
+        /*
+         * SESSION
+         */
+
         session = {
 
-            code:
-            code,
+            code:code,
+
+            name:
+            data.name ||
+            data.registeredName ||
+            data.fullName ||
+            "Registered User",
 
             deviceID:
-            data.deviceID,
+            data.deviceID ||
+            deviceID,
 
             claimedAt:
-            data.claimedAt,
+            data.claimedAt ||
+            Date.now(),
 
             expiresAt:
-            data.expiresAt
+            data.expiresAt ||
+            (Date.now() + ONE_YEAR)
 
         };
+
+
+        /*
+         * If generator record does not
+         * yet have deviceID, save it.
+         */
+
+        if(!data.deviceID){
+
+            await codeRef.update({
+
+                deviceID:
+                deviceID,
+
+                claimed:
+                true,
+
+                claimedAt:
+                data.claimedAt ||
+                Date.now()
+
+            });
+
+        }
 
 
         localStorage.setItem(
@@ -2455,6 +2077,7 @@ async function login(){
             "Login successful.",
             true
         );
+
 
         showHome();
 
@@ -2471,12 +2094,10 @@ async function login(){
 
     }finally{
 
-        button.disabled = false;
+        button.disabled=false;
 
         button.textContent =
-        createMode
-        ? "CREATE ACCOUNT"
-        : "LOG IN";
+        "LOG IN";
 
     }
 
@@ -2493,10 +2114,6 @@ async function validateSession(){
 
         showScreen(
             loginScreen
-        );
-
-        setLoginMode(
-            "create"
         );
 
         return;
@@ -2527,7 +2144,7 @@ async function validateSession(){
                 SESSION_KEY
             );
 
-            session = null;
+            session=null;
 
             showScreen(
                 loginScreen
@@ -2539,6 +2156,7 @@ async function validateSession(){
 
 
         if(
+            data.deviceID &&
             data.deviceID !==
             deviceID
         ){
@@ -2547,14 +2165,14 @@ async function validateSession(){
                 SESSION_KEY
             );
 
-            session = null;
+            session=null;
 
             showScreen(
                 loginScreen
             );
 
             setLoginMessage(
-                "This account belongs to another device."
+                "This account is registered to another device."
             );
 
             return;
@@ -2565,14 +2183,14 @@ async function validateSession(){
         if(
             data.expiresAt &&
             Date.now() >=
-            data.expiresAt
+            Number(data.expiresAt)
         ){
 
             localStorage.removeItem(
                 SESSION_KEY
             );
 
-            session = null;
+            session=null;
 
             showScreen(
                 loginScreen
@@ -2587,22 +2205,20 @@ async function validateSession(){
         }
 
 
-        if(
-            !data.passwordHash
-        ){
+        if(!data.passwordHash){
 
             localStorage.removeItem(
                 SESSION_KEY
             );
 
-            session = null;
+            session=null;
 
             showScreen(
                 loginScreen
             );
 
-            setLoginMode(
-                "create"
+            setLoginMessage(
+                "This account does not have a password."
             );
 
             return;
@@ -2610,8 +2226,21 @@ async function validateSession(){
         }
 
 
+        /*
+         * GET REGISTERED NAME
+         */
+
+        session.name =
+        data.name ||
+        data.registeredName ||
+        data.fullName ||
+        session.name ||
+        "Registered User";
+
+
         session.expiresAt =
         data.expiresAt;
+
 
         localStorage.setItem(
             SESSION_KEY,
@@ -2623,11 +2252,17 @@ async function validateSession(){
 
         showHome();
 
+
     }catch(error){
 
         console.error(
             error
         );
+
+        /*
+         * Keep the existing session
+         * if Firebase temporarily fails.
+         */
 
         showHome();
 
@@ -2646,21 +2281,510 @@ function showHome(){
         homeScreen
     );
 
+
     if(session){
+
+        const name =
+        session.name ||
+        "Registered User";
+
+        const code =
+        session.code ||
+        "";
+
+        let expiryText =
+        "";
+
+        if(
+            session.expiresAt
+        ){
+
+            expiryText =
+            new Date(
+                Number(
+                    session.expiresAt
+                )
+            ).toLocaleDateString();
+
+        }
+
 
         document
         .getElementById(
             "accountInfo"
         )
-        .textContent =
-        "Access Code: " +
-        session.code;
+        .innerHTML =
+
+        "<strong>Registered Name:</strong> " +
+        escapeHTML(name) +
+
+        "<br>" +
+
+        "<strong>Access Code:</strong> " +
+        escapeHTML(code) +
+
+        (
+            expiryText
+            ?
+            "<br><strong>Expires:</strong> " +
+            expiryText
+            :
+            ""
+        );
 
     }
 
-    updateSettingsVisibility();
+}
+
+
+/* =====================================================
+   ESCAPE HTML
+===================================================== */
+
+function escapeHTML(value){
+
+    return String(value)
+    .replace(
+        /&/g,
+        "&amp;"
+    )
+    .replace(
+        /</g,
+        "&lt;"
+    )
+    .replace(
+        />/g,
+        "&gt;"
+    )
+    .replace(
+        /"/g,
+        "&quot;"
+    )
+    .replace(
+        /'/g,
+        "&#039;"
+    );
 
 }
+
+
+/* =====================================================
+   CHANGE PASSWORD
+===================================================== */
+
+function openPasswordModal(){
+
+    settingsMenu.classList.add(
+        "hidden"
+    );
+
+    document
+    .getElementById(
+        "oldPasswordInput"
+    )
+    .value="";
+
+    document
+    .getElementById(
+        "newPasswordInput"
+    )
+    .value="";
+
+    document
+    .getElementById(
+        "confirmNewPasswordInput"
+    )
+    .value="";
+
+    document
+    .getElementById(
+        "passwordMessage"
+    )
+    .textContent="";
+
+    passwordModal.classList.remove(
+        "hidden"
+    );
+
+}
+
+
+function closePasswordModal(){
+
+    passwordModal.classList.add(
+        "hidden"
+    );
+
+}
+
+
+async function changePassword(){
+
+    if(!session){
+
+        return;
+
+    }
+
+
+    const oldPassword =
+    document.getElementById(
+        "oldPasswordInput"
+    ).value;
+
+    const newPassword =
+    document.getElementById(
+        "newPasswordInput"
+    ).value;
+
+    const confirmPassword =
+    document.getElementById(
+        "confirmNewPasswordInput"
+    ).value;
+
+    const message =
+    document.getElementById(
+        "passwordMessage"
+    );
+
+    const saveButton =
+    document.getElementById(
+        "savePasswordButton"
+    );
+
+
+    message.style.color =
+    "#d93025";
+
+
+    if(!oldPassword){
+
+        message.textContent =
+        "Enter your current password.";
+
+        return;
+
+    }
+
+
+    if(
+        newPassword.length < 6
+    ){
+
+        message.textContent =
+        "New password must be at least 6 characters.";
+
+        return;
+
+    }
+
+
+    if(
+        newPassword !==
+        confirmPassword
+    ){
+
+        message.textContent =
+        "New passwords do not match.";
+
+        return;
+
+    }
+
+
+    if(
+        oldPassword ===
+        newPassword
+    ){
+
+        message.textContent =
+        "New password must be different from the current password.";
+
+        return;
+
+    }
+
+
+    saveButton.disabled=true;
+
+    saveButton.textContent =
+    "SAVING...";
+
+
+    try{
+
+        const codeRef =
+        db.ref(
+            "civilServiceCodes/" +
+            session.code
+        );
+
+        const snapshot =
+        await codeRef.once(
+            "value"
+        );
+
+        const data =
+        snapshot.val();
+
+
+        if(!data){
+
+            message.textContent =
+            "Account not found.";
+
+            return;
+
+        }
+
+
+        const oldHash =
+        await hashPassword(
+            oldPassword
+        );
+
+
+        if(
+            oldHash !==
+            data.passwordHash
+        ){
+
+            message.textContent =
+            "Current password is incorrect.";
+
+            return;
+
+        }
+
+
+        const newHash =
+        await hashPassword(
+            newPassword
+        );
+
+
+        await codeRef.update({
+
+            passwordHash:
+            newHash,
+
+            passwordChangedAt:
+            Date.now()
+
+        });
+
+
+        message.style.color =
+        "#16803c";
+
+        message.textContent =
+        "Password changed successfully.";
+
+
+        setTimeout(
+            () => {
+
+                closePasswordModal();
+
+            },
+            1200
+        );
+
+
+    }catch(error){
+
+        console.error(
+            error
+        );
+
+        message.textContent =
+        "Unable to change password. Please try again.";
+
+    }finally{
+
+        saveButton.disabled=false;
+
+        saveButton.textContent =
+        "SAVE";
+
+    }
+
+}
+
+
+/* =====================================================
+   LOGOUT
+===================================================== */
+
+function logout(){
+
+    if(
+        !confirm(
+            "Log out from this device?"
+        )
+    ){
+
+        return;
+
+    }
+
+
+    localStorage.removeItem(
+        SESSION_KEY
+    );
+
+    session=null;
+
+
+    document
+    .getElementById(
+        "codeInput"
+    )
+    .value="";
+
+    document
+    .getElementById(
+        "passwordInput"
+    )
+    .value="";
+
+
+    settingsMenu.classList.add(
+        "hidden"
+    );
+
+
+    showScreen(
+        loginScreen
+    );
+
+}
+
+
+/* =====================================================
+   SETTINGS EVENTS
+===================================================== */
+
+settingsButton.onclick =
+event => {
+
+    event.stopPropagation();
+
+    settingsMenu.classList.toggle(
+        "hidden"
+    );
+
+};
+
+
+document.addEventListener(
+    "click",
+    event => {
+
+        if(
+            !settingsMenu.contains(
+                event.target
+            ) &&
+            event.target !==
+            settingsButton
+        ){
+
+            settingsMenu.classList.add(
+                "hidden"
+            );
+
+        }
+
+    }
+);
+
+
+document
+.getElementById(
+    "changePasswordButton"
+)
+.onclick =
+openPasswordModal;
+
+
+document
+.getElementById(
+    "settingsLogoutButton"
+)
+.onclick =
+logout;
+
+
+document
+.getElementById(
+    "cancelPasswordButton"
+)
+.onclick =
+closePasswordModal;
+
+
+document
+.getElementById(
+    "savePasswordButton"
+)
+.onclick =
+changePassword;
+
+
+passwordModal.onclick =
+event => {
+
+    if(
+        event.target ===
+        passwordModal
+    ){
+
+        closePasswordModal();
+
+    }
+
+};
+
+
+/* =====================================================
+   LOGIN EVENTS
+===================================================== */
+
+document
+.getElementById(
+    "loginButton"
+)
+.onclick =
+login;
+
+
+[
+    "codeInput",
+    "passwordInput"
+]
+.forEach(
+    id => {
+
+        document
+        .getElementById(id)
+        .addEventListener(
+            "keydown",
+            event => {
+
+                if(
+                    event.key ===
+                    "Enter"
+                ){
+
+                    login();
+
+                }
+
+            }
+        );
+
+    }
+);
 
 
 /* =====================================================
@@ -2871,12 +2995,14 @@ document
             selectedFile =
             button.dataset.file;
 
+
             document
             .getElementById(
                 "introTitle"
             )
             .textContent =
             selectedName;
+
 
             document
             .getElementById(
@@ -2886,6 +3012,7 @@ document
             introductions[
                 selectedName
             ];
+
 
             showScreen(
                 introScreen
@@ -2945,6 +3072,7 @@ async function startReviewer(){
         reviewerScreen
     );
 
+
     document
     .getElementById(
         "subjectTitle"
@@ -2952,16 +3080,19 @@ async function startReviewer(){
     .textContent =
     selectedName;
 
+
     const loading =
     document.getElementById(
         "loading"
     );
+
 
     loading.className =
     "loading";
 
     loading.innerHTML =
     "Loading questions...";
+
 
     document
     .getElementById(
@@ -2971,13 +3102,14 @@ async function startReviewer(){
         "hidden"
     );
 
-    currentQuestion = 0;
 
-    score = 0;
+    currentQuestion=0;
 
-    userAnswers = {};
+    score=0;
 
-    questions = [];
+    userAnswers={};
+
+    questions=[];
 
 
     try{
@@ -3001,7 +3133,8 @@ async function startReviewer(){
 
             ];
 
-            const loadedQuestions = [];
+
+            const loadedQuestions=[];
 
 
             for(
@@ -3032,14 +3165,15 @@ async function startReviewer(){
                 const data =
                 await response.json();
 
-                let bank = [];
+
+                let bank=[];
 
 
                 if(
                     Array.isArray(data)
                 ){
 
-                    bank = data;
+                    bank=data;
 
                 }else if(
                     data &&
@@ -3048,8 +3182,7 @@ async function startReviewer(){
                     )
                 ){
 
-                    bank =
-                    data.questions;
+                    bank=data.questions;
 
                 }else{
 
@@ -3177,7 +3310,7 @@ async function startReviewer(){
 
                     throw new Error(
                         "Question " +
-                        (index + 1) +
+                        (index+1) +
                         " has no question text."
                     );
 
@@ -3187,7 +3320,7 @@ async function startReviewer(){
 
                     throw new Error(
                         "Question " +
-                        (index + 1) +
+                        (index+1) +
                         " has no choices."
                     );
 
@@ -3197,7 +3330,7 @@ async function startReviewer(){
 
                     throw new Error(
                         "Question " +
-                        (index + 1) +
+                        (index+1) +
                         " has no correct answer."
                     );
 
@@ -3211,6 +3344,7 @@ async function startReviewer(){
             "hidden"
         );
 
+
         document
         .getElementById(
             "questionArea"
@@ -3218,6 +3352,7 @@ async function startReviewer(){
         .classList.remove(
             "hidden"
         );
+
 
         renderQuestion();
 
@@ -3245,7 +3380,7 @@ async function startReviewer(){
         <br><br>
 
         Error:
-        ${error.message}
+        ${escapeHTML(error.message)}
 
         <br><br>
 
@@ -3289,7 +3424,7 @@ function renderQuestion(){
     )
     .textContent =
     "Question " +
-    (currentQuestion + 1);
+    (currentQuestion+1);
 
 
     document
@@ -3298,7 +3433,7 @@ function renderQuestion(){
     )
     .textContent =
     "Question " +
-    (currentQuestion + 1) +
+    (currentQuestion+1) +
     " of " +
     questions.length;
 
@@ -3319,7 +3454,7 @@ function renderQuestion(){
     .style.width =
     (
         (
-            currentQuestion + 1
+            currentQuestion+1
         ) /
         questions.length *
         100
@@ -3419,7 +3554,7 @@ function renderQuestion(){
         "choices"
     );
 
-    choices.innerHTML = "";
+    choices.innerHTML="";
 
 
     [
@@ -3447,22 +3582,27 @@ function renderQuestion(){
                 "button"
             );
 
+
             button.className =
             "choice";
 
+
             button.dataset.letter =
             letter;
+
 
             button.textContent =
             letter +
             ". " +
             q.choices[letter];
 
+
             button.onclick =
             () =>
             selectAnswer(
                 letter
             );
+
 
             choices.appendChild(
                 button
@@ -3477,10 +3617,11 @@ function renderQuestion(){
         "feedback"
     );
 
+
     feedback.className =
     "feedback hidden";
 
-    feedback.innerHTML = "";
+    feedback.innerHTML="";
 
 
     if(
@@ -3513,7 +3654,7 @@ function renderQuestion(){
     )
     .textContent =
     currentQuestion ===
-    questions.length - 1
+    questions.length-1
     ? "FINISH"
     : "NEXT";
 
@@ -3528,7 +3669,7 @@ function playSound(audio){
 
     try{
 
-        audio.currentTime = 0;
+        audio.currentTime=0;
 
         const promise =
         audio.play();
@@ -3593,6 +3734,7 @@ function selectAnswer(letter){
 
         score++;
 
+
         playSound(
             document.getElementById(
                 "correctSound"
@@ -3643,7 +3785,8 @@ function showAnswer(
             const choiceLetter =
             button.dataset.letter;
 
-            button.disabled = true;
+
+            button.disabled=true;
 
 
             if(
@@ -3750,7 +3893,7 @@ document
 
     if(
         currentQuestion ===
-        questions.length - 1
+        questions.length-1
     ){
 
         showResult();
@@ -3834,568 +3977,6 @@ function showResult(){
 
 
 /* =====================================================
-   SETTINGS BUTTON
-===================================================== */
-
-settingsButton.onclick =
-event => {
-
-    event.stopPropagation();
-
-    settingsMenu.classList.toggle(
-        "hidden"
-    );
-
-};
-
-
-/* =====================================================
-   CLOSE SETTINGS WHEN CLICKING OUTSIDE
-===================================================== */
-
-document.addEventListener(
-    "click",
-    event => {
-
-        if(
-            !settingsMenu.contains(
-                event.target
-            ) &&
-            event.target !==
-            settingsButton
-        ){
-
-            settingsMenu.classList.add(
-                "hidden"
-            );
-
-        }
-
-    }
-);
-
-
-/* =====================================================
-   OPEN CHANGE PASSWORD
-===================================================== */
-
-document
-.getElementById(
-    "changePasswordButton"
-)
-.onclick =
-() => {
-
-    settingsMenu.classList.add(
-        "hidden"
-    );
-
-    document
-    .getElementById(
-        "currentPasswordInput"
-    )
-    .value = "";
-
-    document
-    .getElementById(
-        "newPasswordInput"
-    )
-    .value = "";
-
-    document
-    .getElementById(
-        "confirmNewPasswordInput"
-    )
-    .value = "";
-
-    setChangePasswordMessage(
-        ""
-    );
-
-    changePasswordModal.classList.remove(
-        "hidden"
-    );
-
-};
-
-
-/* =====================================================
-   CANCEL CHANGE PASSWORD
-===================================================== */
-
-document
-.getElementById(
-    "cancelChangePasswordButton"
-)
-.onclick =
-() => {
-
-    changePasswordModal.classList.add(
-        "hidden"
-    );
-
-};
-
-
-/* =====================================================
-   SAVE NEW PASSWORD
-===================================================== */
-
-document
-.getElementById(
-    "savePasswordButton"
-)
-.onclick =
-async () => {
-
-    if(!session){
-
-        return;
-
-    }
-
-
-    const currentPassword =
-    document
-    .getElementById(
-        "currentPasswordInput"
-    )
-    .value;
-
-
-    const newPassword =
-    document
-    .getElementById(
-        "newPasswordInput"
-    )
-    .value;
-
-
-    const confirmPassword =
-    document
-    .getElementById(
-        "confirmNewPasswordInput"
-    )
-    .value;
-
-
-    if(
-        !currentPassword
-    ){
-
-        setChangePasswordMessage(
-            "Enter your current password."
-        );
-
-        return;
-
-    }
-
-
-    if(
-        newPassword.length < 6
-    ){
-
-        setChangePasswordMessage(
-            "New password must be at least 6 characters."
-        );
-
-        return;
-
-    }
-
-
-    if(
-        newPassword !==
-        confirmPassword
-    ){
-
-        setChangePasswordMessage(
-            "New passwords do not match."
-        );
-
-        return;
-
-    }
-
-
-    if(
-        currentPassword ===
-        newPassword
-    ){
-
-        setChangePasswordMessage(
-            "New password must be different from your current password."
-        );
-
-        return;
-
-    }
-
-
-    const button =
-    document.getElementById(
-        "savePasswordButton"
-    );
-
-
-    button.disabled = true;
-
-    button.textContent =
-    "SAVING...";
-
-
-    try{
-
-        const codeRef =
-        db.ref(
-            "civilServiceCodes/" +
-            session.code
-        );
-
-
-        const snapshot =
-        await codeRef.once(
-            "value"
-        );
-
-
-        const data =
-        snapshot.val();
-
-
-        if(!data){
-
-            setChangePasswordMessage(
-                "Account not found."
-            );
-
-            return;
-
-        }
-
-
-        if(
-            data.deviceID !==
-            deviceID
-        ){
-
-            setChangePasswordMessage(
-                "This account belongs to another device."
-            );
-
-            return;
-
-        }
-
-
-        const currentHash =
-        await hashPassword(
-            currentPassword
-        );
-
-
-        if(
-            currentHash !==
-            data.passwordHash
-        ){
-
-            setChangePasswordMessage(
-                "Current password is incorrect."
-            );
-
-            return;
-
-        }
-
-
-        const newHash =
-        await hashPassword(
-            newPassword
-        );
-
-
-        await codeRef.update({
-
-            passwordHash:
-            newHash,
-
-            passwordChangedAt:
-            Date.now()
-
-        });
-
-
-        setChangePasswordMessage(
-            "Password changed successfully.",
-            true
-        );
-
-
-        document
-        .getElementById(
-            "currentPasswordInput"
-        )
-        .value = "";
-
-        document
-        .getElementById(
-            "newPasswordInput"
-        )
-        .value = "";
-
-        document
-        .getElementById(
-            "confirmNewPasswordInput"
-        )
-        .value = "";
-
-
-        setTimeout(
-            () => {
-
-                changePasswordModal.classList.add(
-                    "hidden"
-                );
-
-            },
-            1200
-        );
-
-
-    }catch(error){
-
-        console.error(
-            error
-        );
-
-        setChangePasswordMessage(
-            "Unable to change password. Please check your Firebase connection."
-        );
-
-    }finally{
-
-        button.disabled = false;
-
-        button.textContent =
-        "SAVE PASSWORD";
-
-    }
-
-};
-
-
-/* =====================================================
-   CHANGE PASSWORD ENTER KEY
-===================================================== */
-
-[
-    "currentPasswordInput",
-    "newPasswordInput",
-    "confirmNewPasswordInput"
-]
-.forEach(
-    id => {
-
-        document
-        .getElementById(
-            id
-        )
-        .addEventListener(
-            "keydown",
-            event => {
-
-                if(
-                    event.key ===
-                    "Enter"
-                ){
-
-                    document
-                    .getElementById(
-                        "savePasswordButton"
-                    )
-                    .click();
-
-                }
-
-            }
-        );
-
-    }
-);
-
-
-/* =====================================================
-   LOGOUT FUNCTION
-===================================================== */
-
-function logout(){
-
-    if(
-        confirm(
-            "Log out from this device?"
-        )
-    ){
-
-        localStorage.removeItem(
-            SESSION_KEY
-        );
-
-        session = null;
-
-
-        document
-        .getElementById(
-            "codeInput"
-        )
-        .value = "";
-
-
-        document
-        .getElementById(
-            "passwordInput"
-        )
-        .value = "";
-
-
-        document
-        .getElementById(
-            "confirmPasswordInput"
-        )
-        .value = "";
-
-
-        settingsMenu.classList.add(
-            "hidden"
-        );
-
-
-        setLoginMode(
-            "login"
-        );
-
-
-        showScreen(
-            loginScreen
-        );
-
-    }
-
-}
-
-
-/* =====================================================
-   SETTINGS LOGOUT
-===================================================== */
-
-document
-.getElementById(
-    "settingsLogoutButton"
-)
-.onclick =
-logout;
-
-
-/* =====================================================
-   LOGIN BUTTON
-===================================================== */
-
-document
-.getElementById(
-    "loginButton"
-)
-.onclick =
-login;
-
-
-/* =====================================================
-   LOGIN ENTER KEY
-===================================================== */
-
-document
-.getElementById(
-    "codeInput"
-)
-.addEventListener(
-    "keydown",
-    event => {
-
-        if(
-            event.key ===
-            "Enter"
-        ){
-
-            login();
-
-        }
-
-    }
-);
-
-
-document
-.getElementById(
-    "passwordInput"
-)
-.addEventListener(
-    "keydown",
-    event => {
-
-        if(
-            event.key ===
-            "Enter"
-        ){
-
-            login();
-
-        }
-
-    }
-);
-
-
-document
-.getElementById(
-    "confirmPasswordInput"
-)
-.addEventListener(
-    "keydown",
-    event => {
-
-        if(
-            event.key ===
-            "Enter"
-        ){
-
-            login();
-
-        }
-
-    }
-);
-
-
-/* =====================================================
-   SWITCH LOGIN / CREATE
-===================================================== */
-
-document
-.getElementById(
-    "switchLoginButton"
-)
-.onclick =
-() => {
-
-    setLoginMode(
-        createMode
-        ? "login"
-        : "create"
-    );
-
-};
-
-
-/* =====================================================
    BACK HOME
 ===================================================== */
 
@@ -4405,69 +3986,6 @@ document
 )
 .onclick =
 showHome;
-
-
-/* =====================================================
-   EXIT FULLSCREEN BUTTON
-===================================================== */
-
-const exitFullscreenButton =
-document.getElementById(
-    "exitFullscreenButton"
-);
-
-
-exitFullscreenButton.onclick =
-async () => {
-
-    if(
-        document.fullscreenElement
-    ){
-
-        try{
-
-            await document.exitFullscreen();
-
-        }catch(error){
-
-            console.log(
-                "Exit fullscreen error:",
-                error
-            );
-
-        }
-
-    }
-
-};
-
-
-/* =====================================================
-   SHOW / HIDE FULLSCREEN BUTTON
-===================================================== */
-
-document.addEventListener(
-    "fullscreenchange",
-    () => {
-
-        if(
-            document.fullscreenElement
-        ){
-
-            exitFullscreenButton.classList.remove(
-                "hidden"
-            );
-
-        }else{
-
-            exitFullscreenButton.classList.add(
-                "hidden"
-            );
-
-        }
-
-    }
-);
 
 
 /* =====================================================
@@ -4528,6 +4046,65 @@ document
     }
 
 };
+
+
+/* =====================================================
+   EXIT FULLSCREEN
+===================================================== */
+
+const exitFullscreenButton =
+document.getElementById(
+    "exitFullscreenButton"
+);
+
+
+exitFullscreenButton.onclick =
+async () => {
+
+    if(
+        document.fullscreenElement
+    ){
+
+        try{
+
+            await document.exitFullscreen();
+
+        }catch(error){
+
+            console.log(
+                "Exit fullscreen error:",
+                error
+            );
+
+        }
+
+    }
+
+};
+
+
+document.addEventListener(
+    "fullscreenchange",
+    () => {
+
+        if(
+            document.fullscreenElement
+        ){
+
+            exitFullscreenButton.classList.remove(
+                "hidden"
+            );
+
+        }else{
+
+            exitFullscreenButton.classList.add(
+                "hidden"
+            );
+
+        }
+
+    }
+);
 
 
 /* =====================================================
