@@ -24,29 +24,47 @@ html,
 body{
     width:100%;
     height:100%;
+    overflow:hidden;
     font-family:Arial,sans-serif;
     background:#f3f6fa;
     color:#222;
 }
 
 body{
-    padding:15px;
-    overflow:auto;
+    padding:12px;
+}
+
+button,
+input{
+    font-family:Arial,sans-serif;
 }
 
 .hidden{
     display:none!important;
 }
 
+
+/* =========================
+   SCREEN
+========================= */
+
 .screen{
     width:100%;
-    max-width:1000px;
+    height:100%;
+    max-width:1100px;
     margin:auto;
 }
 
+
+/* =========================
+   CARD
+========================= */
+
 .card{
+    width:100%;
+    height:100%;
     background:#fff;
-    border-radius:20px;
+    border-radius:18px;
     padding:25px;
     box-shadow:0 8px 30px rgba(0,0,0,.10);
 }
@@ -57,7 +75,7 @@ body{
 ========================= */
 
 .login-screen{
-    min-height:calc(100vh - 30px);
+    height:100%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -66,12 +84,13 @@ body{
 .login-card{
     width:100%;
     max-width:450px;
+    height:auto;
     text-align:center;
 }
 
 .logo{
-    font-size:50px;
-    margin-bottom:10px;
+    font-size:48px;
+    margin-bottom:8px;
 }
 
 .login-card h1{
@@ -81,13 +100,13 @@ body{
 
 .subtitle{
     color:#666;
-    line-height:1.6;
+    line-height:1.5;
 }
 
 .code-input{
     width:100%;
     height:58px;
-    margin-top:25px;
+    margin-top:22px;
     border:2px solid #ddd;
     border-radius:12px;
     text-align:center;
@@ -106,7 +125,7 @@ body{
     border:0;
     border-radius:12px;
     min-height:50px;
-    padding:11px 20px;
+    padding:10px 20px;
     font-size:16px;
     font-weight:bold;
     cursor:pointer;
@@ -129,7 +148,7 @@ body{
 
 .danger{
     background:#dc3545;
-    color:#fff;
+    color:white;
 }
 
 .full{
@@ -147,7 +166,7 @@ body{
 .expiry-info{
     color:#888;
     font-size:12px;
-    margin-top:15px;
+    margin-top:12px;
 }
 
 
@@ -155,12 +174,16 @@ body{
    HOME
 ========================= */
 
+.home-screen-card{
+    overflow:hidden;
+}
+
 .header{
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap:15px;
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
 
 .header-title{
@@ -171,19 +194,19 @@ body{
 .account{
     color:#777;
     font-size:13px;
-    margin-top:5px;
+    margin-top:4px;
 }
 
 .home-title{
     font-size:32px;
-    margin-bottom:8px;
+    margin-bottom:6px;
 }
 
 .reviewer-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:16px;
-    margin-top:22px;
+    gap:14px;
+    margin-top:20px;
 }
 
 .reviewer-button{
@@ -192,7 +215,7 @@ body{
     text-align:left;
     border:2px solid #e0e4e9;
     background:#fff;
-    border-radius:16px;
+    border-radius:15px;
     cursor:pointer;
     transition:.15s;
 }
@@ -204,14 +227,14 @@ body{
 
 .reviewer-button strong{
     display:block;
-    font-size:19px;
+    font-size:20px;
     margin-bottom:8px;
 }
 
 .reviewer-button span{
     color:#777;
-    font-size:14px;
-    line-height:1.5;
+    font-size:15px;
+    line-height:1.45;
 }
 
 
@@ -230,8 +253,8 @@ body{
 }
 
 .introduction{
-    line-height:1.7;
-    font-size:16px;
+    line-height:1.65;
+    font-size:17px;
 }
 
 .introduction p{
@@ -253,27 +276,26 @@ body{
    REVIEWER
 ========================= */
 
-#reviewerScreen{
-    height:calc(100vh - 30px);
+.reviewer-card{
     display:flex;
-    align-items:center;
+    flex-direction:column;
+    overflow:hidden;
 }
 
-#reviewerScreen .card{
-    width:100%;
-    max-height:calc(100vh - 30px);
-    overflow:auto;
+.reviewer-top{
+    flex-shrink:0;
 }
 
 .subject-title{
-    font-size:27px;
+    font-size:30px;
+    text-align:center;
 }
 
 .progress-info{
     display:flex;
     justify-content:space-between;
-    margin-top:10px;
-    color:#666;
+    margin-top:8px;
+    color:#555;
     font-size:16px;
     font-weight:bold;
 }
@@ -294,87 +316,117 @@ body{
     transition:.2s;
 }
 
-.question-number{
-    margin-top:20px;
-    color:#777;
-    font-size:18px;
-    font-weight:bold;
-    text-align:center;
-}
-
 
 /* =========================
-   LARGE CENTER QUESTION
+   QUESTION AREA
 ========================= */
 
+.question-area{
+    flex:1;
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.question-number{
+    color:#777;
+    text-align:center;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
 .question{
-    font-size:42px;
+    font-size:32px;
     font-weight:bold;
     line-height:1.35;
-    margin:15px 0 30px;
     text-align:center;
+    margin:5px auto 20px;
+    max-width:1000px;
+    width:100%;
 }
 
 
 /* =========================
-   LARGE CENTER CHOICES
+   CHOICES
 ========================= */
 
 .choices{
-    display:flex;
-    flex-direction:column;
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
     gap:14px;
-    align-items:center;
 }
 
 .choice{
     width:100%;
-    padding:24px 26px;
+    min-height:70px;
+    padding:14px 18px;
     border:3px solid #dfe3e8;
     background:#fff;
-    border-radius:16px;
+    border-radius:14px;
     text-align:center;
-    font-size:30px;
+    font-size:24px;
     font-weight:bold;
-    line-height:1.4;
+    line-height:1.25;
     cursor:pointer;
     transition:.15s;
 }
 
 .choice:hover{
     border-color:#1769e0;
+    background:#f7faff;
 }
 
 .choice.correct{
     border-color:#18a558;
-    background:#eafaf1;
-    color:#087a38;
-    animation:correctBlink .6s ease-in-out 3;
+    background:#18a558;
+    color:#fff;
+    animation:correctBlink .55s ease-in-out 3;
 }
 
 .choice.wrong{
     border-color:#dc3545;
-    background:#fff0f1;
-    color:#b42318;
+    background:#dc3545;
+    color:#fff;
+    animation:wrongBlink .25s ease-in-out 2;
 }
 
 .choice:disabled{
     cursor:default;
 }
 
-
-/* =========================
-   GREEN BLINK
-========================= */
-
 @keyframes correctBlink{
+
+    0%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+    50%{
+        opacity:.45;
+        transform:scale(1.015);
+    }
+
+    100%{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
+
+@keyframes wrongBlink{
 
     0%{
         opacity:1;
     }
 
     50%{
-        opacity:.2;
+        opacity:.5;
     }
 
     100%{
@@ -384,45 +436,73 @@ body{
 }
 
 
+/* =========================
+   FEEDBACK
+========================= */
+
 .feedback{
-    margin-top:16px;
-    padding:15px;
+    flex-shrink:0;
+    margin:12px auto 0;
+    width:100%;
+    max-width:1000px;
+    padding:10px 15px;
     border-radius:12px;
-    line-height:1.5;
+    line-height:1.4;
     font-size:16px;
     text-align:center;
 }
 
 .feedback.correct{
     background:#eafaf1;
+    color:#146c3a;
 }
 
 .feedback.wrong{
     background:#fff0f1;
+    color:#a51d2a;
 }
 
+
+/* =========================
+   REVIEW ACTIONS
+========================= */
+
 .review-actions{
+    flex-shrink:0;
     display:flex;
-    gap:10px;
-    margin-top:20px;
+    gap:12px;
+    margin-top:15px;
 }
 
 .review-actions .btn{
     flex:1;
 }
 
+
+/* =========================
+   EXIT BUTTON
+========================= */
+
 .exit-button{
     min-width:100px;
 }
 
+
+/* =========================
+   LOADING
+========================= */
+
 .loading{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     text-align:center;
-    padding:40px 10px;
+    padding:20px;
     color:#777;
 }
 
 .error-box{
-    margin-top:20px;
     padding:18px;
     border-radius:12px;
     background:#fff0f1;
@@ -438,6 +518,10 @@ body{
 
 .result{
     text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 .result h1{
@@ -445,7 +529,7 @@ body{
 }
 
 .final-score{
-    font-size:65px;
+    font-size:64px;
     font-weight:bold;
     margin:20px 0 8px;
 }
@@ -457,44 +541,125 @@ body{
 
 
 /* =========================
-   TABLET
+   LAPTOP / DESKTOP FIT
 ========================= */
 
-@media(max-width:900px){
+@media(min-width:701px){
+
+    .reviewer-card{
+        height:100%;
+    }
+
+    .reviewer-top{
+        margin-bottom:5px;
+    }
 
     .question{
-        font-size:36px;
+        font-size:32px;
     }
 
     .choice{
-        font-size:26px;
-        padding:20px;
+        font-size:24px;
+        min-height:68px;
     }
 
 }
 
 
 /* =========================
-   MOBILE
+   SMALL LAPTOP
+========================= */
+
+@media(
+    min-width:701px
+) and (
+    max-height:700px
+){
+
+    body{
+        padding:6px;
+    }
+
+    .card{
+        padding:15px 20px;
+        border-radius:12px;
+    }
+
+    .subject-title{
+        font-size:25px;
+    }
+
+    .progress-info{
+        font-size:13px;
+    }
+
+    .progress-bar{
+        height:6px;
+    }
+
+    .question-number{
+        font-size:14px;
+    }
+
+    .question{
+        font-size:25px;
+        margin-bottom:12px;
+    }
+
+    .choices{
+        gap:9px;
+    }
+
+    .choice{
+        min-height:55px;
+        padding:9px 14px;
+        font-size:19px;
+    }
+
+    .feedback{
+        margin-top:8px;
+        padding:7px 12px;
+        font-size:13px;
+    }
+
+    .review-actions{
+        margin-top:8px;
+    }
+
+    .review-actions .btn{
+        min-height:42px;
+        padding:7px 15px;
+    }
+
+}
+
+
+/* =========================
+   TABLET
 ========================= */
 
 @media(max-width:700px){
+
+    html,
+    body{
+        overflow:auto;
+        min-height:100%;
+    }
 
     body{
         padding:8px;
     }
 
+    .screen{
+        height:auto;
+        min-height:calc(100vh - 16px);
+    }
+
     .card{
+        min-height:calc(100vh - 16px);
+        height:auto;
         padding:18px 15px;
-        border-radius:16px;
-    }
-
-    #reviewerScreen{
-        height:calc(100vh - 16px);
-    }
-
-    #reviewerScreen .card{
-        max-height:calc(100vh - 16px);
+        border-radius:14px;
     }
 
     .reviewer-grid{
@@ -503,104 +668,36 @@ body{
 
     .header{
         align-items:flex-start;
-        margin-bottom:18px;
     }
 
     .header-title{
-        font-size:20px;
+        font-size:21px;
     }
 
     .home-title{
-        font-size:26px;
+        font-size:27px;
     }
 
     .intro-title{
-        font-size:26px;
-    }
-
-    .subject-title{
-        font-size:23px;
-    }
-
-    .question-number{
-        font-size:16px;
-        margin-top:15px;
+        font-size:27px;
     }
 
     .question{
-        font-size:30px;
-        line-height:1.35;
-        text-align:center;
-        margin:12px 0 20px;
+        font-size:27px;
     }
 
     .choices{
-        gap:10px;
+        grid-template-columns:1fr;
     }
 
     .choice{
-        padding:16px 18px;
-        font-size:24px;
-        line-height:1.35;
-        text-align:center;
-    }
-
-    .feedback{
-        font-size:15px;
-        padding:12px;
+        min-height:65px;
+        font-size:21px;
     }
 
     .intro-actions,
     .review-actions{
         flex-direction:column;
-    }
-
-    .btn{
-        min-height:46px;
-    }
-
-}
-
-
-/* =========================
-   SMALL HEIGHT SCREEN
-========================= */
-
-@media(max-height:650px){
-
-    body{
-        padding:5px;
-    }
-
-    #reviewerScreen{
-        height:calc(100vh - 10px);
-    }
-
-    #reviewerScreen .card{
-        max-height:calc(100vh - 10px);
-        padding:14px;
-    }
-
-    .question-number{
-        margin-top:8px;
-    }
-
-    .question{
-        font-size:30px;
-        margin:7px 0 12px;
-    }
-
-    .choices{
-        gap:7px;
-    }
-
-    .choice{
-        padding:10px 14px;
-        font-size:22px;
-    }
-
-    .review-actions{
-        margin-top:10px;
     }
 
 }
@@ -610,15 +707,27 @@ body{
    VERY SMALL MOBILE
 ========================= */
 
-@media(max-width:400px){
+@media(max-width:420px){
+
+    .card{
+        padding:15px 12px;
+    }
+
+    .subject-title{
+        font-size:23px;
+    }
 
     .question{
-        font-size:26px;
+        font-size:23px;
     }
 
     .choice{
-        font-size:20px;
-        padding:11px 12px;
+        font-size:19px;
+        min-height:60px;
+    }
+
+    .final-score{
+        font-size:52px;
     }
 
 }
@@ -628,23 +737,6 @@ body{
 </head>
 
 <body>
-
-
-<!-- =====================================================
-     AUDIO
-===================================================== -->
-
-<audio
-    id="wrongSound"
-    src="x.mp3"
-    preload="auto"
-></audio>
-
-<audio
-    id="correctSound"
-    src="c.mp3"
-    preload="auto"
-></audio>
 
 
 <!-- =====================================================
@@ -734,7 +826,6 @@ LOG OUT
 
 </div>
 
-
 <h1 class="home-title">
 Choose a Reviewer
 </h1>
@@ -742,7 +833,6 @@ Choose a Reviewer
 <p class="subtitle">
 Select a subject to view its introduction and begin reviewing.
 </p>
-
 
 <div class="reviewer-grid">
 
@@ -901,27 +991,25 @@ START REVIEWER
     class="screen hidden"
 >
 
-<div class="card">
+<div class="card reviewer-card">
 
 
-<div class="header">
+<div class="reviewer-top">
 
-<div>
+<div
+    style="
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    "
+>
 
 <h2
     id="subjectTitle"
     class="subject-title"
-></h2>
-
-<div
-    id="questionCounter"
-    class="account"
 >
-Question 0 of 0
-</div>
-
-</div>
-
+</h2>
 
 <button
     id="exitReviewerButton"
@@ -935,13 +1023,11 @@ EXIT
 
 <div class="progress-info">
 
-<span>
-Progress
+<span id="questionCounter">
+Question 0 of 0
 </span>
 
-<span
-    id="scoreDisplay"
->
+<span id="scoreDisplay">
 Score: 0
 </span>
 
@@ -957,6 +1043,8 @@ Score: 0
 
 </div>
 
+</div>
+
 
 <div
     id="loading"
@@ -968,32 +1056,30 @@ Loading questions...
 
 <div
     id="questionArea"
-    class="hidden"
+    class="question-area hidden"
 >
-
 
 <div
     id="questionNumber"
     class="question-number"
 ></div>
 
-
 <div
     id="question"
     class="question"
 ></div>
-
 
 <div
     id="choices"
     class="choices"
 ></div>
 
-
 <div
     id="feedback"
     class="feedback hidden"
 ></div>
+
+</div>
 
 
 <div class="review-actions">
@@ -1014,8 +1100,6 @@ NEXT
 
 </div>
 
-
-</div>
 
 </div>
 
@@ -1051,14 +1135,13 @@ Reviewer Complete!
 0%
 </div>
 
-
 <div class="review-actions">
 
 <button
     id="resultHomeButton"
-    class="btn danger"
+    class="btn secondary"
 >
-EXIT
+HOME
 </button>
 
 <button
@@ -1073,6 +1156,30 @@ REVIEW AGAIN
 </div>
 
 </div>
+
+
+<!-- =====================================================
+     SOUND EFFECTS
+     
+     ILAGAY ANG:
+     
+     index.html
+     c.mp3
+     x.mp3
+     
+===================================================== -->
+
+<audio
+    id="correctSound"
+    src="c.mp3"
+    preload="auto"
+></audio>
+
+<audio
+    id="wrongSound"
+    src="x.mp3"
+    preload="auto"
+></audio>
 
 
 <!-- =====================================================
@@ -1118,14 +1225,9 @@ const firebaseConfig = {
 
 };
 
+firebase.initializeApp(firebaseConfig);
 
-firebase.initializeApp(
-    firebaseConfig
-);
-
-
-const db =
-firebase.database();
+const db = firebase.database();
 
 
 /* =====================================================
@@ -1139,10 +1241,8 @@ const ONE_YEAR =
 60 *
 1000;
 
-
 const SESSION_KEY =
 "civilServiceReviewerSession";
-
 
 const DEVICE_KEY =
 "civilServiceReviewerDevice";
@@ -1158,7 +1258,6 @@ function getDeviceID(){
     localStorage.getItem(
         DEVICE_KEY
     );
-
 
     if(!id){
 
@@ -1181,7 +1280,6 @@ function getDeviceID(){
 
         }
 
-
         localStorage.setItem(
             DEVICE_KEY,
             id
@@ -1189,11 +1287,9 @@ function getDeviceID(){
 
     }
 
-
     return id;
 
 }
-
 
 const deviceID =
 getDeviceID();
@@ -1367,6 +1463,16 @@ document.getElementById(
     "resultScreen"
 );
 
+const correctSound =
+document.getElementById(
+    "correctSound"
+);
+
+const wrongSound =
+document.getElementById(
+    "wrongSound"
+);
+
 
 /* =====================================================
    SCREEN
@@ -1387,7 +1493,6 @@ function showScreen(screen){
             "hidden"
         )
     );
-
 
     screen.classList.remove(
         "hidden"
@@ -1410,10 +1515,8 @@ function setLoginMessage(
         "loginMessage"
     );
 
-
     message.textContent =
     text;
-
 
     message.style.color =
     success
@@ -1434,12 +1537,10 @@ async function login(){
         "codeInput"
     );
 
-
     const code =
     input.value
     .trim()
     .toUpperCase();
-
 
     if(
         !/^[A-Z0-9]{8}$/.test(code)
@@ -1453,7 +1554,6 @@ async function login(){
 
     }
 
-
     if(
         !accessCodes.includes(code)
     ){
@@ -1466,19 +1566,16 @@ async function login(){
 
     }
 
-
     const button =
     document.getElementById(
         "loginButton"
     );
-
 
     button.disabled =
     true;
 
     button.textContent =
     "CONNECTING...";
-
 
     try{
 
@@ -1488,13 +1585,11 @@ async function login(){
             code
         );
 
-
         await codeRef.transaction(
             currentData => {
 
                 const now =
                 Date.now();
-
 
                 if(
                     currentData === null
@@ -1519,7 +1614,6 @@ async function login(){
                     };
 
                 }
-
 
                 if(
                     currentData.expiresAt &&
@@ -1547,7 +1641,6 @@ async function login(){
 
                 }
 
-
                 if(
                     currentData.deviceID ===
                     deviceID
@@ -1557,22 +1650,18 @@ async function login(){
 
                 }
 
-
                 return;
 
             }
         );
-
 
         const snapshot =
         await codeRef.once(
             "value"
         );
 
-
         const data =
         snapshot.val();
-
 
         if(!data){
 
@@ -1581,7 +1670,6 @@ async function login(){
             );
 
         }
-
 
         if(
             data.deviceID !==
@@ -1596,7 +1684,6 @@ async function login(){
 
         }
 
-
         if(
             data.expiresAt &&
             Date.now() >=
@@ -1610,7 +1697,6 @@ async function login(){
             return;
 
         }
-
 
         session = {
 
@@ -1627,7 +1713,6 @@ async function login(){
 
         };
 
-
         localStorage.setItem(
             SESSION_KEY,
             JSON.stringify(
@@ -1635,27 +1720,20 @@ async function login(){
             )
         );
 
-
         setLoginMessage(
             "Login successful.",
             true
         );
 
-
         showHome();
-
 
     }catch(error){
 
-        console.error(
-            error
-        );
-
+        console.error(error);
 
         setLoginMessage(
             "Unable to connect to Firebase."
         );
-
 
     }finally{
 
@@ -1686,7 +1764,6 @@ async function validateSession(){
 
     }
 
-
     try{
 
         const codeRef =
@@ -1695,16 +1772,13 @@ async function validateSession(){
             session.code
         );
 
-
         const snapshot =
         await codeRef.once(
             "value"
         );
 
-
         const data =
         snapshot.val();
-
 
         if(!data){
 
@@ -1721,7 +1795,6 @@ async function validateSession(){
             return;
 
         }
-
 
         if(
             data.deviceID !==
@@ -1745,7 +1818,6 @@ async function validateSession(){
             return;
 
         }
-
 
         if(
             data.expiresAt &&
@@ -1771,25 +1843,19 @@ async function validateSession(){
 
         }
 
-
         session.expiresAt =
         data.expiresAt;
-
 
         localStorage.setItem(
             SESSION_KEY,
             JSON.stringify(session)
         );
 
-
         showHome();
-
 
     }catch(error){
 
-        console.error(
-            error
-        );
+        console.error(error);
 
         showHome();
 
@@ -1807,7 +1873,6 @@ function showHome(){
     showScreen(
         homeScreen
     );
-
 
     if(session){
 
@@ -1995,14 +2060,12 @@ document
             selectedFile =
             button.dataset.file;
 
-
             document
             .getElementById(
                 "introTitle"
             )
             .textContent =
             selectedName;
-
 
             document
             .getElementById(
@@ -2012,7 +2075,6 @@ document
             introductions[
                 selectedName
             ];
-
 
             showScreen(
                 introScreen
@@ -2034,7 +2096,6 @@ async function startReviewer(){
         reviewerScreen
     );
 
-
     document
     .getElementById(
         "subjectTitle"
@@ -2042,20 +2103,16 @@ async function startReviewer(){
     .textContent =
     selectedName;
 
-
     const loading =
     document.getElementById(
         "loading"
     );
 
-
     loading.className =
     "loading";
 
-
     loading.innerHTML =
     "Loading questions...";
-
 
     document
     .getElementById(
@@ -2065,7 +2122,6 @@ async function startReviewer(){
         "hidden"
     );
 
-
     currentQuestion=0;
 
     score=0;
@@ -2074,13 +2130,16 @@ async function startReviewer(){
 
     questions=[];
 
-
     const filePath =
     "./question-bank/" +
     selectedFile;
 
-
     try{
+
+        console.log(
+            "Loading:",
+            filePath
+        );
 
         const response =
         await fetch(
@@ -2089,7 +2148,6 @@ async function startReviewer(){
                 cache:"no-store"
             }
         );
-
 
         if(!response.ok){
 
@@ -2102,10 +2160,8 @@ async function startReviewer(){
 
         }
 
-
         const data =
         await response.json();
-
 
         if(
             Array.isArray(data)
@@ -2132,7 +2188,6 @@ async function startReviewer(){
 
         }
 
-
         if(
             questions.length === 0
         ){
@@ -2143,13 +2198,10 @@ async function startReviewer(){
 
         }
 
-
         questions.forEach(
             (q,index) => {
 
-                if(
-                    !q.question
-                ){
+                if(!q.question){
 
                     throw new Error(
                         "Question " +
@@ -2159,10 +2211,7 @@ async function startReviewer(){
 
                 }
 
-
-                if(
-                    !q.choices
-                ){
+                if(!q.choices){
 
                     throw new Error(
                         "Question " +
@@ -2172,10 +2221,7 @@ async function startReviewer(){
 
                 }
 
-
-                if(
-                    !q.answer
-                ){
+                if(!q.answer){
 
                     throw new Error(
                         "Question " +
@@ -2188,11 +2234,9 @@ async function startReviewer(){
             }
         );
 
-
         loading.classList.add(
             "hidden"
         );
-
 
         document
         .getElementById(
@@ -2202,9 +2246,7 @@ async function startReviewer(){
             "hidden"
         );
 
-
         renderQuestion();
-
 
     }catch(error){
 
@@ -2213,10 +2255,8 @@ async function startReviewer(){
             error
         );
 
-
         loading.className =
         "loading";
-
 
         loading.innerHTML = `
 
@@ -2246,8 +2286,8 @@ async function startReviewer(){
 
         <code>
         index.html<br>
-        x.mp3<br>
         c.mp3<br>
+        x.mp3<br>
         question-bank/<br>
         &nbsp;&nbsp;general-information.json<br>
         &nbsp;&nbsp;verbal-ability.json<br>
@@ -2259,8 +2299,7 @@ async function startReviewer(){
         <br><br>
 
         Also run the project using
-        <strong>Live Server</strong>
-        instead of opening index.html directly.
+        <strong>Live Server</strong>.
 
         </div>
 
@@ -2282,7 +2321,6 @@ function renderQuestion(){
         currentQuestion
     ];
 
-
     document
     .getElementById(
         "questionNumber"
@@ -2290,7 +2328,6 @@ function renderQuestion(){
     .textContent =
     "Question " +
     (currentQuestion+1);
-
 
     document
     .getElementById(
@@ -2302,7 +2339,6 @@ function renderQuestion(){
     " of " +
     questions.length;
 
-
     document
     .getElementById(
         "scoreDisplay"
@@ -2310,7 +2346,6 @@ function renderQuestion(){
     .textContent =
     "Score: " +
     score;
-
 
     document
     .getElementById(
@@ -2326,7 +2361,6 @@ function renderQuestion(){
     ) +
     "%";
 
-
     document
     .getElementById(
         "question"
@@ -2334,15 +2368,12 @@ function renderQuestion(){
     .textContent =
     q.question;
 
-
     const choices =
     document.getElementById(
         "choices"
     );
 
-
     choices.innerHTML="";
-
 
     [
         "A",
@@ -2363,33 +2394,27 @@ function renderQuestion(){
 
             }
 
-
             const button =
             document.createElement(
                 "button"
             );
 
-
             button.className =
             "choice";
 
-
             button.dataset.letter =
             letter;
-
 
             button.textContent =
             letter +
             ". " +
             q.choices[letter];
 
-
             button.onclick =
             () =>
             selectAnswer(
                 letter
             );
-
 
             choices.appendChild(
                 button
@@ -2398,19 +2423,15 @@ function renderQuestion(){
         }
     );
 
-
     const feedback =
     document.getElementById(
         "feedback"
     );
 
-
     feedback.className =
     "feedback hidden";
 
-
     feedback.innerHTML="";
-
 
     if(
         userAnswers[
@@ -2426,14 +2447,12 @@ function renderQuestion(){
 
     }
 
-
     document
     .getElementById(
         "previousButton"
     )
     .disabled =
     currentQuestion === 0;
-
 
     document
     .getElementById(
@@ -2444,47 +2463,6 @@ function renderQuestion(){
     questions.length-1
     ? "FINISH"
     : "NEXT";
-
-}
-
-
-/* =====================================================
-   SOUND
-===================================================== */
-
-function playSound(
-    elementID
-){
-
-    const sound =
-    document.getElementById(
-        elementID
-    );
-
-
-    if(!sound){
-
-        return;
-
-    }
-
-
-    sound.pause();
-
-    sound.currentTime=0;
-
-
-    sound.play()
-    .catch(
-        error => {
-
-            console.log(
-                "Audio playback:",
-                error
-            );
-
-        }
-    );
 
 }
 
@@ -2505,38 +2483,76 @@ function selectAnswer(letter){
 
     }
 
-
     userAnswers[
         currentQuestion
     ] =
     letter;
 
-
-    const correct =
-    letter ===
+    const q =
     questions[
         currentQuestion
-    ].answer;
+    ];
 
-
-    if(correct){
+    if(
+        letter ===
+        q.answer
+    ){
 
         score++;
 
-        playSound(
-            "correctSound"
-        );
+        playCorrectSound();
 
     }else{
 
-        playSound(
-            "wrongSound"
+        playWrongSound();
+
+    }
+
+    renderQuestion();
+
+}
+
+
+/* =====================================================
+   SOUND
+===================================================== */
+
+function playCorrectSound(){
+
+    try{
+
+        correctSound.currentTime = 0;
+
+        correctSound.play();
+
+    }catch(error){
+
+        console.log(
+            "Correct sound error:",
+            error
         );
 
     }
 
+}
 
-    renderQuestion();
+
+function playWrongSound(){
+
+    try{
+
+        wrongSound.currentTime = 0;
+
+        wrongSound.play();
+
+    }catch(error){
+
+        console.log(
+            "Wrong sound error:",
+            error
+        );
+
+    }
 
 }
 
@@ -2552,7 +2568,6 @@ function showAnswer(letter){
         currentQuestion
     ];
 
-
     document
     .querySelectorAll(
         "#choices .choice"
@@ -2563,9 +2578,7 @@ function showAnswer(letter){
             const choiceLetter =
             button.dataset.letter;
 
-
             button.disabled=true;
-
 
             if(
                 choiceLetter ===
@@ -2577,7 +2590,6 @@ function showAnswer(letter){
                 );
 
             }
-
 
             if(
                 choiceLetter ===
@@ -2595,26 +2607,24 @@ function showAnswer(letter){
         }
     );
 
-
     const feedback =
     document.getElementById(
         "feedback"
     );
 
-
     feedback.className =
     "feedback";
 
+    feedback.classList.add(
+        letter === q.answer
+        ? "correct"
+        : "wrong"
+    );
 
     if(
         letter ===
         q.answer
     ){
-
-        feedback.classList.add(
-            "correct"
-        );
-
 
         feedback.innerHTML =
         "<strong>Correct!</strong><br>" +
@@ -2624,11 +2634,6 @@ function showAnswer(letter){
         );
 
     }else{
-
-        feedback.classList.add(
-            "wrong"
-        );
-
 
         feedback.innerHTML =
         "<strong>Incorrect.</strong><br>" +
@@ -2670,7 +2675,6 @@ document
 
     }
 
-
     if(
         currentQuestion ===
         questions.length-1
@@ -2681,7 +2685,6 @@ document
         return;
 
     }
-
 
     currentQuestion++;
 
@@ -2715,36 +2718,35 @@ document
 
 
 /* =====================================================
-   EXIT
+   EXIT REVIEWER
 ===================================================== */
 
-function exitToSubjects(){
+document
+.getElementById(
+    "exitReviewerButton"
+)
+.onclick =
+() => {
 
-    const leave =
-    confirm(
-        "Exit this reviewer and return to the subjects?"
-    );
+    if(
+        confirm(
+            "Exit this reviewer and return to the subjects?"
+        )
+    ){
 
+        questions = [];
 
-    if(!leave){
+        currentQuestion = 0;
 
-        return;
+        score = 0;
+
+        userAnswers = {};
+
+        showHome();
 
     }
 
-
-    questions=[];
-
-    currentQuestion=0;
-
-    score=0;
-
-    userAnswers={};
-
-
-    showHome();
-
-}
+};
 
 
 /* =====================================================
@@ -2757,7 +2759,6 @@ function showResult(){
         resultScreen
     );
 
-
     const percentage =
     Math.round(
         (
@@ -2767,7 +2768,6 @@ function showResult(){
         100
     );
 
-
     document
     .getElementById(
         "finalScore"
@@ -2776,7 +2776,6 @@ function showResult(){
     score +
     " / " +
     questions.length;
-
 
     document
     .getElementById(
@@ -2840,18 +2839,10 @@ startReviewer;
 
 document
 .getElementById(
-    "exitReviewerButton"
-)
-.onclick =
-exitToSubjects;
-
-
-document
-.getElementById(
     "resultHomeButton"
 )
 .onclick =
-exitToSubjects;
+showHome;
 
 
 document
