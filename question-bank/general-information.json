@@ -1,314 +1,512 @@
 [
   {
-    "question": "What is the supreme law of the Philippines?",
-    "choices": {
-      "A": "The Civil Code",
-      "B": "The Constitution",
-      "C": "The Revised Penal Code",
-      "D": "The Administrative Code"
-    },
-    "answer": "B",
-    "explanation": "The Constitution is the supreme law of the Philippines."
-  },
-  {
-    "question": "What is the form of government of the Philippines?",
-    "choices": {
-      "A": "Absolute monarchy",
-      "B": "Parliamentary monarchy",
-      "C": "Democratic and republican",
-      "D": "Military government"
-    },
-    "answer": "C",
-    "explanation": "The Philippines is a democratic and republican State."
-  },
-  {
-    "question": "Where is the seat of the national government of the Philippines?",
+    "question": "What is the capital city of the Philippines?",
     "choices": {
       "A": "Cebu City",
       "B": "Davao City",
-      "C": "Quezon City",
-      "D": "Manila"
-    },
-    "answer": "D",
-    "explanation": "Manila is the capital and seat of the national government."
-  },
-  {
-    "question": "How many branches does the Philippine national government have?",
-    "choices": {
-      "A": "Two",
-      "B": "Three",
-      "C": "Four",
-      "D": "Five"
-    },
-    "answer": "B",
-    "explanation": "The three branches are Executive, Legislative, and Judicial."
-  },
-  {
-    "question": "Which branch of government makes laws?",
-    "choices": {
-      "A": "Executive",
-      "B": "Judicial",
-      "C": "Legislative",
-      "D": "Local"
+      "C": "Manila",
+      "D": "Quezon City"
     },
     "answer": "C",
-    "explanation": "The Legislative branch is responsible for making laws."
+    "explanation": "Manila is the capital city of the Philippines."
   },
   {
-    "question": "Which branch of government interprets laws?",
+    "question": "How many provinces are there in the Philippines?",
     "choices": {
-      "A": "Executive",
-      "B": "Judicial",
-      "C": "Legislative",
-      "D": "Administrative"
-    },
-    "answer": "B",
-    "explanation": "The Judicial branch interprets laws and settles legal disputes."
-  },
-  {
-    "question": "Who heads the Executive branch of the Philippine government?",
-    "choices": {
-      "A": "The Senate President",
-      "B": "The Chief Justice",
-      "C": "The President",
-      "D": "The Speaker of the House"
-    },
-    "answer": "C",
-    "explanation": "Executive power is vested in the President of the Philippines."
-  },
-  {
-    "question": "What is the highest court in the Philippines?",
-    "choices": {
-      "A": "Court of Appeals",
-      "B": "Regional Trial Court",
-      "C": "Sandiganbayan",
-      "D": "Supreme Court"
-    },
-    "answer": "D",
-    "explanation": "The Supreme Court is the highest court in the Philippine judicial system."
-  },
-  {
-    "question": "How many senators are there in the Philippine Senate?",
-    "choices": {
-      "A": "12",
-      "B": "18",
-      "C": "24",
-      "D": "36"
-    },
-    "answer": "C",
-    "explanation": "The Philippine Senate is composed of 24 senators."
-  },
-  {
-    "question": "How long is the term of office of a Philippine senator?",
-    "choices": {
-      "A": "3 years",
-      "B": "4 years",
-      "C": "5 years",
-      "D": "6 years"
-    },
-    "answer": "D",
-    "explanation": "A senator serves a six-year term."
-  },
-  {
-    "question": "How long is the term of office of the President of the Philippines?",
-    "choices": {
-      "A": "3 years",
-      "B": "4 years",
-      "C": "6 years",
-      "D": "8 years"
-    },
-    "answer": "C",
-    "explanation": "The President is elected for a six-year term."
-  },
-  {
-    "question": "Can the President of the Philippines be reelected?",
-    "choices": {
-      "A": "Yes, indefinitely",
-      "B": "Yes, for one consecutive term",
-      "C": "No, the President is not eligible for any reelection",
-      "D": "Yes, for two consecutive terms"
-    },
-    "answer": "C",
-    "explanation": "The President is not eligible for reelection under the 1987 Constitution."
-  },
-  {
-    "question": "What is the minimum age requirement for a Philippine President?",
-    "choices": {
-      "A": "30 years old",
-      "B": "35 years old",
-      "C": "40 years old",
-      "D": "45 years old"
-    },
-    "answer": "B",
-    "explanation": "A presidential candidate must be at least 40 years old on election day."
-  },
-  {
-    "question": "What is the minimum age requirement for a Philippine senator?",
-    "choices": {
-      "A": "21",
-      "B": "25",
-      "C": "30",
-      "D": "35"
-    },
-    "answer": "C",
-    "explanation": "A senator must be at least 35 years old on election day."
-  },
-  {
-    "question": "What is the minimum age requirement for a member of the House of Representatives?",
-    "choices": {
-      "A": "18",
-      "B": "21",
-      "C": "25",
-      "D": "30"
-    },
-    "answer": "C",
-    "explanation": "A member of the House must be at least 25 years old on election day."
-  },
-  {
-    "question": "What are the two chambers of Congress?",
-    "choices": {
-      "A": "Senate and Cabinet",
-      "B": "Senate and House of Representatives",
-      "C": "House of Representatives and Supreme Court",
-      "D": "Senate and Court of Appeals"
-    },
-    "answer": "B",
-    "explanation": "Congress is bicameral, consisting of the Senate and House of Representatives."
-  },
-  {
-    "question": "Who presides over the Senate?",
-    "choices": {
-      "A": "Speaker of the House",
-      "B": "Chief Justice",
-      "C": "Senate President",
-      "D": "President"
-    },
-    "answer": "C",
-    "explanation": "The Senate President presides over the Senate."
-  },
-  {
-    "question": "Who presides over the House of Representatives?",
-    "choices": {
-      "A": "Senate President",
-      "B": "Speaker of the House",
-      "C": "Chief Justice",
-      "D": "Vice President"
-    },
-    "answer": "B",
-    "explanation": "The Speaker presides over the House of Representatives."
-  },
-  {
-    "question": "What is the official currency of the Philippines?",
-    "choices": {
-      "A": "Peso",
-      "B": "Dollar",
-      "C": "Rupiah",
-      "D": "Ringgit"
+      "A": "81",
+      "B": "82",
+      "C": "83",
+      "D": "84"
     },
     "answer": "A",
-    "explanation": "The Philippine peso is the official currency of the Philippines."
+    "explanation": "The Philippines has 81 provinces."
   },
   {
-    "question": "What is the national flower of the Philippines?",
+    "question": "Which is the largest island in the Philippines?",
     "choices": {
-      "A": "Rose",
-      "B": "Sampaguita",
-      "C": "Gumamela",
-      "D": "Orchid"
+      "A": "Cebu",
+      "B": "Luzon",
+      "C": "Mindanao",
+      "D": "Palawan"
     },
     "answer": "B",
-    "explanation": "Sampaguita is the national flower of the Philippines."
+    "explanation": "Luzon is the largest island in the Philippines."
   },
   {
-    "question": "What is the national tree of the Philippines?",
+    "question": "Which is the smallest planet in the Solar System?",
     "choices": {
-      "A": "Narra",
-      "B": "Molave",
-      "C": "Mahogany",
-      "D": "Mango"
+      "A": "Mars",
+      "B": "Venus",
+      "C": "Mercury",
+      "D": "Earth"
+    },
+    "answer": "C",
+    "explanation": "Mercury is the smallest planet in the Solar System."
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "choices": {
+      "A": "Jupiter",
+      "B": "Mars",
+      "C": "Venus",
+      "D": "Saturn"
+    },
+    "answer": "B",
+    "explanation": "Mars is called the Red Planet because of its reddish appearance."
+  },
+  {
+    "question": "Which planet is the largest in the Solar System?",
+    "choices": {
+      "A": "Saturn",
+      "B": "Earth",
+      "C": "Jupiter",
+      "D": "Neptune"
+    },
+    "answer": "C",
+    "explanation": "Jupiter is the largest planet in the Solar System."
+  },
+  {
+    "question": "What is the natural satellite of Earth?",
+    "choices": {
+      "A": "The Sun",
+      "B": "The Moon",
+      "C": "Mars",
+      "D": "Venus"
+    },
+    "answer": "B",
+    "explanation": "The Moon is Earth's natural satellite."
+  },
+  {
+    "question": "What gas do humans primarily need for respiration?",
+    "choices": {
+      "A": "Carbon dioxide",
+      "B": "Nitrogen",
+      "C": "Oxygen",
+      "D": "Hydrogen"
+    },
+    "answer": "C",
+    "explanation": "Humans need oxygen for cellular respiration."
+  },
+  {
+    "question": "What gas do plants absorb during photosynthesis?",
+    "choices": {
+      "A": "Oxygen",
+      "B": "Carbon dioxide",
+      "C": "Hydrogen",
+      "D": "Nitrogen"
+    },
+    "answer": "B",
+    "explanation": "Plants absorb carbon dioxide during photosynthesis."
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "choices": {
+      "A": "Salt",
+      "B": "Water",
+      "C": "Oxygen",
+      "D": "Hydrogen"
+    },
+    "answer": "B",
+    "explanation": "H2O is the chemical formula for water."
+  },
+  {
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "choices": {
+      "A": "50°C",
+      "B": "75°C",
+      "C": "100°C",
+      "D": "150°C"
+    },
+    "answer": "C",
+    "explanation": "Water boils at 100°C at standard atmospheric pressure."
+  },
+  {
+    "question": "What is the freezing point of water in Celsius?",
+    "choices": {
+      "A": "0°C",
+      "B": "10°C",
+      "C": "32°C",
+      "D": "100°C"
     },
     "answer": "A",
-    "explanation": "Narra is recognized as the national tree of the Philippines."
+    "explanation": "Water freezes at 0°C under standard conditions."
   },
   {
-    "question": "What is the national bird of the Philippines?",
+    "question": "Which organ pumps blood throughout the human body?",
     "choices": {
-      "A": "Maya",
-      "B": "Philippine Eagle",
-      "C": "Kingfisher",
-      "D": "Hornbill"
+      "A": "Lungs",
+      "B": "Brain",
+      "C": "Heart",
+      "D": "Kidney"
+    },
+    "answer": "C",
+    "explanation": "The heart pumps blood throughout the body."
+  },
+  {
+    "question": "Which organ is primarily responsible for breathing?",
+    "choices": {
+      "A": "Heart",
+      "B": "Lungs",
+      "C": "Liver",
+      "D": "Stomach"
     },
     "answer": "B",
-    "explanation": "The Philippine Eagle is the national bird."
+    "explanation": "The lungs are the primary organs involved in breathing."
   },
   {
-    "question": "What is the national animal of the Philippines?",
+    "question": "Which organ controls most activities of the human body?",
     "choices": {
-      "A": "Carabao",
-      "B": "Tamaraw",
-      "C": "Philippine Eagle",
-      "D": "Horse"
+      "A": "Brain",
+      "B": "Heart",
+      "C": "Liver",
+      "D": "Kidney"
     },
     "answer": "A",
-    "explanation": "The carabao is commonly recognized as the national animal of the Philippines."
+    "explanation": "The brain controls and coordinates most body activities."
   },
   {
-    "question": "What is the national fruit of the Philippines?",
+    "question": "How many chambers does the human heart have?",
     "choices": {
-      "A": "Banana",
-      "B": "Mango",
-      "C": "Pineapple",
-      "D": "Coconut"
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "explanation": "The human heart has four chambers."
+  },
+  {
+    "question": "Which blood cells help fight infections?",
+    "choices": {
+      "A": "Red blood cells",
+      "B": "White blood cells",
+      "C": "Platelets",
+      "D": "Plasma cells"
     },
     "answer": "B",
-    "explanation": "Mango is widely recognized as the national fruit of the Philippines."
+    "explanation": "White blood cells help the body fight infections."
   },
   {
-    "question": "Who wrote the novel 'Noli Me Tangere'?",
+    "question": "Which blood cells carry oxygen?",
     "choices": {
-      "A": "Andres Bonifacio",
+      "A": "Red blood cells",
+      "B": "White blood cells",
+      "C": "Platelets",
+      "D": "Stem cells"
+    },
+    "answer": "A",
+    "explanation": "Red blood cells carry oxygen using hemoglobin."
+  },
+  {
+    "question": "Which vitamin is commonly produced by the body through exposure to sunlight?",
+    "choices": {
+      "A": "Vitamin A",
+      "B": "Vitamin B",
+      "C": "Vitamin C",
+      "D": "Vitamin D"
+    },
+    "answer": "D",
+    "explanation": "Sunlight helps the skin produce vitamin D."
+  },
+  {
+    "question": "Which mineral is important for strong bones and teeth?",
+    "choices": {
+      "A": "Calcium",
+      "B": "Iron",
+      "C": "Sodium",
+      "D": "Potassium"
+    },
+    "answer": "A",
+    "explanation": "Calcium is an important mineral for bones and teeth."
+  },
+  {
+    "question": "What is the hardest natural substance?",
+    "choices": {
+      "A": "Gold",
+      "B": "Iron",
+      "C": "Diamond",
+      "D": "Silver"
+    },
+    "answer": "C",
+    "explanation": "Diamond is the hardest naturally occurring material on the Mohs scale."
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "choices": {
+      "A": "Iron",
+      "B": "Mercury",
+      "C": "Copper",
+      "D": "Aluminum"
+    },
+    "answer": "B",
+    "explanation": "Mercury is a metal that is liquid at typical room temperature."
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "choices": {
+      "A": "Ag",
+      "B": "Au",
+      "C": "Gd",
+      "D": "Go"
+    },
+    "answer": "B",
+    "explanation": "The chemical symbol for gold is Au."
+  },
+  {
+    "question": "What is the chemical symbol for silver?",
+    "choices": {
+      "A": "Si",
+      "B": "Ag",
+      "C": "Au",
+      "D": "Sv"
+    },
+    "answer": "B",
+    "explanation": "The chemical symbol for silver is Ag."
+  },
+  {
+    "question": "Which force pulls objects toward Earth?",
+    "choices": {
+      "A": "Friction",
+      "B": "Magnetism",
+      "C": "Gravity",
+      "D": "Pressure"
+    },
+    "answer": "C",
+    "explanation": "Gravity attracts objects toward Earth."
+  },
+  {
+    "question": "What instrument is used to measure temperature?",
+    "choices": {
+      "A": "Barometer",
+      "B": "Thermometer",
+      "C": "Hygrometer",
+      "D": "Anemometer"
+    },
+    "answer": "B",
+    "explanation": "A thermometer is used to measure temperature."
+  },
+  {
+    "question": "What instrument measures atmospheric pressure?",
+    "choices": {
+      "A": "Barometer",
+      "B": "Thermometer",
+      "C": "Compass",
+      "D": "Rain gauge"
+    },
+    "answer": "A",
+    "explanation": "A barometer measures atmospheric pressure."
+  },
+  {
+    "question": "What instrument measures wind speed?",
+    "choices": {
+      "A": "Barometer",
+      "B": "Anemometer",
+      "C": "Thermometer",
+      "D": "Seismograph"
+    },
+    "answer": "B",
+    "explanation": "An anemometer measures wind speed."
+  },
+  {
+    "question": "What instrument records earthquakes?",
+    "choices": {
+      "A": "Seismograph",
+      "B": "Barometer",
+      "C": "Altimeter",
+      "D": "Thermometer"
+    },
+    "answer": "A",
+    "explanation": "A seismograph records ground motion caused by earthquakes."
+  },
+  {
+    "question": "Which layer of Earth is the outermost solid layer?",
+    "choices": {
+      "A": "Core",
+      "B": "Mantle",
+      "C": "Crust",
+      "D": "Inner core"
+    },
+    "answer": "C",
+    "explanation": "The crust is Earth's outermost solid layer."
+  },
+  {
+    "question": "What is the largest ocean on Earth?",
+    "choices": {
+      "A": "Atlantic Ocean",
+      "B": "Indian Ocean",
+      "C": "Arctic Ocean",
+      "D": "Pacific Ocean"
+    },
+    "answer": "D",
+    "explanation": "The Pacific Ocean is the largest ocean on Earth."
+  },
+  {
+    "question": "Which is the smallest ocean?",
+    "choices": {
+      "A": "Arctic Ocean",
+      "B": "Indian Ocean",
+      "C": "Atlantic Ocean",
+      "D": "Southern Ocean"
+    },
+    "answer": "A",
+    "explanation": "The Arctic Ocean is the smallest of the world's five oceans."
+  },
+  {
+    "question": "Which is the largest continent by land area?",
+    "choices": {
+      "A": "Africa",
+      "B": "Asia",
+      "C": "Europe",
+      "D": "North America"
+    },
+    "answer": "B",
+    "explanation": "Asia is the largest continent by land area."
+  },
+  {
+    "question": "Which continent is known as the Dark Continent in older historical usage?",
+    "choices": {
+      "A": "Africa",
+      "B": "Asia",
+      "C": "Europe",
+      "D": "South America"
+    },
+    "answer": "A",
+    "explanation": "Africa was historically called the Dark Continent, although the term is now considered outdated."
+  },
+  {
+    "question": "What is the largest hot desert in the world?",
+    "choices": {
+      "A": "Gobi Desert",
+      "B": "Sahara Desert",
+      "C": "Mojave Desert",
+      "D": "Kalahari Desert"
+    },
+    "answer": "B",
+    "explanation": "The Sahara is the world's largest hot desert."
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "choices": {
+      "A": "China",
+      "B": "South Korea",
+      "C": "Japan",
+      "D": "Thailand"
+    },
+    "answer": "C",
+    "explanation": "Japan is commonly known as the Land of the Rising Sun."
+  },
+  {
+    "question": "Which country has the largest land area in the world?",
+    "choices": {
+      "A": "Canada",
+      "B": "China",
+      "C": "Russia",
+      "D": "United States"
+    },
+    "answer": "C",
+    "explanation": "Russia has the largest land area of any country."
+  },
+  {
+    "question": "Which country is famous for the Great Wall?",
+    "choices": {
+      "A": "Japan",
+      "B": "China",
+      "C": "India",
+      "D": "Mongolia"
+    },
+    "answer": "B",
+    "explanation": "The Great Wall is located in China."
+  },
+  {
+    "question": "Which city is known as the City of Love?",
+    "choices": {
+      "A": "Rome",
+      "B": "Paris",
+      "C": "Venice",
+      "D": "Madrid"
+    },
+    "answer": "B",
+    "explanation": "Paris is widely known as the City of Love."
+  },
+  {
+    "question": "Which country is home to the pyramids of Giza?",
+    "choices": {
+      "A": "Greece",
+      "B": "Egypt",
+      "C": "Turkey",
+      "D": "Jordan"
+    },
+    "answer": "B",
+    "explanation": "The pyramids of Giza are located in Egypt."
+  },
+  {
+    "question": "Who was the first President of the Philippines?",
+    "choices": {
+      "A": "Manuel Quezon",
       "B": "Emilio Aguinaldo",
-      "C": "Jose Rizal",
+      "C": "Jose P. Laurel",
+      "D": "Andres Bonifacio"
+    },
+    "answer": "B",
+    "explanation": "Emilio Aguinaldo was the first President of the Philippines."
+  },
+  {
+    "question": "Who is known as the Father of the Philippine Revolution?",
+    "choices": {
+      "A": "Jose Rizal",
+      "B": "Emilio Aguinaldo",
+      "C": "Andres Bonifacio",
       "D": "Apolinario Mabini"
     },
     "answer": "C",
+    "explanation": "Andres Bonifacio is commonly associated with leading the Philippine Revolution through the Katipunan."
+  },
+  {
+    "question": "Who wrote Noli Me Tangere?",
+    "choices": {
+      "A": "Andres Bonifacio",
+      "B": "Jose Rizal",
+      "C": "Emilio Aguinaldo",
+      "D": "Marcelo H. del Pilar"
+    },
+    "answer": "B",
     "explanation": "Jose Rizal wrote Noli Me Tangere."
   },
   {
-    "question": "Who wrote 'El Filibusterismo'?",
+    "question": "Who wrote El Filibusterismo?",
     "choices": {
       "A": "Jose Rizal",
-      "B": "Marcelo H. del Pilar",
+      "B": "Apolinario Mabini",
       "C": "Graciano Lopez Jaena",
-      "D": "Andres Bonifacio"
+      "D": "Emilio Jacinto"
     },
     "answer": "A",
-    "explanation": "El Filibusterismo was written by Jose Rizal."
+    "explanation": "Jose Rizal wrote El Filibusterismo."
   },
   {
     "question": "When is Philippine Independence Day celebrated?",
     "choices": {
       "A": "June 12",
-      "B": "June 19",
-      "C": "August 21",
+      "B": "August 21",
+      "C": "November 30",
       "D": "December 30"
     },
     "answer": "A",
     "explanation": "Philippine Independence Day is celebrated every June 12."
   },
   {
-    "question": "When is National Heroes Day generally observed?",
+    "question": "When is National Heroes Day generally observed in the Philippines?",
     "choices": {
       "A": "First Monday of January",
       "B": "Last Monday of August",
-      "C": "Second Monday of October",
+      "C": "November 30",
       "D": "December 30"
     },
     "answer": "B",
     "explanation": "National Heroes Day is observed on the last Monday of August."
   },
   {
-    "question": "When is Rizal Day celebrated?",
+    "question": "When is Rizal Day observed?",
     "choices": {
       "A": "June 12",
       "B": "August 21",
@@ -322,169 +520,224 @@
     "question": "Who founded the Katipunan?",
     "choices": {
       "A": "Jose Rizal",
-      "B": "Andres Bonifacio",
+      "B": "Andres Bonifacio and his companions",
       "C": "Emilio Aguinaldo",
-      "D": "Antonio Luna"
+      "D": "Manuel Quezon"
     },
     "answer": "B",
-    "explanation": "Andres Bonifacio was one of the founders and the Supremo of the Katipunan."
+    "explanation": "Andres Bonifacio helped establish the Katipunan with other Filipino revolutionaries."
   },
   {
     "question": "What does KKK stand for in Philippine history?",
     "choices": {
       "A": "Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan",
-      "B": "Kilusang Kabataan ng Katipunan",
-      "C": "Kapisanan ng mga Kawal ng Kalayaan",
-      "D": "Kapatiran ng Katutubong Kawal"
+      "B": "Kapisanan ng Kabataan at Kawal",
+      "C": "Katipunan ng Kababaihan at Kabataan",
+      "D": "Kilusang Kalayaan ng Katagalugan"
     },
     "answer": "A",
     "explanation": "KKK refers to the Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan."
   },
   {
-    "question": "Who is known as the Father of the Philippine Revolution?",
+    "question": "Who is known as the Sublime Paralytic?",
     "choices": {
-      "A": "Andres Bonifacio",
-      "B": "Emilio Aguinaldo",
-      "C": "Jose Rizal",
+      "A": "Apolinario Mabini",
+      "B": "Emilio Jacinto",
+      "C": "Marcelo H. del Pilar",
       "D": "Antonio Luna"
     },
     "answer": "A",
-    "explanation": "Andres Bonifacio is commonly known as the Father of the Philippine Revolution."
+    "explanation": "Apolinario Mabini was known as the Sublime Paralytic."
   },
   {
-    "question": "Who was the first President of the Philippine Republic?",
+    "question": "Who is known as the Brains of the Katipunan?",
     "choices": {
-      "A": "Manuel Quezon",
+      "A": "Emilio Jacinto",
       "B": "Emilio Aguinaldo",
-      "C": "Sergio Osmena",
-      "D": "Manuel Roxas"
-    },
-    "answer": "B",
-    "explanation": "Emilio Aguinaldo was the first President of the Philippines."
-  },
-  {
-    "question": "Where was Philippine independence proclaimed on June 12, 1898?",
-    "choices": {
-      "A": "Malolos, Bulacan",
-      "B": "Kawit, Cavite",
-      "C": "Tondo, Manila",
-      "D": "Cebu City"
-    },
-    "answer": "B",
-    "explanation": "Independence was proclaimed in Kawit, Cavite."
-  },
-  {
-    "question": "Who was the first President of the Commonwealth of the Philippines?",
-    "choices": {
-      "A": "Manuel L. Quezon",
-      "B": "Emilio Aguinaldo",
-      "C": "Manuel Roxas",
-      "D": "Sergio Osmena"
+      "C": "Andres Bonifacio",
+      "D": "Antonio Luna"
     },
     "answer": "A",
-    "explanation": "Manuel L. Quezon became the first President of the Commonwealth."
+    "explanation": "Emilio Jacinto is often called the Brains of the Katipunan."
   },
   {
-    "question": "Who is known as the national hero of the Philippines?",
+    "question": "Who wrote the Kartilya ng Katipunan?",
     "choices": {
-      "A": "Andres Bonifacio",
-      "B": "Emilio Aguinaldo",
-      "C": "Jose Rizal",
+      "A": "Jose Rizal",
+      "B": "Emilio Jacinto",
+      "C": "Andres Bonifacio",
       "D": "Apolinario Mabini"
     },
-    "answer": "C",
-    "explanation": "Jose Rizal is widely regarded as the national hero of the Philippines."
+    "answer": "B",
+    "explanation": "Emilio Jacinto wrote the Kartilya ng Katipunan."
   },
   {
-    "question": "What is the title of the Philippine national anthem?",
+    "question": "What is the national flower of the Philippines?",
     "choices": {
-      "A": "Bayan Ko",
-      "B": "Lupang Hinirang",
-      "C": "Ako ay Pilipino",
-      "D": "Pilipinas Kong Mahal"
+      "A": "Rose",
+      "B": "Sampaguita",
+      "C": "Orchid",
+      "D": "Gumamela"
     },
     "answer": "B",
-    "explanation": "The Philippine national anthem is Lupang Hinirang."
+    "explanation": "Sampaguita is the national flower of the Philippines."
   },
   {
-    "question": "Who composed the music of Lupang Hinirang?",
+    "question": "What is the national tree of the Philippines?",
     "choices": {
-      "A": "Jose Palma",
-      "B": "Julian Felipe",
-      "C": "Nicanor Abelardo",
-      "D": "Ryan Cayabyab"
-    },
-    "answer": "B",
-    "explanation": "Julian Felipe composed the music of Lupang Hinirang."
-  },
-  {
-    "question": "Who wrote the lyrics of the Philippine national anthem?",
-    "choices": {
-      "A": "Jose Palma",
-      "B": "Jose Rizal",
-      "C": "Andres Bonifacio",
-      "D": "Julian Felipe"
+      "A": "Narra",
+      "B": "Mango",
+      "C": "Mahogany",
+      "D": "Bamboo"
     },
     "answer": "A",
-    "explanation": "Jose Palma wrote the poem that became the lyrics of the national anthem."
+    "explanation": "Narra is the national tree of the Philippines."
   },
   {
-    "question": "What is the official language used in government and education together with English?",
+    "question": "What is the national bird of the Philippines?",
     "choices": {
-      "A": "Cebuano",
-      "B": "Filipino",
-      "C": "Ilocano",
-      "D": "Spanish"
+      "A": "Maya",
+      "B": "Philippine Eagle",
+      "C": "Kingfisher",
+      "D": "Hornbill"
     },
     "answer": "B",
-    "explanation": "Filipino and English are the official languages of the Philippines."
+    "explanation": "The Philippine Eagle is the national bird of the Philippines."
   },
   {
-    "question": "What is the supreme law that currently governs the Philippines?",
+    "question": "What is the national animal of the Philippines?",
     "choices": {
-      "A": "1935 Constitution",
-      "B": "1973 Constitution",
-      "C": "1987 Constitution",
-      "D": "Malolos Constitution"
-    },
-    "answer": "C",
-    "explanation": "The 1987 Constitution is the current Constitution of the Philippines."
-  },
-  {
-    "question": "What does the Bill of Rights primarily protect?",
-    "choices": {
-      "A": "Government revenue",
-      "B": "Individual rights and liberties",
-      "C": "Political parties",
-      "D": "Government agencies"
-    },
-    "answer": "B",
-    "explanation": "The Bill of Rights protects fundamental rights and liberties of individuals."
-  },
-  {
-    "question": "Which right protects a person from unreasonable searches and seizures?",
-    "choices": {
-      "A": "Right to travel",
-      "B": "Right to privacy",
-      "C": "Right to suffrage",
-      "D": "Right to information"
-    },
-    "answer": "B",
-    "explanation": "The Constitution protects people against unreasonable searches and seizures as part of the protection of privacy and security."
-  },
-  {
-    "question": "What is the right to vote called?",
-    "choices": {
-      "A": "Suffrage",
-      "B": "Petition",
-      "C": "Referendum",
-      "D": "Plebiscite"
+      "A": "Carabao",
+      "B": "Tamaraw",
+      "C": "Philippine Eagle",
+      "D": "Horse"
     },
     "answer": "A",
-    "explanation": "Suffrage refers to the right to vote."
+    "explanation": "The carabao is widely recognized as the national animal of the Philippines."
   },
   {
-    "question": "At what age may a Filipino citizen generally register and vote?",
+    "question": "What is the national fruit of the Philippines?",
+    "choices": {
+      "A": "Banana",
+      "B": "Mango",
+      "C": "Pineapple",
+      "D": "Coconut"
+    },
+    "answer": "B",
+    "explanation": "The mango is commonly recognized as the national fruit of the Philippines."
+  },
+  {
+    "question": "What is the official currency of the Philippines?",
+    "choices": {
+      "A": "Dollar",
+      "B": "Peso",
+      "C": "Yen",
+      "D": "Baht"
+    },
+    "answer": "B",
+    "explanation": "The Philippine peso is the official currency of the Philippines."
+  },
+  {
+    "question": "What is the basic law of the Philippines?",
+    "choices": {
+      "A": "Civil Code",
+      "B": "Constitution",
+      "C": "Labor Code",
+      "D": "Revised Penal Code"
+    },
+    "answer": "B",
+    "explanation": "The Constitution is the fundamental and supreme law of the Philippines."
+  },
+  {
+    "question": "How many branches does the Philippine national government have?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "The Philippine government has three branches: legislative, executive, and judicial."
+  },
+  {
+    "question": "Which branch of government makes laws?",
+    "choices": {
+      "A": "Executive",
+      "B": "Judicial",
+      "C": "Legislative",
+      "D": "Administrative"
+    },
+    "answer": "C",
+    "explanation": "The legislative branch is responsible for making laws."
+  },
+  {
+    "question": "Which branch of government enforces laws?",
+    "choices": {
+      "A": "Executive",
+      "B": "Legislative",
+      "C": "Judicial",
+      "D": "Constitutional"
+    },
+    "answer": "A",
+    "explanation": "The executive branch implements and enforces laws."
+  },
+  {
+    "question": "Which branch interprets laws?",
+    "choices": {
+      "A": "Executive",
+      "B": "Legislative",
+      "C": "Judicial",
+      "D": "Local"
+    },
+    "answer": "C",
+    "explanation": "The judicial branch interprets laws and resolves legal disputes."
+  },
+  {
+    "question": "What is the highest court in the Philippines?",
+    "choices": {
+      "A": "Court of Appeals",
+      "B": "Regional Trial Court",
+      "C": "Supreme Court",
+      "D": "Municipal Trial Court"
+    },
+    "answer": "C",
+    "explanation": "The Supreme Court is the highest court in the Philippines."
+  },
+  {
+    "question": "How many senators are elected to the Philippine Senate?",
+    "choices": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "C",
+    "explanation": "The Philippine Senate has 24 elected senators."
+  },
+  {
+    "question": "How long is the term of office of a Philippine senator?",
+    "choices": {
+      "A": "3 years",
+      "B": "4 years",
+      "C": "6 years",
+      "D": "8 years"
+    },
+    "answer": "C",
+    "explanation": "A Philippine senator serves a six-year term."
+  },
+  {
+    "question": "How long is the term of office of the Philippine President?",
+    "choices": {
+      "A": "4 years",
+      "B": "5 years",
+      "C": "6 years",
+      "D": "7 years"
+    },
+    "answer": "C",
+    "explanation": "The President of the Philippines serves a six-year term."
+  },
+  {
+    "question": "What is the minimum voting age in the Philippines?",
     "choices": {
       "A": "16",
       "B": "17",
@@ -492,1040 +745,2525 @@
       "D": "21"
     },
     "answer": "C",
-    "explanation": "Filipino citizens who are at least 18 years old may exercise the right of suffrage, subject to legal qualifications."
+    "explanation": "The minimum voting age in the Philippines is 18."
   },
   {
-    "question": "Which government agency administers elections in the Philippines?",
+    "question": "What is the supreme law of the land in the Philippines?",
+    "choices": {
+      "A": "Republic Act",
+      "B": "Constitution",
+      "C": "Executive Order",
+      "D": "Municipal Ordinance"
+    },
+    "answer": "B",
+    "explanation": "The Constitution is the supreme law of the Philippines."
+  },
+  {
+    "question": "Which government agency administers Philippine national elections?",
     "choices": {
       "A": "COA",
       "B": "COMELEC",
       "C": "CSC",
-      "D": "COA"
+      "D": "DILG"
     },
     "answer": "B",
-    "explanation": "The Commission on Elections, or COMELEC, administers elections."
+    "explanation": "The Commission on Elections or COMELEC administers elections."
   },
   {
     "question": "What does CSC stand for?",
     "choices": {
       "A": "Civil Service Commission",
-      "B": "Central Security Council",
-      "C": "Commission on State Corporations",
-      "D": "Civil Standards Council"
+      "B": "Central Service Council",
+      "C": "Commission on Social Concerns",
+      "D": "Civil Security Council"
     },
     "answer": "A",
     "explanation": "CSC stands for Civil Service Commission."
   },
   {
-    "question": "What is the main role of the Civil Service Commission?",
-    "choices": {
-      "A": "Conduct criminal trials",
-      "B": "Administer the civil service system",
-      "C": "Collect national taxes",
-      "D": "Manage elections"
-    },
-    "answer": "B",
-    "explanation": "The CSC administers the Philippine civil service system."
-  },
-  {
     "question": "What does COA stand for?",
     "choices": {
       "A": "Commission on Audit",
-      "B": "Council on Administration",
-      "C": "Commission on Appointments",
-      "D": "Committee on Accounts"
+      "B": "Council of Administration",
+      "C": "Commission of Agencies",
+      "D": "Committee on Administration"
     },
     "answer": "A",
     "explanation": "COA stands for Commission on Audit."
   },
   {
-    "question": "What is the primary function of the Commission on Audit?",
+    "question": "What does DILG stand for?",
     "choices": {
-      "A": "Conduct elections",
-      "B": "Audit government funds and expenditures",
-      "C": "Appoint judges",
-      "D": "Issue passports"
-    },
-    "answer": "B",
-    "explanation": "COA examines and audits government revenues, expenditures, and uses of public funds."
-  },
-  {
-    "question": "What does Ombudsman primarily investigate?",
-    "choices": {
-      "A": "Weather disturbances",
-      "B": "Complaints against public officials and employees",
-      "C": "Private business advertisements",
-      "D": "School examinations"
-    },
-    "answer": "B",
-    "explanation": "The Office of the Ombudsman investigates complaints involving public officials and employees."
-  },
-  {
-    "question": "What is the highest law-making body of the Philippines?",
-    "choices": {
-      "A": "Supreme Court",
-      "B": "Congress",
-      "C": "Cabinet",
-      "D": "Civil Service Commission"
-    },
-    "answer": "B",
-    "explanation": "Congress exercises legislative power."
-  },
-  {
-    "question": "What is the power of the courts to determine whether laws are constitutional called?",
-    "choices": {
-      "A": "Police power",
-      "B": "Judicial review",
-      "C": "Taxation",
-      "D": "Eminent domain"
-    },
-    "answer": "B",
-    "explanation": "Judicial review is the power of courts to determine the constitutionality of laws and government acts."
-  },
-  {
-    "question": "Which branch has the power to declare a state of martial law under constitutional conditions?",
-    "choices": {
-      "A": "President",
-      "B": "Supreme Court",
-      "C": "Senate President",
-      "D": "House Speaker"
+      "A": "Department of Interior and Local Government",
+      "B": "Department of International and Local Governance",
+      "C": "Division of Interior and Local Government",
+      "D": "Department of Information and Local Governance"
     },
     "answer": "A",
-    "explanation": "The President may declare martial law under the conditions and limitations provided by the Constitution."
-  },
-  {
-    "question": "Which government office is responsible for collecting national internal revenue taxes?",
-    "choices": {
-      "A": "Bureau of Customs",
-      "B": "Bureau of Internal Revenue",
-      "C": "Commission on Audit",
-      "D": "Department of Finance"
-    },
-    "answer": "B",
-    "explanation": "The Bureau of Internal Revenue collects national internal revenue taxes."
-  },
-  {
-    "question": "Which agency collects customs duties and regulates goods entering the Philippines?",
-    "choices": {
-      "A": "Bureau of Customs",
-      "B": "Bureau of Internal Revenue",
-      "C": "Bangko Sentral ng Pilipinas",
-      "D": "Department of Trade and Industry"
-    },
-    "answer": "A",
-    "explanation": "The Bureau of Customs handles customs duties and regulates imports and exports."
-  },
-  {
-    "question": "What is the central monetary authority of the Philippines?",
-    "choices": {
-      "A": "Department of Finance",
-      "B": "Bangko Sentral ng Pilipinas",
-      "C": "Bureau of Treasury",
-      "D": "Philippine Stock Exchange"
-    },
-    "answer": "B",
-    "explanation": "The Bangko Sentral ng Pilipinas is the country's central monetary authority."
-  },
-  {
-    "question": "What does BSP stand for?",
-    "choices": {
-      "A": "Banking Service of the Philippines",
-      "B": "Bangko Sentral ng Pilipinas",
-      "C": "Bureau of Savings and Payments",
-      "D": "Bank Supervisory Philippine"
-    },
-    "answer": "B",
-    "explanation": "BSP stands for Bangko Sentral ng Pilipinas."
-  },
-  {
-    "question": "Which department is primarily responsible for public education?",
-    "choices": {
-      "A": "DOH",
-      "B": "DepEd",
-      "C": "DOJ",
-      "D": "DOST"
-    },
-    "answer": "B",
-    "explanation": "The Department of Education is responsible for basic education."
+    "explanation": "DILG stands for Department of the Interior and Local Government."
   },
   {
     "question": "What does DOH stand for?",
     "choices": {
       "A": "Department of Housing",
       "B": "Department of Health",
-      "C": "Department of Humanities",
-      "D": "Department of Hospitality"
+      "C": "Department of Human Services",
+      "D": "Division of Health"
     },
     "answer": "B",
     "explanation": "DOH stands for Department of Health."
   },
   {
-    "question": "Which department is responsible for national defense?",
+    "question": "What does DepEd stand for?",
     "choices": {
-      "A": "Department of National Defense",
-      "B": "Department of the Interior and Local Government",
-      "C": "Department of Justice",
-      "D": "Department of Foreign Affairs"
+      "A": "Department of Education",
+      "B": "Department of Economic Development",
+      "C": "Department of Educational Development",
+      "D": "Department of Employment"
     },
     "answer": "A",
-    "explanation": "The Department of National Defense is responsible for national defense matters."
+    "explanation": "DepEd stands for Department of Education."
   },
   {
-    "question": "What does DILG stand for?",
+    "question": "What does DENR stand for?",
     "choices": {
-      "A": "Department of Interior and Local Government",
-      "B": "Department of Infrastructure and Local Governance",
-      "C": "Department of Internal Law and Governance",
-      "D": "Department of Industry and Local Growth"
-    },
-    "answer": "A",
-    "explanation": "DILG stands for Department of the Interior and Local Government."
-  },
-  {
-    "question": "Which department handles foreign relations?",
-    "choices": {
-      "A": "Department of Justice",
-      "B": "Department of Foreign Affairs",
-      "C": "Department of National Defense",
-      "D": "Department of Labor and Employment"
+      "A": "Department of Energy and Natural Resources",
+      "B": "Department of Environment and Natural Resources",
+      "C": "Department of Ecology and Natural Research",
+      "D": "Division of Environment and Natural Resources"
     },
     "answer": "B",
-    "explanation": "The Department of Foreign Affairs manages the country's foreign relations."
+    "explanation": "DENR stands for Department of Environment and Natural Resources."
   },
   {
     "question": "What does DOLE stand for?",
     "choices": {
       "A": "Department of Labor and Employment",
       "B": "Department of Local Employment",
-      "C": "Department of Labor and Education",
-      "D": "Department of Livelihood and Enterprise"
+      "C": "Division of Labor and Education",
+      "D": "Department of Labor and Economics"
     },
     "answer": "A",
     "explanation": "DOLE stands for Department of Labor and Employment."
   },
   {
-    "question": "Which government agency is primarily responsible for science and technology development?",
+    "question": "What does NBI stand for?",
     "choices": {
-      "A": "DOST",
-      "B": "DOT",
-      "C": "DA",
-      "D": "DICT"
+      "A": "National Bureau of Investigation",
+      "B": "National Board of Intelligence",
+      "C": "National Bureau of Information",
+      "D": "National Branch of Investigation"
     },
     "answer": "A",
-    "explanation": "The Department of Science and Technology promotes science and technology development."
+    "explanation": "NBI stands for National Bureau of Investigation."
   },
   {
-    "question": "What does DICT stand for?",
+    "question": "What does PNP stand for?",
     "choices": {
-      "A": "Department of Information and Communication Technology",
-      "B": "Department of Information and Communications Technology",
-      "C": "Department of Internet and Computer Technology",
-      "D": "Department of Innovation and Communications Training"
-    },
-    "answer": "B",
-    "explanation": "DICT stands for Department of Information and Communications Technology."
-  },
-  {
-    "question": "Which department is primarily responsible for agriculture?",
-    "choices": {
-      "A": "DA",
-      "B": "DENR",
-      "C": "DOST",
-      "D": "DTI"
+      "A": "Philippine National Police",
+      "B": "Philippine National Patrol",
+      "C": "Philippine Police Network",
+      "D": "Public National Police"
     },
     "answer": "A",
-    "explanation": "The Department of Agriculture handles matters concerning agriculture."
+    "explanation": "PNP stands for Philippine National Police."
   },
   {
-    "question": "Which department is responsible for protecting the country's environment and natural resources?",
+    "question": "What does AFP stand for?",
     "choices": {
-      "A": "DA",
-      "B": "DENR",
-      "C": "DPWH",
-      "D": "DOT"
-    },
-    "answer": "B",
-    "explanation": "The Department of Environment and Natural Resources is responsible for environmental and natural resource management."
-  },
-  {
-    "question": "What does DPWH stand for?",
-    "choices": {
-      "A": "Department of Public Works and Highways",
-      "B": "Department of Philippine Works and Housing",
-      "C": "Department of Public Welfare and Housing",
-      "D": "Department of Planning, Works and Highways"
+      "A": "Armed Forces of the Philippines",
+      "B": "Army Forces of the Philippines",
+      "C": "Association of Filipino Personnel",
+      "D": "Armed Filipino Patrol"
     },
     "answer": "A",
-    "explanation": "DPWH stands for Department of Public Works and Highways."
+    "explanation": "AFP stands for Armed Forces of the Philippines."
   },
   {
-    "question": "What is the basic political unit of the Philippines?",
+    "question": "Which organization is responsible for international public health?",
     "choices": {
-      "A": "Province",
-      "B": "Barangay",
-      "C": "Region",
-      "D": "Municipality"
-    },
-    "answer": "B",
-    "explanation": "The barangay is the basic political unit of the Philippines."
-  },
-  {
-    "question": "Who is the chief executive of a province?",
-    "choices": {
-      "A": "Mayor",
-      "B": "Governor",
-      "C": "Barangay Captain",
-      "D": "Vice Mayor"
-    },
-    "answer": "B",
-    "explanation": "The governor is the chief executive of a province."
-  },
-  {
-    "question": "Who is the chief executive of a city?",
-    "choices": {
-      "A": "Governor",
-      "B": "Mayor",
-      "C": "Barangay Captain",
-      "D": "Councilor"
-    },
-    "answer": "B",
-    "explanation": "The mayor is the chief executive of a city."
-  },
-  {
-    "question": "Who is the chief executive of a municipality?",
-    "choices": {
-      "A": "Mayor",
-      "B": "Governor",
-      "C": "Vice Governor",
-      "D": "Barangay Captain"
+      "A": "WHO",
+      "B": "WTO",
+      "C": "UNESCO",
+      "D": "UNICEF"
     },
     "answer": "A",
-    "explanation": "The municipal mayor is the chief executive of a municipality."
-  },
-  {
-    "question": "Who is the chief executive of a barangay?",
-    "choices": {
-      "A": "Barangay Secretary",
-      "B": "Barangay Treasurer",
-      "C": "Punong Barangay",
-      "D": "Municipal Mayor"
-    },
-    "answer": "C",
-    "explanation": "The Punong Barangay is the chief executive of the barangay."
-  },
-  {
-    "question": "What is the capital city of the Philippines?",
-    "choices": {
-      "A": "Quezon City",
-      "B": "Manila",
-      "C": "Cebu City",
-      "D": "Pasay City"
-    },
-    "answer": "B",
-    "explanation": "Manila is the capital city of the Philippines."
-  },
-  {
-    "question": "Which is the largest island in the Philippines by land area?",
-    "choices": {
-      "A": "Mindanao",
-      "B": "Palawan",
-      "C": "Luzon",
-      "D": "Samar"
-    },
-    "answer": "C",
-    "explanation": "Luzon is the largest island in the Philippines by land area."
-  },
-  {
-    "question": "Which is the second-largest island in the Philippines?",
-    "choices": {
-      "A": "Mindanao",
-      "B": "Panay",
-      "C": "Negros",
-      "D": "Samar"
-    },
-    "answer": "A",
-    "explanation": "Mindanao is the second-largest island in the Philippines."
-  },
-  {
-    "question": "What is the highest mountain in the Philippines?",
-    "choices": {
-      "A": "Mount Pulag",
-      "B": "Mount Mayon",
-      "C": "Mount Apo",
-      "D": "Mount Pinatubo"
-    },
-    "answer": "C",
-    "explanation": "Mount Apo is the highest mountain in the Philippines."
-  },
-  {
-    "question": "Which volcano is famous for its nearly perfect cone shape?",
-    "choices": {
-      "A": "Mount Pinatubo",
-      "B": "Mayon Volcano",
-      "C": "Taal Volcano",
-      "D": "Mount Apo"
-    },
-    "answer": "B",
-    "explanation": "Mayon Volcano is famous for its symmetrical cone shape."
-  },
-  {
-    "question": "Which body of water separates Luzon from Visayas?",
-    "choices": {
-      "A": "Sibuyan Sea",
-      "B": "Sulu Sea",
-      "C": "Bohol Sea",
-      "D": "Celebes Sea"
-    },
-    "answer": "A",
-    "explanation": "The Sibuyan Sea lies between Luzon and parts of the Visayas."
-  },
-  {
-    "question": "What is the longest river in the Philippines?",
-    "choices": {
-      "A": "Pasig River",
-      "B": "Cagayan River",
-      "C": "Agusan River",
-      "D": "Pampanga River"
-    },
-    "answer": "B",
-    "explanation": "The Cagayan River is the longest river in the Philippines."
-  },
-  {
-    "question": "Which famous lake is located within Taal Volcano?",
-    "choices": {
-      "A": "Laguna de Bay",
-      "B": "Lake Lanao",
-      "C": "Taal Lake",
-      "D": "Lake Mainit"
-    },
-    "answer": "C",
-    "explanation": "Taal Lake surrounds the volcanic island where Taal Volcano is located."
-  },
-  {
-    "question": "What is the largest lake in the Philippines?",
-    "choices": {
-      "A": "Taal Lake",
-      "B": "Laguna de Bay",
-      "C": "Lake Lanao",
-      "D": "Lake Mainit"
-    },
-    "answer": "B",
-    "explanation": "Laguna de Bay is the largest lake in the Philippines."
-  },
-  {
-    "question": "Which sea is located west of the Philippines?",
-    "choices": {
-      "A": "Philippine Sea",
-      "B": "West Philippine Sea",
-      "C": "Celebes Sea",
-      "D": "Bohol Sea"
-    },
-    "answer": "B",
-    "explanation": "The West Philippine Sea is the maritime area on the western side of the Philippine archipelago."
-  },
-  {
-    "question": "What is the Philippines' national territory composed of?",
-    "choices": {
-      "A": "Only its land areas",
-      "B": "Its terrestrial, fluvial, and aerial domains and territorial waters",
-      "C": "Only its islands and rivers",
-      "D": "Only its territorial waters"
-    },
-    "answer": "B",
-    "explanation": "The Constitution defines Philippine territory to include its archipelago and other territories over which it has sovereignty or jurisdiction."
-  },
-  {
-    "question": "What does ASEAN stand for?",
-    "choices": {
-      "A": "Association of Southeast Asian Nations",
-      "B": "Asian Economic and Security Alliance Network",
-      "C": "Association of Eastern Asian Nations",
-      "D": "Alliance of Southeast Asian Economies"
-    },
-    "answer": "A",
-    "explanation": "ASEAN stands for Association of Southeast Asian Nations."
-  },
-  {
-    "question": "Where was ASEAN established?",
-    "choices": {
-      "A": "Manila",
-      "B": "Jakarta",
-      "C": "Bangkok",
-      "D": "Singapore"
-    },
-    "answer": "C",
-    "explanation": "ASEAN was established in Bangkok in 1967."
-  },
-  {
-    "question": "How many founding members did ASEAN originally have?",
-    "choices": {
-      "A": "3",
-      "B": "5",
-      "C": "7",
-      "D": "10"
-    },
-    "answer": "B",
-    "explanation": "ASEAN was founded by five countries: Indonesia, Malaysia, Philippines, Singapore, and Thailand."
+    "explanation": "The World Health Organization or WHO is the UN agency responsible for international public health."
   },
   {
     "question": "What does UN stand for?",
     "choices": {
       "A": "United Nations",
-      "B": "Universal Nations",
-      "C": "United Network",
-      "D": "Union of Nations"
+      "B": "Universal Network",
+      "C": "Union of Nations",
+      "D": "United Neighbors"
     },
     "answer": "A",
     "explanation": "UN stands for United Nations."
   },
   {
-    "question": "Where is the headquarters of the United Nations?",
+    "question": "Where is the headquarters of the United Nations located?",
     "choices": {
-      "A": "Geneva",
+      "A": "London",
       "B": "Paris",
       "C": "New York City",
-      "D": "London"
+      "D": "Geneva"
     },
     "answer": "C",
     "explanation": "The main headquarters of the United Nations is in New York City."
-  },
-  {
-    "question": "What does WHO stand for?",
-    "choices": {
-      "A": "World Health Organization",
-      "B": "World Human Organization",
-      "C": "World Housing Organization",
-      "D": "World Health Office"
-    },
-    "answer": "A",
-    "explanation": "WHO stands for World Health Organization."
   },
   {
     "question": "What does UNESCO stand for?",
     "choices": {
       "A": "United Nations Educational, Scientific and Cultural Organization",
       "B": "United Nations Economic and Social Cultural Organization",
-      "C": "Universal Education and Science Council Organization",
-      "D": "United Nations Environmental Science and Culture Office"
+      "C": "Universal Education and Science Organization",
+      "D": "United Nations Environmental and Scientific Council"
     },
     "answer": "A",
     "explanation": "UNESCO stands for United Nations Educational, Scientific and Cultural Organization."
   },
   {
-    "question": "What does UNICEF stand for?",
+    "question": "What does UNICEF primarily focus on?",
     "choices": {
-      "A": "United Nations International Children's Emergency Fund",
-      "B": "United Nations International Child Education Foundation",
-      "C": "Universal Nations Children's Education Fund",
-      "D": "United Nations Council for International Families"
+      "A": "Children's welfare",
+      "B": "International banking",
+      "C": "Military defense",
+      "D": "Global trade"
     },
     "answer": "A",
-    "explanation": "UNICEF originated as the United Nations International Children's Emergency Fund."
+    "explanation": "UNICEF focuses on protecting children's rights and improving their well-being."
   },
   {
-    "question": "Which organization promotes international monetary cooperation and financial stability?",
+    "question": "What does WTO stand for?",
     "choices": {
-      "A": "IMF",
-      "B": "WHO",
-      "C": "UNESCO",
-      "D": "ILO"
+      "A": "World Trade Organization",
+      "B": "World Tourism Office",
+      "C": "World Transport Organization",
+      "D": "World Technology Organization"
     },
     "answer": "A",
-    "explanation": "The International Monetary Fund promotes monetary cooperation and financial stability."
+    "explanation": "WTO stands for World Trade Organization."
   },
   {
-    "question": "What does ILO stand for?",
+    "question": "Which language has the most native speakers in the world?",
     "choices": {
-      "A": "International Labor Organization",
-      "B": "International Labour Organization",
-      "C": "International Law Organization",
-      "D": "International Logistics Office"
+      "A": "English",
+      "B": "Spanish",
+      "C": "Mandarin Chinese",
+      "D": "French"
+    },
+    "answer": "C",
+    "explanation": "Mandarin Chinese has the largest number of native speakers."
+  },
+  {
+    "question": "How many letters are in the English alphabet?",
+    "choices": {
+      "A": "24",
+      "B": "25",
+      "C": "26",
+      "D": "27"
+    },
+    "answer": "C",
+    "explanation": "The English alphabet has 26 letters."
+  },
+  {
+    "question": "Which is the longest river in the Philippines?",
+    "choices": {
+      "A": "Cagayan River",
+      "B": "Pasig River",
+      "C": "Agusan River",
+      "D": "Pampanga River"
+    },
+    "answer": "A",
+    "explanation": "The Cagayan River is the longest river in the Philippines."
+  },
+  {
+    "question": "Which is the highest mountain in the Philippines?",
+    "choices": {
+      "A": "Mount Pinatubo",
+      "B": "Mount Apo",
+      "C": "Mount Mayon",
+      "D": "Mount Pulag"
     },
     "answer": "B",
-    "explanation": "ILO stands for International Labour Organization."
+    "explanation": "Mount Apo is the highest mountain in the Philippines."
   },
   {
-    "question": "What is the main purpose of public service?",
+    "question": "Which volcano is famous for its near-perfect cone shape?",
     "choices": {
-      "A": "Personal enrichment",
-      "B": "Serving the public interest",
-      "C": "Promoting private businesses",
-      "D": "Avoiding accountability"
+      "A": "Mount Pinatubo",
+      "B": "Mount Mayon",
+      "C": "Mount Apo",
+      "D": "Mount Arayat"
     },
     "answer": "B",
-    "explanation": "Public service exists to serve the people and promote the public interest."
+    "explanation": "Mayon Volcano is famous for its symmetrical, near-perfect cone."
   },
   {
-    "question": "Which principle requires public officials to act with responsibility, integrity, loyalty, and efficiency?",
+    "question": "Where is Mayon Volcano located?",
     "choices": {
-      "A": "Public office is a public trust",
-      "B": "Absolute authority",
-      "C": "Political privilege",
-      "D": "Private interest"
+      "A": "Albay",
+      "B": "Cavite",
+      "C": "Batangas",
+      "D": "Laguna"
     },
     "answer": "A",
-    "explanation": "The Constitution declares that public office is a public trust."
+    "explanation": "Mayon Volcano is located in Albay Province."
   },
   {
-    "question": "What does RA stand for in Philippine laws?",
+    "question": "Which Philippine volcano famously erupted in 1991?",
     "choices": {
-      "A": "Republic Act",
-      "B": "Regional Authority",
-      "C": "Republic Authority",
-      "D": "Regulatory Act"
+      "A": "Mayon",
+      "B": "Taal",
+      "C": "Pinatubo",
+      "D": "Kanlaon"
     },
-    "answer": "A",
-    "explanation": "RA means Republic Act."
+    "answer": "C",
+    "explanation": "Mount Pinatubo had a major eruption in June 1991."
   },
   {
-    "question": "What law is known as the Code of Conduct and Ethical Standards for Public Officials and Employees?",
+    "question": "Which Philippine sea is located west of Luzon?",
     "choices": {
-      "A": "RA 6713",
-      "B": "RA 3019",
-      "C": "RA 9184",
-      "D": "RA 7160"
-    },
-    "answer": "A",
-    "explanation": "Republic Act No. 6713 is the Code of Conduct and Ethical Standards for Public Officials and Employees."
-  },
-  {
-    "question": "What is RA 7160 commonly known as?",
-    "choices": {
-      "A": "Administrative Code",
-      "B": "Local Government Code of 1991",
-      "C": "Civil Service Law",
-      "D": "Anti-Graft Law"
+      "A": "Philippine Sea",
+      "B": "West Philippine Sea",
+      "C": "Sulu Sea",
+      "D": "Celebes Sea"
     },
     "answer": "B",
-    "explanation": "RA 7160 is the Local Government Code of 1991."
+    "explanation": "The West Philippine Sea is the designation used by the Philippines for its relevant maritime areas in the South China Sea."
   },
   {
-    "question": "What is RA 3019 commonly known as?",
+    "question": "Which Philippine island is famous for the Banaue Rice Terraces?",
     "choices": {
-      "A": "Anti-Graft and Corrupt Practices Act",
-      "B": "Local Government Code",
-      "C": "Civil Service Act",
-      "D": "Data Privacy Act"
+      "A": "Luzon",
+      "B": "Cebu",
+      "C": "Mindoro",
+      "D": "Palawan"
     },
     "answer": "A",
-    "explanation": "RA 3019 is the Anti-Graft and Corrupt Practices Act."
+    "explanation": "The Banaue Rice Terraces are located on Luzon, particularly in Ifugao."
   },
   {
-    "question": "What is RA 9184 commonly known as?",
+    "question": "Which Philippine city is known as the Queen City of the South?",
     "choices": {
-      "A": "Government Procurement Reform Act",
-      "B": "Administrative Code",
-      "C": "Local Government Code",
-      "D": "Freedom of Information Act"
-    },
-    "answer": "A",
-    "explanation": "RA 9184 is the Government Procurement Reform Act."
-  },
-  {
-    "question": "What is the main purpose of RA 6713?",
-    "choices": {
-      "A": "To regulate elections",
-      "B": "To promote ethical conduct among public officials and employees",
-      "C": "To establish local governments",
-      "D": "To regulate private corporations"
+      "A": "Davao City",
+      "B": "Cebu City",
+      "C": "Iloilo City",
+      "D": "Bacolod City"
     },
     "answer": "B",
-    "explanation": "RA 6713 establishes standards of conduct and ethical behavior for public officials and employees."
+    "explanation": "Cebu City is commonly known as the Queen City of the South."
   },
   {
-    "question": "Which value is emphasized in the Code of Conduct for public officials?",
+    "question": "Which city is known as the Durian Capital of the Philippines?",
     "choices": {
-      "A": "Commitment to public interest",
-      "B": "Personal gain",
-      "C": "Favoritism",
-      "D": "Secrecy in all transactions"
+      "A": "Davao City",
+      "B": "Cagayan de Oro",
+      "C": "General Santos",
+      "D": "Zamboanga City"
     },
     "answer": "A",
-    "explanation": "Commitment to public interest is one of the norms of conduct under RA 6713."
+    "explanation": "Davao City is widely known for its durian industry."
   },
   {
-    "question": "What does SALN stand for?",
+    "question": "Which city is known as the Tuna Capital of the Philippines?",
     "choices": {
-      "A": "Statement of Assets, Liabilities and Net Worth",
-      "B": "Summary of Annual Legal Notices",
-      "C": "Statement of Administrative Laws and Norms",
-      "D": "System of Assets and Legal Numbers"
-    },
-    "answer": "A",
-    "explanation": "SALN stands for Statement of Assets, Liabilities and Net Worth."
-  },
-  {
-    "question": "Why is SALN important for public officials and employees?",
-    "choices": {
-      "A": "It promotes transparency and accountability",
-      "B": "It eliminates taxes",
-      "C": "It guarantees promotion",
-      "D": "It replaces an employment record"
-    },
-    "answer": "A",
-    "explanation": "SALN requirements help promote transparency and accountability in public service."
-  },
-  {
-    "question": "Which is an example of conflict of interest?",
-    "choices": {
-      "A": "Using public resources for authorized government work",
-      "B": "Participating in a government decision involving one's private financial interest",
-      "C": "Following office procedures",
-      "D": "Serving the public fairly"
+      "A": "Davao City",
+      "B": "General Santos City",
+      "C": "Cebu City",
+      "D": "Iloilo City"
     },
     "answer": "B",
-    "explanation": "A conflict of interest may arise when private interests interfere with official duties."
+    "explanation": "General Santos City is widely known as the Tuna Capital of the Philippines."
   },
   {
-    "question": "Which is considered a basic principle of democracy?",
+    "question": "Which Philippine province is famous for Chocolate Hills?",
     "choices": {
-      "A": "Rule by one person without limits",
-      "B": "Participation of citizens in government",
-      "C": "Government without laws",
-      "D": "Suppression of public opinion"
+      "A": "Cebu",
+      "B": "Bohol",
+      "C": "Leyte",
+      "D": "Palawan"
     },
     "answer": "B",
-    "explanation": "Citizen participation is a fundamental principle of democratic government."
+    "explanation": "The Chocolate Hills are one of the most famous attractions in Bohol."
   },
   {
-    "question": "What is the principle that no person is above the law called?",
+    "question": "What is the main purpose of the Philippine flag's three stars?",
     "choices": {
-      "A": "Rule of law",
-      "B": "Rule of privilege",
-      "C": "Rule of force",
-      "D": "Rule of wealth"
-    },
-    "answer": "A",
-    "explanation": "The rule of law means that everyone is subject to the law."
-  },
-  {
-    "question": "What is equality before the law?",
-    "choices": {
-      "A": "Only officials are protected by law",
-      "B": "People in similar circumstances should receive equal treatment under the law",
-      "C": "Laws apply only to citizens",
-      "D": "Courts may ignore laws"
+      "A": "To represent three national heroes",
+      "B": "To represent Luzon, Visayas, and Mindanao",
+      "C": "To represent three branches of government",
+      "D": "To represent three historical wars"
     },
     "answer": "B",
-    "explanation": "Equality before the law means people are entitled to equal protection and treatment under the law."
+    "explanation": "The three stars represent Luzon, Visayas, and Mindanao."
   },
   {
-    "question": "What is freedom of speech?",
+    "question": "What do the eight rays of the Philippine sun represent?",
     "choices": {
-      "A": "The right to express opinions subject to lawful limitations",
-      "B": "The right to say anything without any legal consequence",
-      "C": "The right to silence other people",
-      "D": "The right to avoid all laws"
-    },
-    "answer": "A",
-    "explanation": "Freedom of speech is constitutionally protected but is subject to lawful limitations."
-  },
-  {
-    "question": "Which branch of government has the power of the purse?",
-    "choices": {
-      "A": "Judiciary",
-      "B": "Legislature",
-      "C": "Executive alone",
-      "D": "Local government"
+      "A": "Eight major islands",
+      "B": "Eight provinces that first revolted against Spain",
+      "C": "Eight presidents",
+      "D": "Eight national heroes"
     },
     "answer": "B",
-    "explanation": "Congress exercises legislative control over appropriations and public spending through the budget process."
+    "explanation": "The eight rays represent the eight provinces that were placed under martial law during the early phase of the Philippine Revolution."
   },
   {
-    "question": "What is impeachment?",
+    "question": "Which color of the Philippine flag symbolizes peace?",
     "choices": {
-      "A": "A process for removing certain high-ranking public officials for constitutional offenses",
-      "B": "A regular election",
-      "C": "A criminal investigation of every citizen",
-      "D": "A process for appointing government employees"
+      "A": "Blue",
+      "B": "Red",
+      "C": "White",
+      "D": "Yellow"
     },
     "answer": "A",
-    "explanation": "Impeachment is a constitutional process applicable to specified high-ranking officials."
+    "explanation": "The blue field traditionally symbolizes peace, truth, and justice."
   },
   {
-    "question": "Which official is the presiding officer of the Senate and may vote only to break a tie?",
+    "question": "Which color of the Philippine flag symbolizes patriotism and valor?",
     "choices": {
-      "A": "President",
-      "B": "Vice President",
-      "C": "Chief Justice",
-      "D": "Speaker"
+      "A": "Blue",
+      "B": "Red",
+      "C": "White",
+      "D": "Yellow"
     },
     "answer": "B",
-    "explanation": "The Vice President serves as President of the Senate and votes only to break a tie."
+    "explanation": "The red field symbolizes patriotism and valor."
   },
   {
-    "question": "What is the official residence of the Philippine President?",
+    "question": "Who composed the music of the Philippine national anthem?",
     "choices": {
-      "A": "Malacañang Palace",
-      "B": "Coconut Palace",
-      "C": "Aguinaldo Shrine",
-      "D": "Mabini Shrine"
+      "A": "Julian Felipe",
+      "B": "Jose Palma",
+      "C": "Nicanor Abelardo",
+      "D": "Ryan Cayabyab"
     },
     "answer": "A",
-    "explanation": "Malacañang Palace is the official residence and principal workplace of the President."
+    "explanation": "Julian Felipe composed the music of the Philippine national anthem."
   },
   {
-    "question": "Which document contains the fundamental principles and structure of the Philippine government?",
+    "question": "Who wrote the lyrics of Lupang Hinirang?",
     "choices": {
-      "A": "Constitution",
-      "B": "Memorandum",
-      "C": "Executive order",
-      "D": "Department circular"
-    },
-    "answer": "A",
-    "explanation": "The Constitution establishes the fundamental principles and governmental structure of the country."
-  },
-  {
-    "question": "What is separation of powers?",
-    "choices": {
-      "A": "Division of government powers among branches",
-      "B": "Removal of all government powers",
-      "C": "Concentration of power in one branch",
-      "D": "Transfer of all powers to local governments"
-    },
-    "answer": "A",
-    "explanation": "Separation of powers divides governmental authority among the Executive, Legislative, and Judicial branches."
-  },
-  {
-    "question": "What is the purpose of checks and balances?",
-    "choices": {
-      "A": "To allow one branch to control everything",
-      "B": "To prevent abuse of governmental power",
-      "C": "To eliminate the judiciary",
-      "D": "To abolish elections"
+      "A": "Jose Rizal",
+      "B": "Jose Palma",
+      "C": "Andres Bonifacio",
+      "D": "Emilio Jacinto"
     },
     "answer": "B",
-    "explanation": "Checks and balances help prevent abuse of power by allowing branches to limit one another."
+    "explanation": "Jose Palma wrote the poem that became the lyrics of Lupang Hinirang."
   },
   {
-    "question": "What does democracy literally emphasize?",
+    "question": "Which is the largest mammal in the world?",
     "choices": {
-      "A": "Rule by the people",
-      "B": "Rule by the military",
-      "C": "Rule by wealthy families",
-      "D": "Rule by judges"
-    },
-    "answer": "A",
-    "explanation": "Democracy is a system in which political power ultimately comes from the people."
-  },
-  {
-    "question": "What is patriotism?",
-    "choices": {
-      "A": "Love and devotion to one's country",
-      "B": "Opposition to one's country",
-      "C": "Avoidance of civic duties",
-      "D": "Preference for private interests"
-    },
-    "answer": "A",
-    "explanation": "Patriotism refers to love, loyalty, and devotion to one's country."
-  },
-  {
-    "question": "What is nationalism?",
-    "choices": {
-      "A": "A sense of loyalty and identification with one's nation",
-      "B": "Rejection of national identity",
-      "C": "Avoidance of public service",
-      "D": "Government ownership of all businesses"
-    },
-    "answer": "A",
-    "explanation": "Nationalism involves identification with and loyalty to one's nation."
-  },
-  {
-    "question": "Which of the following best demonstrates good citizenship?",
-    "choices": {
-      "A": "Ignoring laws",
-      "B": "Respecting laws and contributing to the community",
-      "C": "Spreading false information",
-      "D": "Destroying public property"
+      "A": "Elephant",
+      "B": "Blue whale",
+      "C": "Giraffe",
+      "D": "Hippopotamus"
     },
     "answer": "B",
-    "explanation": "Good citizenship includes respecting laws, helping the community, and exercising civic responsibilities."
+    "explanation": "The blue whale is the largest known animal and mammal."
   },
   {
-    "question": "Why should public property be protected?",
+    "question": "Which animal is known as the fastest land animal?",
     "choices": {
-      "A": "Because it belongs to the public and is funded through public resources",
-      "B": "Because only officials may use it",
-      "C": "Because it has no value",
-      "D": "Because it belongs to private individuals"
+      "A": "Lion",
+      "B": "Horse",
+      "C": "Cheetah",
+      "D": "Leopard"
+    },
+    "answer": "C",
+    "explanation": "The cheetah is the fastest land animal."
+  },
+  {
+    "question": "Which animal is known for changing its color to blend with its surroundings?",
+    "choices": {
+      "A": "Chameleon",
+      "B": "Elephant",
+      "C": "Zebra",
+      "D": "Kangaroo"
     },
     "answer": "A",
-    "explanation": "Public property is maintained through public resources and should therefore be protected and used responsibly."
+    "explanation": "Chameleons are known for changing their coloration and patterns."
   },
   {
-    "question": "Which action best promotes environmental responsibility?",
+    "question": "What is the largest living bird?",
     "choices": {
-      "A": "Illegal dumping",
-      "B": "Proper waste disposal and conservation",
-      "C": "Burning plastic anywhere",
-      "D": "Destroying forests"
+      "A": "Eagle",
+      "B": "Ostrich",
+      "C": "Albatross",
+      "D": "Emperor penguin"
     },
     "answer": "B",
-    "explanation": "Proper waste management and conservation help protect the environment."
+    "explanation": "The ostrich is the largest living bird."
   },
   {
-    "question": "What is disaster preparedness?",
+    "question": "Which animal is commonly called man's best friend?",
     "choices": {
-      "A": "Taking steps before disasters to reduce risks and prepare for emergencies",
-      "B": "Ignoring warnings",
-      "C": "Waiting until a disaster happens before planning",
-      "D": "Avoiding emergency drills"
+      "A": "Cat",
+      "B": "Horse",
+      "C": "Dog",
+      "D": "Rabbit"
+    },
+    "answer": "C",
+    "explanation": "Dogs are commonly described as man's best friend."
+  },
+  {
+    "question": "Which part of a plant usually absorbs water from the soil?",
+    "choices": {
+      "A": "Flower",
+      "B": "Leaf",
+      "C": "Root",
+      "D": "Fruit"
+    },
+    "answer": "C",
+    "explanation": "Roots absorb water and minerals from the soil."
+  },
+  {
+    "question": "Which part of a plant is primarily responsible for photosynthesis?",
+    "choices": {
+      "A": "Root",
+      "B": "Leaf",
+      "C": "Flower",
+      "D": "Seed"
+    },
+    "answer": "B",
+    "explanation": "Leaves contain chlorophyll and are the main sites of photosynthesis."
+  },
+  {
+    "question": "What pigment gives plants their green color?",
+    "choices": {
+      "A": "Hemoglobin",
+      "B": "Melanin",
+      "C": "Chlorophyll",
+      "D": "Keratin"
+    },
+    "answer": "C",
+    "explanation": "Chlorophyll is the green pigment used in photosynthesis."
+  },
+  {
+    "question": "What is the process by which plants make food using sunlight?",
+    "choices": {
+      "A": "Respiration",
+      "B": "Photosynthesis",
+      "C": "Digestion",
+      "D": "Fermentation"
+    },
+    "answer": "B",
+    "explanation": "Photosynthesis allows plants to produce food using light energy."
+  },
+  {
+    "question": "How many days are there in a leap year?",
+    "choices": {
+      "A": "364",
+      "B": "365",
+      "C": "366",
+      "D": "367"
+    },
+    "answer": "C",
+    "explanation": "A leap year has 366 days."
+  },
+  {
+    "question": "How many months are there in one year?",
+    "choices": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "answer": "C",
+    "explanation": "One year consists of 12 months."
+  },
+  {
+    "question": "How many hours are there in one day?",
+    "choices": {
+      "A": "12",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "C",
+    "explanation": "A standard day has 24 hours."
+  },
+  {
+    "question": "How many minutes are there in one hour?",
+    "choices": {
+      "A": "30",
+      "B": "45",
+      "C": "60",
+      "D": "90"
+    },
+    "answer": "C",
+    "explanation": "One hour contains 60 minutes."
+  },
+  {
+    "question": "How many seconds are there in one minute?",
+    "choices": {
+      "A": "30",
+      "B": "45",
+      "C": "60",
+      "D": "100"
+    },
+    "answer": "C",
+    "explanation": "One minute contains 60 seconds."
+  },
+  {
+    "question": "Which shape has three sides?",
+    "choices": {
+      "A": "Square",
+      "B": "Triangle",
+      "C": "Rectangle",
+      "D": "Pentagon"
+    },
+    "answer": "B",
+    "explanation": "A triangle has three sides."
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "B",
+    "explanation": "A hexagon has six sides."
+  },
+  {
+    "question": "How many sides does an octagon have?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "C",
+    "explanation": "An octagon has eight sides."
+  },
+  {
+    "question": "What is the value of pi approximately?",
+    "choices": {
+      "A": "2.14",
+      "B": "3.14",
+      "C": "4.14",
+      "D": "5.14"
+    },
+    "answer": "B",
+    "explanation": "Pi is approximately 3.14159."
+  },
+  {
+    "question": "What is 12 multiplied by 12?",
+    "choices": {
+      "A": "124",
+      "B": "132",
+      "C": "144",
+      "D": "154"
+    },
+    "answer": "C",
+    "explanation": "12 × 12 equals 144."
+  },
+  {
+    "question": "What is 15% of 200?",
+    "choices": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "35"
+    },
+    "answer": "C",
+    "explanation": "15% of 200 is 30."
+  },
+  {
+    "question": "What is the square root of 81?",
+    "choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "answer": "C",
+    "explanation": "The square root of 81 is 9."
+  },
+  {
+    "question": "Which number is a prime number?",
+    "choices": {
+      "A": "21",
+      "B": "27",
+      "C": "29",
+      "D": "33"
+    },
+    "answer": "C",
+    "explanation": "29 is a prime number because it has only two positive factors: 1 and 29."
+  },
+  {
+    "question": "What is the Roman numeral for 10?",
+    "choices": {
+      "A": "V",
+      "B": "X",
+      "C": "L",
+      "D": "C"
+    },
+    "answer": "B",
+    "explanation": "The Roman numeral X represents 10."
+  },
+  {
+    "question": "What is the Roman numeral for 50?",
+    "choices": {
+      "A": "X",
+      "B": "L",
+      "C": "C",
+      "D": "D"
+    },
+    "answer": "B",
+    "explanation": "The Roman numeral L represents 50."
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "choices": {
+      "A": "Isaac Newton",
+      "B": "Albert Einstein",
+      "C": "Galileo Galilei",
+      "D": "Nikola Tesla"
+    },
+    "answer": "B",
+    "explanation": "Albert Einstein developed the theories of special and general relativity."
+  },
+  {
+    "question": "Who is famous for the laws of motion and universal gravitation?",
+    "choices": {
+      "A": "Albert Einstein",
+      "B": "Isaac Newton",
+      "C": "Charles Darwin",
+      "D": "Thomas Edison"
+    },
+    "answer": "B",
+    "explanation": "Isaac Newton formulated the laws of motion and universal gravitation."
+  },
+  {
+    "question": "Who proposed the theory of evolution by natural selection?",
+    "choices": {
+      "A": "Charles Darwin",
+      "B": "Gregor Mendel",
+      "C": "Louis Pasteur",
+      "D": "Galileo Galilei"
     },
     "answer": "A",
-    "explanation": "Disaster preparedness involves planning, training, and preparing resources before emergencies occur."
+    "explanation": "Charles Darwin proposed evolution by natural selection."
   },
   {
-    "question": "Which Philippine agency is primarily responsible for weather forecasts and tropical cyclone warnings?",
+    "question": "Who is known for discovering penicillin?",
+    "choices": {
+      "A": "Alexander Fleming",
+      "B": "Louis Pasteur",
+      "C": "Robert Koch",
+      "D": "Edward Jenner"
+    },
+    "answer": "A",
+    "explanation": "Alexander Fleming discovered penicillin in 1928."
+  },
+  {
+    "question": "Who is commonly credited with inventing the telephone?",
+    "choices": {
+      "A": "Thomas Edison",
+      "B": "Alexander Graham Bell",
+      "C": "Nikola Tesla",
+      "D": "Guglielmo Marconi"
+    },
+    "answer": "B",
+    "explanation": "Alexander Graham Bell is commonly credited with inventing the telephone."
+  },
+  {
+    "question": "Who is widely credited with developing the practical incandescent light bulb?",
+    "choices": {
+      "A": "Thomas Edison",
+      "B": "Isaac Newton",
+      "C": "Alexander Graham Bell",
+      "D": "James Watt"
+    },
+    "answer": "A",
+    "explanation": "Thomas Edison is widely credited with developing a commercially practical incandescent light bulb."
+  },
+  {
+    "question": "Who invented the World Wide Web?",
+    "choices": {
+      "A": "Bill Gates",
+      "B": "Steve Jobs",
+      "C": "Tim Berners-Lee",
+      "D": "Mark Zuckerberg"
+    },
+    "answer": "C",
+    "explanation": "Tim Berners-Lee invented the World Wide Web."
+  },
+  {
+    "question": "What does CPU stand for?",
+    "choices": {
+      "A": "Central Processing Unit",
+      "B": "Computer Personal Unit",
+      "C": "Central Program Utility",
+      "D": "Computer Processing Utility"
+    },
+    "answer": "A",
+    "explanation": "CPU stands for Central Processing Unit."
+  },
+  {
+    "question": "What does RAM stand for?",
+    "choices": {
+      "A": "Random Access Memory",
+      "B": "Read Access Machine",
+      "C": "Rapid Application Memory",
+      "D": "Random Application Module"
+    },
+    "answer": "A",
+    "explanation": "RAM stands for Random Access Memory."
+  },
+  {
+    "question": "What does URL stand for?",
+    "choices": {
+      "A": "Universal Resource Link",
+      "B": "Uniform Resource Locator",
+      "C": "United Resource Location",
+      "D": "Uniform Retrieval Link"
+    },
+    "answer": "B",
+    "explanation": "URL stands for Uniform Resource Locator."
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "choices": {
+      "A": "HyperText Transfer Protocol",
+      "B": "High Transfer Text Program",
+      "C": "Hyperlink Text Transmission Process",
+      "D": "Hyper Transfer Technical Protocol"
+    },
+    "answer": "A",
+    "explanation": "HTTP stands for HyperText Transfer Protocol."
+  },
+  {
+    "question": "Which device is primarily used to input text into a computer?",
+    "choices": {
+      "A": "Monitor",
+      "B": "Keyboard",
+      "C": "Speaker",
+      "D": "Projector"
+    },
+    "answer": "B",
+    "explanation": "A keyboard is commonly used to input text."
+  },
+  {
+    "question": "Which device displays visual information from a computer?",
+    "choices": {
+      "A": "Keyboard",
+      "B": "Mouse",
+      "C": "Monitor",
+      "D": "Microphone"
+    },
+    "answer": "C",
+    "explanation": "A monitor displays visual output from a computer."
+  },
+  {
+    "question": "Which file extension is commonly used for a JavaScript file?",
+    "choices": {
+      "A": ".html",
+      "B": ".css",
+      "C": ".js",
+      "D": ".java"
+    },
+    "answer": "C",
+    "explanation": "JavaScript source files commonly use the .js extension."
+  },
+  {
+    "question": "Which file extension is commonly used for a web page?",
+    "choices": {
+      "A": ".html",
+      "B": ".mp3",
+      "C": ".jpg",
+      "D": ".exe"
+    },
+    "answer": "A",
+    "explanation": "HTML files commonly use the .html extension."
+  },
+  {
+    "question": "Which file format is commonly used for portable documents?",
+    "choices": {
+      "A": "PDF",
+      "B": "MP3",
+      "C": "PNG",
+      "D": "EXE"
+    },
+    "answer": "A",
+    "explanation": "PDF stands for Portable Document Format."
+  },
+  {
+    "question": "Which format is primarily used for digital audio?",
+    "choices": {
+      "A": "MP3",
+      "B": "MP4",
+      "C": "PNG",
+      "D": "HTML"
+    },
+    "answer": "A",
+    "explanation": "MP3 is a commonly used digital audio format."
+  },
+  {
+    "question": "Which format is commonly used for digital video?",
+    "choices": {
+      "A": "MP3",
+      "B": "MP4",
+      "C": "TXT",
+      "D": "CSV"
+    },
+    "answer": "B",
+    "explanation": "MP4 is a widely used digital multimedia container format."
+  },
+  {
+    "question": "What does USB stand for?",
+    "choices": {
+      "A": "Universal Serial Bus",
+      "B": "United System Board",
+      "C": "Universal System Bridge",
+      "D": "Unified Serial Board"
+    },
+    "answer": "A",
+    "explanation": "USB stands for Universal Serial Bus."
+  },
+  {
+    "question": "Which device is used to connect multiple computers in a network?",
+    "choices": {
+      "A": "Switch",
+      "B": "Scanner",
+      "C": "Printer",
+      "D": "Projector"
+    },
+    "answer": "A",
+    "explanation": "A network switch connects devices within a local network."
+  },
+  {
+    "question": "What does Wi-Fi primarily provide?",
+    "choices": {
+      "A": "Wireless network connectivity",
+      "B": "Electric power",
+      "C": "Printed documents",
+      "D": "Audio amplification"
+    },
+    "answer": "A",
+    "explanation": "Wi-Fi provides wireless network connectivity."
+  },
+  {
+    "question": "Which renewable energy source uses sunlight?",
+    "choices": {
+      "A": "Solar energy",
+      "B": "Coal",
+      "C": "Natural gas",
+      "D": "Diesel"
+    },
+    "answer": "A",
+    "explanation": "Solar energy uses sunlight to produce usable energy."
+  },
+  {
+    "question": "Which renewable energy source uses moving air?",
+    "choices": {
+      "A": "Solar energy",
+      "B": "Wind energy",
+      "C": "Geothermal energy",
+      "D": "Biomass"
+    },
+    "answer": "B",
+    "explanation": "Wind energy uses moving air to generate power."
+  },
+  {
+    "question": "Which renewable energy source uses heat from inside Earth?",
+    "choices": {
+      "A": "Wind",
+      "B": "Solar",
+      "C": "Geothermal",
+      "D": "Hydroelectric"
+    },
+    "answer": "C",
+    "explanation": "Geothermal energy uses heat from inside Earth."
+  },
+  {
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "choices": {
+      "A": "Oxygen",
+      "B": "Carbon dioxide",
+      "C": "Nitrogen",
+      "D": "Hydrogen"
+    },
+    "answer": "C",
+    "explanation": "Nitrogen makes up about 78% of Earth's atmosphere."
+  },
+  {
+    "question": "Which layer protects Earth from much of the Sun's harmful ultraviolet radiation?",
+    "choices": {
+      "A": "Ozone layer",
+      "B": "Crust",
+      "C": "Mantle",
+      "D": "Troposphere"
+    },
+    "answer": "A",
+    "explanation": "The ozone layer absorbs much of the Sun's harmful ultraviolet radiation."
+  },
+  {
+    "question": "What is the process of water changing from liquid to gas called?",
+    "choices": {
+      "A": "Condensation",
+      "B": "Freezing",
+      "C": "Evaporation",
+      "D": "Melting"
+    },
+    "answer": "C",
+    "explanation": "Evaporation is the change of liquid water into water vapor."
+  },
+  {
+    "question": "What is the process of water vapor changing into liquid called?",
+    "choices": {
+      "A": "Evaporation",
+      "B": "Condensation",
+      "C": "Sublimation",
+      "D": "Melting"
+    },
+    "answer": "B",
+    "explanation": "Condensation occurs when water vapor changes into liquid water."
+  },
+  {
+    "question": "What is the main source of energy for Earth's climate system?",
+    "choices": {
+      "A": "The Moon",
+      "B": "The Sun",
+      "C": "Volcanoes",
+      "D": "Ocean currents"
+    },
+    "answer": "B",
+    "explanation": "The Sun is the primary source of energy driving Earth's climate system."
+  },
+  {
+    "question": "Which natural disaster is caused by the sudden movement of tectonic plates?",
+    "choices": {
+      "A": "Earthquake",
+      "B": "Drought",
+      "C": "Tornado",
+      "D": "Heat wave"
+    },
+    "answer": "A",
+    "explanation": "Earthquakes commonly result from sudden movement along faults associated with tectonic plates."
+  },
+  {
+    "question": "What is a tsunami?",
+    "choices": {
+      "A": "A type of volcanic rock",
+      "B": "A series of large ocean waves usually caused by underwater disturbance",
+      "C": "A strong desert wind",
+      "D": "A tropical rain cloud"
+    },
+    "answer": "B",
+    "explanation": "A tsunami is a series of large ocean waves commonly generated by underwater earthquakes or other disturbances."
+  },
+  {
+    "question": "Which organization monitors weather and climate information in the Philippines?",
     "choices": {
       "A": "PAGASA",
       "B": "PHIVOLCS",
-      "C": "NDRRMC",
-      "D": "DENR"
+      "C": "DENR",
+      "D": "NDRRMC"
     },
     "answer": "A",
-    "explanation": "PAGASA provides weather forecasts, tropical cyclone information, and related atmospheric services."
+    "explanation": "PAGASA provides weather forecasts and monitors atmospheric and climate conditions in the Philippines."
   },
   {
-    "question": "Which agency monitors volcanoes and earthquakes in the Philippines?",
+    "question": "Which Philippine agency monitors earthquakes and volcanic activity?",
     "choices": {
       "A": "PAGASA",
       "B": "PHIVOLCS",
-      "C": "PSA",
-      "D": "DPWH"
+      "C": "DepEd",
+      "D": "DOH"
     },
     "answer": "B",
-    "explanation": "PHIVOLCS monitors volcanic activity, earthquakes, and related hazards."
+    "explanation": "PHIVOLCS monitors earthquakes, volcanic activity, and related hazards in the Philippines."
   },
   {
     "question": "What does PHIVOLCS stand for?",
     "choices": {
       "A": "Philippine Institute of Volcanology and Seismology",
       "B": "Philippine Institute for Volcanic and Climate Studies",
-      "C": "Philippine Hazard Investigation and Volcanic Observation Center",
-      "D": "Philippine Institute of Volcanic and Oceanic Studies"
+      "C": "Philippine Hazard Institute for Volcanology and Climate Science",
+      "D": "Philippine Institute of Volcano and Coastal Studies"
     },
     "answer": "A",
     "explanation": "PHIVOLCS stands for Philippine Institute of Volcanology and Seismology."
   },
   {
-    "question": "What does PAGASA stand for?",
+    "question": "Which emergency number is used for nationwide emergency assistance in the Philippines?",
     "choices": {
-      "A": "Philippine Atmospheric, Geophysical and Astronomical Services Administration",
-      "B": "Philippine Agency for Geophysical and Atmospheric Science Administration",
-      "C": "Philippine Atmospheric and Geological Analysis Services Agency",
-      "D": "Philippine Astronomical and Geographical Services Administration"
+      "A": "911",
+      "B": "117",
+      "C": "8888",
+      "D": "143"
     },
     "answer": "A",
-    "explanation": "PAGASA stands for Philippine Atmospheric, Geophysical and Astronomical Services Administration."
+    "explanation": "911 is the Philippines' national emergency hotline."
   },
   {
-    "question": "Which action is most appropriate when an official discovers a potential conflict of interest?",
+    "question": "What is the primary purpose of first aid?",
     "choices": {
-      "A": "Hide it",
-      "B": "Disclose it and follow applicable rules",
-      "C": "Use it for personal gain",
-      "D": "Ask a friend to conceal it"
+      "A": "To replace professional medical treatment",
+      "B": "To provide immediate assistance to an injured or ill person",
+      "C": "To diagnose every disease",
+      "D": "To perform surgery"
     },
     "answer": "B",
-    "explanation": "Disclosure and compliance with applicable rules help protect public trust and prevent conflicts of interest."
+    "explanation": "First aid provides immediate care while waiting for professional medical assistance."
   },
   {
-    "question": "What is transparency in government?",
+    "question": "Which nutrient is the body's main source of energy?",
     "choices": {
-      "A": "Keeping all government information secret",
-      "B": "Making government actions and information appropriately open and understandable",
-      "C": "Allowing officials to avoid records",
-      "D": "Preventing citizens from asking questions"
+      "A": "Carbohydrates",
+      "B": "Vitamins",
+      "C": "Minerals",
+      "D": "Water"
+    },
+    "answer": "A",
+    "explanation": "Carbohydrates are a major source of energy for the body."
+  },
+  {
+    "question": "Which nutrient is primarily responsible for building and repairing body tissues?",
+    "choices": {
+      "A": "Protein",
+      "B": "Water",
+      "C": "Vitamin C",
+      "D": "Fiber"
+    },
+    "answer": "A",
+    "explanation": "Protein is essential for building and repairing body tissues."
+  },
+  {
+    "question": "Which nutrient helps regulate many body processes but provides no calories?",
+    "choices": {
+      "A": "Vitamins",
+      "B": "Carbohydrates",
+      "C": "Fats",
+      "D": "Protein"
+    },
+    "answer": "A",
+    "explanation": "Vitamins help regulate body processes and do not directly provide calories."
+  },
+  {
+    "question": "Which mineral is essential for transporting oxygen in the blood?",
+    "choices": {
+      "A": "Calcium",
+      "B": "Iron",
+      "C": "Sodium",
+      "D": "Zinc"
     },
     "answer": "B",
-    "explanation": "Transparency promotes openness and allows the public to understand government actions and decisions."
+    "explanation": "Iron is a key component of hemoglobin, which carries oxygen in the blood."
   },
   {
-    "question": "What is accountability?",
+    "question": "Which sense organ is responsible for vision?",
     "choices": {
-      "A": "Being answerable for one's actions and decisions",
-      "B": "Avoiding responsibility",
-      "C": "Delegating every responsibility",
-      "D": "Keeping mistakes secret"
+      "A": "Ear",
+      "B": "Nose",
+      "C": "Eye",
+      "D": "Skin"
+    },
+    "answer": "C",
+    "explanation": "The eyes are the primary organs of vision."
+  },
+  {
+    "question": "Which sense organ is responsible for hearing?",
+    "choices": {
+      "A": "Ear",
+      "B": "Eye",
+      "C": "Nose",
+      "D": "Tongue"
     },
     "answer": "A",
-    "explanation": "Accountability means being responsible and answerable for one's actions and decisions."
+    "explanation": "The ears are the organs responsible for hearing."
   },
   {
-    "question": "Which is an example of corruption?",
+    "question": "Which sense organ detects odors?",
     "choices": {
-      "A": "Using public office for personal gain",
-      "B": "Following procurement rules",
-      "C": "Serving citizens fairly",
-      "D": "Reporting misconduct"
+      "A": "Eye",
+      "B": "Ear",
+      "C": "Nose",
+      "D": "Skin"
     },
-    "answer": "A",
-    "explanation": "Using public office or authority for personal benefit is an example of corrupt conduct."
+    "answer": "C",
+    "explanation": "The nose detects odors through the sense of smell."
   },
   {
-    "question": "What is bribery?",
+    "question": "Which organ is mainly responsible for filtering waste from the blood and producing urine?",
     "choices": {
-      "A": "Offering or receiving something of value to influence an official act",
-      "B": "Giving a legal salary",
-      "C": "Paying a legitimate government fee",
-      "D": "Donating to a charity without conditions"
-    },
-    "answer": "A",
-    "explanation": "Bribery involves giving, offering, requesting, or receiving something of value to improperly influence an action."
-  },
-  {
-    "question": "Which quality is most important for a civil servant?",
-    "choices": {
-      "A": "Integrity",
-      "B": "Favoritism",
-      "C": "Self-interest",
-      "D": "Dishonesty"
-    },
-    "answer": "A",
-    "explanation": "Integrity is essential to trustworthy and ethical public service."
-  },
-  {
-    "question": "What does professionalism mean in public service?",
-    "choices": {
-      "A": "Performing duties competently, responsibly, and ethically",
-      "B": "Ignoring citizens",
-      "C": "Using government resources for personal purposes",
-      "D": "Refusing to follow procedures"
-    },
-    "answer": "A",
-    "explanation": "Professionalism involves competence, responsibility, proper conduct, and ethical behavior."
-  },
-  {
-    "question": "Which behavior demonstrates courtesy in public service?",
-    "choices": {
-      "A": "Treating clients with respect and patience",
-      "B": "Ignoring inquiries",
-      "C": "Shouting at clients",
-      "D": "Giving preferential treatment to friends"
-    },
-    "answer": "A",
-    "explanation": "Courtesy means treating people respectfully, patiently, and professionally."
-  },
-  {
-    "question": "What should a public employee do when unsure about a government procedure?",
-    "choices": {
-      "A": "Invent a procedure",
-      "B": "Verify the applicable rule or consult the proper authority",
-      "C": "Ignore the request",
-      "D": "Ask a random person online"
+      "A": "Heart",
+      "B": "Kidney",
+      "C": "Lung",
+      "D": "Stomach"
     },
     "answer": "B",
-    "explanation": "Government employees should verify rules and consult authorized sources when uncertain."
+    "explanation": "The kidneys filter waste from the blood and produce urine."
   },
   {
-    "question": "What is the best reason for keeping accurate government records?",
+    "question": "Which organ produces bile and performs many metabolic functions?",
     "choices": {
-      "A": "To support accountability, transparency, and efficient service",
-      "B": "To make work harder",
-      "C": "To hide transactions",
-      "D": "To avoid audits"
+      "A": "Liver",
+      "B": "Heart",
+      "C": "Pancreas",
+      "D": "Lung"
     },
     "answer": "A",
-    "explanation": "Accurate records support accountability, transparency, continuity, and efficient government operations."
+    "explanation": "The liver produces bile and performs many important metabolic functions."
+  },
+  {
+    "question": "Which organ is primarily responsible for digesting food mechanically and chemically after swallowing?",
+    "choices": {
+      "A": "Stomach",
+      "B": "Heart",
+      "C": "Kidney",
+      "D": "Lung"
+    },
+    "answer": "A",
+    "explanation": "The stomach churns food and uses digestive acids and enzymes to break it down."
+  },
+  {
+    "question": "What is the basic unit of life?",
+    "choices": {
+      "A": "Tissue",
+      "B": "Organ",
+      "C": "Cell",
+      "D": "Atom"
+    },
+    "answer": "C",
+    "explanation": "The cell is considered the basic structural and functional unit of life."
+  },
+  {
+    "question": "What is the basic unit of matter?",
+    "choices": {
+      "A": "Cell",
+      "B": "Atom",
+      "C": "Tissue",
+      "D": "Molecule"
+    },
+    "answer": "B",
+    "explanation": "An atom is the basic unit of a chemical element."
+  },
+  {
+    "question": "Which particle has a negative electrical charge?",
+    "choices": {
+      "A": "Proton",
+      "B": "Neutron",
+      "C": "Electron",
+      "D": "Nucleus"
+    },
+    "answer": "C",
+    "explanation": "Electrons have a negative electrical charge."
+  },
+  {
+    "question": "Which particle has a positive electrical charge?",
+    "choices": {
+      "A": "Electron",
+      "B": "Proton",
+      "C": "Neutron",
+      "D": "Photon"
+    },
+    "answer": "B",
+    "explanation": "Protons have a positive electrical charge."
+  },
+  {
+    "question": "Which particle has no electrical charge?",
+    "choices": {
+      "A": "Electron",
+      "B": "Proton",
+      "C": "Neutron",
+      "D": "Ion"
+    },
+    "answer": "C",
+    "explanation": "Neutrons have no net electrical charge."
+  },
+  {
+    "question": "What is the center of an atom called?",
+    "choices": {
+      "A": "Electron cloud",
+      "B": "Nucleus",
+      "C": "Orbit",
+      "D": "Shell"
+    },
+    "answer": "B",
+    "explanation": "The nucleus is the dense central part of an atom."
+  },
+  {
+    "question": "Which branch of science studies living organisms?",
+    "choices": {
+      "A": "Geology",
+      "B": "Biology",
+      "C": "Astronomy",
+      "D": "Physics"
+    },
+    "answer": "B",
+    "explanation": "Biology is the study of living organisms."
+  },
+  {
+    "question": "Which branch of science studies matter and its interactions?",
+    "choices": {
+      "A": "Chemistry",
+      "B": "Astronomy",
+      "C": "Ecology",
+      "D": "Geography"
+    },
+    "answer": "A",
+    "explanation": "Chemistry studies matter, its properties, composition, and interactions."
+  },
+  {
+    "question": "Which branch of science studies forces, motion, energy, and matter?",
+    "choices": {
+      "A": "Physics",
+      "B": "Biology",
+      "C": "Botany",
+      "D": "Geology"
+    },
+    "answer": "A",
+    "explanation": "Physics studies matter, energy, motion, forces, and their interactions."
+  },
+  {
+    "question": "Which branch of science studies the Earth?",
+    "choices": {
+      "A": "Geology",
+      "B": "Biology",
+      "C": "Astronomy",
+      "D": "Zoology"
+    },
+    "answer": "A",
+    "explanation": "Geology is the study of Earth's materials, structure, history, and processes."
+  },
+  {
+    "question": "Which branch of science studies stars, planets, and other celestial objects?",
+    "choices": {
+      "A": "Geology",
+      "B": "Astronomy",
+      "C": "Ecology",
+      "D": "Meteorology"
+    },
+    "answer": "B",
+    "explanation": "Astronomy studies celestial objects and phenomena beyond Earth."
+  },
+  {
+    "question": "Which branch of science studies weather and the atmosphere?",
+    "choices": {
+      "A": "Meteorology",
+      "B": "Geology",
+      "C": "Botany",
+      "D": "Zoology"
+    },
+    "answer": "A",
+    "explanation": "Meteorology is the scientific study of the atmosphere and weather."
+  },
+  {
+    "question": "Which branch of biology studies plants?",
+    "choices": {
+      "A": "Zoology",
+      "B": "Botany",
+      "C": "Anatomy",
+      "D": "Ecology"
+    },
+    "answer": "B",
+    "explanation": "Botany is the study of plants."
+  },
+  {
+    "question": "Which branch of biology studies animals?",
+    "choices": {
+      "A": "Botany",
+      "B": "Zoology",
+      "C": "Geology",
+      "D": "Astronomy"
+    },
+    "answer": "B",
+    "explanation": "Zoology is the study of animals."
+  },
+  {
+    "question": "Which branch of mathematics deals with shapes, sizes, and spatial relationships?",
+    "choices": {
+      "A": "Algebra",
+      "B": "Geometry",
+      "C": "Statistics",
+      "D": "Calculus"
+    },
+    "answer": "B",
+    "explanation": "Geometry studies shapes, sizes, angles, and spatial relationships."
+  },
+  {
+    "question": "Which branch of mathematics deals with collecting and analyzing data?",
+    "choices": {
+      "A": "Statistics",
+      "B": "Geometry",
+      "C": "Trigonometry",
+      "D": "Arithmetic"
+    },
+    "answer": "A",
+    "explanation": "Statistics involves collecting, analyzing, interpreting, and presenting data."
+  },
+  {
+    "question": "What is the average of 10, 20, and 30?",
+    "choices": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "answer": "B",
+    "explanation": "The average is (10 + 20 + 30) ÷ 3 = 20."
+  },
+  {
+    "question": "What is 25 multiplied by 4?",
+    "choices": {
+      "A": "75",
+      "B": "90",
+      "C": "100",
+      "D": "125"
+    },
+    "answer": "C",
+    "explanation": "25 × 4 equals 100."
+  },
+  {
+    "question": "What is 144 divided by 12?",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "B",
+    "explanation": "144 ÷ 12 equals 12."
+  },
+  {
+    "question": "What is 3/4 expressed as a decimal?",
+    "choices": {
+      "A": "0.25",
+      "B": "0.50",
+      "C": "0.75",
+      "D": "1.25"
+    },
+    "answer": "C",
+    "explanation": "3 divided by 4 equals 0.75."
+  },
+  {
+    "question": "What is 50% expressed as a fraction in simplest form?",
+    "choices": {
+      "A": "1/4",
+      "B": "1/2",
+      "C": "2/3",
+      "D": "3/4"
+    },
+    "answer": "B",
+    "explanation": "50% is equal to 50/100, which simplifies to 1/2."
+  },
+  {
+    "question": "Which instrument is used to determine direction?",
+    "choices": {
+      "A": "Compass",
+      "B": "Thermometer",
+      "C": "Barometer",
+      "D": "Microscope"
+    },
+    "answer": "A",
+    "explanation": "A compass is used to determine direction using Earth's magnetic field."
+  },
+  {
+    "question": "What is the opposite direction of north?",
+    "choices": {
+      "A": "East",
+      "B": "West",
+      "C": "South",
+      "D": "Northeast"
+    },
+    "answer": "C",
+    "explanation": "South is the opposite direction of north."
+  },
+  {
+    "question": "How many primary colors are traditionally taught in basic art?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "In the traditional RYB color model, the primary colors are red, yellow, and blue."
+  },
+  {
+    "question": "Which color results from mixing red and blue in the traditional paint color model?",
+    "choices": {
+      "A": "Green",
+      "B": "Orange",
+      "C": "Purple",
+      "D": "Yellow"
+    },
+    "answer": "C",
+    "explanation": "Mixing red and blue paint traditionally produces purple."
+  },
+  {
+    "question": "Which color results from mixing blue and yellow in the traditional paint color model?",
+    "choices": {
+      "A": "Green",
+      "B": "Purple",
+      "C": "Orange",
+      "D": "Brown"
+    },
+    "answer": "A",
+    "explanation": "Mixing blue and yellow paint produces green."
+  },
+  {
+    "question": "Which art form uses the human body as a medium for movement and expression?",
+    "choices": {
+      "A": "Dance",
+      "B": "Painting",
+      "C": "Sculpture",
+      "D": "Photography"
+    },
+    "answer": "A",
+    "explanation": "Dance uses bodily movement as a form of artistic expression."
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "choices": {
+      "A": "Michelangelo",
+      "B": "Leonardo da Vinci",
+      "C": "Vincent van Gogh",
+      "D": "Pablo Picasso"
+    },
+    "answer": "B",
+    "explanation": "Leonardo da Vinci painted the Mona Lisa."
+  },
+  {
+    "question": "Who painted The Starry Night?",
+    "choices": {
+      "A": "Vincent van Gogh",
+      "B": "Leonardo da Vinci",
+      "C": "Claude Monet",
+      "D": "Pablo Picasso"
+    },
+    "answer": "A",
+    "explanation": "Vincent van Gogh painted The Starry Night."
+  },
+  {
+    "question": "Who wrote Romeo and Juliet?",
+    "choices": {
+      "A": "William Shakespeare",
+      "B": "Charles Dickens",
+      "C": "Mark Twain",
+      "D": "Homer"
+    },
+    "answer": "A",
+    "explanation": "William Shakespeare wrote Romeo and Juliet."
+  },
+  {
+    "question": "Who wrote The Odyssey?",
+    "choices": {
+      "A": "Homer",
+      "B": "Socrates",
+      "C": "Plato",
+      "D": "Aristotle"
+    },
+    "answer": "A",
+    "explanation": "The Odyssey is traditionally attributed to the ancient Greek poet Homer."
+  },
+  {
+    "question": "Which ancient civilization built the Colosseum?",
+    "choices": {
+      "A": "Greek",
+      "B": "Roman",
+      "C": "Egyptian",
+      "D": "Persian"
+    },
+    "answer": "B",
+    "explanation": "The Colosseum was built in ancient Rome."
+  },
+  {
+    "question": "Where did the Olympic Games originate?",
+    "choices": {
+      "A": "Rome",
+      "B": "Egypt",
+      "C": "Greece",
+      "D": "China"
+    },
+    "answer": "C",
+    "explanation": "The ancient Olympic Games originated in Greece."
+  },
+  {
+    "question": "How many rings are on the Olympic symbol?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "B",
+    "explanation": "The Olympic symbol consists of five interlocking rings."
+  },
+  {
+    "question": "Which sport uses a racket and a shuttlecock?",
+    "choices": {
+      "A": "Tennis",
+      "B": "Badminton",
+      "C": "Table tennis",
+      "D": "Squash"
+    },
+    "answer": "B",
+    "explanation": "Badminton is played with rackets and a shuttlecock."
+  },
+  {
+    "question": "How many players are on the court for one basketball team during normal play?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "B",
+    "explanation": "A basketball team has five players on the court at a time."
+  },
+  {
+    "question": "Which sport is known as the world's most popular football code?",
+    "choices": {
+      "A": "Soccer",
+      "B": "Baseball",
+      "C": "Cricket",
+      "D": "Rugby"
+    },
+    "answer": "A",
+    "explanation": "Association football, commonly called soccer, is widely regarded as the world's most popular sport."
+  },
+  {
+    "question": "How many players are on the field for one soccer team during regulation play?",
+    "choices": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "answer": "C",
+    "explanation": "A soccer team normally has 11 players on the field."
+  },
+  {
+    "question": "Which sport is played at Wimbledon?",
+    "choices": {
+      "A": "Golf",
+      "B": "Tennis",
+      "C": "Cricket",
+      "D": "Badminton"
+    },
+    "answer": "B",
+    "explanation": "Wimbledon is one of the four major tennis tournaments."
+  },
+  {
+    "question": "Which country hosted the first modern Olympic Games in 1896?",
+    "choices": {
+      "A": "France",
+      "B": "Greece",
+      "C": "United Kingdom",
+      "D": "Italy"
+    },
+    "answer": "B",
+    "explanation": "The first modern Olympic Games were held in Athens, Greece, in 1896."
+  },
+  {
+    "question": "Which chess piece moves in an L-shaped pattern?",
+    "choices": {
+      "A": "Bishop",
+      "B": "Knight",
+      "C": "Rook",
+      "D": "Queen"
+    },
+    "answer": "B",
+    "explanation": "The knight moves in an L-shaped pattern."
+  },
+  {
+    "question": "Which chess piece can move diagonally any number of squares?",
+    "choices": {
+      "A": "Rook",
+      "B": "Knight",
+      "C": "Bishop",
+      "D": "King"
+    },
+    "answer": "C",
+    "explanation": "A bishop moves diagonally across any number of unobstructed squares."
+  },
+  {
+    "question": "Which chess piece is the most powerful in terms of movement?",
+    "choices": {
+      "A": "Pawn",
+      "B": "Bishop",
+      "C": "Queen",
+      "D": "King"
+    },
+    "answer": "C",
+    "explanation": "The queen has the greatest range of movement among the chess pieces."
+  },
+  {
+    "question": "How many squares are on a standard chessboard?",
+    "choices": {
+      "A": "49",
+      "B": "56",
+      "C": "64",
+      "D": "72"
+    },
+    "answer": "C",
+    "explanation": "A standard chessboard has 64 squares."
+  },
+  {
+    "question": "Which chess piece is the only piece that can jump over other pieces?",
+    "choices": {
+      "A": "Bishop",
+      "B": "Knight",
+      "C": "Rook",
+      "D": "Queen"
+    },
+    "answer": "B",
+    "explanation": "The knight can jump over other pieces."
+  },
+  {
+    "question": "What is the study of maps called?",
+    "choices": {
+      "A": "Cartography",
+      "B": "Geology",
+      "C": "Topography",
+      "D": "Geodesy"
+    },
+    "answer": "A",
+    "explanation": "Cartography is the art and science of making and studying maps."
+  },
+  {
+    "question": "What is the imaginary line that divides Earth into Northern and Southern Hemispheres?",
+    "choices": {
+      "A": "Prime Meridian",
+      "B": "Equator",
+      "C": "Tropic of Cancer",
+      "D": "International Date Line"
+    },
+    "answer": "B",
+    "explanation": "The Equator divides Earth into the Northern and Southern Hemispheres."
+  },
+  {
+    "question": "What is the imaginary line at 0 degrees longitude?",
+    "choices": {
+      "A": "Equator",
+      "B": "Prime Meridian",
+      "C": "Tropic of Capricorn",
+      "D": "Arctic Circle"
+    },
+    "answer": "B",
+    "explanation": "The Prime Meridian is defined as 0 degrees longitude."
+  },
+  {
+    "question": "Which direction does the Sun generally appear to rise from?",
+    "choices": {
+      "A": "North",
+      "B": "South",
+      "C": "East",
+      "D": "West"
+    },
+    "answer": "C",
+    "explanation": "The Sun generally appears to rise in the east and set in the west."
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "choices": {
+      "A": "Venus",
+      "B": "Earth",
+      "C": "Mercury",
+      "D": "Mars"
+    },
+    "answer": "C",
+    "explanation": "Mercury is the planet closest to the Sun."
+  },
+  {
+    "question": "Which planet is famous for its prominent ring system?",
+    "choices": {
+      "A": "Mars",
+      "B": "Saturn",
+      "C": "Venus",
+      "D": "Mercury"
+    },
+    "answer": "B",
+    "explanation": "Saturn is famous for its extensive and visible ring system."
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "choices": {
+      "A": "Sirius",
+      "B": "Polaris",
+      "C": "The Sun",
+      "D": "Alpha Centauri"
+    },
+    "answer": "C",
+    "explanation": "The Sun is the star closest to Earth."
+  },
+  {
+    "question": "What galaxy contains our Solar System?",
+    "choices": {
+      "A": "Andromeda Galaxy",
+      "B": "Milky Way Galaxy",
+      "C": "Whirlpool Galaxy",
+      "D": "Sombrero Galaxy"
+    },
+    "answer": "B",
+    "explanation": "Our Solar System is located in the Milky Way Galaxy."
+  },
+  {
+    "question": "What is the process by which a caterpillar becomes a butterfly called?",
+    "choices": {
+      "A": "Germination",
+      "B": "Metamorphosis",
+      "C": "Pollination",
+      "D": "Fertilization"
+    },
+    "answer": "B",
+    "explanation": "The transformation from caterpillar to butterfly is a form of metamorphosis."
+  },
+  {
+    "question": "Which insect is important in pollinating many flowering plants?",
+    "choices": {
+      "A": "Mosquito",
+      "B": "Bee",
+      "C": "Cockroach",
+      "D": "Flea"
+    },
+    "answer": "B",
+    "explanation": "Bees are important pollinators of many flowering plants."
+  },
+  {
+    "question": "What process allows flowering plants to produce seeds after pollen reaches the appropriate plant structure?",
+    "choices": {
+      "A": "Pollination",
+      "B": "Respiration",
+      "C": "Evaporation",
+      "D": "Digestion"
+    },
+    "answer": "A",
+    "explanation": "Pollination is the transfer of pollen to the receptive part of a flower."
+  },
+  {
+    "question": "Which natural resource is essential for human survival and is found in rivers, lakes, and oceans?",
+    "choices": {
+      "A": "Water",
+      "B": "Coal",
+      "C": "Iron",
+      "D": "Natural gas"
+    },
+    "answer": "A",
+    "explanation": "Water is an essential natural resource for human life."
+  },
+  {
+    "question": "Which practice helps reduce the amount of waste sent to landfills?",
+    "choices": {
+      "A": "Recycling",
+      "B": "Burning all waste",
+      "C": "Littering",
+      "D": "Dumping waste in rivers"
+    },
+    "answer": "A",
+    "explanation": "Recycling reduces waste by processing materials for reuse."
+  },
+  {
+    "question": "Which of the following is biodegradable?",
+    "choices": {
+      "A": "Plastic bottle",
+      "B": "Glass bottle",
+      "C": "Banana peel",
+      "D": "Aluminum can"
+    },
+    "answer": "C",
+    "explanation": "A banana peel is organic material that can naturally decompose."
+  },
+  {
+    "question": "Which gas is a major greenhouse gas released by human activities?",
+    "choices": {
+      "A": "Carbon dioxide",
+      "B": "Helium",
+      "C": "Neon",
+      "D": "Argon"
+    },
+    "answer": "A",
+    "explanation": "Carbon dioxide is a major greenhouse gas associated with human activities."
+  },
+  {
+    "question": "What is deforestation?",
+    "choices": {
+      "A": "Planting trees in forests",
+      "B": "Removal or clearing of forests",
+      "C": "Protection of wildlife",
+      "D": "Natural growth of forests"
+    },
+    "answer": "B",
+    "explanation": "Deforestation refers to the removal or clearing of forests."
+  },
+  {
+    "question": "Which activity can help conserve forests?",
+    "choices": {
+      "A": "Illegal logging",
+      "B": "Reforestation",
+      "C": "Forest burning",
+      "D": "Unregulated land clearing"
+    },
+    "answer": "B",
+    "explanation": "Reforestation helps restore areas where forests have been removed."
+  },
+  {
+    "question": "Which is an example of a nonrenewable resource?",
+    "choices": {
+      "A": "Solar energy",
+      "B": "Wind",
+      "C": "Coal",
+      "D": "Sunlight"
+    },
+    "answer": "C",
+    "explanation": "Coal is a fossil fuel and a nonrenewable resource."
+  },
+  {
+    "question": "Which is an example of a renewable resource?",
+    "choices": {
+      "A": "Coal",
+      "B": "Petroleum",
+      "C": "Natural gas",
+      "D": "Solar energy"
+    },
+    "answer": "D",
+    "explanation": "Solar energy is renewable because sunlight is naturally replenished."
+  },
+  {
+    "question": "What is the main purpose of a budget?",
+    "choices": {
+      "A": "To track and plan income and expenses",
+      "B": "To increase debt",
+      "C": "To eliminate all taxes",
+      "D": "To avoid recording expenses"
+    },
+    "answer": "A",
+    "explanation": "A budget helps plan and monitor income, spending, and savings."
+  },
+  {
+    "question": "What is saving money?",
+    "choices": {
+      "A": "Spending all income immediately",
+      "B": "Setting aside money for future needs or goals",
+      "C": "Borrowing money from others",
+      "D": "Increasing unnecessary expenses"
+    },
+    "answer": "B",
+    "explanation": "Saving means setting aside money for future needs, emergencies, or goals."
+  },
+  {
+    "question": "What is inflation?",
+    "choices": {
+      "A": "A general increase in prices over time",
+      "B": "A decrease in population",
+      "C": "An increase in rainfall",
+      "D": "A decrease in working hours"
+    },
+    "answer": "A",
+    "explanation": "Inflation is a general increase in the prices of goods and services over time."
+  },
+  {
+    "question": "What is a bank primarily used for?",
+    "choices": {
+      "A": "Storing and managing money and providing financial services",
+      "B": "Manufacturing vehicles",
+      "C": "Producing electricity",
+      "D": "Operating hospitals"
+    },
+    "answer": "A",
+    "explanation": "Banks provide services such as deposits, payments, transfers, and loans."
+  },
+  {
+    "question": "What is interest on a savings account?",
+    "choices": {
+      "A": "Money earned on deposited funds",
+      "B": "A government fine",
+      "C": "A type of tax only",
+      "D": "A bank penalty"
+    },
+    "answer": "A",
+    "explanation": "Interest is compensation paid by a financial institution on eligible deposits."
+  },
+  {
+    "question": "What is a loan?",
+    "choices": {
+      "A": "Money borrowed that is generally repaid over time",
+      "B": "Money permanently given away",
+      "C": "A type of savings account",
+      "D": "A government certificate"
+    },
+    "answer": "A",
+    "explanation": "A loan is money borrowed that is generally repaid according to agreed terms."
+  },
+  {
+    "question": "What is a receipt?",
+    "choices": {
+      "A": "Proof of a transaction or payment",
+      "B": "A type of government ID only",
+      "C": "A bank loan",
+      "D": "A weather report"
+    },
+    "answer": "A",
+    "explanation": "A receipt serves as evidence that a transaction or payment occurred."
+  },
+  {
+    "question": "What is an invoice?",
+    "choices": {
+      "A": "A document requesting payment for goods or services",
+      "B": "A weather forecast",
+      "C": "A birth certificate",
+      "D": "A passport"
+    },
+    "answer": "A",
+    "explanation": "An invoice lists goods or services provided and requests payment."
+  },
+  {
+    "question": "Which Philippine government document is commonly used as proof of identity and citizenship when traveling internationally?",
+    "choices": {
+      "A": "Passport",
+      "B": "Library card",
+      "C": "School notebook",
+      "D": "Receipt"
+    },
+    "answer": "A",
+    "explanation": "A passport is an official travel document and proof of identity and citizenship."
+  },
+  {
+    "question": "What is the purpose of a birth certificate?",
+    "choices": {
+      "A": "To document a person's birth and related civil information",
+      "B": "To record bank transactions",
+      "C": "To register a vehicle",
+      "D": "To issue a driver's license"
+    },
+    "answer": "A",
+    "explanation": "A birth certificate records essential civil information about a person's birth."
+  },
+  {
+    "question": "Which government agency maintains civil registry records in the Philippines?",
+    "choices": {
+      "A": "Philippine Statistics Authority",
+      "B": "Bureau of Internal Revenue",
+      "C": "Department of Transportation",
+      "D": "Department of Tourism"
+    },
+    "answer": "A",
+    "explanation": "The Philippine Statistics Authority maintains the country's civil registration system."
+  },
+  {
+    "question": "What does PSA stand for?",
+    "choices": {
+      "A": "Philippine Statistics Authority",
+      "B": "Public Service Administration",
+      "C": "Philippine Survey Agency",
+      "D": "Public Statistics Association"
+    },
+    "answer": "A",
+    "explanation": "PSA stands for Philippine Statistics Authority."
+  },
+  {
+    "question": "Which government agency collects national taxes in the Philippines?",
+    "choices": {
+      "A": "Bureau of Internal Revenue",
+      "B": "Bureau of Customs",
+      "C": "Commission on Audit",
+      "D": "Civil Service Commission"
+    },
+    "answer": "A",
+    "explanation": "The Bureau of Internal Revenue administers and collects national internal revenue taxes."
+  },
+  {
+    "question": "What does BIR stand for?",
+    "choices": {
+      "A": "Bureau of Internal Revenue",
+      "B": "Bureau of International Relations",
+      "C": "Board of Internal Regulation",
+      "D": "Bureau of Industrial Resources"
+    },
+    "answer": "A",
+    "explanation": "BIR stands for Bureau of Internal Revenue."
+  },
+  {
+    "question": "Which government agency is responsible for customs administration and collection of import duties?",
+    "choices": {
+      "A": "Bureau of Customs",
+      "B": "Bureau of Internal Revenue",
+      "C": "Department of Agriculture",
+      "D": "Commission on Audit"
+    },
+    "answer": "A",
+    "explanation": "The Bureau of Customs administers customs laws and collects duties and taxes on imports."
+  },
+  {
+    "question": "What does BOC stand for?",
+    "choices": {
+      "A": "Bureau of Customs",
+      "B": "Board of Commerce",
+      "C": "Bureau of Commerce",
+      "D": "Bureau of Collection"
+    },
+    "answer": "A",
+    "explanation": "BOC stands for Bureau of Customs."
+  },
+  {
+    "question": "Which department is primarily responsible for Philippine transportation policy?",
+    "choices": {
+      "A": "Department of Transportation",
+      "B": "Department of Tourism",
+      "C": "Department of Trade and Industry",
+      "D": "Department of Public Works"
+    },
+    "answer": "A",
+    "explanation": "The Department of Transportation is responsible for transportation policy and programs."
+  },
+  {
+    "question": "What does DOTR stand for?",
+    "choices": {
+      "A": "Department of Transportation",
+      "B": "Department of Tourism and Roads",
+      "C": "Division of Transportation and Roads",
+      "D": "Department of Transit Regulation"
+    },
+    "answer": "A",
+    "explanation": "DOTR stands for Department of Transportation."
+  },
+  {
+    "question": "Which department promotes tourism in the Philippines?",
+    "choices": {
+      "A": "Department of Tourism",
+      "B": "Department of Trade and Industry",
+      "C": "Department of Labor and Employment",
+      "D": "Department of Agriculture"
+    },
+    "answer": "A",
+    "explanation": "The Department of Tourism promotes and develops Philippine tourism."
+  },
+  {
+    "question": "What does DTI stand for?",
+    "choices": {
+      "A": "Department of Trade and Industry",
+      "B": "Department of Technology and Information",
+      "C": "Division of Trade and Investment",
+      "D": "Department of Transportation and Industry"
+    },
+    "answer": "A",
+    "explanation": "DTI stands for Department of Trade and Industry."
+  },
+  {
+    "question": "Which department is primarily concerned with agriculture and farming?",
+    "choices": {
+      "A": "Department of Agriculture",
+      "B": "Department of Education",
+      "C": "Department of Tourism",
+      "D": "Department of Finance"
+    },
+    "answer": "A",
+    "explanation": "The Department of Agriculture develops policies and programs for agriculture and related sectors."
+  },
+  {
+    "question": "What does DA stand for?",
+    "choices": {
+      "A": "Department of Agriculture",
+      "B": "Department of Administration",
+      "C": "Department of Assistance",
+      "D": "Department of Aquaculture"
+    },
+    "answer": "A",
+    "explanation": "DA stands for Department of Agriculture."
+  },
+  {
+    "question": "Which department is responsible for public works and highways?",
+    "choices": {
+      "A": "DPWH",
+      "B": "DOH",
+      "C": "DOST",
+      "D": "DHSUD"
+    },
+    "answer": "A",
+    "explanation": "The Department of Public Works and Highways is responsible for national public works and highways."
+  },
+  {
+    "question": "What does DPWH stand for?",
+    "choices": {
+      "A": "Department of Public Works and Highways",
+      "B": "Department of Public Welfare and Housing",
+      "C": "Department of Planning and Waterways",
+      "D": "Division of Public Works and Housing"
+    },
+    "answer": "A",
+    "explanation": "DPWH stands for Department of Public Works and Highways."
+  },
+  {
+    "question": "Which department is responsible for science and technology programs in the Philippines?",
+    "choices": {
+      "A": "DOST",
+      "B": "DOH",
+      "C": "DepEd",
+      "D": "DENR"
+    },
+    "answer": "A",
+    "explanation": "The Department of Science and Technology leads national science and technology programs."
+  },
+  {
+    "question": "What does DOST stand for?",
+    "choices": {
+      "A": "Department of Science and Technology",
+      "B": "Department of Social Technology",
+      "C": "Division of Science and Training",
+      "D": "Department of Scientific Trade"
+    },
+    "answer": "A",
+    "explanation": "DOST stands for Department of Science and Technology."
+  },
+  {
+    "question": "Which branch of government includes the Senate and House of Representatives?",
+    "choices": {
+      "A": "Executive",
+      "B": "Legislative",
+      "C": "Judicial",
+      "D": "Administrative"
+    },
+    "answer": "B",
+    "explanation": "The Philippine Congress, composed of the Senate and House of Representatives, belongs to the legislative branch."
+  },
+  {
+    "question": "What is the official residence and workplace of the Philippine President?",
+    "choices": {
+      "A": "Malacañang Palace",
+      "B": "Batasang Pambansa",
+      "C": "Manila City Hall",
+      "D": "Coconut Palace"
+    },
+    "answer": "A",
+    "explanation": "Malacañang Palace is the official residence and principal workplace of the Philippine President."
+  },
+  {
+    "question": "Where does the Philippine House of Representatives primarily meet?",
+    "choices": {
+      "A": "Malacañang Palace",
+      "B": "Batasang Pambansa Complex",
+      "C": "Supreme Court Building",
+      "D": "Rizal Park"
+    },
+    "answer": "B",
+    "explanation": "The House of Representatives primarily meets at the Batasang Pambansa Complex in Quezon City."
+  },
+  {
+    "question": "Where is the main seat of the Philippine Senate located?",
+    "choices": {
+      "A": "Pasay City",
+      "B": "Baguio City",
+      "C": "Davao City",
+      "D": "Quezon City"
+    },
+    "answer": "A",
+    "explanation": "The Philippine Senate holds its sessions at the Government Center in Pasay City."
+  },
+  {
+    "question": "What is the Filipino national language based primarily on?",
+    "choices": {
+      "A": "English",
+      "B": "Tagalog",
+      "C": "Spanish",
+      "D": "Cebuano"
+    },
+    "answer": "B",
+    "explanation": "Filipino is based primarily on Tagalog and has incorporated vocabulary from other Philippine and foreign languages."
+  },
+  {
+    "question": "What are the two official languages of the Philippines?",
+    "choices": {
+      "A": "Filipino and English",
+      "B": "Filipino and Spanish",
+      "C": "English and Spanish",
+      "D": "Tagalog and Cebuano"
+    },
+    "answer": "A",
+    "explanation": "The 1987 Philippine Constitution recognizes Filipino and English as the official languages."
+  },
+  {
+    "question": "Which Philippine language is widely spoken in Central and Southern Luzon?",
+    "choices": {
+      "A": "Tagalog",
+      "B": "Waray",
+      "C": "Chavacano",
+      "D": "Tausug"
+    },
+    "answer": "A",
+    "explanation": "Tagalog is widely spoken in Central and Southern Luzon and forms the primary basis of Filipino."
+  },
+  {
+    "question": "Which Philippine language is widely spoken in the Visayas and parts of Mindanao?",
+    "choices": {
+      "A": "Cebuano",
+      "B": "Ilocano",
+      "C": "Kapampangan",
+      "D": "Pangasinan"
+    },
+    "answer": "A",
+    "explanation": "Cebuano is widely spoken in the Visayas and many parts of Mindanao."
+  },
+  {
+    "question": "Which Philippine language is widely spoken in Northern Luzon?",
+    "choices": {
+      "A": "Ilocano",
+      "B": "Waray",
+      "C": "Cebuano",
+      "D": "Hiligaynon"
+    },
+    "answer": "A",
+    "explanation": "Ilocano is widely spoken in Northern Luzon and nearby areas."
+  },
+  {
+    "question": "Which Philippine festival is famous for colorful street dancing in Cebu?",
+    "choices": {
+      "A": "Sinulog",
+      "B": "Ati-Atihan",
+      "C": "Pahiyas",
+      "D": "Panagbenga"
+    },
+    "answer": "A",
+    "explanation": "Sinulog is a major festival celebrated in Cebu City."
+  },
+  {
+    "question": "Which festival is celebrated in Kalibo, Aklan?",
+    "choices": {
+      "A": "Sinulog",
+      "B": "Ati-Atihan",
+      "C": "Kadayawan",
+      "D": "MassKara"
+    },
+    "answer": "B",
+    "explanation": "The Ati-Atihan Festival is celebrated in Kalibo, Aklan."
+  },
+  {
+    "question": "Which festival is associated with flowers and celebrated in Baguio City?",
+    "choices": {
+      "A": "Panagbenga",
+      "B": "Sinulog",
+      "C": "Kadayawan",
+      "D": "Moriones"
+    },
+    "answer": "A",
+    "explanation": "Panagbenga is Baguio City's famous flower festival."
+  },
+  {
+    "question": "Which festival is celebrated in Davao City?",
+    "choices": {
+      "A": "Kadayawan",
+      "B": "Panagbenga",
+      "C": "Sinulog",
+      "D": "Pahiyas"
+    },
+    "answer": "A",
+    "explanation": "Kadayawan is a major annual festival in Davao City."
+  },
+  {
+    "question": "Which Philippine festival is famous for houses decorated with agricultural produce?",
+    "choices": {
+      "A": "Pahiyas",
+      "B": "Sinulog",
+      "C": "Kadayawan",
+      "D": "Ati-Atihan"
+    },
+    "answer": "A",
+    "explanation": "The Pahiyas Festival in Lucban, Quezon is known for colorful decorations made from agricultural produce."
+  },
+  {
+    "question": "Which Philippine festival is associated with Bacolod City?",
+    "choices": {
+      "A": "MassKara Festival",
+      "B": "Sinulog Festival",
+      "C": "Panagbenga Festival",
+      "D": "Pahiyas Festival"
+    },
+    "answer": "A",
+    "explanation": "Bacolod City is famous for the MassKara Festival."
+  },
+  {
+    "question": "Which Philippine traditional boat is commonly associated with maritime culture?",
+    "choices": {
+      "A": "Bangka",
+      "B": "Jeepney",
+      "C": "Kalesa",
+      "D": "Tricycle"
+    },
+    "answer": "A",
+    "explanation": "Bangka is a general Filipino term for a traditional boat or watercraft."
+  },
+  {
+    "question": "Which traditional Filipino vehicle is commonly associated with horse-drawn transportation?",
+    "choices": {
+      "A": "Jeepney",
+      "B": "Kalesa",
+      "C": "Tricycle",
+      "D": "Bangka"
+    },
+    "answer": "B",
+    "explanation": "A kalesa is a traditional horse-drawn carriage."
+  },
+  {
+    "question": "Which Filipino vehicle is known for its colorful decorations and adapted from military jeeps?",
+    "choices": {
+      "A": "Jeepney",
+      "B": "Kalesa",
+      "C": "Bangka",
+      "D": "Pedicab"
+    },
+    "answer": "A",
+    "explanation": "The jeepney developed from modified military jeeps and became a distinctive form of Philippine public transportation."
+  },
+  {
+    "question": "Which Philippine national hero is depicted on the 1-peso coin in the current Philippine coin series?",
+    "choices": {
+      "A": "Jose Rizal",
+      "B": "Andres Bonifacio",
+      "C": "Emilio Aguinaldo",
+      "D": "Apolinario Mabini"
+    },
+    "answer": "A",
+    "explanation": "Jose Rizal is featured on the 1-peso coin in the current Philippine circulation coin design."
+  },
+  {
+    "question": "Which Philippine hero is associated with the Cry of Pugad Lawin?",
+    "choices": {
+      "A": "Andres Bonifacio",
+      "B": "Jose Rizal",
+      "C": "Emilio Aguinaldo",
+      "D": "Antonio Luna"
+    },
+    "answer": "A",
+    "explanation": "Andres Bonifacio is strongly associated with the Cry of Pugad Lawin and the beginning of the Philippine Revolution."
+  },
+  {
+    "question": "What is the name of the Philippine national anthem?",
+    "choices": {
+      "A": "Bayan Ko",
+      "B": "Lupang Hinirang",
+      "C": "Ako Ay Pilipino",
+      "D": "Pilipinas Kong Mahal"
+    },
+    "answer": "B",
+    "explanation": "Lupang Hinirang is the national anthem of the Philippines."
+  },
+  {
+    "question": "What is the national motto of the Philippines?",
+    "choices": {
+      "A": "For God and Country",
+      "B": "Maka-Diyos, Maka-tao, Makakalikasan at Makabansa",
+      "C": "Unity, Peace, and Progress",
+      "D": "One Nation, One People"
+    },
+    "answer": "B",
+    "explanation": "The national motto is 'Maka-Diyos, Maka-tao, Makakalikasan at Makabansa.'"
+  },
+  {
+    "question": "Which Philippine law is known as the Data Privacy Act of 2012?",
+    "choices": {
+      "A": "Republic Act No. 10173",
+      "B": "Republic Act No. 9165",
+      "C": "Republic Act No. 8749",
+      "D": "Republic Act No. 9003"
+    },
+    "answer": "A",
+    "explanation": "Republic Act No. 10173 is the Data Privacy Act of 2012."
+  },
+  {
+    "question": "Which Philippine law is known as the Ecological Solid Waste Management Act of 2000?",
+    "choices": {
+      "A": "RA 8749",
+      "B": "RA 9003",
+      "C": "RA 10173",
+      "D": "RA 7160"
+    },
+    "answer": "B",
+    "explanation": "Republic Act No. 9003 is the Ecological Solid Waste Management Act of 2000."
+  },
+  {
+    "question": "Which Philippine law is known as the Clean Air Act of 1999?",
+    "choices": {
+      "A": "RA 9003",
+      "B": "RA 8749",
+      "C": "RA 9275",
+      "D": "RA 10121"
+    },
+    "answer": "B",
+    "explanation": "Republic Act No. 8749 is the Philippine Clean Air Act of 1999."
+  },
+  {
+    "question": "Which Philippine law is known as the Clean Water Act of 2004?",
+    "choices": {
+      "A": "RA 9275",
+      "B": "RA 8749",
+      "C": "RA 9003",
+      "D": "RA 10173"
+    },
+    "answer": "A",
+    "explanation": "Republic Act No. 9275 is the Philippine Clean Water Act of 2004."
+  },
+  {
+    "question": "Which Philippine law established the Local Government Code of 1991?",
+    "choices": {
+      "A": "RA 7160",
+      "B": "RA 6713",
+      "C": "RA 7877",
+      "D": "RA 11032"
+    },
+    "answer": "A",
+    "explanation": "Republic Act No. 7160 is the Local Government Code of 1991."
+  },
+  {
+    "question": "Which law is known as the Code of Conduct and Ethical Standards for Public Officials and Employees?",
+    "choices": {
+      "A": "RA 6713",
+      "B": "RA 7160",
+      "C": "RA 10173",
+      "D": "RA 9003"
+    },
+    "answer": "A",
+    "explanation": "Republic Act No. 6713 establishes the Code of Conduct and Ethical Standards for Public Officials and Employees."
+  },
+  {
+    "question": "Which law is known as the Anti-Sexual Harassment Act of 1995?",
+    "choices": {
+      "A": "RA 7877",
+      "B": "RA 9262",
+      "C": "RA 9710",
+      "D": "RA 10173"
+    },
+    "answer": "A",
+    "explanation": "Republic Act No. 7877 is the Anti-Sexual Harassment Act of 1995."
+  },
+  {
+    "question": "Which law is known as the Magna Carta of Women?",
+    "choices": {
+      "A": "RA 7877",
+      "B": "RA 9710",
+      "C": "RA 9262",
+      "D": "RA 11032"
+    },
+    "answer": "B",
+    "explanation": "Republic Act No. 9710 is the Magna Carta of Women."
+  },
+  {
+    "question": "Which law is known as the Anti-Violence Against Women and Their Children Act of 2004?",
+    "choices": {
+      "A": "RA 9262",
+      "B": "RA 9710",
+      "C": "RA 7877",
+      "D": "RA 9003"
+    },
+    "answer": "A",
+    "explanation": "Republic Act No. 9262 is the Anti-Violence Against Women and Their Children Act of 2004."
+  },
+  {
+    "question": "Which law is known as the Ease of Doing Business and Efficient Government Service Delivery Act of 2018?",
+    "choices": {
+      "A": "RA 6713",
+      "B": "RA 11032",
+      "C": "RA 7160",
+      "D": "RA 10173"
+    },
+    "answer": "B",
+    "explanation": "Republic Act No. 11032 is the Ease of Doing Business and Efficient Government Service Delivery Act of 2018."
   }
 ]
