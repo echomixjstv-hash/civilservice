@@ -163,5 +163,1600 @@
     },
     "answer": "B",
     "explanation": "0030 is the highest number."
+  },
+  {
+    "question": "Which name comes first alphabetically?",
+    "choices": {
+      "A": "Santos",
+      "B": "Reyes",
+      "C": "Ramos",
+      "D": "Rivera"
+    },
+    "answer": "C",
+    "explanation": "Ramos comes before Reyes and Rivera, while Santos comes later."
+  },
+  {
+    "question": "Which word is spelled correctly?",
+    "choices": {
+      "A": "Seperate",
+      "B": "Separate",
+      "C": "Seperrate",
+      "D": "Separete"
+    },
+    "answer": "B",
+    "explanation": "The correct spelling is 'Separate'."
+  },
+  {
+    "question": "Which number comes next? 5, 10, 15, 20, ____",
+    "choices": {
+      "A": "22",
+      "B": "23",
+      "C": "25",
+      "D": "30"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 5."
+  },
+  {
+    "question": "Which document should be filed first alphabetically?",
+    "choices": {
+      "A": "Employee Records",
+      "B": "Annual Budget",
+      "C": "Payroll Report",
+      "D": "Training Manual"
+    },
+    "answer": "B",
+    "explanation": "Annual Budget begins with A and comes first alphabetically."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "RT45821 / RT45812",
+      "B": "MN77345 / MN77354",
+      "C": "QP90127 / QP90127",
+      "D": "LK33456 / LK33465"
+    },
+    "answer": "C",
+    "explanation": "Both entries in option C are identical."
+  },
+  {
+    "question": "Which word comes first alphabetically?",
+    "choices": {
+      "A": "Table",
+      "B": "Chair",
+      "C": "Desk",
+      "D": "Cabinet"
+    },
+    "answer": "B",
+    "explanation": "Chair comes before Cabinet, Desk, and Table."
+  },
+  {
+    "question": "Which number is the smallest?",
+    "choices": {
+      "A": "5842",
+      "B": "5482",
+      "C": "5824",
+      "D": "5248"
+    },
+    "answer": "D",
+    "explanation": "5248 is the smallest number."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Necessary",
+      "B": "Neccessary",
+      "C": "Necesary",
+      "D": "Necessery"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Necessary'."
+  },
+  {
+    "question": "Which date comes first?",
+    "choices": {
+      "A": "December 5, 2025",
+      "B": "October 18, 2025",
+      "C": "November 2, 2025",
+      "D": "September 30, 2025"
+    },
+    "answer": "D",
+    "explanation": "September 30 is earlier than October, November, and December."
+  },
+  {
+    "question": "Which code is different from the others?",
+    "choices": {
+      "A": "ABX4521",
+      "B": "ABX4521",
+      "C": "ABX4251",
+      "D": "ABX4521"
+    },
+    "answer": "C",
+    "explanation": "Option C has the digits 2 and 5 in a different order."
+  },
+  {
+    "question": "Which name should be filed first?",
+    "choices": {
+      "A": "Dizon, Mark",
+      "B": "Dela Cruz, Ana",
+      "C": "Diaz, Pedro",
+      "D": "Domingo, Jose"
+    },
+    "answer": "B",
+    "explanation": "Dela Cruz comes before Diaz, Dizon, and Domingo alphabetically."
+  },
+  {
+    "question": "Which number follows the pattern? 2, 4, 6, 8, ____",
+    "choices": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "answer": "B",
+    "explanation": "The pattern increases by 2."
+  },
+  {
+    "question": "Which word contains a spelling error?",
+    "choices": {
+      "A": "Address",
+      "B": "Receipt",
+      "C": "Reciept",
+      "D": "Record"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Receipt'."
+  },
+  {
+    "question": "Which employee number is highest?",
+    "choices": {
+      "A": "EMP-1045",
+      "B": "EMP-1098",
+      "C": "EMP-1076",
+      "D": "EMP-1059"
+    },
+    "answer": "B",
+    "explanation": "1098 is the highest employee number."
+  },
+  {
+    "question": "Which word comes second alphabetically?",
+    "choices": {
+      "A": "Garden",
+      "B": "Garage",
+      "C": "Game",
+      "D": "Gate"
+    },
+    "answer": "A",
+    "explanation": "Alphabetical order is Game, Garage, Garden, Gate."
+  },
+  {
+    "question": "Which pair of numbers is identical?",
+    "choices": {
+      "A": "783421 / 783412",
+      "B": "651908 / 651908",
+      "C": "492761 / 492716",
+      "D": "325814 / 325841"
+    },
+    "answer": "B",
+    "explanation": "Both numbers in option B are identical."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Accomodate",
+      "B": "Acommodate",
+      "C": "Accommodate",
+      "D": "Acomodate"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Accommodate'."
+  },
+  {
+    "question": "Which number should come next? 100, 90, 80, 70, ____",
+    "choices": {
+      "A": "65",
+      "B": "60",
+      "C": "55",
+      "D": "50"
+    },
+    "answer": "B",
+    "explanation": "The sequence decreases by 10."
+  },
+  {
+    "question": "Which file should come first alphabetically?",
+    "choices": {
+      "A": "Monthly Report",
+      "B": "Meeting Agenda",
+      "C": "Medical Records",
+      "D": "Management Report"
+    },
+    "answer": "B",
+    "explanation": "Meeting Agenda comes before Medical Records, Management Report, and Monthly Report."
+  },
+  {
+    "question": "Which date is the latest?",
+    "choices": {
+      "A": "May 10, 2025",
+      "B": "August 20, 2025",
+      "C": "July 15, 2025",
+      "D": "June 25, 2025"
+    },
+    "answer": "B",
+    "explanation": "August 20, 2025 is the latest date."
+  },
+  {
+    "question": "Which item is different?",
+    "choices": {
+      "A": "778899",
+      "B": "778899",
+      "C": "778989",
+      "D": "778899"
+    },
+    "answer": "C",
+    "explanation": "Option C has a different sequence of digits."
+  },
+  {
+    "question": "Which word is spelled correctly?",
+    "choices": {
+      "A": "Occassion",
+      "B": "Ocassion",
+      "C": "Occasion",
+      "D": "Occasssion"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Occasion'."
+  },
+  {
+    "question": "Which number is greatest?",
+    "choices": {
+      "A": "7,845",
+      "B": "7,548",
+      "C": "7,985",
+      "D": "7,859"
+    },
+    "answer": "C",
+    "explanation": "7,985 is the greatest number."
+  },
+  {
+    "question": "Which name comes first alphabetically?",
+    "choices": {
+      "A": "Villanueva",
+      "B": "Valdez",
+      "C": "Velasco",
+      "D": "Vergara"
+    },
+    "answer": "B",
+    "explanation": "Valdez comes before Velasco, Vergara, and Villanueva."
+  },
+  {
+    "question": "Which sequence comes next? 3, 6, 9, 12, ____",
+    "choices": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "18"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 3."
+  },
+  {
+    "question": "Which word contains an error?",
+    "choices": {
+      "A": "Calendar",
+      "B": "Schedule",
+      "C": "Febuary",
+      "D": "January"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'February'."
+  },
+  {
+    "question": "Which code matches exactly?",
+    "choices": {
+      "A": "ZX91LM28",
+      "B": "ZX91ML28",
+      "C": "ZX91LM82",
+      "D": "ZX19LM28"
+    },
+    "answer": "A",
+    "explanation": "Option A matches the original code exactly."
+  },
+  {
+    "question": "Which word comes last alphabetically?",
+    "choices": {
+      "A": "Report",
+      "B": "Record",
+      "C": "Request",
+      "D": "Receipt"
+    },
+    "answer": "C",
+    "explanation": "Request comes last alphabetically."
+  },
+  {
+    "question": "Which number follows the sequence? 1, 4, 7, 10, ____",
+    "choices": {
+      "A": "11",
+      "B": "12",
+      "C": "13",
+      "D": "14"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 3."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Privilege",
+      "B": "Privelege",
+      "C": "Priviledge",
+      "D": "Privillage"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Privilege'."
+  },
+  {
+    "question": "Which record number is lowest?",
+    "choices": {
+      "A": "REC-2035",
+      "B": "REC-2018",
+      "C": "REC-2050",
+      "D": "REC-2024"
+    },
+    "answer": "B",
+    "explanation": "2018 is the lowest record number."
+  },
+  {
+    "question": "Which name comes second alphabetically?",
+    "choices": {
+      "A": "Santiago",
+      "B": "Santos",
+      "C": "Salazar",
+      "D": "Sandoval"
+    },
+    "answer": "D",
+    "explanation": "Alphabetical order is Salazar, Sandoval, Santiago, Santos."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "MN-4589 / MN-4598",
+      "B": "TR-6721 / TR-6721",
+      "C": "LK-9034 / LK-9043",
+      "D": "QP-1182 / QP-1128"
+    },
+    "answer": "B",
+    "explanation": "Both entries in option B are identical."
+  },
+  {
+    "question": "Which date is earliest?",
+    "choices": {
+      "A": "June 4, 2026",
+      "B": "March 18, 2026",
+      "C": "April 22, 2026",
+      "D": "May 9, 2026"
+    },
+    "answer": "B",
+    "explanation": "March 18, 2026 is the earliest date."
+  },
+  {
+    "question": "Which word is spelled correctly?",
+    "choices": {
+      "A": "Occurence",
+      "B": "Occurrence",
+      "C": "Occurrance",
+      "D": "Ocurrence"
+    },
+    "answer": "B",
+    "explanation": "The correct spelling is 'Occurrence'."
+  },
+  {
+    "question": "Which number comes next? 50, 45, 40, 35, ____",
+    "choices": {
+      "A": "32",
+      "B": "30",
+      "C": "25",
+      "D": "20"
+    },
+    "answer": "B",
+    "explanation": "The sequence decreases by 5."
+  },
+  {
+    "question": "Which file name comes first?",
+    "choices": {
+      "A": "Employee List",
+      "B": "Equipment List",
+      "C": "Emergency Report",
+      "D": "Evaluation Form"
+    },
+    "answer": "C",
+    "explanation": "Emergency Report comes before Employee List, Equipment List, and Evaluation Form."
+  },
+  {
+    "question": "Which code is different?",
+    "choices": {
+      "A": "GH7821",
+      "B": "GH7821",
+      "C": "GH7281",
+      "D": "GH7821"
+    },
+    "answer": "C",
+    "explanation": "Option C has the digits in a different order."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Maintenance",
+      "B": "Maintainance",
+      "C": "Maintenence",
+      "D": "Maintanance"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Maintenance'."
+  },
+  {
+    "question": "Which number is highest?",
+    "choices": {
+      "A": "9,108",
+      "B": "9,180",
+      "C": "9,018",
+      "D": "9,081"
+    },
+    "answer": "B",
+    "explanation": "9,180 is the highest number."
+  },
+  {
+    "question": "Which name comes first alphabetically?",
+    "choices": {
+      "A": "Garcia",
+      "B": "Gonzales",
+      "C": "Gomez",
+      "D": "Guevarra"
+    },
+    "answer": "A",
+    "explanation": "Garcia comes before Gomez, Gonzales, and Guevarra."
+  },
+  {
+    "question": "Which number follows the sequence? 12, 24, 36, 48, ____",
+    "choices": {
+      "A": "50",
+      "B": "54",
+      "C": "60",
+      "D": "62"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 12."
+  },
+  {
+    "question": "Which item contains an error?",
+    "choices": {
+      "A": "Secretary",
+      "B": "Assistant",
+      "C": "Recieve",
+      "D": "Supervisor"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Receive'."
+  },
+  {
+    "question": "Which date is the latest?",
+    "choices": {
+      "A": "January 20, 2026",
+      "B": "March 5, 2026",
+      "C": "February 28, 2026",
+      "D": "April 1, 2026"
+    },
+    "answer": "D",
+    "explanation": "April 1, 2026 is the latest date."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "AB-90876 / AB-90867",
+      "B": "CD-45129 / CD-45192",
+      "C": "EF-77331 / EF-77331",
+      "D": "GH-66542 / GH-66524"
+    },
+    "answer": "C",
+    "explanation": "Both entries in option C are identical."
+  },
+  {
+    "question": "Which word comes first alphabetically?",
+    "choices": {
+      "A": "Printer",
+      "B": "Paper",
+      "C": "Pen",
+      "D": "Pencil"
+    },
+    "answer": "B",
+    "explanation": "Paper comes before Pen, Pencil, and Printer."
+  },
+  {
+    "question": "Which number should come next? 200, 400, 600, 800, ____",
+    "choices": {
+      "A": "900",
+      "B": "1,000",
+      "C": "1,200",
+      "D": "1,400"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 200."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Embarrass",
+      "B": "Embarass",
+      "C": "Embarras",
+      "D": "Embarasss"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Embarrass'."
+  },
+  {
+    "question": "Which document number is lowest?",
+    "choices": {
+      "A": "DOC-3021",
+      "B": "DOC-3012",
+      "C": "DOC-3201",
+      "D": "DOC-3102"
+    },
+    "answer": "B",
+    "explanation": "3012 is the lowest document number."
+  },
+  {
+    "question": "Which name comes last alphabetically?",
+    "choices": {
+      "A": "Abad",
+      "B": "Alvarez",
+      "C": "Aquino",
+      "D": "Andrada"
+    },
+    "answer": "C",
+    "explanation": "Aquino comes after Abad, Alvarez, and Andrada."
+  },
+  {
+    "question": "Which code matches exactly?",
+    "choices": {
+      "A": "PX7K92L",
+      "B": "PX7K29L",
+      "C": "PX7K92L",
+      "D": "PX7K9L2"
+    },
+    "answer": "A",
+    "explanation": "Option A matches the original code exactly."
+  },
+  {
+    "question": "Which number follows the sequence? 11, 22, 33, 44, ____",
+    "choices": {
+      "A": "50",
+      "B": "55",
+      "C": "66",
+      "D": "77"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 11."
+  },
+  {
+    "question": "Which word contains a spelling error?",
+    "choices": {
+      "A": "Document",
+      "B": "Information",
+      "C": "Reccomendation",
+      "D": "Application"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Recommendation'."
+  },
+  {
+    "question": "Which date comes first?",
+    "choices": {
+      "A": "August 15, 2025",
+      "B": "July 30, 2025",
+      "C": "September 2, 2025",
+      "D": "October 10, 2025"
+    },
+    "answer": "B",
+    "explanation": "July 30, 2025 is the earliest date."
+  },
+  {
+    "question": "Which number is different from the others?",
+    "choices": {
+      "A": "123456",
+      "B": "123456",
+      "C": "123465",
+      "D": "123456"
+    },
+    "answer": "C",
+    "explanation": "Option C has the last two digits in a different order."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Experience",
+      "B": "Experiance",
+      "C": "Experiense",
+      "D": "Expirience"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Experience'."
+  },
+  {
+    "question": "Which number is smallest?",
+    "choices": {
+      "A": "6,721",
+      "B": "6,217",
+      "C": "6,712",
+      "D": "6,271"
+    },
+    "answer": "B",
+    "explanation": "6,217 is the smallest number."
+  },
+  {
+    "question": "Which word comes second alphabetically?",
+    "choices": {
+      "A": "Market",
+      "B": "Manager",
+      "C": "Manual",
+      "D": "March"
+    },
+    "answer": "D",
+    "explanation": "Alphabetical order is Manager, Manual, March, Market."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "JK-34567 / JK-34576",
+      "B": "LM-78901 / LM-78910",
+      "C": "NP-24680 / NP-24680",
+      "D": "QR-13579 / QR-13597"
+    },
+    "answer": "C",
+    "explanation": "Both entries in option C are identical."
+  },
+  {
+    "question": "Which number comes next? 7, 14, 21, 28, ____",
+    "choices": {
+      "A": "32",
+      "B": "35",
+      "C": "36",
+      "D": "42"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 7."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Opportunity",
+      "B": "Opurtunity",
+      "C": "Opportunitty",
+      "D": "Oportunity"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Opportunity'."
+  },
+  {
+    "question": "Which employee record should come first?",
+    "choices": {
+      "A": "Reyes, Carla",
+      "B": "Reyes, Anna",
+      "C": "Reyes, David",
+      "D": "Reyes, Ben"
+    },
+    "answer": "B",
+    "explanation": "Anna comes before Ben, Carla, and David."
+  },
+  {
+    "question": "Which document number is highest?",
+    "choices": {
+      "A": "2026-0145",
+      "B": "2026-0189",
+      "C": "2026-0167",
+      "D": "2026-0158"
+    },
+    "answer": "B",
+    "explanation": "0189 is the highest document number."
+  },
+  {
+    "question": "Which word is alphabetically last?",
+    "choices": {
+      "A": "School",
+      "B": "Scholar",
+      "C": "Schedule",
+      "D": "Science"
+    },
+    "answer": "A",
+    "explanation": "School comes after Scholar, Schedule, and Science."
+  },
+  {
+    "question": "Which code is different?",
+    "choices": {
+      "A": "LMN4567",
+      "B": "LMN4567",
+      "C": "LMN4657",
+      "D": "LMN4567"
+    },
+    "answer": "C",
+    "explanation": "Option C has the digits 6 and 5 in a different position."
+  },
+  {
+    "question": "Which date is earliest?",
+    "choices": {
+      "A": "December 1, 2024",
+      "B": "November 15, 2024",
+      "C": "October 20, 2024",
+      "D": "September 30, 2024"
+    },
+    "answer": "D",
+    "explanation": "September 30, 2024 is the earliest date."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Questionaire",
+      "B": "Questionnaire",
+      "C": "Questionare",
+      "D": "Questionnair"
+    },
+    "answer": "B",
+    "explanation": "The correct spelling is 'Questionnaire'."
+  },
+  {
+    "question": "Which number follows the sequence? 15, 30, 45, 60, ____",
+    "choices": {
+      "A": "65",
+      "B": "70",
+      "C": "75",
+      "D": "80"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 15."
+  },
+  {
+    "question": "Which file should be filed first alphabetically?",
+    "choices": {
+      "A": "Payroll",
+      "B": "Personnel",
+      "C": "Performance",
+      "D": "Permit"
+    },
+    "answer": "A",
+    "explanation": "Payroll comes before Performance, Permit, and Personnel."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "AA112233 / AA112323",
+      "B": "BB445566 / BB445566",
+      "C": "CC778899 / CC778989",
+      "D": "DD990011 / DD990101"
+    },
+    "answer": "B",
+    "explanation": "Both entries in option B are identical."
+  },
+  {
+    "question": "Which word is spelled correctly?",
+    "choices": {
+      "A": "Responsibility",
+      "B": "Responsability",
+      "C": "Responsibilty",
+      "D": "Responsibillity"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Responsibility'."
+  },
+  {
+    "question": "Which number is greatest?",
+    "choices": {
+      "A": "4,901",
+      "B": "4,910",
+      "C": "4,190",
+      "D": "4,109"
+    },
+    "answer": "B",
+    "explanation": "4,910 is the greatest number."
+  },
+  {
+    "question": "Which name comes first alphabetically?",
+    "choices": {
+      "A": "Navarro",
+      "B": "Natividad",
+      "C": "Nolasco",
+      "D": "Nunez"
+    },
+    "answer": "B",
+    "explanation": "Natividad comes before Navarro, Nolasco, and Nunez."
+  },
+  {
+    "question": "Which sequence comes next? 25, 50, 75, 100, ____",
+    "choices": {
+      "A": "110",
+      "B": "115",
+      "C": "120",
+      "D": "125"
+    },
+    "answer": "D",
+    "explanation": "The sequence increases by 25."
+  },
+  {
+    "question": "Which item contains an error?",
+    "choices": {
+      "A": "Committee",
+      "B": "Meeting",
+      "C": "Comittee",
+      "D": "Agenda"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Committee'."
+  },
+  {
+    "question": "Which date is latest?",
+    "choices": {
+      "A": "February 14, 2026",
+      "B": "January 30, 2026",
+      "C": "March 1, 2026",
+      "D": "February 28, 2026"
+    },
+    "answer": "C",
+    "explanation": "March 1, 2026 is the latest date."
+  },
+  {
+    "question": "Which code matches exactly?",
+    "choices": {
+      "A": "AB9X7K2M",
+      "B": "AB9X7K2N",
+      "C": "AB9X7M2K",
+      "D": "AB9X7K2M"
+    },
+    "answer": "A",
+    "explanation": "Option A matches the reference code exactly."
+  },
+  {
+    "question": "Which word comes second alphabetically?",
+    "choices": {
+      "A": "Computer",
+      "B": "Company",
+      "C": "Complete",
+      "D": "Compare"
+    },
+    "answer": "D",
+    "explanation": "Alphabetical order is Company, Compare, Complete, Computer."
+  },
+  {
+    "question": "Which number follows the sequence? 9, 18, 27, 36, ____",
+    "choices": {
+      "A": "42",
+      "B": "45",
+      "C": "48",
+      "D": "54"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 9."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Department",
+      "B": "Departmant",
+      "C": "Depertment",
+      "D": "Deparment"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Department'."
+  },
+  {
+    "question": "Which number is different from the others?",
+    "choices": {
+      "A": "908172",
+      "B": "908172",
+      "C": "908127",
+      "D": "908172"
+    },
+    "answer": "C",
+    "explanation": "Option C has the digits 2 and 7 in a different order."
+  },
+  {
+    "question": "Which name should be filed first?",
+    "choices": {
+      "A": "Lim, Robert",
+      "B": "Lee, Anna",
+      "C": "Lopez, Carlos",
+      "D": "Luna, Maria"
+    },
+    "answer": "B",
+    "explanation": "Lee comes before Lim, Lopez, and Luna alphabetically."
+  },
+  {
+    "question": "Which document number is highest?",
+    "choices": {
+      "A": "REQ-452",
+      "B": "REQ-489",
+      "C": "REQ-475",
+      "D": "REQ-461"
+    },
+    "answer": "B",
+    "explanation": "489 is the highest request number."
+  },
+  {
+    "question": "Which word is alphabetically last?",
+    "choices": {
+      "A": "Train",
+      "B": "Tree",
+      "C": "Truck",
+      "D": "Table"
+    },
+    "answer": "C",
+    "explanation": "Truck comes after Table, Train, and Tree."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "ZX-12345 / ZX-12354",
+      "B": "YU-67890 / YU-67809",
+      "C": "TR-54321 / TR-54321",
+      "D": "OP-98765 / OP-98756"
+    },
+    "answer": "C",
+    "explanation": "Both entries in option C are identical."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Accommodation",
+      "B": "Accomodation",
+      "C": "Acommodation",
+      "D": "Accommadation"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Accommodation'."
+  },
+  {
+    "question": "Which number comes next? 120, 110, 100, 90, ____",
+    "choices": {
+      "A": "85",
+      "B": "80",
+      "C": "75",
+      "D": "70"
+    },
+    "answer": "B",
+    "explanation": "The sequence decreases by 10."
+  },
+  {
+    "question": "Which file name comes first alphabetically?",
+    "choices": {
+      "A": "Training Report",
+      "B": "Travel Request",
+      "C": "Transaction Record",
+      "D": "Transfer Form"
+    },
+    "answer": "C",
+    "explanation": "Transaction Record comes before Training Report, Transfer Form, and Travel Request."
+  },
+  {
+    "question": "Which date is earliest?",
+    "choices": {
+      "A": "May 22, 2026",
+      "B": "April 5, 2026",
+      "C": "June 10, 2026",
+      "D": "July 1, 2026"
+    },
+    "answer": "B",
+    "explanation": "April 5, 2026 is the earliest date."
+  },
+  {
+    "question": "Which code is different?",
+    "choices": {
+      "A": "KP45Z81",
+      "B": "KP45Z81",
+      "C": "KP45Z18",
+      "D": "KP45Z81"
+    },
+    "answer": "C",
+    "explanation": "Option C has the final two digits reversed."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Achievement",
+      "B": "Acheivement",
+      "C": "Achievment",
+      "D": "Achivement"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Achievement'."
+  },
+  {
+    "question": "Which number is smallest?",
+    "choices": {
+      "A": "8,765",
+      "B": "8,567",
+      "C": "8,675",
+      "D": "8,756"
+    },
+    "answer": "B",
+    "explanation": "8,567 is the smallest number."
+  },
+  {
+    "question": "Which word comes first alphabetically?",
+    "choices": {
+      "A": "Service",
+      "B": "Secretary",
+      "C": "Security",
+      "D": "Selection"
+    },
+    "answer": "B",
+    "explanation": "Secretary comes before Security, Selection, and Service."
+  },
+  {
+    "question": "Which sequence follows the pattern? 4, 8, 12, 16, ____",
+    "choices": {
+      "A": "18",
+      "B": "20",
+      "C": "22",
+      "D": "24"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 4."
+  },
+  {
+    "question": "Which item contains an error?",
+    "choices": {
+      "A": "Attendance",
+      "B": "Employee",
+      "C": "Attendence",
+      "D": "Supervisor"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Attendance'."
+  },
+  {
+    "question": "Which document number is highest?",
+    "choices": {
+      "A": "FILE-7008",
+      "B": "FILE-7080",
+      "C": "FILE-7055",
+      "D": "FILE-7033"
+    },
+    "answer": "B",
+    "explanation": "7080 is the highest file number."
+  },
+  {
+    "question": "Which name comes second alphabetically?",
+    "choices": {
+      "A": "Torres",
+      "B": "Tan",
+      "C": "Taylor",
+      "D": "Tomas"
+    },
+    "answer": "C",
+    "explanation": "Alphabetical order is Tan, Taylor, Tomas, Torres."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "AA-56789 / AA-56798",
+      "B": "BB-12345 / BB-12345",
+      "C": "CC-90876 / CC-90867",
+      "D": "DD-44556 / DD-45456"
+    },
+    "answer": "B",
+    "explanation": "Both entries in option B are identical."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Definitely",
+      "B": "Definately",
+      "C": "Definitelly",
+      "D": "Definetely"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Definitely'."
+  },
+  {
+    "question": "Which number comes next? 300, 350, 400, 450, ____",
+    "choices": {
+      "A": "475",
+      "B": "500",
+      "C": "550",
+      "D": "600"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 50."
+  },
+  {
+    "question": "Which date is latest?",
+    "choices": {
+      "A": "June 15, 2025",
+      "B": "September 12, 2025",
+      "C": "August 30, 2025",
+      "D": "October 5, 2025"
+    },
+    "answer": "D",
+    "explanation": "October 5, 2025 is the latest date."
+  },
+  {
+    "question": "Which code matches exactly?",
+    "choices": {
+      "A": "RM82K4P",
+      "B": "RM82K4P",
+      "C": "RM82P4K",
+      "D": "RM28K4P"
+    },
+    "answer": "A",
+    "explanation": "Option A matches the reference code exactly."
+  },
+  {
+    "question": "Which word is alphabetically last?",
+    "choices": {
+      "A": "Book",
+      "B": "Bottle",
+      "C": "Box",
+      "D": "Board"
+    },
+    "answer": "C",
+    "explanation": "Box comes after Board, Book, and Bottle."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Correspondence",
+      "B": "Correspondance",
+      "C": "Corresponcence",
+      "D": "Correspondense"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Correspondence'."
+  },
+  {
+    "question": "Which number is greatest?",
+    "choices": {
+      "A": "3,456",
+      "B": "3,546",
+      "C": "3,465",
+      "D": "3,564"
+    },
+    "answer": "D",
+    "explanation": "3,564 is the greatest number."
+  },
+  {
+    "question": "Which name comes first alphabetically?",
+    "choices": {
+      "A": "Ramos",
+      "B": "Ramirez",
+      "C": "Razon",
+      "D": "Reyes"
+    },
+    "answer": "B",
+    "explanation": "Ramirez comes before Ramos, Razon, and Reyes."
+  },
+  {
+    "question": "Which number follows the sequence? 6, 12, 18, 24, ____",
+    "choices": {
+      "A": "28",
+      "B": "30",
+      "C": "32",
+      "D": "36"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 6."
+  },
+  {
+    "question": "Which item contains an error?",
+    "choices": {
+      "A": "Personnel",
+      "B": "Official",
+      "C": "Reciept",
+      "D": "Record"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Receipt'."
+  },
+  {
+    "question": "Which document number is lowest?",
+    "choices": {
+      "A": "REF-9012",
+      "B": "REF-9081",
+      "C": "REF-9005",
+      "D": "REF-9050"
+    },
+    "answer": "C",
+    "explanation": "9005 is the lowest reference number."
+  },
+  {
+    "question": "Which word comes second alphabetically?",
+    "choices": {
+      "A": "Account",
+      "B": "Accident",
+      "C": "Access",
+      "D": "Action"
+    },
+    "answer": "C",
+    "explanation": "Alphabetical order is Access, Accident, Account, Action."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "GH12389 / GH12398",
+      "B": "JK45678 / JK45678",
+      "C": "LM78912 / LM78921",
+      "D": "NP34567 / NP34576"
+    },
+    "answer": "B",
+    "explanation": "Both entries in option B are identical."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Independent",
+      "B": "Independant",
+      "C": "Independet",
+      "D": "Independennt"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Independent'."
+  },
+  {
+    "question": "Which number comes next? 1,000, 2,000, 3,000, 4,000, ____",
+    "choices": {
+      "A": "4,500",
+      "B": "5,000",
+      "C": "5,500",
+      "D": "6,000"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 1,000."
+  },
+  {
+    "question": "Which date comes first?",
+    "choices": {
+      "A": "November 11, 2026",
+      "B": "August 5, 2026",
+      "C": "October 20, 2026",
+      "D": "September 15, 2026"
+    },
+    "answer": "B",
+    "explanation": "August 5, 2026 is the earliest date."
+  },
+  {
+    "question": "Which code is different from the others?",
+    "choices": {
+      "A": "XY987654",
+      "B": "XY987654",
+      "C": "XY987645",
+      "D": "XY987654"
+    },
+    "answer": "C",
+    "explanation": "Option C has the final two digits in a different order."
+  },
+  {
+    "question": "Which word is spelled correctly?",
+    "choices": {
+      "A": "Government",
+      "B": "Goverment",
+      "C": "Govarnment",
+      "D": "Governmant"
+    },
+    "answer": "A",
+    "explanation": "Government is the correct spelling."
+  },
+  {
+    "question": "Which number is smallest?",
+    "choices": {
+      "A": "2,890",
+      "B": "2,809",
+      "C": "2,980",
+      "D": "2,908"
+    },
+    "answer": "B",
+    "explanation": "2,809 is the smallest number."
+  },
+  {
+    "question": "Which file name comes first alphabetically?",
+    "choices": {
+      "A": "Invoice",
+      "B": "Inventory",
+      "C": "Invitation",
+      "D": "Information"
+    },
+    "answer": "D",
+    "explanation": "Information comes before Inventory, Invitation, and Invoice."
+  },
+  {
+    "question": "Which sequence comes next? 13, 26, 39, 52, ____",
+    "choices": {
+      "A": "60",
+      "B": "62",
+      "C": "65",
+      "D": "66"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 13."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Administration",
+      "B": "Adminstration",
+      "C": "Administrasion",
+      "D": "Administation"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Administration'."
+  },
+  {
+    "question": "Which name comes last alphabetically?",
+    "choices": {
+      "A": "Cabrera",
+      "B": "Castillo",
+      "C": "Cruz",
+      "D": "Calderon"
+    },
+    "answer": "C",
+    "explanation": "Cruz comes after Cabrera, Calderon, and Castillo."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "PQ-11122 / PQ-11122",
+      "B": "RS-33344 / RS-33443",
+      "C": "TU-55566 / TU-55665",
+      "D": "VW-77788 / VW-77887"
+    },
+    "answer": "A",
+    "explanation": "Both entries in option A are identical."
+  },
+  {
+    "question": "Which date is latest?",
+    "choices": {
+      "A": "December 20, 2024",
+      "B": "December 25, 2024",
+      "C": "November 30, 2024",
+      "D": "December 18, 2024"
+    },
+    "answer": "B",
+    "explanation": "December 25, 2024 is the latest date."
+  },
+  {
+    "question": "Which number follows the sequence? 8, 16, 24, 32, ____",
+    "choices": {
+      "A": "38",
+      "B": "40",
+      "C": "42",
+      "D": "48"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 8."
+  },
+  {
+    "question": "Which item contains an error?",
+    "choices": {
+      "A": "Receipt",
+      "B": "Invoice",
+      "C": "Reciept",
+      "D": "Voucher"
+    },
+    "answer": "C",
+    "explanation": "The correct spelling is 'Receipt'."
+  },
+  {
+    "question": "Which document number is highest?",
+    "choices": {
+      "A": "DOC-8801",
+      "B": "DOC-8899",
+      "C": "DOC-8866",
+      "D": "DOC-8833"
+    },
+    "answer": "B",
+    "explanation": "8899 is the highest document number."
+  },
+  {
+    "question": "Which word comes first alphabetically?",
+    "choices": {
+      "A": "Office",
+      "B": "Official",
+      "C": "Offer",
+      "D": "Option"
+    },
+    "answer": "C",
+    "explanation": "Offer comes before Office, Official, and Option."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Recommendation",
+      "B": "Reccomendation",
+      "C": "Recomendation",
+      "D": "Recommandation"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Recommendation'."
+  },
+  {
+    "question": "Which number is greatest?",
+    "choices": {
+      "A": "5,432",
+      "B": "5,423",
+      "C": "5,342",
+      "D": "5,324"
+    },
+    "answer": "A",
+    "explanation": "5,432 is the greatest number."
+  },
+  {
+    "question": "Which name should be filed first?",
+    "choices": {
+      "A": "Santos, Maria",
+      "B": "Santos, Ana",
+      "C": "Santos, Pedro",
+      "D": "Santos, Juan"
+    },
+    "answer": "B",
+    "explanation": "Ana comes before Juan, Maria, and Pedro."
+  },
+  {
+    "question": "Which code matches exactly?",
+    "choices": {
+      "A": "QW12ER45",
+      "B": "QW12RE45",
+      "C": "QW21ER45",
+      "D": "QW12ER54"
+    },
+    "answer": "A",
+    "explanation": "Option A matches the reference code exactly."
+  },
+  {
+    "question": "Which number comes next? 20, 40, 60, 80, ____",
+    "choices": {
+      "A": "90",
+      "B": "100",
+      "C": "110",
+      "D": "120"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 20."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Professional",
+      "B": "Profesional",
+      "C": "Proffessional",
+      "D": "Professonal"
+    },
+    "answer": "A",
+    "explanation": "The correct spelling is 'Professional'."
+  },
+  {
+    "question": "Which date comes first?",
+    "choices": {
+      "A": "January 10, 2025",
+      "B": "January 5, 2025",
+      "C": "January 15, 2025",
+      "D": "January 20, 2025"
+    },
+    "answer": "B",
+    "explanation": "January 5, 2025 is the earliest date."
+  },
+  {
+    "question": "Which pair is exactly the same?",
+    "choices": {
+      "A": "ABCD1234 / ABCD1324",
+      "B": "EFGH5678 / EFGH5678",
+      "C": "IJKL9012 / IJKL9120",
+      "D": "MNOP3456 / MNOP3546"
+    },
+    "answer": "B",
+    "explanation": "Both entries in option B are identical."
+  },
+  {
+    "question": "Which word is alphabetically last?",
+    "choices": {
+      "A": "Apple",
+      "B": "Apricot",
+      "C": "Avocado",
+      "D": "Almond"
+    },
+    "answer": "C",
+    "explanation": "Avocado comes after Almond, Apple, and Apricot."
+  },
+  {
+    "question": "Which sequence comes next? 14, 28, 42, 56, ____",
+    "choices": {
+      "A": "64",
+      "B": "68",
+      "C": "70",
+      "D": "72"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 14."
+  },
+  {
+    "question": "Which item contains an error?",
+    "choices": {
+      "A": "Successful",
+      "B": "Successfull",
+      "C": "Successful",
+      "D": "Success"
+    },
+    "answer": "B",
+    "explanation": "The correct spelling is 'Successful'."
+  },
+  {
+    "question": "Which document number is lowest?",
+    "choices": {
+      "A": "APP-6007",
+      "B": "APP-6070",
+      "C": "APP-6055",
+      "D": "APP-6022"
+    },
+    "answer": "A",
+    "explanation": "6007 is the lowest application number."
+  },
+  {
+    "question": "Which name comes second alphabetically?",
+    "choices": {
+      "A": "Bautista",
+      "B": "Barrera",
+      "C": "Bernardo",
+      "D": "Bonifacio"
+    },
+    "answer": "A",
+    "explanation": "Alphabetical order is Barrera, Bautista, Bernardo, Bonifacio."
+  },
+  {
+    "question": "Which spelling is correct?",
+    "choices": {
+      "A": "Government",
+      "B": "Goverment",
+      "C": "Governement",
+      "D": "Govermant"
+    },
+    "answer": "A",
+    "explanation": "Government is the correct spelling."
+  },
+  {
+    "question": "Which number follows the sequence? 30, 60, 90, 120, ____",
+    "choices": {
+      "A": "140",
+      "B": "150",
+      "C": "160",
+      "D": "180"
+    },
+    "answer": "B",
+    "explanation": "The sequence increases by 30."
+  },
+  {
+    "question": "Which date is latest?",
+    "choices": {
+      "A": "March 10, 2026",
+      "B": "April 15, 2026",
+      "C": "May 20, 2026",
+      "D": "June 5, 2026"
+    },
+    "answer": "D",
+    "explanation": "June 5, 2026 is the latest date."
+  },
+  {
+    "question": "Which code is different from the others?",
+    "choices": {
+      "A": "MN45PQ67",
+      "B": "MN45PQ67",
+      "C": "MN45QP67",
+      "D": "MN45PQ67"
+    },
+    "answer": "C",
+    "explanation": "Option C has P and Q reversed."
+  },
+  {
+    "question": "Which word comes first alphabetically?",
+    "choices": {
+      "A": "Management",
+      "B": "Manager",
+      "C": "Manual",
+      "D": "Manufacturing"
+    },
+    "answer": "B",
+    "explanation": "Manager comes before Management, Manufacturing, and Manual."
   }
 ]
