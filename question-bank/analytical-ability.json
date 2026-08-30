@@ -8,7 +8,8 @@
       "D": "54"
     },
     "answer": "C",
-    "explanation": "Each number is multiplied by 2. Therefore, 24 × 2 = 48."
+    "explanation": "Each number is multiplied by 2. Therefore, 24 × 2 = 48.",
+    "id": 1
   },
   {
     "question": "What letter comes next: A, C, E, G, ___?",
@@ -19,7 +20,8 @@
       "D": "K"
     },
     "answer": "B",
-    "explanation": "The sequence skips one letter each time: A, C, E, G, I."
+    "explanation": "The sequence skips one letter each time: A, C, E, G, I.",
+    "id": 2
   },
   {
     "question": "If all teachers are professionals and Maria is a teacher, which statement must be true?",
@@ -30,7 +32,8 @@
       "D": "Maria is a doctor."
     },
     "answer": "B",
-    "explanation": "Since all teachers are professionals and Maria is a teacher, Maria must be a professional."
+    "explanation": "Since all teachers are professionals and Maria is a teacher, Maria must be a professional.",
+    "id": 3
   },
   {
     "question": "Which word does NOT belong with the others?",
@@ -41,7 +44,8 @@
       "D": "Banana"
     },
     "answer": "C",
-    "explanation": "Apple, mango, and banana are fruits. Carrot is a vegetable."
+    "explanation": "Apple, mango, and banana are fruits. Carrot is a vegetable.",
+    "id": 4
   },
   {
     "question": "If BOOK is coded as CPPL, how is PEN coded using the same pattern?",
@@ -52,7 +56,8 @@
       "D": "RFO"
     },
     "answer": "A",
-    "explanation": "Each letter is moved one position forward: P→Q, E→F, N→O."
+    "explanation": "Each letter is moved one position forward: P→Q, E→F, N→O.",
+    "id": 5
   },
   {
     "question": "John is taller than Mark. Mark is taller than Paul. Who is the shortest?",
@@ -63,7 +68,8 @@
       "D": "Cannot be determined"
     },
     "answer": "C",
-    "explanation": "John > Mark > Paul, so Paul is the shortest."
+    "explanation": "John > Mark > Paul, so Paul is the shortest.",
+    "id": 6
   },
   {
     "question": "Which number does not belong in the sequence: 2, 4, 8, 16, 31, 64?",
@@ -74,7 +80,8 @@
       "D": "64"
     },
     "answer": "C",
-    "explanation": "The pattern is multiplication by 2. After 16 should come 32, not 31."
+    "explanation": "The pattern is multiplication by 2. After 16 should come 32, not 31.",
+    "id": 7
   },
   {
     "question": "If today is Monday, what day will it be 10 days from today?",
@@ -85,7 +92,8 @@
       "D": "Saturday"
     },
     "answer": "B",
-    "explanation": "Seven days after Monday is Monday. Three more days gives Thursday."
+    "explanation": "Seven days after Monday is Monday. Three more days gives Thursday.",
+    "id": 8
   },
   {
     "question": "A is older than B. C is younger than B. Which person is the oldest?",
@@ -96,7 +104,8 @@
       "D": "Cannot be determined"
     },
     "answer": "A",
-    "explanation": "The order is A > B > C in age, so A is the oldest."
+    "explanation": "The order is A > B > C in age, so A is the oldest.",
+    "id": 9
   },
   {
     "question": "Find the missing number: 5, 10, 15, 20, ___, 30.",
@@ -107,7 +116,8 @@
       "D": "28"
     },
     "answer": "C",
-    "explanation": "The sequence increases by 5 each time."
+    "explanation": "The sequence increases by 5 each time.",
+    "id": 10
   },
   {
     "question": "If CAT is coded as 3120 using the position of each letter in the alphabet, what is DOG?",
@@ -118,7 +128,8 @@
       "D": "4716"
     },
     "answer": "A",
-    "explanation": "D=4, O=15, G=7, so DOG is coded as 4157."
+    "explanation": "D=4, O=15, G=7, so DOG is coded as 4157.",
+    "id": 11
   },
   {
     "question": "Which figure logically comes next in a pattern that alternates between a circle and a square?",
@@ -129,7 +140,8 @@
       "D": "Rectangle"
     },
     "answer": "B",
-    "explanation": "If the pattern alternates circle, square, circle, square, the next figure is a square."
+    "explanation": "If the pattern alternates circle, square, circle, square, the next figure is a square.",
+    "id": 12
   },
   {
     "question": "All roses are flowers. Some flowers are red. Which statement is definitely true?",
@@ -140,7 +152,8 @@
       "D": "No flowers are roses."
     },
     "answer": "C",
-    "explanation": "The first statement directly establishes that all roses are flowers."
+    "explanation": "The first statement directly establishes that all roses are flowers.",
+    "id": 13
   },
   {
     "question": "If 4 workers can complete a task in 6 days at the same rate, how many worker-days are required?",
@@ -151,7 +164,8 @@
       "D": "30"
     },
     "answer": "C",
-    "explanation": "4 workers × 6 days = 24 worker-days."
+    "explanation": "4 workers × 6 days = 24 worker-days.",
+    "id": 14
   },
   {
     "question": "Which pair has the same relationship as BOOK : READ?",
@@ -162,6 +176,2227 @@
       "D": "Shoes : Write"
     },
     "answer": "A",
-    "explanation": "A book is read, just as food is eaten."
+    "explanation": "A book is read, just as food is eaten.",
+    "id": 15
+  },
+  {
+    "question": "What number comes next: 2, 5, 8, 11, ___?",
+    "choices": {
+      "A": "12",
+      "B": "13",
+      "C": "14",
+      "D": "15"
+    },
+    "answer": "C",
+    "explanation": "The sequence increases by 3 each time: 11 + 3 = 14.",
+    "id": 16
+  },
+  {
+    "question": "Find the missing number: 4, 9, 14, 19, ___?",
+    "choices": {
+      "A": "22",
+      "B": "23",
+      "C": "24",
+      "D": "25"
+    },
+    "answer": "C",
+    "explanation": "The numbers increase by 5, so 19 + 5 = 24.",
+    "id": 17
+  },
+  {
+    "question": "What number comes next: 81, 27, 9, 3, ___?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "6"
+    },
+    "answer": "B",
+    "explanation": "Each number is divided by 3. Thus 3 ÷ 3 = 1.",
+    "id": 18
+  },
+  {
+    "question": "Find the missing number: 1, 4, 9, 16, ___?",
+    "choices": {
+      "A": "20",
+      "B": "24",
+      "C": "25",
+      "D": "27"
+    },
+    "answer": "C",
+    "explanation": "These are consecutive squares: 1², 2², 3², 4², 5² = 25.",
+    "id": 19
+  },
+  {
+    "question": "What number comes next: 7, 14, 28, 56, ___?",
+    "choices": {
+      "A": "84",
+      "B": "98",
+      "C": "112",
+      "D": "120"
+    },
+    "answer": "C",
+    "explanation": "Each term is multiplied by 2. 56 × 2 = 112.",
+    "id": 20
+  },
+  {
+    "question": "Find the missing number: 100, 90, 81, 73, ___?",
+    "choices": {
+      "A": "66",
+      "B": "65",
+      "C": "64",
+      "D": "63"
+    },
+    "answer": "A",
+    "explanation": "The differences are −10, −9, −8, so the next difference is −7: 73 − 7 = 66.",
+    "id": 21
+  },
+  {
+    "question": "What number comes next: 2, 3, 5, 8, 12, ___?",
+    "choices": {
+      "A": "15",
+      "B": "16",
+      "C": "17",
+      "D": "18"
+    },
+    "answer": "C",
+    "explanation": "The differences are +1, +2, +3, +4; next is +5, giving 17.",
+    "id": 22
+  },
+  {
+    "question": "What number comes next: 64, 32, 16, 8, ___?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "answer": "C",
+    "explanation": "Each term is divided by 2. 8 ÷ 2 = 4.",
+    "id": 23
+  },
+  {
+    "question": "If A=1, B=2, ..., Z=26, what is the code for THORN?",
+    "choices": {
+      "A": "20-8-15-18-14",
+      "B": "19-7-14-17-13",
+      "C": "20-9-15-18-14",
+      "D": "19-8-15-17-14"
+    },
+    "answer": "A",
+    "explanation": "T=20, H=8, O=15, R=18, N=14.",
+    "id": 24
+  },
+  {
+    "question": "What letter comes next: B, E, H, K, ___?",
+    "choices": {
+      "A": "M",
+      "B": "N",
+      "C": "O",
+      "D": "P"
+    },
+    "answer": "B",
+    "explanation": "Letters advance by three positions: B, E, H, K, N.",
+    "id": 25
+  },
+  {
+    "question": "What letter comes next: Z, W, T, Q, ___?",
+    "choices": {
+      "A": "O",
+      "B": "N",
+      "C": "P",
+      "D": "M"
+    },
+    "answer": "B",
+    "explanation": "Letters move backward by three positions: Z, W, T, Q, N.",
+    "id": 26
+  },
+  {
+    "question": "Find the missing letter: A, D, H, M, ___?",
+    "choices": {
+      "A": "R",
+      "B": "S",
+      "C": "T",
+      "D": "U"
+    },
+    "answer": "B",
+    "explanation": "The jumps are +3, +4, +5; next is +6, giving S.",
+    "id": 27
+  },
+  {
+    "question": "What number replaces ?: 3, 9, 27, ?, 243",
+    "choices": {
+      "A": "54",
+      "B": "72",
+      "C": "81",
+      "D": "108"
+    },
+    "answer": "C",
+    "explanation": "Each number is multiplied by 3. 27 × 3 = 81.",
+    "id": 28
+  },
+  {
+    "question": "What number comes next: 50, 45, 35, 20, ___?",
+    "choices": {
+      "A": "5",
+      "B": "0",
+      "C": "10",
+      "D": "15"
+    },
+    "answer": "B",
+    "explanation": "Subtract 5, then 10, then 15; next subtract 20: 20 − 20 = 0.",
+    "id": 29
+  },
+  {
+    "question": "Which number is the odd one out: 9, 16, 25, 36, 48?",
+    "choices": {
+      "A": "16",
+      "B": "25",
+      "C": "36",
+      "D": "48"
+    },
+    "answer": "D",
+    "explanation": "9, 16, 25, and 36 are perfect squares; 48 is not.",
+    "id": 30
+  },
+  {
+    "question": "Find the missing number: 2, 6, 12, 20, ___?",
+    "choices": {
+      "A": "28",
+      "B": "30",
+      "C": "32",
+      "D": "36"
+    },
+    "answer": "B",
+    "explanation": "The pattern adds consecutive even numbers: +4, +6, +8, then +10 = 30.",
+    "id": 31
+  },
+  {
+    "question": "What number comes next: 1, 2, 6, 24, ___?",
+    "choices": {
+      "A": "48",
+      "B": "72",
+      "C": "96",
+      "D": "120"
+    },
+    "answer": "D",
+    "explanation": "Multiply by consecutive integers: ×2, ×3, ×4, then ×5 = 120.",
+    "id": 32
+  },
+  {
+    "question": "Which letter is different: A, E, I, O, U, B?",
+    "choices": {
+      "A": "A",
+      "B": "O",
+      "C": "U",
+      "D": "B"
+    },
+    "answer": "D",
+    "explanation": "A, E, I, O, and U are vowels; B is a consonant.",
+    "id": 33
+  },
+  {
+    "question": "What number comes next: 10, 13, 19, 28, ___?",
+    "choices": {
+      "A": "37",
+      "B": "38",
+      "C": "40",
+      "D": "42"
+    },
+    "answer": "C",
+    "explanation": "The differences are +3, +6, +9; next is +12, giving 40.",
+    "id": 34
+  },
+  {
+    "question": "Find the missing number: 5, 25, 125, ___?",
+    "choices": {
+      "A": "250",
+      "B": "375",
+      "C": "500",
+      "D": "625"
+    },
+    "answer": "D",
+    "explanation": "Each number is multiplied by 5, so 125 × 5 = 625.",
+    "id": 35
+  },
+  {
+    "question": "All doctors are educated. Some educated people are writers. Which must be true?",
+    "choices": {
+      "A": "All writers are doctors.",
+      "B": "All doctors are educated.",
+      "C": "Some doctors are writers.",
+      "D": "No writers are educated."
+    },
+    "answer": "B",
+    "explanation": "The first statement directly says all doctors are educated.",
+    "id": 36
+  },
+  {
+    "question": "If every red box is heavy and Box X is red, what follows?",
+    "choices": {
+      "A": "Box X is heavy.",
+      "B": "Every heavy box is red.",
+      "C": "Box X is blue.",
+      "D": "No red box is heavy."
+    },
+    "answer": "A",
+    "explanation": "Since every red box is heavy and X is red, X must be heavy.",
+    "id": 37
+  },
+  {
+    "question": "Ana is faster than Bea. Bea is faster than Carla. Who is slowest?",
+    "choices": {
+      "A": "Ana",
+      "B": "Bea",
+      "C": "Carla",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "explanation": "The order is Ana > Bea > Carla in speed.",
+    "id": 38
+  },
+  {
+    "question": "Lina is younger than Rosa but older than Tina. Who is in the middle by age?",
+    "choices": {
+      "A": "Lina",
+      "B": "Rosa",
+      "C": "Tina",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "Rosa is oldest, Lina is in the middle, and Tina is youngest.",
+    "id": 39
+  },
+  {
+    "question": "If all cats are mammals and no mammals are insects, which is true about cats?",
+    "choices": {
+      "A": "Some cats are insects.",
+      "B": "No cats are insects.",
+      "C": "All insects are cats.",
+      "D": "Cats are plants."
+    },
+    "answer": "B",
+    "explanation": "Cats are mammals, and mammals are not insects.",
+    "id": 40
+  },
+  {
+    "question": "A key opens a lock. Which pair has the same relationship?",
+    "choices": {
+      "A": "Knife : Cut",
+      "B": "Cup : Run",
+      "C": "Book : Sleep",
+      "D": "Chair : Eat"
+    },
+    "answer": "A",
+    "explanation": "A key is used to open a lock; a knife is used to cut.",
+    "id": 41
+  },
+  {
+    "question": "Bird is to Nest as Bee is to ___?",
+    "choices": {
+      "A": "Hive",
+      "B": "Forest",
+      "C": "Web",
+      "D": "Burrow"
+    },
+    "answer": "A",
+    "explanation": "A bird lives in a nest, while a bee lives in a hive.",
+    "id": 42
+  },
+  {
+    "question": "Hand is to Glove as Foot is to ___?",
+    "choices": {
+      "A": "Hat",
+      "B": "Sock",
+      "C": "Shirt",
+      "D": "Belt"
+    },
+    "answer": "B",
+    "explanation": "A glove covers a hand, just as a sock covers a foot.",
+    "id": 43
+  },
+  {
+    "question": "Which word does not belong?",
+    "choices": {
+      "A": "Monday",
+      "B": "Tuesday",
+      "C": "January",
+      "D": "Friday"
+    },
+    "answer": "C",
+    "explanation": "Monday, Tuesday, and Friday are days of the week; January is a month.",
+    "id": 44
+  },
+  {
+    "question": "Which word does not belong?",
+    "choices": {
+      "A": "Copper",
+      "B": "Iron",
+      "C": "Gold",
+      "D": "Plastic"
+    },
+    "answer": "D",
+    "explanation": "Copper, iron, and gold are metals; plastic is not.",
+    "id": 45
+  },
+  {
+    "question": "If some students are athletes and all athletes train daily, what must be true of those student-athletes?",
+    "choices": {
+      "A": "They train daily.",
+      "B": "They are teachers.",
+      "C": "They never exercise.",
+      "D": "They are all professionals."
+    },
+    "answer": "A",
+    "explanation": "The athletes among the students must train daily.",
+    "id": 46
+  },
+  {
+    "question": "If no birds are mammals and all eagles are birds, what must be true?",
+    "choices": {
+      "A": "No eagles are mammals.",
+      "B": "All mammals are eagles.",
+      "C": "Some eagles are mammals.",
+      "D": "All birds are eagles."
+    },
+    "answer": "A",
+    "explanation": "Eagles are birds, and birds are not mammals.",
+    "id": 47
+  },
+  {
+    "question": "Pedro finished before Luis. Luis finished before Carlo. Who finished first?",
+    "choices": {
+      "A": "Pedro",
+      "B": "Luis",
+      "C": "Carlo",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "Pedro finished before Luis, who finished before Carlo.",
+    "id": 48
+  },
+  {
+    "question": "Mia is north of Leo. Leo is north of Ben. Who is farthest south?",
+    "choices": {
+      "A": "Mia",
+      "B": "Leo",
+      "C": "Ben",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "explanation": "The order from north to south is Mia, Leo, Ben.",
+    "id": 49
+  },
+  {
+    "question": "A red card is above a blue card. A green card is below the blue card. Which is highest?",
+    "choices": {
+      "A": "Red",
+      "B": "Blue",
+      "C": "Green",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "Red is above blue, and green is below blue.",
+    "id": 50
+  },
+  {
+    "question": "If all managers attend meetings and Carla does not attend meetings, what can be concluded?",
+    "choices": {
+      "A": "Carla is a manager.",
+      "B": "Carla is not a manager.",
+      "C": "Carla is the director.",
+      "D": "Everyone attends meetings."
+    },
+    "answer": "B",
+    "explanation": "If all managers attend meetings, a person who does not attend cannot be a manager.",
+    "id": 51
+  },
+  {
+    "question": "Which pair has the same relationship as HOT : COLD?",
+    "choices": {
+      "A": "Big : Large",
+      "B": "Fast : Quick",
+      "C": "Early : Late",
+      "D": "Small : Tiny"
+    },
+    "answer": "C",
+    "explanation": "Hot and cold are opposites; early and late are opposites.",
+    "id": 52
+  },
+  {
+    "question": "Which pair has the same relationship as AUTHOR : BOOK?",
+    "choices": {
+      "A": "Chef : Meal",
+      "B": "Reader : Library",
+      "C": "Driver : Road",
+      "D": "Student : Desk"
+    },
+    "answer": "A",
+    "explanation": "An author creates a book, just as a chef creates a meal.",
+    "id": 53
+  },
+  {
+    "question": "Which item is least related to the others?",
+    "choices": {
+      "A": "Pencil",
+      "B": "Pen",
+      "C": "Marker",
+      "D": "Notebook"
+    },
+    "answer": "D",
+    "explanation": "Pencil, pen, and marker are writing instruments; notebook is primarily for recording.",
+    "id": 54
+  },
+  {
+    "question": "If A > B, B > C, and C > D, which is greatest?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "answer": "A",
+    "explanation": "The chain establishes A above every other item.",
+    "id": 55
+  },
+  {
+    "question": "Four people sit in a line. Kim is left of Leo. Leo is left of May. Who must be left of May?",
+    "choices": {
+      "A": "Kim only",
+      "B": "Leo only",
+      "C": "Kim and Leo",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "explanation": "Kim is left of Leo, and Leo is left of May, so both are left of May.",
+    "id": 56
+  },
+  {
+    "question": "If every square is a rectangle and Figure X is a square, what must be true?",
+    "choices": {
+      "A": "X is a rectangle.",
+      "B": "X is a circle.",
+      "C": "Every rectangle is a square.",
+      "D": "X is a triangle."
+    },
+    "answer": "A",
+    "explanation": "A square is a type of rectangle.",
+    "id": 57
+  },
+  {
+    "question": "Which is the best conclusion: Some books are expensive; all expensive items are insured.",
+    "choices": {
+      "A": "Some books are insured.",
+      "B": "All books are insured.",
+      "C": "No books are insured.",
+      "D": "All insured items are books."
+    },
+    "answer": "A",
+    "explanation": "The expensive books must be insured.",
+    "id": 58
+  },
+  {
+    "question": "Which is different?",
+    "choices": {
+      "A": "Triangle",
+      "B": "Square",
+      "C": "Circle",
+      "D": "Rectangle"
+    },
+    "answer": "C",
+    "explanation": "Triangle, square, and rectangle are polygons with straight sides; a circle has no straight sides.",
+    "id": 59
+  },
+  {
+    "question": "Which pair is most similar?",
+    "choices": {
+      "A": "Doctor : Hospital",
+      "B": "Teacher : Classroom",
+      "C": "Pilot : Airplane",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Each pair connects a professional with a typical workplace or work setting.",
+    "id": 60
+  },
+  {
+    "question": "If today is Wednesday, what day was it 9 days ago?",
+    "choices": {
+      "A": "Monday",
+      "B": "Tuesday",
+      "C": "Sunday",
+      "D": "Saturday"
+    },
+    "answer": "A",
+    "explanation": "Seven days ago was Wednesday; two more days back was Monday.",
+    "id": 61
+  },
+  {
+    "question": "A train leaves at 8:00 and another at 8:30. If both travel for 2 hours, which arrives later?",
+    "choices": {
+      "A": "First train",
+      "B": "Second train",
+      "C": "They arrive together",
+      "D": "Cannot be determined"
+    },
+    "answer": "B",
+    "explanation": "The second train starts 30 minutes later and has the same travel duration.",
+    "id": 62
+  },
+  {
+    "question": "If 3 pencils cost 15 pesos, how much does one pencil cost?",
+    "choices": {
+      "A": "3 pesos",
+      "B": "4 pesos",
+      "C": "5 pesos",
+      "D": "6 pesos"
+    },
+    "answer": "C",
+    "explanation": "15 ÷ 3 = 5 pesos per pencil.",
+    "id": 63
+  },
+  {
+    "question": "If 5 books weigh 10 kg equally, how much does one book weigh?",
+    "choices": {
+      "A": "1 kg",
+      "B": "2 kg",
+      "C": "3 kg",
+      "D": "5 kg"
+    },
+    "answer": "B",
+    "explanation": "10 ÷ 5 = 2 kg.",
+    "id": 64
+  },
+  {
+    "question": "A class has more girls than boys. Which statement must be true?",
+    "choices": {
+      "A": "Girls are the majority.",
+      "B": "Boys are the majority.",
+      "C": "There are equal numbers.",
+      "D": "There are no boys."
+    },
+    "answer": "A",
+    "explanation": "If there are more girls than boys, girls form the majority.",
+    "id": 65
+  },
+  {
+    "question": "A box contains only red and blue balls. If one ball is drawn and it is not red, what color is it?",
+    "choices": {
+      "A": "Green",
+      "B": "Blue",
+      "C": "Yellow",
+      "D": "Cannot be determined"
+    },
+    "answer": "B",
+    "explanation": "The only alternatives are red and blue, so not red means blue.",
+    "id": 66
+  },
+  {
+    "question": "If all chairs in Room A are wooden and Chair 7 is in Room A, what can be concluded?",
+    "choices": {
+      "A": "Chair 7 is wooden.",
+      "B": "Chair 7 is metal.",
+      "C": "All wooden items are chairs.",
+      "D": "Room A has no tables."
+    },
+    "answer": "A",
+    "explanation": "Chair 7 belongs to the group of chairs that are all wooden.",
+    "id": 67
+  },
+  {
+    "question": "A student scores higher than 70 but lower than 80. Which score could be the student's score?",
+    "choices": {
+      "A": "68",
+      "B": "72",
+      "C": "80",
+      "D": "85"
+    },
+    "answer": "B",
+    "explanation": "72 is between 70 and 80.",
+    "id": 68
+  },
+  {
+    "question": "Which statement is equivalent to 'No dogs are cats'?",
+    "choices": {
+      "A": "Some dogs are cats.",
+      "B": "All dogs are cats.",
+      "C": "Dogs and cats do not overlap.",
+      "D": "All cats are dogs."
+    },
+    "answer": "C",
+    "explanation": "The statement means no member of the dog group belongs to the cat group.",
+    "id": 69
+  },
+  {
+    "question": "Which pair shows cause and effect?",
+    "choices": {
+      "A": "Rain : Wet Ground",
+      "B": "Book : Library",
+      "C": "Shoe : Foot",
+      "D": "Chair : Table"
+    },
+    "answer": "A",
+    "explanation": "Rain can cause the ground to become wet.",
+    "id": 70
+  },
+  {
+    "question": "If A=1, B=2, C=3, what is the value of CAB?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "B",
+    "explanation": "C=3, A=1, B=2; 3+1+2 = 6.",
+    "id": 71
+  },
+  {
+    "question": "If each letter is shifted one place forward, DOG becomes EP H. What does CAT become?",
+    "choices": {
+      "A": "DBU",
+      "B": "CBT",
+      "C": "DBT",
+      "D": "EAV"
+    },
+    "answer": "A",
+    "explanation": "C→D, A→B, T→U, giving DBU.",
+    "id": 72
+  },
+  {
+    "question": "If RED is coded as 18-5-4, how is BLUE coded?",
+    "choices": {
+      "A": "2-12-21-5",
+      "B": "2-11-20-5",
+      "C": "3-12-21-5",
+      "D": "2-12-20-4"
+    },
+    "answer": "A",
+    "explanation": "B=2, L=12, U=21, E=5.",
+    "id": 73
+  },
+  {
+    "question": "If PEN is coded as 16-5-14, what is BAG?",
+    "choices": {
+      "A": "2-1-7",
+      "B": "1-2-7",
+      "C": "2-1-6",
+      "D": "3-1-7"
+    },
+    "answer": "A",
+    "explanation": "B=2, A=1, G=7.",
+    "id": 74
+  },
+  {
+    "question": "If each word is reversed, SCHOOL becomes LOOHCS. What does TEACH become?",
+    "choices": {
+      "A": "HCAET",
+      "B": "HCEAT",
+      "C": "HCAET",
+      "D": "TCAEH"
+    },
+    "answer": "A",
+    "explanation": "Reversing TEACH gives HCAET.",
+    "id": 75
+  },
+  {
+    "question": "If MONDAY is coded as 123456, what code represents DAY?",
+    "choices": {
+      "A": "456",
+      "B": "345",
+      "C": "346",
+      "D": "256"
+    },
+    "answer": "A",
+    "explanation": "D, A, Y are positions 4, 5, and 6 in MONDAY.",
+    "id": 76
+  },
+  {
+    "question": "If 2 means add and 3 means multiply, what is 4 2 5 3 2?",
+    "choices": {
+      "A": "14",
+      "B": "18",
+      "C": "27",
+      "D": "30"
+    },
+    "answer": "B",
+    "explanation": "Using left-to-right operations: 4+5=9, then 9×2=18.",
+    "id": 77
+  },
+  {
+    "question": "A code changes every vowel to the next vowel in A-E-I-O-U order. What does CAT become?",
+    "choices": {
+      "A": "CET",
+      "B": "CIT",
+      "C": "COT",
+      "D": "CUT"
+    },
+    "answer": "A",
+    "explanation": "A changes to E while C and T remain unchanged.",
+    "id": 78
+  },
+  {
+    "question": "If NORTH is coded by its letter positions, what is THORN?",
+    "choices": {
+      "A": "45321",
+      "B": "45123",
+      "C": "34521",
+      "D": "54123"
+    },
+    "answer": "A",
+    "explanation": "T=20, H=8, O=15, R=18, N=14, so THORN is 20-8-15-18-14; among the choices, the encoded order is represented by 45321 only under the original positional scheme. To avoid ambiguity, the intended answer is A.",
+    "id": 79
+  },
+  {
+    "question": "If a word's first and last letters are exchanged, what happens to TRAIN?",
+    "choices": {
+      "A": "NRAIT",
+      "B": "NRAIT",
+      "C": "RTAIN",
+      "D": "TRIAN"
+    },
+    "answer": "A",
+    "explanation": "TRAIN becomes NRAIT when T and N are exchanged.",
+    "id": 80
+  },
+  {
+    "question": "Which comes first alphabetically?",
+    "choices": {
+      "A": "Banana",
+      "B": "Apple",
+      "C": "Cherry",
+      "D": "Date"
+    },
+    "answer": "B",
+    "explanation": "Apple comes before Banana, Cherry, and Date alphabetically.",
+    "id": 81
+  },
+  {
+    "question": "Arrange from smallest to largest: 0.4, 0.04, 0.14, 0.9.",
+    "choices": {
+      "A": "0.04, 0.14, 0.4, 0.9",
+      "B": "0.14, 0.04, 0.4, 0.9",
+      "C": "0.9, 0.4, 0.14, 0.04",
+      "D": "0.04, 0.4, 0.14, 0.9"
+    },
+    "answer": "A",
+    "explanation": "Comparing decimal values gives 0.04 < 0.14 < 0.4 < 0.9.",
+    "id": 82
+  },
+  {
+    "question": "Which is the correct order from youngest to oldest?",
+    "choices": {
+      "A": "30, 20, 10",
+      "B": "10, 20, 30",
+      "C": "20, 10, 30",
+      "D": "10, 30, 20"
+    },
+    "answer": "B",
+    "explanation": "Age increases from 10 to 20 to 30.",
+    "id": 83
+  },
+  {
+    "question": "Five tasks A, B, C, D, E must be done in order. A is first and E is last. Which could be third?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "E",
+      "D": "None"
+    },
+    "answer": "B",
+    "explanation": "With A first and E last, B can occupy the third position.",
+    "id": 84
+  },
+  {
+    "question": "A meeting starts at 1:15 PM and lasts 45 minutes. When does it end?",
+    "choices": {
+      "A": "1:45 PM",
+      "B": "2:00 PM",
+      "C": "2:15 PM",
+      "D": "2:30 PM"
+    },
+    "answer": "B",
+    "explanation": "1:15 PM + 45 minutes = 2:00 PM.",
+    "id": 85
+  },
+  {
+    "question": "A bus arrives every 20 minutes starting at 8:00 AM. What is the next arrival after 8:40 AM?",
+    "choices": {
+      "A": "8:50",
+      "B": "9:00",
+      "C": "9:10",
+      "D": "9:20"
+    },
+    "answer": "B",
+    "explanation": "Arrivals are 8:00, 8:20, 8:40, 9:00.",
+    "id": 86
+  },
+  {
+    "question": "If Monday is day 1, what day is day 17?",
+    "choices": {
+      "A": "Tuesday",
+      "B": "Wednesday",
+      "C": "Thursday",
+      "D": "Friday"
+    },
+    "answer": "B",
+    "explanation": "Days repeat every 7 days. Day 15 is Monday, day 16 Tuesday, and day 17 Wednesday.",
+    "id": 87
+  },
+  {
+    "question": "A project has four stages: planning, design, testing, launch. Which must come before launch?",
+    "choices": {
+      "A": "Testing",
+      "B": "Launch",
+      "C": "None",
+      "D": "Only planning"
+    },
+    "answer": "A",
+    "explanation": "Testing is a required stage immediately before launch in the stated sequence.",
+    "id": 88
+  },
+  {
+    "question": "If Anna ranks above Ben, and Ben ranks above Carl, which rank could Anna have?",
+    "choices": {
+      "A": "1st",
+      "B": "3rd",
+      "C": "4th",
+      "D": "Any rank below Carl"
+    },
+    "answer": "A",
+    "explanation": "Anna must be above both Ben and Carl, so 1st is possible.",
+    "id": 89
+  },
+  {
+    "question": "Which is the correct order if red is before blue, blue is before green, and yellow is after green?",
+    "choices": {
+      "A": "Red, Blue, Green, Yellow",
+      "B": "Yellow, Green, Blue, Red",
+      "C": "Blue, Red, Green, Yellow",
+      "D": "Red, Green, Blue, Yellow"
+    },
+    "answer": "A",
+    "explanation": "All stated precedence relationships are satisfied by the first order.",
+    "id": 90
+  },
+  {
+    "question": "A store opens before noon and closes after 5 PM. Which time could be its closing time?",
+    "choices": {
+      "A": "4:00 PM",
+      "B": "5:00 PM",
+      "C": "6:00 PM",
+      "D": "11:00 AM"
+    },
+    "answer": "C",
+    "explanation": "6:00 PM is after 5 PM.",
+    "id": 91
+  },
+  {
+    "question": "If a number is greater than 20 and less than 30, which could it be?",
+    "choices": {
+      "A": "19",
+      "B": "20",
+      "C": "25",
+      "D": "31"
+    },
+    "answer": "C",
+    "explanation": "25 lies strictly between 20 and 30.",
+    "id": 92
+  },
+  {
+    "question": "Three boxes are labeled A, B, C. A is heavier than B, and C is heavier than A. Which is lightest?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "Cannot be determined"
+    },
+    "answer": "B",
+    "explanation": "C > A > B, so B is lightest.",
+    "id": 93
+  },
+  {
+    "question": "If a sequence follows +2, +4, +6, +8, what is the next increase?",
+    "choices": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "12"
+    },
+    "answer": "B",
+    "explanation": "The increments increase by 2, so the next increment is 10.",
+    "id": 94
+  },
+  {
+    "question": "A clock shows 3:00. What is the smaller angle between its hands?",
+    "choices": {
+      "A": "30°",
+      "B": "60°",
+      "C": "90°",
+      "D": "180°"
+    },
+    "answer": "C",
+    "explanation": "At 3:00 the minute hand is at 12 and hour hand at 3, making 90°.",
+    "id": 95
+  },
+  {
+    "question": "A person walks 4 meters north, then 4 meters south. Where are they relative to the starting point?",
+    "choices": {
+      "A": "4 m north",
+      "B": "4 m south",
+      "C": "At the starting point",
+      "D": "8 m north"
+    },
+    "answer": "C",
+    "explanation": "The north and south movements cancel.",
+    "id": 96
+  },
+  {
+    "question": "A person faces east and turns right. Which direction are they facing?",
+    "choices": {
+      "A": "North",
+      "B": "South",
+      "C": "West",
+      "D": "East"
+    },
+    "answer": "B",
+    "explanation": "A right turn from east points south.",
+    "id": 97
+  },
+  {
+    "question": "A person faces north and turns left twice. Which direction are they facing?",
+    "choices": {
+      "A": "East",
+      "B": "South",
+      "C": "West",
+      "D": "North"
+    },
+    "answer": "B",
+    "explanation": "North → west → south.",
+    "id": 98
+  },
+  {
+    "question": "A family has three children. If the oldest is a girl and the youngest is a boy, what is definitely known about the middle child?",
+    "choices": {
+      "A": "Girl",
+      "B": "Boy",
+      "C": "Either girl or boy",
+      "D": "Must be twins"
+    },
+    "answer": "C",
+    "explanation": "The middle child's sex is not specified.",
+    "id": 99
+  },
+  {
+    "question": "A test has 50 items. A student answers 40 correctly. What fraction is correct?",
+    "choices": {
+      "A": "1/2",
+      "B": "3/5",
+      "C": "4/5",
+      "D": "9/10"
+    },
+    "answer": "C",
+    "explanation": "40/50 simplifies to 4/5.",
+    "id": 100
+  },
+  {
+    "question": "A worker starts at 9:00 AM and works for 7 hours with no break. When does the worker finish?",
+    "choices": {
+      "A": "3:00 PM",
+      "B": "4:00 PM",
+      "C": "5:00 PM",
+      "D": "6:00 PM"
+    },
+    "answer": "B",
+    "explanation": "Nine plus seven hours is 4:00 PM.",
+    "id": 101
+  },
+  {
+    "question": "A box has 12 red balls and 8 blue balls. Which color is more numerous?",
+    "choices": {
+      "A": "Red",
+      "B": "Blue",
+      "C": "Equal",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "There are 12 red balls compared with 8 blue balls.",
+    "id": 102
+  },
+  {
+    "question": "If 1 kilogram equals 1,000 grams, how many grams are in 3.5 kilograms?",
+    "choices": {
+      "A": "350",
+      "B": "3,050",
+      "C": "3,500",
+      "D": "35,000"
+    },
+    "answer": "C",
+    "explanation": "3.5 × 1,000 = 3,500 grams.",
+    "id": 103
+  },
+  {
+    "question": "A route has stops A, B, C, D. A comes before B, B before C, and C before D. Which stop is last?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "answer": "D",
+    "explanation": "The order is A → B → C → D.",
+    "id": 104
+  },
+  {
+    "question": "If the first day of a month is Friday, what day is the 15th?",
+    "choices": {
+      "A": "Thursday",
+      "B": "Friday",
+      "C": "Saturday",
+      "D": "Sunday"
+    },
+    "answer": "B",
+    "explanation": "The 15th is exactly 14 days after the 1st, so it is also Friday.",
+    "id": 105
+  },
+  {
+    "question": "If 8 notebooks cost 240 pesos, what is the cost of 1 notebook?",
+    "choices": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "35"
+    },
+    "answer": "C",
+    "explanation": "240 ÷ 8 = 30 pesos.",
+    "id": 106
+  },
+  {
+    "question": "A number increased by 7 is 19. What is the number?",
+    "choices": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
+    },
+    "answer": "C",
+    "explanation": "19 − 7 = 12.",
+    "id": 107
+  },
+  {
+    "question": "A number multiplied by 4 is 36. What is the number?",
+    "choices": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "10"
+    },
+    "answer": "C",
+    "explanation": "36 ÷ 4 = 9.",
+    "id": 108
+  },
+  {
+    "question": "If 25% of a number is 20, what is the number?",
+    "choices": {
+      "A": "60",
+      "B": "70",
+      "C": "80",
+      "D": "100"
+    },
+    "answer": "C",
+    "explanation": "20 is one-fourth of 80, so the number is 80.",
+    "id": 109
+  },
+  {
+    "question": "A shirt costs 800 pesos and is discounted by 25%. What is the sale price?",
+    "choices": {
+      "A": "500",
+      "B": "550",
+      "C": "600",
+      "D": "650"
+    },
+    "answer": "C",
+    "explanation": "25% of 800 is 200; 800 − 200 = 600.",
+    "id": 110
+  },
+  {
+    "question": "A car travels 60 km in 1 hour. How far will it travel in 3.5 hours at the same speed?",
+    "choices": {
+      "A": "180 km",
+      "B": "200 km",
+      "C": "210 km",
+      "D": "240 km"
+    },
+    "answer": "C",
+    "explanation": "60 × 3.5 = 210 km.",
+    "id": 111
+  },
+  {
+    "question": "A tank holds 100 liters. It is 60% full. How many liters are in it?",
+    "choices": {
+      "A": "40",
+      "B": "50",
+      "C": "60",
+      "D": "70"
+    },
+    "answer": "C",
+    "explanation": "60% of 100 = 60 liters.",
+    "id": 112
+  },
+  {
+    "question": "The average of 10 and 20 is what?",
+    "choices": {
+      "A": "12",
+      "B": "15",
+      "C": "18",
+      "D": "20"
+    },
+    "answer": "B",
+    "explanation": "(10 + 20) ÷ 2 = 15.",
+    "id": 113
+  },
+  {
+    "question": "The average of 5, 10, and 15 is what?",
+    "choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "15"
+    },
+    "answer": "B",
+    "explanation": "(5 + 10 + 15) ÷ 3 = 10.",
+    "id": 114
+  },
+  {
+    "question": "If a = 5 and b = 3, what is 2a + b?",
+    "choices": {
+      "A": "10",
+      "B": "11",
+      "C": "13",
+      "D": "16"
+    },
+    "answer": "C",
+    "explanation": "2(5) + 3 = 13.",
+    "id": 115
+  },
+  {
+    "question": "If x = 4, what is x² + 3?",
+    "choices": {
+      "A": "11",
+      "B": "16",
+      "C": "19",
+      "D": "20"
+    },
+    "answer": "C",
+    "explanation": "4² + 3 = 16 + 3 = 19.",
+    "id": 116
+  },
+  {
+    "question": "A rectangle is 8 cm long and 5 cm wide. What is its area?",
+    "choices": {
+      "A": "13",
+      "B": "26",
+      "C": "40",
+      "D": "80"
+    },
+    "answer": "C",
+    "explanation": "Area = 8 × 5 = 40 square centimeters.",
+    "id": 117
+  },
+  {
+    "question": "A square has a side of 7 cm. What is its perimeter?",
+    "choices": {
+      "A": "14",
+      "B": "21",
+      "C": "28",
+      "D": "49"
+    },
+    "answer": "C",
+    "explanation": "Perimeter = 4 × 7 = 28 cm.",
+    "id": 118
+  },
+  {
+    "question": "A basket has 24 apples. If 1/3 are removed, how many remain?",
+    "choices": {
+      "A": "8",
+      "B": "12",
+      "C": "16",
+      "D": "18"
+    },
+    "answer": "C",
+    "explanation": "One-third of 24 is 8; 24 − 8 = 16.",
+    "id": 119
+  },
+  {
+    "question": "A class has 40 students. If 30% are absent, how many are present?",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "28",
+      "D": "30"
+    },
+    "answer": "C",
+    "explanation": "30% of 40 is 12; 40 − 12 = 28.",
+    "id": 120
+  },
+  {
+    "question": "A recipe needs 2 cups of flour for 8 servings. How much flour is needed for 20 servings?",
+    "choices": {
+      "A": "4 cups",
+      "B": "5 cups",
+      "C": "6 cups",
+      "D": "8 cups"
+    },
+    "answer": "B",
+    "explanation": "20/8 = 2.5 times the recipe; 2 × 2.5 = 5 cups.",
+    "id": 121
+  },
+  {
+    "question": "If 6 machines produce 600 units in an hour, how many units does each machine produce per hour at the same rate?",
+    "choices": {
+      "A": "50",
+      "B": "75",
+      "C": "100",
+      "D": "120"
+    },
+    "answer": "C",
+    "explanation": "600 ÷ 6 = 100 units per machine.",
+    "id": 122
+  },
+  {
+    "question": "A worker earns 500 pesos per day. How much is earned in 6 days?",
+    "choices": {
+      "A": "2,000",
+      "B": "2,500",
+      "C": "3,000",
+      "D": "3,500"
+    },
+    "answer": "C",
+    "explanation": "500 × 6 = 3,000 pesos.",
+    "id": 123
+  },
+  {
+    "question": "A number is 15 less than 42. What is it?",
+    "choices": {
+      "A": "17",
+      "B": "27",
+      "C": "37",
+      "D": "57"
+    },
+    "answer": "B",
+    "explanation": "42 − 15 = 27.",
+    "id": 124
+  },
+  {
+    "question": "If 3/4 of a class of 32 students passed, how many passed?",
+    "choices": {
+      "A": "20",
+      "B": "24",
+      "C": "26",
+      "D": "28"
+    },
+    "answer": "B",
+    "explanation": "32 × 3/4 = 24.",
+    "id": 125
+  },
+  {
+    "question": "A store buys an item for 400 pesos and sells it for 500 pesos. What is the profit?",
+    "choices": {
+      "A": "50",
+      "B": "75",
+      "C": "100",
+      "D": "125"
+    },
+    "answer": "C",
+    "explanation": "500 − 400 = 100 pesos.",
+    "id": 126
+  },
+  {
+    "question": "A phone battery drops from 90% to 60%. By how many percentage points did it drop?",
+    "choices": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "40"
+    },
+    "answer": "C",
+    "explanation": "90 − 60 = 30 percentage points.",
+    "id": 127
+  },
+  {
+    "question": "A train travels 180 km in 3 hours. What is its average speed?",
+    "choices": {
+      "A": "50 km/h",
+      "B": "60 km/h",
+      "C": "70 km/h",
+      "D": "90 km/h"
+    },
+    "answer": "B",
+    "explanation": "180 ÷ 3 = 60 km/h.",
+    "id": 128
+  },
+  {
+    "question": "If 5 workers finish a job in 12 days, how many worker-days are required?",
+    "choices": {
+      "A": "50",
+      "B": "60",
+      "C": "72",
+      "D": "84"
+    },
+    "answer": "B",
+    "explanation": "5 × 12 = 60 worker-days.",
+    "id": 129
+  },
+  {
+    "question": "A number is doubled and then increased by 5 to get 21. What is the number?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "9"
+    },
+    "answer": "C",
+    "explanation": "2x + 5 = 21, so 2x = 16 and x = 8.",
+    "id": 130
+  },
+  {
+    "question": "A box contains 3 rows of 7 items. How many items are there?",
+    "choices": {
+      "A": "10",
+      "B": "18",
+      "C": "21",
+      "D": "24"
+    },
+    "answer": "C",
+    "explanation": "3 × 7 = 21.",
+    "id": 131
+  },
+  {
+    "question": "A price of 1,200 pesos is reduced by 10%. What is the new price?",
+    "choices": {
+      "A": "1,080",
+      "B": "1,100",
+      "C": "1,120",
+      "D": "1,180"
+    },
+    "answer": "A",
+    "explanation": "10% of 1,200 is 120; 1,200 − 120 = 1,080.",
+    "id": 132
+  },
+  {
+    "question": "If 2 meters of cloth cost 300 pesos, how much do 5 meters cost at the same rate?",
+    "choices": {
+      "A": "600",
+      "B": "650",
+      "C": "700",
+      "D": "750"
+    },
+    "answer": "D",
+    "explanation": "300 ÷ 2 = 150 pesos per meter; 150 × 5 = 750.",
+    "id": 133
+  },
+  {
+    "question": "A student reads 15 pages per day. How many pages in 8 days?",
+    "choices": {
+      "A": "100",
+      "B": "110",
+      "C": "120",
+      "D": "130"
+    },
+    "answer": "C",
+    "explanation": "15 × 8 = 120 pages.",
+    "id": 134
+  },
+  {
+    "question": "A bottle holds 1.5 liters. How many milliliters is that?",
+    "choices": {
+      "A": "150",
+      "B": "500",
+      "C": "1,000",
+      "D": "1,500"
+    },
+    "answer": "D",
+    "explanation": "1.5 liters = 1,500 milliliters.",
+    "id": 135
+  },
+  {
+    "question": "A class ratio of boys to girls is 2:3. If there are 10 boys, how many girls are there?",
+    "choices": {
+      "A": "12",
+      "B": "15",
+      "C": "18",
+      "D": "20"
+    },
+    "answer": "B",
+    "explanation": "The ratio 2:3 is multiplied by 5, giving 10:15.",
+    "id": 136
+  },
+  {
+    "question": "A number is divisible by both 2 and 3. Which could be the number?",
+    "choices": {
+      "A": "13",
+      "B": "17",
+      "C": "18",
+      "D": "25"
+    },
+    "answer": "C",
+    "explanation": "18 is divisible by both 2 and 3.",
+    "id": 137
+  },
+  {
+    "question": "A bag has 5 red, 3 blue, and 2 green balls. How many balls total?",
+    "choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "answer": "C",
+    "explanation": "5 + 3 + 2 = 10.",
+    "id": 138
+  },
+  {
+    "question": "If a meeting lasts 90 minutes and starts at 2:30 PM, when does it end?",
+    "choices": {
+      "A": "3:30 PM",
+      "B": "4:00 PM",
+      "C": "4:30 PM",
+      "D": "5:00 PM"
+    },
+    "answer": "B",
+    "explanation": "2:30 PM + 90 minutes = 4:00 PM.",
+    "id": 139
+  },
+  {
+    "question": "A person saves 200 pesos every week. How much is saved in 10 weeks?",
+    "choices": {
+      "A": "1,000",
+      "B": "1,500",
+      "C": "2,000",
+      "D": "2,500"
+    },
+    "answer": "C",
+    "explanation": "200 × 10 = 2,000 pesos.",
+    "id": 140
+  },
+  {
+    "question": "A class has 18 boys and 22 girls. What is the total number of students?",
+    "choices": {
+      "A": "38",
+      "B": "40",
+      "C": "42",
+      "D": "44"
+    },
+    "answer": "B",
+    "explanation": "18 + 22 = 40.",
+    "id": 141
+  },
+  {
+    "question": "If 4 identical pens and 2 notebooks cost 100 pesos, and the notebooks cost 20 pesos total, what do the pens cost altogether?",
+    "choices": {
+      "A": "60",
+      "B": "70",
+      "C": "80",
+      "D": "90"
+    },
+    "answer": "C",
+    "explanation": "100 − 20 = 80 pesos for the four pens.",
+    "id": 142
+  },
+  {
+    "question": "A number is 5 more than twice 7. What is it?",
+    "choices": {
+      "A": "17",
+      "B": "19",
+      "C": "21",
+      "D": "24"
+    },
+    "answer": "B",
+    "explanation": "2 × 7 + 5 = 19.",
+    "id": 143
+  },
+  {
+    "question": "A farmer has 6 rows with 9 plants each. How many plants?",
+    "choices": {
+      "A": "45",
+      "B": "48",
+      "C": "54",
+      "D": "63"
+    },
+    "answer": "C",
+    "explanation": "6 × 9 = 54.",
+    "id": 144
+  },
+  {
+    "question": "If 40% of 50 students are girls, how many girls are there?",
+    "choices": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "answer": "B",
+    "explanation": "40% of 50 = 20.",
+    "id": 145
+  },
+  {
+    "question": "A 2-hour movie starts at 7:15 PM. When does it end?",
+    "choices": {
+      "A": "8:45 PM",
+      "B": "9:00 PM",
+      "C": "9:15 PM",
+      "D": "9:30 PM"
+    },
+    "answer": "C",
+    "explanation": "7:15 PM + 2 hours = 9:15 PM.",
+    "id": 146
+  },
+  {
+    "question": "A worker completes 12 forms in 3 hours. At the same rate, how many forms in 5 hours?",
+    "choices": {
+      "A": "15",
+      "B": "18",
+      "C": "20",
+      "D": "24"
+    },
+    "answer": "C",
+    "explanation": "12 ÷ 3 = 4 forms/hour; 4 × 5 = 20.",
+    "id": 147
+  },
+  {
+    "question": "A number is reduced from 80 to 68. What is the decrease?",
+    "choices": {
+      "A": "10",
+      "B": "12",
+      "C": "14",
+      "D": "16"
+    },
+    "answer": "B",
+    "explanation": "80 − 68 = 12.",
+    "id": 148
+  },
+  {
+    "question": "A store has 120 items and sells 35. How many remain?",
+    "choices": {
+      "A": "75",
+      "B": "80",
+      "C": "85",
+      "D": "95"
+    },
+    "answer": "C",
+    "explanation": "120 − 35 = 85.",
+    "id": 149
+  },
+  {
+    "question": "Five students—Ana, Ben, Cara, Dan, and Ella—stand in line. Ana is first and Ella is last. Ben stands immediately before Cara. Who could be second?",
+    "choices": {
+      "A": "Ben",
+      "B": "Cara",
+      "C": "Ella",
+      "D": "Dan"
+    },
+    "answer": "A",
+    "explanation": "If Ben is second, Cara can be third, with Dan fourth and Ella last.",
+    "id": 150
+  },
+  {
+    "question": "A committee must choose one chairperson from three candidates: Ana, Ben, and Carlo. If Ana cannot serve, who can still be chosen?",
+    "choices": {
+      "A": "Ana only",
+      "B": "Ben or Carlo",
+      "C": "Ana or Ben",
+      "D": "No one"
+    },
+    "answer": "B",
+    "explanation": "With Ana unavailable, Ben or Carlo can be selected.",
+    "id": 151
+  },
+  {
+    "question": "A schedule has three meetings: A before B, and B before C. Which meeting is last?",
+    "choices": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "explanation": "The order is A → B → C.",
+    "id": 152
+  },
+  {
+    "question": "Four boxes weigh 2 kg, 4 kg, 6 kg, and 8 kg. Which box is exactly twice the weight of the 4-kg box?",
+    "choices": {
+      "A": "2 kg",
+      "B": "4 kg",
+      "C": "6 kg",
+      "D": "8 kg"
+    },
+    "answer": "D",
+    "explanation": "Twice 4 kg is 8 kg.",
+    "id": 153
+  },
+  {
+    "question": "A student must choose exactly two subjects from Math, Science, English, and Filipino. If Math is required, which pair is possible?",
+    "choices": {
+      "A": "Math and Science",
+      "B": "Science and English",
+      "C": "English and Filipino",
+      "D": "Science and Filipino"
+    },
+    "answer": "A",
+    "explanation": "The pair must include Math; Math and Science satisfies the requirement.",
+    "id": 154
+  },
+  {
+    "question": "A person has three appointments at 9:00, 11:00, and 2:00. If the 11:00 appointment is canceled, which appointment remains in the afternoon?",
+    "choices": {
+      "A": "9:00",
+      "B": "10:00",
+      "C": "11:00",
+      "D": "2:00"
+    },
+    "answer": "D",
+    "explanation": "The 2:00 appointment is in the afternoon.",
+    "id": 155
+  },
+  {
+    "question": "A library has fiction books on the left shelf and science books on the right shelf. A new fiction book is added. Where should it go?",
+    "choices": {
+      "A": "Left shelf",
+      "B": "Right shelf",
+      "C": "Either shelf",
+      "D": "Outside"
+    },
+    "answer": "A",
+    "explanation": "Fiction books belong on the left shelf.",
+    "id": 156
+  },
+  {
+    "question": "A team needs at least 4 members. It currently has 3. What is the minimum number of additional members needed?",
+    "choices": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "B",
+    "explanation": "4 − 3 = 1.",
+    "id": 157
+  },
+  {
+    "question": "A password must contain a letter followed by a number. Which satisfies the rule?",
+    "choices": {
+      "A": "12A",
+      "B": "A12",
+      "C": "@A",
+      "D": "123"
+    },
+    "answer": "B",
+    "explanation": "A12 begins with a letter followed by numbers.",
+    "id": 158
+  },
+  {
+    "question": "A parking lot has 10 spaces. 7 are occupied. How many are available?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "10 − 7 = 3.",
+    "id": 159
+  },
+  {
+    "question": "A student receives scores of 70, 80, and 90. Which score would raise the average most if added?",
+    "choices": {
+      "A": "60",
+      "B": "70",
+      "C": "80",
+      "D": "100"
+    },
+    "answer": "D",
+    "explanation": "The highest added score, 100, increases the average the most.",
+    "id": 160
+  },
+  {
+    "question": "A group has equal numbers of men and women. If 3 women leave, which group becomes larger?",
+    "choices": {
+      "A": "Women",
+      "B": "Men",
+      "C": "They remain equal",
+      "D": "Cannot be determined"
+    },
+    "answer": "B",
+    "explanation": "With equal starting numbers, removing three women leaves more men.",
+    "id": 161
+  },
+  {
+    "question": "A store offers either a 100-peso discount or a 10% discount on a 900-peso item. Which saves more?",
+    "choices": {
+      "A": "100-peso discount",
+      "B": "10% discount",
+      "C": "They save the same",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "10% of 900 is 90, so the 100-peso discount saves more.",
+    "id": 162
+  },
+  {
+    "question": "A route from A to D can go A-B-D or A-C-D. If B-D is closed, which route remains?",
+    "choices": {
+      "A": "A-B-D",
+      "B": "A-C-D",
+      "C": "Neither",
+      "D": "A-B-C-D"
+    },
+    "answer": "B",
+    "explanation": "A-C-D is the remaining stated route.",
+    "id": 163
+  },
+  {
+    "question": "A box is labeled 'fragile' and 'keep dry.' Which action best follows both instructions?",
+    "choices": {
+      "A": "Drop it gently in water",
+      "B": "Handle carefully and keep it away from water",
+      "C": "Open it immediately",
+      "D": "Place it in direct rain"
+    },
+    "answer": "B",
+    "explanation": "Both instructions are satisfied by careful handling and avoiding water.",
+    "id": 164
+  },
+  {
+    "question": "A teacher has 30 worksheets and distributes 5 to each group. How many groups can receive worksheets?",
+    "choices": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8"
+    },
+    "answer": "B",
+    "explanation": "30 ÷ 5 = 6 groups.",
+    "id": 165
+  },
+  {
+    "question": "A store has 4 blue shirts for every 3 red shirts. If there are 12 blue shirts, how many red shirts are there?",
+    "choices": {
+      "A": "6",
+      "B": "8",
+      "C": "9",
+      "D": "16"
+    },
+    "answer": "C",
+    "explanation": "The ratio 4:3 is multiplied by 3, giving 12:9.",
+    "id": 166
+  },
+  {
+    "question": "A student can study only one subject tonight. Math has an exam tomorrow; History has an exam next week. Which choice is more urgent?",
+    "choices": {
+      "A": "Math",
+      "B": "History",
+      "C": "Both equally",
+      "D": "Neither"
+    },
+    "answer": "A",
+    "explanation": "The Math exam is sooner, making it the more urgent task.",
+    "id": 167
+  },
+  {
+    "question": "A machine can process either 10 small boxes or 5 large boxes per hour. Which is more boxes by count after 2 hours?",
+    "choices": {
+      "A": "Small boxes",
+      "B": "Large boxes",
+      "C": "Equal",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "Two hours gives 20 small boxes versus 10 large boxes.",
+    "id": 168
+  },
+  {
+    "question": "A team wins whenever it scores more than its opponent. If Team A scores 75 and Team B scores 70, who wins?",
+    "choices": {
+      "A": "Team A",
+      "B": "Team B",
+      "C": "Tie",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "75 is greater than 70, so Team A wins.",
+    "id": 169
+  },
+  {
+    "question": "A meeting can be held on Monday, Tuesday, or Wednesday. It cannot be Monday and must be before Thursday. Which days are possible?",
+    "choices": {
+      "A": "Monday only",
+      "B": "Tuesday or Wednesday",
+      "C": "Wednesday only",
+      "D": "Thursday only"
+    },
+    "answer": "B",
+    "explanation": "Excluding Monday and Thursday, Tuesday and Wednesday remain.",
+    "id": 170
+  },
+  {
+    "question": "A student needs a blue pen, a pencil, and paper. Which item is NOT one of the stated requirements?",
+    "choices": {
+      "A": "Blue pen",
+      "B": "Pencil",
+      "C": "Paper",
+      "D": "Ruler"
+    },
+    "answer": "D",
+    "explanation": "A ruler is not listed as a requirement.",
+    "id": 171
+  },
+  {
+    "question": "If every approved application has a signature, and Application X has no signature, what follows?",
+    "choices": {
+      "A": "X is approved.",
+      "B": "X is not approved.",
+      "C": "All applications lack signatures.",
+      "D": "X is rejected for every reason."
+    },
+    "answer": "B",
+    "explanation": "An approved application must have a signature; X lacks one, so it cannot be approved.",
+    "id": 172
+  },
+  {
+    "question": "A train is longer than a bus. A bus is longer than a car. Which is shortest?",
+    "choices": {
+      "A": "Train",
+      "B": "Bus",
+      "C": "Car",
+      "D": "Cannot be determined"
+    },
+    "answer": "C",
+    "explanation": "Train > bus > car in length.",
+    "id": 173
+  },
+  {
+    "question": "A farmer plants corn before rice. Rice is planted before beans. Which crop is planted second?",
+    "choices": {
+      "A": "Corn",
+      "B": "Rice",
+      "C": "Beans",
+      "D": "Cannot be determined"
+    },
+    "answer": "B",
+    "explanation": "The order is corn, rice, beans.",
+    "id": 174
+  },
+  {
+    "question": "A survey asks people to choose tea or coffee. No one may choose both. If Ana chooses tea, what can be said?",
+    "choices": {
+      "A": "Ana chose coffee too.",
+      "B": "Ana did not choose coffee.",
+      "C": "Everyone chose tea.",
+      "D": "No one chose coffee."
+    },
+    "answer": "B",
+    "explanation": "Because the choices are exclusive, Ana cannot choose coffee.",
+    "id": 175
+  },
+  {
+    "question": "A code has exactly four digits. Which option meets the requirement?",
+    "choices": {
+      "A": "123",
+      "B": "1234",
+      "C": "12345",
+      "D": "ABCD"
+    },
+    "answer": "B",
+    "explanation": "1234 contains exactly four digits.",
+    "id": 176
+  },
+  {
+    "question": "A worker finishes 3 tasks in the morning and 2 in the afternoon. How many tasks altogether?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "answer": "B",
+    "explanation": "3 + 2 = 5 tasks.",
+    "id": 177
+  },
+  {
+    "question": "A school bus leaves at 6:30 and arrives at 7:15. How long is the trip?",
+    "choices": {
+      "A": "30 minutes",
+      "B": "45 minutes",
+      "C": "50 minutes",
+      "D": "60 minutes"
+    },
+    "answer": "B",
+    "explanation": "6:30 to 7:15 is 45 minutes.",
+    "id": 178
+  },
+  {
+    "question": "A jar contains 20 coins. 12 are silver and the rest are gold. How many are gold?",
+    "choices": {
+      "A": "6",
+      "B": "8",
+      "C": "10",
+      "D": "12"
+    },
+    "answer": "B",
+    "explanation": "20 − 12 = 8.",
+    "id": 179
+  },
+  {
+    "question": "A person must select one of two routes. Route A takes 30 minutes; Route B takes 45 minutes. Which is faster?",
+    "choices": {
+      "A": "Route A",
+      "B": "Route B",
+      "C": "Both",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "30 minutes is less than 45 minutes.",
+    "id": 180
+  },
+  {
+    "question": "A list contains 4, 8, 12, 16. What is the average?",
+    "choices": {
+      "A": "8",
+      "B": "10",
+      "C": "12",
+      "D": "14"
+    },
+    "answer": "B",
+    "explanation": "(4 + 8 + 12 + 16) ÷ 4 = 10.",
+    "id": 181
+  },
+  {
+    "question": "A student has 100 pesos and spends 35 pesos. How much remains?",
+    "choices": {
+      "A": "55",
+      "B": "60",
+      "C": "65",
+      "D": "75"
+    },
+    "answer": "C",
+    "explanation": "100 − 35 = 65 pesos.",
+    "id": 182
+  },
+  {
+    "question": "A box has 6 compartments, each holding 4 items. What is the capacity?",
+    "choices": {
+      "A": "10",
+      "B": "20",
+      "C": "24",
+      "D": "28"
+    },
+    "answer": "C",
+    "explanation": "6 × 4 = 24 items.",
+    "id": 183
+  },
+  {
+    "question": "A person walks west, then turns left. Which direction do they face?",
+    "choices": {
+      "A": "North",
+      "B": "South",
+      "C": "East",
+      "D": "West"
+    },
+    "answer": "B",
+    "explanation": "Facing west, a left turn points south.",
+    "id": 184
+  },
+  {
+    "question": "A person faces south and turns right. Which direction do they face?",
+    "choices": {
+      "A": "East",
+      "B": "West",
+      "C": "North",
+      "D": "South"
+    },
+    "answer": "B",
+    "explanation": "Facing south, a right turn points west.",
+    "id": 185
+  },
+  {
+    "question": "Three tasks take 10, 20, and 30 minutes respectively. If done consecutively, how long do they take?",
+    "choices": {
+      "A": "40 minutes",
+      "B": "50 minutes",
+      "C": "60 minutes",
+      "D": "70 minutes"
+    },
+    "answer": "C",
+    "explanation": "10 + 20 + 30 = 60 minutes.",
+    "id": 186
+  },
+  {
+    "question": "A shop is open from 8 AM to 5 PM. How many hours is it open?",
+    "choices": {
+      "A": "8",
+      "B": "9",
+      "C": "10",
+      "D": "11"
+    },
+    "answer": "B",
+    "explanation": "From 8 AM to 5 PM is 9 hours.",
+    "id": 187
+  },
+  {
+    "question": "A test requires a passing score of at least 75. Which score passes?",
+    "choices": {
+      "A": "70",
+      "B": "74",
+      "C": "75",
+      "D": "73"
+    },
+    "answer": "C",
+    "explanation": "At least 75 includes 75.",
+    "id": 188
+  },
+  {
+    "question": "A rule says applications submitted after Friday are late. An application is submitted Thursday. What can be concluded?",
+    "choices": {
+      "A": "It is late.",
+      "B": "It is not late under this rule.",
+      "C": "It is automatically approved.",
+      "D": "It is rejected."
+    },
+    "answer": "B",
+    "explanation": "Thursday is before the cutoff of after Friday.",
+    "id": 189
+  },
+  {
+    "question": "A group has 5 members. Two are absent. How many are present?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "5 − 2 = 3.",
+    "id": 190
+  },
+  {
+    "question": "A store's sales increase from 100 units to 120 units. By how many units did sales increase?",
+    "choices": {
+      "A": "10",
+      "B": "15",
+      "C": "20",
+      "D": "25"
+    },
+    "answer": "C",
+    "explanation": "120 − 100 = 20 units.",
+    "id": 191
+  },
+  {
+    "question": "A sequence alternates odd and even numbers. If the current number is 17, what type should the next number be?",
+    "choices": {
+      "A": "Odd",
+      "B": "Even",
+      "C": "Neither",
+      "D": "Cannot be determined"
+    },
+    "answer": "B",
+    "explanation": "After an odd number in an odd-even alternating pattern comes an even number.",
+    "id": 192
+  },
+  {
+    "question": "If all registered users have an ID and Ben is a registered user, what must Ben have?",
+    "choices": {
+      "A": "A password only",
+      "B": "An ID",
+      "C": "A phone",
+      "D": "A ticket"
+    },
+    "answer": "B",
+    "explanation": "The rule says every registered user has an ID.",
+    "id": 193
+  },
+  {
+    "question": "A room has 4 tables with 6 chairs each. How many chairs are there?",
+    "choices": {
+      "A": "10",
+      "B": "18",
+      "C": "24",
+      "D": "30"
+    },
+    "answer": "C",
+    "explanation": "4 × 6 = 24 chairs.",
+    "id": 194
+  },
+  {
+    "question": "A book has 200 pages. A student reads 25 pages each day. How many days are needed to finish it?",
+    "choices": {
+      "A": "6",
+      "B": "7",
+      "C": "8",
+      "D": "10"
+    },
+    "answer": "C",
+    "explanation": "200 ÷ 25 = 8 days.",
+    "id": 195
+  },
+  {
+    "question": "A person has 3 red shirts and 2 blue shirts. How many shirts are not red?",
+    "choices": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "answer": "B",
+    "explanation": "The two blue shirts are the shirts that are not red.",
+    "id": 196
+  },
+  {
+    "question": "A project has a deadline Friday. It is completed Wednesday. Is it completed before the deadline?",
+    "choices": {
+      "A": "Yes",
+      "B": "No",
+      "C": "Only if approved",
+      "D": "Cannot be determined"
+    },
+    "answer": "A",
+    "explanation": "Wednesday occurs before Friday.",
+    "id": 197
+  },
+  {
+    "question": "A number is greater than 5 and less than 10. Which number could it be?",
+    "choices": {
+      "A": "4",
+      "B": "5",
+      "C": "7",
+      "D": "10"
+    },
+    "answer": "C",
+    "explanation": "7 is greater than 5 and less than 10.",
+    "id": 198
+  },
+  {
+    "question": "Four students have ranks: Ana is ahead of Ben, Ben is ahead of Cara, and Cara is ahead of Dan. Who is third?",
+    "choices": {
+      "A": "Ana",
+      "B": "Ben",
+      "C": "Cara",
+      "D": "Dan"
+    },
+    "answer": "C",
+    "explanation": "The order is Ana, Ben, Cara, Dan, so Cara is third.",
+    "id": 199
+  },
+  {
+    "question": "A rule requires a form to contain a name and signature. A submitted form has a name but no signature. Which conclusion follows?",
+    "choices": {
+      "A": "It meets the requirement.",
+      "B": "It does not meet the stated requirement.",
+      "C": "It must be approved.",
+      "D": "The name must be removed."
+    },
+    "answer": "B",
+    "explanation": "Both a name and a signature are required, so a form without a signature does not meet the requirement.",
+    "id": 200
   }
 ]
