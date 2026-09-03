@@ -1515,23 +1515,16 @@ Loading questions...
     class="feedback hidden"
 ></div>
 
+<div id="autoNextCountdown" style="
+    display:none;
+    margin-top:15px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+">
+</div>
 
-<div class="review-actions">
-
-<button
-    id="previousButton"
-    class="btn secondary"
->
-<<
-</button>
-
-<button
-    id="nextButton"
-    class="btn primary"
->
->>
-</button>
-
+<div class="review-actions hidden">
 </div>
 
 </div>
@@ -3555,58 +3548,97 @@ function playSound(audio){
 
 function selectAnswer(letter){
 
-    if(
-        userAnswers[
-            currentQuestion
-        ]
-    ){
-
+    if(userAnswers[currentQuestion]){
         return;
-
     }
 
+    userAnswers[currentQuestion] = letter;
 
-    userAnswers[
-        currentQuestion
-    ] =
-    letter;
+    const q = questions[currentQuestion];
 
-
-    const q =
-    questions[
-        currentQuestion
-    ];
-
-
-    if(
-        letter ===
-        q.answer
-    ){
+    if(letter === q.answer){
 
         score++;
 
-
         playSound(
-            document.getElementById(
-                "correctSound"
-            )
+            document.getElementById("correctSound")
         );
 
     }else{
 
         playSound(
-            document.getElementById(
-                "wrongSound"
-            )
+            document.getElementById("wrongSound")
         );
-
     }
 
+    showAnswer(letter, true);
 
-    showAnswer(
-        letter,
-        true
-    );
+    // SHOW COUNTDOWN
+    const countdown =
+        document.getElementById("autoNextCountdown");
+
+    countdown.style.display = "block";
+
+    let seconds = 5;
+
+    countdown.textContent =
+        `Next question in ${seconds}...`;
+
+    const countdownInterval =
+        setInterval(() => {
+
+            seconds--;
+
+            if(seconds > 0){
+
+                countdown.textContent =
+                    `Next question in ${seconds}...`;
+
+            }else{
+
+                clearInterval(countdownInterval);
+
+                countdown.style.display = "none";
+
+                // LAST QUESTION
+                if(
+                    currentQuestion ===
+                    questions.length - 1
+                ){
+
+                    showResult();
+                    return;
+                }
+
+                // NEXT QUESTION
+                currentQuestion++;
+
+                renderQuestion();
+            }
+
+        }, 1000);
+}
+    // =========================================
+    // AUTO NEXT AFTER 5 SECONDS
+    // =========================================
+
+    setTimeout(() => {
+
+        if(
+            currentQuestion ===
+            questions.length - 1
+        ){
+
+            showResult();
+            return;
+
+        }
+
+        currentQuestion++;
+
+        renderQuestion();
+
+    }, 5000);
 
 }
 
@@ -3716,52 +3748,6 @@ function showAnswer(
     }
 
 }
-
-
-/* =====================================================
-   NEXT
-===================================================== */
-
-document
-.getElementById(
-    "nextButton"
-)
-.onclick =
-() => {
-
-    if(
-        !userAnswers[
-            currentQuestion
-        ]
-    ){
-
-        alert(
-            "Please select an answer first."
-        );
-
-        return;
-
-    }
-
-
-    if(
-        currentQuestion ===
-        questions.length - 1
-    ){
-
-        showResult();
-
-        return;
-
-    }
-
-
-    currentQuestion++;
-
-    renderQuestion();
-
-};
-
 
 /* =====================================================
    PREVIOUS
@@ -8185,76 +8171,6 @@ function showAnswer(
     }
 
 }
-
-
-/* =====================================================
-   NEXT
-===================================================== */
-
-document
-.getElementById(
-    "nextButton"
-)
-.onclick =
-() => {
-
-    if(
-        !userAnswers[
-            currentQuestion
-        ]
-    ){
-
-        alert(
-            "Please select an answer first."
-        );
-
-        return;
-
-    }
-
-
-    if(
-        currentQuestion ===
-        questions.length - 1
-    ){
-
-        showResult();
-
-        return;
-
-    }
-
-
-    currentQuestion++;
-
-    renderQuestion();
-
-};
-
-
-/* =====================================================
-   PREVIOUS
-===================================================== */
-
-document
-.getElementById(
-    "previousButton"
-)
-.onclick =
-() => {
-
-    if(
-        currentQuestion > 0
-    ){
-
-        currentQuestion--;
-
-        renderQuestion();
-
-    }
-
-};
-
 
 /* =====================================================
    RESULT
